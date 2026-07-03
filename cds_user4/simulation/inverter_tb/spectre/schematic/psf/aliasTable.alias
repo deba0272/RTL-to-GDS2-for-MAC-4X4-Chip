@@ -1,0 +1,9 @@
+# ALIAS_TABLE_V01
+# Created at: Wed Jun 24 11:25:15 2026
+#
+# aliasSignalName, realSignalName(data)
+#
+"I0:GND", "I0:1"
+"I0:IN", "I0:2"
+"I0:OUT", "I0:3"
+"I0:VDD", "I0:4"

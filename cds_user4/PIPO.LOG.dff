@@ -1,0 +1,78 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 11/15/2022 19:27 (cpgbld01) $
+          : sub-version  IC6.1.8-64b.500.29 
+Started at: 24-Jun-2026  15:43:38
+User Name : iep4
+Host Name : server3.eced.svnit.ac.in
+Directory : /home/iep4/projects/user4/work_libs/iep4/cds
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/iep4/projects/user4/work_libs/iep4/cds/dff.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.layermap
+INFO (XSTRM-217): Reading the object map file, /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.objectmap
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 LogicCells
+strmFile                                /home/iep4/projects/user4/work_libs/iep4/cds/dff.gds
+topCell                                 dff
+view                                    layout
+runDir                                  /home/iep4/projects/user4/work_libs/iep4/cds/
+logFile                                 PIPO.LOG.dff
+summaryFile                             PIPO.SUM.dff
+layerMap                                /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.layermap
+objectMap                                /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.objectmap
+case                                    Preserve
+convertDot                              node
+convertPcellPin                         geometry
+
+INFO (XSTRM-223): 1. Translating stdVia ts018_scl_prim/PTAP_LG/layout as STRUCTURE PTAP_LG_CDNS_782296018100.
+INFO (XSTRM-223): 2. Translating stdVia ts018_scl_prim/M1_PO_4X/layout as STRUCTURE M1_PO_4X_CDNS_782296018101.
+INFO (XSTRM-223): 3. Translating stdVia ts018_scl_prim/M1_PO/layout as STRUCTURE M1_PO_CDNS_782296018102.
+INFO (XSTRM-223): 4. Translating stdVia ts018_scl_prim/M1_WN/layout as STRUCTURE M1_WN_CDNS_782296018103.
+INFO (XSTRM-223): 5. Translating stdVia ts018_scl_prim/M1_PO_4X/layout as STRUCTURE M1_PO_4X_CDNS_782296018104.
+INFO (XSTRM-223): 6. Translating cellView ts018_scl_prim/nmos_18/layout as STRUCTURE nmos_18_CDNS_782296018100.
+INFO (XSTRM-223): 7. Translating cellView ts018_scl_prim/nmos_18/layout as STRUCTURE nmos_18_CDNS_782296018101.
+INFO (XSTRM-223): 8. Translating cellView ts018_scl_prim/pmos_18/layout as STRUCTURE pmos_18_CDNS_782296018102.
+INFO (XSTRM-223): 9. Translating cellView ts018_scl_prim/pmos_18/layout as STRUCTURE pmos_18_CDNS_782296018103.
+INFO (XSTRM-223): 10. Translating cellView ts018_scl_prim/pmos_18/layout as STRUCTURE pmos_18_CDNS_782296018104.
+INFO (XSTRM-223): 11. Translating cellView ts018_scl_prim/nmos_18/layout as STRUCTURE nmos_18_CDNS_782296018105.
+INFO (XSTRM-223): 12. Translating cellView ts018_scl_prim/pmos_18/layout as STRUCTURE pmos_18_CDNS_782296018106.
+INFO (XSTRM-223): 13. Translating cellView ts018_scl_prim/pmos_18/layout as STRUCTURE pmos_18_CDNS_782296018107.
+INFO (XSTRM-223): 14. Translating cellView ts018_scl_prim/nmos_18/layout as STRUCTURE nmos_18_CDNS_782296018108.
+INFO (XSTRM-223): 15. Translating cellView ts018_scl_prim/nmos_18/layout as STRUCTURE nmos_18_CDNS_782296018109.
+INFO (XSTRM-223): 16. Translating cellView ts018_scl_prim/nmos_18/layout as STRUCTURE nmos_18_CDNS_7822960181010.
+INFO (XSTRM-223): 17. Translating cellView ts018_scl_prim/nmos_18/layout as STRUCTURE nmos_18_CDNS_7822960181011.
+INFO (XSTRM-223): 18. Translating cellView LogicCells/dff/layout as STRUCTURE dff.
+WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'warning'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
+
+Summary of Objects Translated:
+	Scalar Instances:                       12
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             175
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           8
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               54
+	Text:                                   33
+	TextDisplay:                            0
+	Cells:                                  18
+
+Elapsed Time: 2.1s   User Time: 0.3s   CPU Time: 0.1s   Peak VM: 16024KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

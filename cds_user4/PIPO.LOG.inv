@@ -1,0 +1,64 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 11/15/2022 19:27 (cpgbld01) $
+          : sub-version  IC6.1.8-64b.500.29 
+Started at: 25-Jun-2026  10:20:54
+User Name : iep4
+Host Name : server3.eced.svnit.ac.in
+Directory : /home/iep4/projects/user4/work_libs/iep4/cds
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/iep4/projects/user4/work_libs/iep4/cds/inv.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.layermap
+INFO (XSTRM-217): Reading the object map file, /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.objectmap
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 inv
+strmFile                                /home/iep4/projects/user4/work_libs/iep4/cds/inv.gds
+topCell                                 inv
+view                                    layout
+runDir                                  /home/iep4/projects/user4/work_libs/iep4/cds/
+logFile                                 PIPO.LOG.inv
+summaryFile                             PIPO.SUM.inv
+layerMap                                /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.layermap
+objectMap                                /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.objectmap
+case                                    Preserve
+convertDot                              node
+convertPcellPin                         geometry
+
+INFO (XSTRM-223): 1. Translating stdVia ts018_scl_prim/M1_PO_4X/layout as STRUCTURE M1_PO_4X_CDNS_782363054460.
+INFO (XSTRM-223): 2. Translating cellView ts018_scl_prim/nmos_18/layout as STRUCTURE nmos_18_CDNS_782363054460.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'instance:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+INFO (XSTRM-223): 3. Translating cellView ts018_scl_prim/pmos_18/layout as STRUCTURE pmos_18_CDNS_782363054461.
+INFO (XSTRM-223): 4. Translating cellView inv/inv/layout as STRUCTURE inv.
+
+Summary of Objects Translated:
+	Scalar Instances:                       2
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             42
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             1
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           1
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               12
+	Text:                                   10
+	TextDisplay:                            0
+	Cells:                                  4
+
+Elapsed Time: 1.0s   User Time: 0.2s   CPU Time: 0.0s   Peak VM: 14656KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

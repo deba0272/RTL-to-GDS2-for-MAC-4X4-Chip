@@ -1,0 +1,90 @@
+================================================================================
+          ASIC FLOORPLANNING SCRIPT README
+================================================================================
+Overview:
+This document explains the Floorplanning stage of the ASIC physical design flow 
+as defined in the provided script. The floorplan defines the physical size of 
+the chip, the core area where standard cells are placed, the distance to the IO 
+pad ring, and the insertion of IO filler pads to ensure a continuous boundary.
+
+================================================================================
+1. FLOORPLAN DIMENSIONS & MARGINS
+================================================================================
+* `set CORE_TO_LEFT 200` (and BOTTOM, RIGHT, TOP)
+  Defines the margin (in microns) between the edge of the core area (where logic 
+  goes) and the edge of the die. A 200um margin is substantial and is typically 
+  reserved for placing a bulky IO pad ring and large power routing trunks.
+
+* `set DIE_WIDTH 1940` / `set DIE_HEIGHT 1940`
+  Explicitly sets the total width and height of the silicon die to 1940um by 
+  1940um, creating a square chip.
+
+* `set DESIGN_SITE CoreSite`
+  Specifies the basic placement grid (site) for standard cells defined in the 
+  library (usually corresponding to the height of the standard cell rows).
+
+================================================================================
+2. FLOORPLAN EXECUTION & ROUTING TRACKS
+================================================================================
+* `floorPlan -site $DESIGN_SITE -d $DIE_WIDTH ...`
+  Executes the actual floorplan creation using the explicit dimension method (`-d`). 
+  It applies the 1940x1940 die size and pushes the core area inward by 200um on 
+  all four sides.
+
+* `add_tracks -honor_pitch`
+  A critical step that overlays a routing grid across the floorplan. The router 
+  will use these tracks to route metal wires. `-honor_pitch` ensures the tracks 
+  are spaced precisely according to the manufacturing rules for each metal layer 
+  as defined in the LEF library.
+
+* `checkFPlan`
+  Verifies that the floorplan is legally constructed, checking for basic errors 
+  like overlapping regions or illegal boundaries.
+
+================================================================================
+3. IO PAD RING FILLERS
+================================================================================
+IO pads provide the interface between the internal chip logic and external pins. 
+To meet manufacturing rules and ensure continuous power/ground rails around the 
+perimeter of the chip, the gaps between functional IO pads must be filled.
+
+* `set IO_CELL_NAME {pfeed30000 ... pfeed00010}`
+  Defines a list of IO filler cells of descending sizes (from largest to smallest).
+
+* `addIoFiller -prefix $IO_CELL_PREFIX -cell $IO_CELL_NAME`
+  The tool iterates through the list, inserting the largest possible IO filler 
+  cells into the gaps between the functional IO pads to save database memory and 
+  insertion time.
+
+* `addIoFiller -fillAnyGap -prefix ... -cell pfeed00010`
+  A clean-up pass. It uses the absolute smallest filler cell (`pfeed00010`) to plug 
+  any remaining micro-gaps in the IO ring that the larger cells couldn't fit into.
+
+================================================================================
+4. INITIAL VERIFICATION & TIMING
+================================================================================
+Before moving on to placement, the raw floorplan must be verified.
+
+* `setVerifyGeometryMode ...` / `verifyGeometry`
+  Checks for basic physical geometry violations (like shorts between metal shapes) 
+  and ensures that the inserted IO filler cells do not overlap.
+
+* `verify_drc`
+  Runs a fast Design Rule Check (DRC) to ensure the macro placement and floorplan 
+  boundaries comply with the foundry's manufacturing rules.
+
+* `verifyConnectivity -type all ...`
+  Ensures there are no open nets or unconnected pins at this early stage.
+
+* `timeDesign -prePlace`
+  Runs a "zero-wire-load" Static Timing Analysis (STA). This confirms whether 
+  the design can theoretically meet timing constraints before cells are spread 
+  out across the floorplan.
+
+================================================================================
+5. CHECKPOINTING
+================================================================================
+* `saveDesign ./FloorPlanning/..._floorplan.enc`
+* `saveDesign ./FloorPlanning/..._fp_filler.enc`
+  Saves the Innovus database at key milestones: right after the raw floorplan is 
+  cut, and again after IO fillers and basic verification are complete.

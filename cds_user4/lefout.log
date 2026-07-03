@@ -1,0 +1,17 @@
+
+********************************************************************************
+Product   : Virtuoso(R) LEF Out 
+Program   : @(#)$CDS: lefout version 6.1.8-64b 11/15/2022 19:27 (cpgbld01) $
+SubVersion: sub-version  IC6.1.8-64b.500.29 
+Started at: 24-Jun-2026  15:16:38
+User Name : iep4
+Host Name : server3.eced.svnit.ac.in
+Directory : /home/iep4/projects/user4/work_libs/iep4/cds
+DB Version: 	20221115 (SJ)
+CADENCE Design Systems, Inc.
+********************************************************************************
+Running: lefout -lib LogicCells -views "abstract" -log lefout.log -lef abstract.lef -cellList lefout.list -ver 5.7 -noTech
+
+Elapsed Time: 1.0s
+
+lefout translation completed (errors: 0, warnings: 0).

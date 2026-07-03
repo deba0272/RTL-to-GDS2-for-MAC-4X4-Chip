@@ -1,0 +1,33 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/iep4/projects/user4/work_libs/iep4/cds
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {5 1 5 0}
+lvs_SourceCase YES
+lvs_LayoutCase YES
+lvs_PowerName VDD
+lvs_PowerName vdd
+lvs_PowerName VCC
+lvs_PowerName vcc
+lvs_PowerName VDDD
+lvs_PowerName VDD!
+lvs_PowerName vdd!
+lvs_PowerName VCC!
+lvs_PowerName vcc!
+lvs_PowerName AVDD
+lvs_PowerName DVDD
+lvs_GroundName GND
+lvs_GroundName gnd
+lvs_GroundName VSS
+lvs_GroundName vss
+lvs_GroundName GNDD
+lvs_GroundName GND!
+lvs_GroundName gnd!
+lvs_GroundName VSS!
+lvs_GroundName vss!
+lvs_GroundName AVSS
+lvs_GroundName DVSS
+lvs_LvsOutFile LVS_REPORT invpad1.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/iep4/projects/user4/work_libs/iep4/cds/invpad1.cdl
+lvs_LvsOutFile RULES_FILE _LVS.header_
+lvs_LvsRunTimes 1782371449 1782371449

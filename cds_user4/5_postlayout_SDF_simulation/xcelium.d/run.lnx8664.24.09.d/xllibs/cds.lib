@@ -1,0 +1,5 @@
+define pc3o01 ./pc3o01
+define pc3d01 ./pc3d01
+define pc3c01 ./pc3c01
+define tsl18fs120_scl ./tsl18fs120_scl
+define mac_4x4_wrapper_chip_postRoute_withoutPG ./mac_4x4_wrapper_chip_postRoute_withoutPG

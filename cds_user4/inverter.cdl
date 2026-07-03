@@ -1,0 +1,29 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  LogicCells
+* Top Cell Name: inverter
+* View Name:     schematic
+* Netlisted on:  Jun 24 15:36:08 2026
+************************************************************************
+
+.INCLUDE  /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/cdlNetlist.header
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: LogicCells
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter GND IN OUT VDD
+*.PININFO IN:I OUT:O GND:B VDD:B
+MM1 OUT IN GND GND N W=1.0 L=0.18 m=1.0
+MM0 OUT IN VDD VDD P W=2.0 L=0.18 m=1.0
+.ENDS
+

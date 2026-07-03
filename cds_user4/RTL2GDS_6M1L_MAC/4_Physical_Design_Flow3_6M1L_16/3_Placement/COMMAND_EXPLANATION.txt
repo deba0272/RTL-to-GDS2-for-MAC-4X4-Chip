@@ -1,0 +1,108 @@
+================================================================================
+          ASIC PLACEMENT SCRIPT README
+================================================================================
+Overview:
+This document details the configuration and execution steps for the Placement 
+stage of the ASIC physical design flow. The script sets up the target technology 
+node (180nm), configures placement and optimization modes, executes standard 
+cell placement, analyzes density/congestion, and exports the pre-CTS database.
+
+================================================================================
+1. GLOBAL DESIGN & ROUTING CONFIGURATION
+================================================================================
+* `set PROCESS 180` / `set EFFORT_LEVEL standard`
+  Defines the technology node (180nm) and the default computational effort the 
+  tool should apply.
+
+* `setDesignMode -process $PROCESS -flowEffort $EFFORT_LEVEL`
+  Applies the process node and effort level globally to the Innovus design flow.
+
+* `setRouteMode -earlyGlobalMinRouteLayer 1 -earlyGlobalMaxRouteLayer 6...`
+  Configures "Trial" or "Early Global" routing bounds (Metal 1 to Metal 6). 
+  Even though this is the placement stage, the placer uses a fast internal 
+  router to estimate wire lengths and routing congestion.
+
+================================================================================
+2. PLACEMENT & OPTIMIZATION MODES
+================================================================================
+* `setPlaceMode` (Without Scan Chain configuration)
+  - `-place_design_floorplan_mode false`: Ensures the tool does actual placement 
+    rather than just floorplan prototyping.
+  - `-place_global_cong_effort high`: Forces the placer to work harder to spread 
+    out cells to avoid routing hotspots later.
+  - `-place_global_max_density 0.65`: Sets a strict upper limit of 65% for standard 
+    cell utilization in any given area, leaving room for clock buffers and routing.
+  - `-place_global_reorder_scan false`: Disables scan chain reordering (used when 
+    DFT/Scan is not present).
+
+* (Commented out blocks for Scan Chain)
+  If Design for Testability (DFT) is used, max density is slightly increased 
+  (0.70-0.75), scan DEF files are loaded, and `-place_global_reorder_scan true` 
+  is set to allow the placer to physically re-stitch the scan chains to reduce 
+  wire length.
+
+* `setOptMode`
+  Configures the optimization engine:
+  - `-fixFanoutLoad true`: Fixes high fanout nets by inserting buffers.
+  - `-reclaimArea true`: Downsizes oversized cells if timing is easily met.
+  - `-setupTargetSlack 0.2`: Adds a 0.2ns margin/pessimism to the setup timing 
+    target to ensure robust timing closure.
+
+================================================================================
+3. PLACEMENT EXECUTION
+================================================================================
+* `placeDesign -noPrePlaceOpt`
+  Runs the initial global and detailed placement without doing setup timing 
+  optimization beforehand. It purely focuses on placing cells legally.
+
+* `setPlaceMode -congEffort high` -> `place_opt_design`
+  Runs a much heavier command that incrementally refines the placement while 
+  simultaneously sizing cells, inserting buffers, and restructuring logic to 
+  meet the setup timing constraints.
+
+* `checkPlace`
+  Verifies that all standard cells are placed legally (on-grid, no overlaps, 
+  correct orientation).
+
+================================================================================
+4. DENSITY & CONGESTION ANALYSIS
+================================================================================
+These commands configure the tool to calculate and report exactly how packed 
+the standard cell rows and cell pins are. High density usually means routing 
+nightmares later.
+
+* `set GRID_ROW 20`
+  Breaks the floorplan into analysis windows spanning 20 standard cell rows.
+
+* `setDensityMapMode ... -threshold 0.8` / `reportDensityMap`
+  Checks for areas where the physical standard cell area utilization exceeds 80%.
+
+* `setPinDensityMapMode ... -threshold 0.50` / `reportPinDensityMap`
+  Checks for areas where pin density is too high (too many cell input/output 
+  pins crammed into a small area, making it impossible for the router to reach 
+  them).
+
+* `reportCongestion -overflow -hotSpot`
+  Generates a report indicating areas where the required number of routing 
+  tracks exceeds the available routing tracks.
+
+================================================================================
+5. TIMING ANALYSIS & CHECKPOINT SAVING
+================================================================================
+* `source ./placement_sta.tcl`
+  Loads any placement-specific Static Timing Analysis (STA) settings.
+
+* `timeDesign -preCTS -expandedViews`
+  Runs the pre-Clock Tree Synthesis (preCTS) timing analysis to verify setup 
+  times using ideal clocks.
+
+* `saveNetlist` / `saveNetlist -includePowerGround`
+  Exports the updated Verilog netlist, which now includes the buffers and 
+  optimizations added by `place_opt_design`.
+
+* `write_sdc`
+  Exports the updated timing constraints.
+
+* `saveDesign ./Placement/..._place.enc`
+  Saves the complete physical database state, creating the checkpoint required 
+  before moving on to Clock Tree Synthesis.

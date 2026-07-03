@@ -1,0 +1,40 @@
+inverter 1000
+DM.D.1
+2 2 4 Jun 24 12:49:07 2026                     
+Rule File Pathname: _DRC.rules_
+Rule File Title: SCL DRC  Check ver.00_00_01
+DM.D.1: Distance of dummy Metal to metal(lc) of the same level. Overlap is not allowed , min 2
+This rule is applicable for all metal layers: M1, MI, ML, MT .
+p 1 4
+CN inverter c 1 0 0 1 0 0 0
+303 3140
+307 3140
+307 3370
+303 3370
+e 2 1
+CN inverter c 1 0 0 1 0 0 0
+305 3140 305 3370
+DM.W.1
+1 1 3 Jun 24 12:49:07 2026                     
+Rule File Pathname: _DRC.rules_
+Rule File Title: SCL DRC  Check ver.00_00_01
+DM.W.1: Width of dummy M1, MI, ML, min 2
+p 1 4
+CN inverter c 1 0 0 1 0 0 0
+75 3140
+305 3140
+305 3370
+75 3370
+DENSITY_PRINT_FILES
+0 0 11 Jun 24 12:49:07 2026
+density_logs/AA_C_1_COV.log
+density_logs/AA_C_3_COV.log
+density_logs/AA_C_5_COV.log
+density_logs/AA_C_8_COV.log
+density_logs/AA_C_10_cov.log
+density_logs/GC_C_4_COV.log
+density_logs/GC_C_6_COV.log
+density_logs/MIM_C_1_COV.log
+density_logs/MIM_C_2_COV.log
+density_logs/MIM_C_3_COV.log
+density_logs/MIM_C_4_COV.log

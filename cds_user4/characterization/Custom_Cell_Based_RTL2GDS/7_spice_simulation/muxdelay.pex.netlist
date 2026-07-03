@@ -1,0 +1,142 @@
+// File: muxdelay.pex.netlist
+// Created: Sat May  9 11:07:31 2026
+// Program "Calibre xRC"
+// Version "v2022.4_37.20"
+// 
+simulator lang=spectre
+include "muxdelay.pex.netlist.pex"
+subckt muxdelay (  VSS_CORE VDD_CORE C clk rst Y B S A )
+// 
+// A	A
+// S	S
+// B	B
+// Y	Y
+// rst	rst
+// clk	clk
+// C	C
+// VDD_CORE	VDD_CORE
+// VSS_CORE	VSS_CORE
+mXtemp_reg\/MM4 ( N_Xtemp_reg\/net2_Xtemp_reg\/MM4_d N_n_3_Xtemp_reg\/MM4_g \
+ N_VSS_CORE_Xtemp_reg\/MM4_s N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 \
+ w=4.2e-07 ad=2.016e-13 as=1.134e-13 pd=1.8e-06 ps=9.6e-07 postlayout=1 \
+ //x=63.25 //y=97.055
+mXg43__2398\/MM0 ( N_Y_Xg43__2398\/MM0_d N_C_Xg43__2398\/MM0_g \
+ N_VSS_CORE_Xg43__2398\/MM0_s N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 \
+ w=2.2e-07 ad=1.256e-13 as=2.138e-13 pd=1.18e-06 ps=2.02e-06 postlayout=1 \
+ //x=63.94 //y=100.09
+mXtemp_reg\/MM6 ( Xtemp_reg\/net3 N_clk_Xtemp_reg\/MM6_g \
+ N_VSS_CORE_Xtemp_reg\/MM4_s N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 \
+ w=4.2e-07 ad=5.25e-14 as=1.134e-13 pd=6.7e-07 ps=9.6e-07 postlayout=1 \
+ //x=63.97 //y=97.055
+mXtemp_reg\/MM5 ( N_Xtemp_reg\/net1_Xtemp_reg\/MM5_d \
+ N_Xtemp_reg\/net2_Xtemp_reg\/MM5_g Xtemp_reg\/net3 \
+ N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 w=4.2e-07 ad=1.134e-13 \
+ as=5.25e-14 pd=9.6e-07 ps=6.7e-07 postlayout=1 //x=64.4 //y=97.055
+mXg43__2398\/MM1 ( N_Y_Xg43__2398\/MM0_d N_temp_Xg43__2398\/MM1_g \
+ N_VSS_CORE_Xg43__2398\/MM1_s N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 \
+ w=2.2e-07 ad=1.256e-13 as=2.138e-13 pd=1.18e-06 ps=2.02e-06 postlayout=1 \
+ //x=64.88 //y=100.09
+mXtemp_reg\/MM25 ( N_Xtemp_reg\/net1_Xtemp_reg\/MM5_d N_rst_Xtemp_reg\/MM25_g \
+ N_VSS_CORE_Xtemp_reg\/MM25_s N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 \
+ w=4.2e-07 ad=1.134e-13 as=2.016e-13 pd=9.6e-07 ps=1.8e-06 postlayout=1 \
+ //x=65.12 //y=97.055
+mXtemp_reg\/MM7 ( N_Xtemp_reg\/net5_Xtemp_reg\/MM7_d N_clk_Xtemp_reg\/MM7_g \
+ Xtemp_reg\/net4 N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 w=4.2e-07 \
+ ad=2.016e-13 as=5.25e-14 pd=1.8e-06 ps=6.7e-07 postlayout=1 //x=67.31 \
+ //y=96.855
+mXtemp_reg\/MM8 ( Xtemp_reg\/net4 N_Xtemp_reg\/net1_Xtemp_reg\/MM8_g \
+ N_VSS_CORE_Xtemp_reg\/MM8_s N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 \
+ w=4.2e-07 ad=5.25e-14 as=1.47988e-13 pd=6.7e-07 ps=1.02941e-06 postlayout=1 \
+ //x=67.74 //y=96.855
+mXtemp_reg\/MM10 ( N_temp_Xtemp_reg\/MM10_d \
+ N_Xtemp_reg\/net5_Xtemp_reg\/MM10_g N_VSS_CORE_Xtemp_reg\/MM8_s \
+ N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 w=6e-07 ad=2.88e-13 \
+ as=2.11412e-13 pd=2.16e-06 ps=1.47059e-06 postlayout=1 //x=68.57 //y=96.765
+mXg48\/MM1 ( N_n_0_Xg48\/MM1_d N_S_Xg48\/MM1_g N_VSS_CORE_Xg48\/MM1_s \
+ N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 w=1e-06 ad=4.8e-13 as=4.8e-13 \
+ pd=2.96e-06 ps=2.96e-06 postlayout=1 //x=99.75 //y=64.19
+mXg43__2398\/MM3 ( N_Y_Xg43__2398\/MM3_d N_temp_Xg43__2398\/MM3_g \
+ Xg43__2398\/net1 N_VDD_CORE_Xg43__2398\/MM3_b ) p18 l=1.8e-07 w=3.76e-06 \
+ ad=1.8048e-12 as=4.7e-13 pd=8.48e-06 ps=4.01e-06 postlayout=1 //x=62.79 \
+ //y=102.72
+mXg43__2398\/MM2 ( Xg43__2398\/net1 N_C_Xg43__2398\/MM2_g \
+ N_VDD_CORE_Xg43__2398\/MM2_s N_VDD_CORE_Xg43__2398\/MM3_b ) p18 l=1.8e-07 \
+ w=3.76e-06 ad=4.7e-13 as=1.8048e-12 pd=4.01e-06 ps=8.48e-06 postlayout=1 \
+ //x=62.79 //y=103.15
+mXtemp_reg\/MM1 ( N_Xtemp_reg\/net2_Xtemp_reg\/MM1_d N_clk_Xtemp_reg\/MM1_g \
+ Xtemp_reg\/net6 N_VDD_CORE_Xtemp_reg\/MM1_b ) p18 l=1.8e-07 w=4.2e-07 \
+ ad=2.016e-13 as=5.25e-14 pd=1.8e-06 ps=6.7e-07 postlayout=1 //x=63.695 \
+ //y=94.85
+mXtemp_reg\/MM0 ( Xtemp_reg\/net6 N_n_3_Xtemp_reg\/MM0_g \
+ N_VDD_CORE_Xtemp_reg\/MM0_s N_VDD_CORE_Xtemp_reg\/MM1_b ) p18 l=1.8e-07 \
+ w=4.2e-07 ad=5.25e-14 as=1.134e-13 pd=6.7e-07 ps=9.6e-07 postlayout=1 \
+ //x=64.125 //y=94.85
+mXtemp_reg\/MM2 ( N_Xtemp_reg\/net1_Xtemp_reg\/MM2_d N_clk_Xtemp_reg\/MM2_g \
+ N_VDD_CORE_Xtemp_reg\/MM0_s N_VDD_CORE_Xtemp_reg\/MM1_b ) p18 l=1.8e-07 \
+ w=4.2e-07 ad=2.016e-13 as=1.134e-13 pd=1.8e-06 ps=9.6e-07 postlayout=1 \
+ //x=64.845 //y=94.85
+mXtemp_reg\/MM3 ( N_Xtemp_reg\/net5_Xtemp_reg\/MM3_d \
+ N_Xtemp_reg\/net1_Xtemp_reg\/MM3_g N_VDD_CORE_Xtemp_reg\/MM3_s \
+ N_VDD_CORE_Xtemp_reg\/MM1_b ) p18 l=1.8e-07 w=4.2e-07 ad=2.016e-13 \
+ as=1.47988e-13 pd=1.8e-06 ps=1.02941e-06 postlayout=1 //x=67.74 //y=95.065
+mXtemp_reg\/MM9 ( N_temp_Xtemp_reg\/MM9_d N_Xtemp_reg\/net5_Xtemp_reg\/MM9_g \
+ N_VDD_CORE_Xtemp_reg\/MM3_s N_VDD_CORE_Xtemp_reg\/MM1_b ) p18 l=1.8e-07 \
+ w=6e-07 ad=2.88e-13 as=2.11412e-13 pd=2.16e-06 ps=1.47059e-06 postlayout=1 \
+ //x=68.57 //y=94.975
+mXg48\/MM0 ( N_n_0_Xg48\/MM0_d N_S_Xg48\/MM0_g N_VDD_CORE_Xg48\/MM0_s \
+ N_VDD_CORE_Xg48\/MM0_b ) p18 l=1.8e-07 w=2e-06 ad=9.6e-13 as=9.6e-13 \
+ pd=4.96e-06 ps=4.96e-06 postlayout=1 //x=99.19 //y=61.385
+mXg47__4319\/MM0 ( N_n_1_Xg47__4319\/MM0_d N_B_Xg47__4319\/MM0_g \
+ Xg47__4319\/net1 N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 w=4.05e-07 \
+ ad=2.4525e-13 as=5.0625e-14 pd=2.02e-06 ps=6.55e-07 postlayout=1 //x=95.66 \
+ //y=64.68
+mXg47__4319\/MM1 ( Xg47__4319\/net1 N_S_Xg47__4319\/MM1_g \
+ N_VSS_CORE_Xg47__4319\/MM1_s N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 \
+ w=4.05e-07 ad=5.0625e-14 as=2.4525e-13 pd=6.55e-07 ps=2.02e-06 postlayout=1 \
+ //x=95.23 //y=64.68
+mXg47__4319\/MM2 ( N_n_1_Xg47__4319\/MM2_d N_B_Xg47__4319\/MM2_g \
+ N_VDD_CORE_Xg47__4319\/MM2_s N_VDD_CORE_Xg47__4319\/MM2_b ) p18 l=1.8e-07 \
+ w=3.6e-07 ad=1.494e-13 as=2.376e-13 pd=1.18e-06 ps=2.02e-06 postlayout=1 \
+ //x=95.66 //y=61.5
+mXg47__4319\/MM3 ( N_n_1_Xg47__4319\/MM2_d N_S_Xg47__4319\/MM3_g \
+ N_VDD_CORE_Xg47__4319\/MM3_s N_VDD_CORE_Xg47__4319\/MM2_b ) p18 l=1.8e-07 \
+ w=3.6e-07 ad=1.494e-13 as=2.376e-13 pd=1.18e-06 ps=2.02e-06 postlayout=1 \
+ //x=94.72 //y=61.5
+mXg45__5107\/MM0 ( N_n_3_Xg45__5107\/MM0_d N_n_2_Xg45__5107\/MM0_g \
+ Xg45__5107\/net1 N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 w=4.05e-07 \
+ ad=2.4525e-13 as=5.0625e-14 pd=2.02e-06 ps=6.55e-07 postlayout=1 //x=97.9 \
+ //y=66.36
+mXg45__5107\/MM1 ( Xg45__5107\/net1 N_n_1_Xg45__5107\/MM1_g \
+ N_VSS_CORE_Xg45__5107\/MM1_s N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 \
+ w=4.05e-07 ad=5.0625e-14 as=2.4525e-13 pd=6.55e-07 ps=2.02e-06 postlayout=1 \
+ //x=97.47 //y=66.36
+mXg45__5107\/MM2 ( N_n_3_Xg45__5107\/MM2_d N_n_2_Xg45__5107\/MM2_g \
+ N_VDD_CORE_Xg45__5107\/MM2_s N_VDD_CORE_Xg45__5107\/MM2_b ) p18 l=1.8e-07 \
+ w=3.6e-07 ad=1.494e-13 as=2.376e-13 pd=1.18e-06 ps=2.02e-06 postlayout=1 \
+ //x=97.9 //y=69.54
+mXg45__5107\/MM3 ( N_n_3_Xg45__5107\/MM2_d N_n_1_Xg45__5107\/MM3_g \
+ N_VDD_CORE_Xg45__5107\/MM3_s N_VDD_CORE_Xg45__5107\/MM2_b ) p18 l=1.8e-07 \
+ w=3.6e-07 ad=1.494e-13 as=2.376e-13 pd=1.18e-06 ps=2.02e-06 postlayout=1 \
+ //x=96.96 //y=69.54
+mXg46__6260\/MM0 ( N_n_2_Xg46__6260\/MM0_d N_n_0_Xg46__6260\/MM0_g \
+ Xg46__6260\/net1 N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 w=4.05e-07 \
+ ad=2.4525e-13 as=5.0625e-14 pd=2.02e-06 ps=6.55e-07 postlayout=1 //x=104.82 \
+ //y=64.68
+mXg46__6260\/MM1 ( Xg46__6260\/net1 N_A_Xg46__6260\/MM1_g \
+ N_VSS_CORE_Xg46__6260\/MM1_s N_VSS_CORE_Xg47__4319\/MM0_b ) n18 l=1.8e-07 \
+ w=4.05e-07 ad=5.0625e-14 as=2.4525e-13 pd=6.55e-07 ps=2.02e-06 postlayout=1 \
+ //x=105.25 //y=64.68
+mXg46__6260\/MM2 ( N_n_2_Xg46__6260\/MM2_d N_n_0_Xg46__6260\/MM2_g \
+ N_VDD_CORE_Xg46__6260\/MM2_s N_VDD_CORE_Xg46__6260\/MM2_b ) p18 l=1.8e-07 \
+ w=3.6e-07 ad=1.494e-13 as=2.376e-13 pd=1.18e-06 ps=2.02e-06 postlayout=1 \
+ //x=104.82 //y=61.5
+mXg46__6260\/MM3 ( N_n_2_Xg46__6260\/MM2_d N_A_Xg46__6260\/MM3_g \
+ N_VDD_CORE_Xg46__6260\/MM3_s N_VDD_CORE_Xg46__6260\/MM2_b ) p18 l=1.8e-07 \
+ w=3.6e-07 ad=1.494e-13 as=2.376e-13 pd=1.18e-06 ps=2.02e-06 postlayout=1 \
+ //x=105.76 //y=61.5
+// 
+include "muxdelay.pex.netlist.muxdelay.pxi"
+// 
+ends muxdelay
+// 
+// 

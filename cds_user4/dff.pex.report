@@ -1,0 +1,588 @@
+                  ##################################################
+                  ##                                              ##
+                  ##                 Calibre xRC                  ##
+                  ##                                              ##
+                  ##          Export Lumped Parameters            ##
+                  ##                                              ##
+                  ##################################################
+ 
+ 
+ 
+LAYOUT NAME:              dff
+RULE FILE NAME:           rules
+CREATION TIME:            Wed Jun 24 15:44:02 2026
+ 
+UNITS:                    Resistance  = ohm
+                          Capacitance = farad
+                          Time        = ns
+ 
+ 
+---------------------------------------------------------------------------------
+CELL NAME:                dff
+ 
+Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
+---------+---------------+-------------+-------------+--------------+------------
+1                     0.0   8.75812e-16           100            0.0  D
+            - Coupled nets
+               clk,clk,MM6:g,MM1:g,MM1:g,MM2:g,MM2:g,MM2:g,c_58:n,c_58:n,c_60:n,c_61:n,c_115:n,c_116:n,c_116:n,c_118:n,c_118:n,c_118:n,c_118:n,c_118:n,c_123:n,c_124:n,c_124:n,MM5:g,c_127:n,c_128:n,c_128:n,c_128:n,c_128:n,c_132:n,c_199:n,c_199:n,c_201:n,c_202:n,c_321:n,c_322:n,c_322:n,MM4:b,MM4:b,MM4:b,c_405:n,c_406:n,MM1:b,MM1:b,MM1:b,MM1:b,MM1:b,MM1:b,MM1:b
+            - Intrinsic Capacitance
+               0
+            - Coupled capacitance
+               1.84068e-17   netid: clk
+               1.15314e-18   netid: clk
+               3.46889e-17   netid: MM6:g
+                4.4781e-17   netid: MM1:g
+               1.21277e-17   netid: MM1:g
+               1.26313e-18   netid: MM2:g
+               1.09936e-17   netid: MM2:g
+               2.51216e-17   netid: MM2:g
+               1.91785e-18   netid: c_58:n
+                 3.521e-18   netid: c_58:n
+               1.22962e-17   netid: c_60:n
+               1.60887e-17   netid: c_61:n
+               7.33612e-18   netid: c_115:n
+                5.9198e-18   netid: c_116:n
+               2.14455e-18   netid: c_116:n
+               4.27306e-17   netid: c_118:n
+                 2.988e-17   netid: c_118:n
+               4.82564e-18   netid: c_118:n
+               3.17028e-17   netid: c_118:n
+               3.54634e-18   netid: c_118:n
+               1.67527e-17   netid: c_123:n
+               1.62151e-17   netid: c_124:n
+               2.10461e-18   netid: c_124:n
+               3.23479e-18   netid: MM5:g
+               1.29991e-17   netid: c_127:n
+               3.72899e-18   netid: c_128:n
+               5.22711e-19   netid: c_128:n
+               8.93206e-19   netid: c_128:n
+               6.73152e-18   netid: c_128:n
+               4.97805e-18   netid: c_132:n
+                6.4175e-19   netid: c_199:n
+               3.45783e-18   netid: c_199:n
+               3.11865e-19   netid: c_201:n
+               2.15036e-18   netid: c_202:n
+               2.50979e-18   netid: c_321:n
+                1.4433e-17   netid: c_322:n
+               6.90097e-18   netid: c_322:n
+               1.76109e-17   netid: MM4:b
+               9.27678e-17   netid: MM4:b
+               2.25969e-17   netid: MM4:b
+               2.05394e-18   netid: c_405:n
+               1.53928e-17   netid: c_406:n
+               2.71447e-17   netid: MM1:b
+               1.36994e-17   netid: MM1:b
+               5.95255e-17   netid: MM1:b
+               9.45921e-17   netid: MM1:b
+               6.24009e-17   netid: MM1:b
+               5.22192e-17   netid: MM1:b
+               6.79622e-18   netid: MM1:b
+
+
+2                     0.0   1.70465e-15       99.9929            0.0  clk
+            - Coupled nets
+               c_1:p,c_2:p,MM4:g,MM0:g,c_5:p,MM4:g,MM0:g,c_5:p,c_1:p,c_2:p,MM0:g,c_5:p,c_118:n,c_134:n,c_123:n,MM5:g,MM5:g,c_127:n,c_127:n,MM25:g,MM25:g,c_199:n,c_199:n,c_199:n,c_199:n,c_201:n,c_208:n,c_202:n,c_202:n,MM8:g,c_212:n,c_213:n,c_213:n,c_266:n,c_267:n,c_267:n,c_269:n,MM10:g,c_271:n,c_272:n,c_322:n,c_328:n,MM4:b,MM4:b,MM4:b,MM4:b,MM4:b,MM4:b,MM4:b,c_405:n,c_405:n,c_405:n,c_406:n,c_406:n,c_406:n,c_406:n,c_406:n,c_422:n,MM1:b,MM1:b,MM1:b,MM1:b,MM1:b,MM1:b,MM1:b
+            - Intrinsic Capacitance
+               1.21821e-19
+            - Coupled capacitance
+               1.84068e-17   netid: c_1:p
+               1.15314e-18   netid: c_2:p
+               3.46889e-17   netid: MM4:g
+                4.4781e-17   netid: MM0:g
+               1.21277e-17   netid: c_5:p
+               1.26313e-18   netid: MM4:g
+               1.09936e-17   netid: MM0:g
+               2.51216e-17   netid: c_5:p
+               1.91785e-18   netid: c_1:p
+                 3.521e-18   netid: c_2:p
+               1.22962e-17   netid: MM0:g
+               1.60887e-17   netid: c_5:p
+               5.75871e-18   netid: c_118:n
+               1.93025e-17   netid: c_134:n
+               1.07046e-17   netid: c_123:n
+                4.2168e-17   netid: MM5:g
+               1.35562e-17   netid: MM5:g
+               1.36522e-17   netid: c_127:n
+               4.45066e-19   netid: c_127:n
+               2.91975e-18   netid: MM25:g
+               1.18053e-17   netid: MM25:g
+               5.54308e-18   netid: c_199:n
+               6.31167e-18   netid: c_199:n
+               1.21111e-17   netid: c_199:n
+               1.31741e-17   netid: c_199:n
+               3.01002e-17   netid: c_201:n
+               1.34781e-17   netid: c_208:n
+               2.47282e-17   netid: c_202:n
+               1.35533e-17   netid: c_202:n
+               5.67956e-17   netid: MM8:g
+               6.59294e-18   netid: c_212:n
+                4.4049e-18   netid: c_213:n
+               3.40468e-18   netid: c_213:n
+               2.24722e-19   netid: c_266:n
+               3.07065e-17   netid: c_267:n
+               3.10541e-17   netid: c_267:n
+               6.64927e-18   netid: c_269:n
+               4.01859e-18   netid: MM10:g
+                1.3317e-17   netid: c_271:n
+               2.06898e-18   netid: c_272:n
+               1.46544e-17   netid: c_322:n
+               2.12161e-17   netid: c_328:n
+               5.65512e-17   netid: MM4:b
+                4.8304e-17   netid: MM4:b
+               1.44195e-17   netid: MM4:b
+               4.75713e-17   netid: MM4:b
+               1.01153e-17   netid: MM4:b
+                1.9082e-16   netid: MM4:b
+               8.08816e-18   netid: MM4:b
+               4.54806e-17   netid: c_405:n
+                6.8497e-17   netid: c_405:n
+               1.80463e-17   netid: c_405:n
+               1.11341e-17   netid: c_406:n
+               8.32996e-18   netid: c_406:n
+               1.62824e-17   netid: c_406:n
+               2.94763e-17   netid: c_406:n
+               6.51487e-18   netid: c_406:n
+                1.4301e-18   netid: c_422:n
+               4.86947e-17   netid: MM1:b
+               7.49024e-17   netid: MM1:b
+               1.14591e-16   netid: MM1:b
+               1.11663e-16   netid: MM1:b
+               7.81553e-17   netid: MM1:b
+               7.25358e-17   netid: MM1:b
+               6.14463e-18   netid: MM1:b
+
+
+3                     0.0   1.11084e-15       99.7591            0.0  net2
+            - Coupled nets
+               c_13:p,MM4:g,c_13:p,c_1:p,MM4:g,MM0:g,c_13:p,c_2:p,c_13:p,c_1:p,c_2:p,MM4:g,MM4:g,c_1:p,MM4:g,c_13:p,c_2:p,MM4:g,MM1:g,c_63:p,MM1:g,MM6:g,c_66:p,MM6:g,c_66:p,RST_N,MM25:g,MM25:g,c_179:n,c_199:n,c_199:n,c_201:n,c_267:n,c_321:n,c_321:n,c_321:n,c_321:n,c_322:n,c_322:n,c_322:n,c_322:n,c_322:n,c_345:n,MM4:b,MM4:b,MM4:b,MM4:b,MM4:b,MM4:b,MM4:b,MM4:b,MM4:b,c_405:n,c_405:n,c_405:n,c_406:n,MM1:b,MM1:b,MM1:b
+            - Intrinsic Capacitance
+               2.67645e-18
+            - Coupled capacitance
+               7.33612e-18   netid: c_13:p
+                5.9198e-18   netid: MM4:g
+               2.14455e-18   netid: c_13:p
+               4.27306e-17   netid: c_1:p
+                 2.988e-17   netid: MM4:g
+               4.82564e-18   netid: MM0:g
+               3.17028e-17   netid: c_13:p
+               3.54634e-18   netid: c_2:p
+               1.67527e-17   netid: c_13:p
+               1.62151e-17   netid: c_1:p
+               2.10461e-18   netid: c_2:p
+               3.23479e-18   netid: MM4:g
+               1.29991e-17   netid: MM4:g
+               3.72899e-18   netid: c_1:p
+               5.22711e-19   netid: MM4:g
+               8.93206e-19   netid: c_13:p
+               6.73152e-18   netid: c_2:p
+               4.97805e-18   netid: MM4:g
+               5.75871e-18   netid: MM1:g
+               1.93025e-17   netid: c_63:p
+               1.07046e-17   netid: MM1:g
+                4.2168e-17   netid: MM6:g
+               1.35562e-17   netid: c_66:p
+               1.36522e-17   netid: MM6:g
+               4.45066e-19   netid: c_66:p
+               5.17878e-18   netid: RST_N
+               1.09474e-17   netid: MM25:g
+               2.06243e-17   netid: MM25:g
+               6.16445e-18   netid: c_179:n
+               2.55513e-17   netid: c_199:n
+               1.42976e-17   netid: c_199:n
+               1.11242e-17   netid: c_201:n
+               2.07422e-18   netid: c_267:n
+               4.22267e-18   netid: c_321:n
+               3.41721e-17   netid: c_321:n
+               3.38719e-17   netid: c_321:n
+               3.08266e-18   netid: c_321:n
+               3.07343e-17   netid: c_322:n
+                5.5775e-18   netid: c_322:n
+               3.03692e-17   netid: c_322:n
+               3.00229e-19   netid: c_322:n
+               5.08558e-18   netid: c_322:n
+               1.06787e-17   netid: c_345:n
+               1.69419e-17   netid: MM4:b
+               9.84185e-19   netid: MM4:b
+               4.58916e-17   netid: MM4:b
+                2.0816e-17   netid: MM4:b
+               5.59256e-17   netid: MM4:b
+               1.53741e-16   netid: MM4:b
+               1.90497e-17   netid: MM4:b
+               6.89353e-17   netid: MM4:b
+               4.95568e-17   netid: MM4:b
+                6.2959e-18   netid: c_405:n
+               3.27636e-17   netid: c_405:n
+               1.55913e-18   netid: c_405:n
+               1.41937e-17   netid: c_406:n
+               3.91328e-17   netid: MM1:b
+               2.15801e-17   netid: MM1:b
+               4.90943e-18   netid: MM1:b
+
+
+4                     0.0   4.24909e-16       99.5709            0.0  RST_N
+            - Coupled nets
+               MM6:g,c_70:p,c_127:n,MM5:g,c_127:n,c_127:n,c_199:n,c_199:n,c_202:n,MM5:d,c_272:n,c_272:n,c_322:n,c_322:n,c_322:n,c_345:n,c_345:n,c_360:n,c_360:n,c_360:n,c_328:n,MM4:b,MM4:b,MM4:b,c_406:n
+            - Intrinsic Capacitance
+               1.82315e-18
+            - Coupled capacitance
+               2.91975e-18   netid: MM6:g
+               1.18053e-17   netid: c_70:p
+               5.17878e-18   netid: c_127:n
+               1.09474e-17   netid: MM5:g
+               2.06243e-17   netid: c_127:n
+               6.16445e-18   netid: c_127:n
+               1.77151e-17   netid: c_199:n
+                1.2806e-17   netid: c_199:n
+               6.07597e-18   netid: c_202:n
+               4.72577e-18   netid: MM5:d
+               2.89812e-18   netid: c_272:n
+               2.00501e-18   netid: c_272:n
+               1.75284e-17   netid: c_322:n
+                2.9913e-19   netid: c_322:n
+                4.6847e-18   netid: c_322:n
+               6.90504e-17   netid: c_345:n
+               1.23125e-17   netid: c_345:n
+                2.0901e-17   netid: c_360:n
+               1.23363e-17   netid: c_360:n
+               1.26538e-17   netid: c_360:n
+               8.78054e-18   netid: c_328:n
+               2.60102e-17   netid: MM4:b
+               7.64805e-17   netid: MM4:b
+               5.52732e-17   netid: MM4:b
+               2.90972e-18   netid: c_406:n
+
+
+5                     0.0   1.08623e-15       99.9893            0.0  net1
+            - Coupled nets
+               c_1:p,MM4:g,c_1:p,c_5:p,MM6:g,MM2:g,c_66:p,c_74:p,MM2:g,c_70:p,MM2:g,c_70:p,MM7:g,c_70:p,MM2:g,c_70:p,c_118:n,MM5:g,c_118:n,RST_N,MM25:g,RST_N,RST_N,c_267:n,c_267:n,c_267:n,c_267:n,c_269:n,c_269:n,c_269:n,c_269:n,MM10:g,MM9:g,c_271:n,net5,c_322:n,c_345:n,c_369:n,c_328:n,c_328:n,c_328:n,MM4:b,MM4:b,MM4:b,c_406:n,c_406:n,c_406:n,c_406:n,c_422:n,c_422:n,c_422:n,c_422:n,c_422:n,c_447:n,c_447:n,c_447:n,c_447:n,MM1:b,MM1:b,MM1:b,MM1:b,MM1:b,MM1:b,MM1:b,MM0:s,c_477:n,c_477:n
+            - Intrinsic Capacitance
+               1.16669e-19
+            - Coupled capacitance
+                6.4175e-19   netid: c_1:p
+               3.45783e-18   netid: MM4:g
+               3.11865e-19   netid: c_1:p
+               2.15036e-18   netid: c_5:p
+               5.54308e-18   netid: MM6:g
+               6.31167e-18   netid: MM2:g
+               1.21111e-17   netid: c_66:p
+               1.31741e-17   netid: c_74:p
+               3.01002e-17   netid: MM2:g
+               1.34781e-17   netid: c_70:p
+               2.47282e-17   netid: MM2:g
+               1.35533e-17   netid: c_70:p
+               5.67956e-17   netid: MM7:g
+               6.59294e-18   netid: c_70:p
+                4.4049e-18   netid: MM2:g
+               3.40468e-18   netid: c_70:p
+               2.55513e-17   netid: c_118:n
+               1.42976e-17   netid: MM5:g
+               1.11242e-17   netid: c_118:n
+               1.77151e-17   netid: RST_N
+                1.2806e-17   netid: MM25:g
+               6.07597e-18   netid: RST_N
+               4.72577e-18   netid: RST_N
+               1.68121e-17   netid: c_267:n
+               1.44078e-17   netid: c_267:n
+               1.82339e-17   netid: c_267:n
+               7.15521e-19   netid: c_267:n
+               1.44078e-17   netid: c_269:n
+               2.57951e-18   netid: c_269:n
+                9.3329e-18   netid: c_269:n
+               1.93688e-17   netid: c_269:n
+               4.26628e-17   netid: MM10:g
+               8.38602e-18   netid: MM9:g
+               1.36282e-17   netid: c_271:n
+               6.90284e-19   netid: net5
+               1.21906e-17   netid: c_322:n
+               2.71195e-18   netid: c_345:n
+               1.22024e-17   netid: c_369:n
+               3.04312e-17   netid: c_328:n
+                1.4265e-17   netid: c_328:n
+               3.66372e-19   netid: c_328:n
+               2.31031e-17   netid: MM4:b
+               4.63748e-18   netid: MM4:b
+               6.12513e-17   netid: MM4:b
+               2.36522e-17   netid: c_406:n
+               5.99578e-19   netid: c_406:n
+               4.63572e-18   netid: c_406:n
+               2.75885e-19   netid: c_406:n
+               3.63292e-17   netid: c_422:n
+               3.12731e-18   netid: c_422:n
+               1.29182e-17   netid: c_422:n
+               2.26463e-17   netid: c_422:n
+               8.60909e-18   netid: c_422:n
+               9.67023e-18   netid: c_447:n
+               7.55109e-18   netid: c_447:n
+               6.20882e-18   netid: c_447:n
+               2.27589e-19   netid: c_447:n
+               2.34571e-17   netid: MM1:b
+               2.91518e-17   netid: MM1:b
+               2.36841e-17   netid: MM1:b
+               2.02884e-17   netid: MM1:b
+               7.01527e-17   netid: MM1:b
+               1.01936e-16   netid: MM1:b
+               6.45758e-17   netid: MM1:b
+               3.43882e-18   netid: MM0:s
+               6.99591e-19   netid: c_477:n
+               8.39086e-19   netid: c_477:n
+
+
+6                     0.0   1.09816e-15       99.8516            0.0  net5
+            - Coupled nets
+               c_70:p,MM7:g,c_70:p,c_70:p,MM7:g,MM7:g,c_70:p,c_118:n,MM25:g,c_179:n,c_199:n,c_202:n,MM8:g,MM3:g,c_201:n,c_227:p,MM3:g,c_212:n,MM8:g,MM3:g,MM8:g,c_227:p,c_322:n,c_360:n,c_360:n,c_360:n,c_380:n,c_380:n,c_380:n,c_380:n,c_369:n,c_369:n,c_369:n,c_369:n,c_388:n,c_328:n,MM4:b,MM4:b,MM4:b,MM4:b,MM4:b,c_422:n,c_422:n,c_447:n,c_447:n,c_447:n,c_447:n,c_465:n,MM1:b,MM1:b,MM1:b,c_479:n,c_477:n,c_477:n,c_477:n
+            - Intrinsic Capacitance
+               1.6292e-18
+            - Coupled capacitance
+               2.24722e-19   netid: c_70:p
+               3.07065e-17   netid: MM7:g
+               3.10541e-17   netid: c_70:p
+               6.64927e-18   netid: c_70:p
+               4.01859e-18   netid: MM7:g
+                1.3317e-17   netid: MM7:g
+               2.06898e-18   netid: c_70:p
+               2.07422e-18   netid: c_118:n
+               2.89812e-18   netid: MM25:g
+               2.00501e-18   netid: c_179:n
+               1.68121e-17   netid: c_199:n
+               1.44078e-17   netid: c_202:n
+               1.82339e-17   netid: MM8:g
+               7.15521e-19   netid: MM3:g
+               1.44078e-17   netid: c_201:n
+               2.57951e-18   netid: c_227:p
+                9.3329e-18   netid: MM3:g
+               1.93688e-17   netid: c_212:n
+               4.26628e-17   netid: MM8:g
+               8.38602e-18   netid: MM3:g
+               1.36282e-17   netid: MM8:g
+               6.90284e-19   netid: c_227:p
+               5.67119e-19   netid: c_322:n
+               2.16315e-17   netid: c_360:n
+                 3.725e-17   netid: c_360:n
+               6.45711e-18   netid: c_360:n
+               2.37301e-17   netid: c_380:n
+               4.40882e-18   netid: c_380:n
+               1.38985e-17   netid: c_380:n
+                9.5554e-18   netid: c_380:n
+               4.26669e-17   netid: c_369:n
+               2.17564e-17   netid: c_369:n
+               2.66298e-17   netid: c_369:n
+               4.31169e-18   netid: c_369:n
+               7.20394e-18   netid: c_388:n
+               2.08753e-18   netid: c_328:n
+               7.90665e-18   netid: MM4:b
+               3.38609e-17   netid: MM4:b
+               9.57375e-17   netid: MM4:b
+               1.21912e-16   netid: MM4:b
+               6.00555e-17   netid: MM4:b
+               2.12371e-19   netid: c_422:n
+               2.37564e-17   netid: c_422:n
+               2.69936e-18   netid: c_447:n
+               2.44213e-17   netid: c_447:n
+               8.45447e-18   netid: c_447:n
+               8.81027e-18   netid: c_447:n
+               5.88295e-18   netid: c_465:n
+               3.11748e-17   netid: MM1:b
+               1.37873e-17   netid: MM1:b
+               8.72256e-17   netid: MM1:b
+                1.4027e-17   netid: c_479:n
+               2.59937e-17   netid: c_477:n
+                3.8177e-17   netid: c_477:n
+               1.40338e-17   netid: c_477:n
+
+
+7                     0.0   2.37732e-15       99.2051            0.0  GND
+            - Coupled nets
+               c_1:p,MM4:g,c_5:p,c_1:p,MM4:g,c_2:p,MM6:g,c_70:p,MM6:g,MM7:g,MM2:g,c_66:p,c_61:n,c_70:p,c_74:p,c_123:n,c_124:n,c_150:p,c_128:n,c_116:n,MM5:g,c_127:n,c_128:n,c_132:n,c_127:n,c_115:n,c_116:n,c_118:n,c_124:n,MM5:g,c_127:n,c_150:p,c_128:n,c_132:n,RST_N,MM25:g,c_179:n,RST_N,c_179:n,RST_N,MM25:g,c_179:n,MM25:g,RST_N,MM25:g,c_179:n,c_199:n,c_202:n,MM8:g,c_199:n,c_208:n,c_202:n,c_199:n,c_202:n,MM8:g,c_267:n,c_266:n,c_267:n,c_272:n,c_266:n,c_269:n,c_271:n,c_272:n,c_266:n,MM10:g,c_271:n,c_272:n,c_271:n,MM7:d,c_266:n,c_267:n,MM10:g,c_271:n,c_272:n,c_405:n,c_406:n,c_422:n,c_447:n,out,out,c_479:n,c_479:n,c_479:n,c_477:n
+            - Intrinsic Capacitance
+               1.88961e-17
+            - Coupled capacitance
+               2.50979e-18   netid: c_1:p
+                1.4433e-17   netid: MM4:g
+               6.90097e-18   netid: c_5:p
+               1.76109e-17   netid: c_1:p
+               9.27678e-17   netid: MM4:g
+               2.25969e-17   netid: c_2:p
+               1.46544e-17   netid: MM6:g
+               2.12161e-17   netid: c_70:p
+               5.65512e-17   netid: MM6:g
+                4.8304e-17   netid: MM7:g
+               1.44195e-17   netid: MM2:g
+               4.75713e-17   netid: c_66:p
+               1.01153e-17   netid: c_61:n
+                1.9082e-16   netid: c_70:p
+               8.08816e-18   netid: c_74:p
+               4.22267e-18   netid: c_123:n
+               3.41721e-17   netid: c_124:n
+               3.38719e-17   netid: c_150:p
+               3.08266e-18   netid: c_128:n
+               3.07343e-17   netid: c_116:n
+                5.5775e-18   netid: MM5:g
+               3.03692e-17   netid: c_127:n
+               3.00229e-19   netid: c_128:n
+               5.08558e-18   netid: c_132:n
+               1.06787e-17   netid: c_127:n
+               1.69419e-17   netid: c_115:n
+               9.84185e-19   netid: c_116:n
+               4.58916e-17   netid: c_118:n
+                2.0816e-17   netid: c_124:n
+               5.59256e-17   netid: MM5:g
+               1.53741e-16   netid: c_127:n
+               1.90497e-17   netid: c_150:p
+               6.89353e-17   netid: c_128:n
+               4.95568e-17   netid: c_132:n
+               1.75284e-17   netid: RST_N
+                2.9913e-19   netid: MM25:g
+                4.6847e-18   netid: c_179:n
+               6.90504e-17   netid: RST_N
+               1.23125e-17   netid: c_179:n
+                2.0901e-17   netid: RST_N
+               1.23363e-17   netid: MM25:g
+               1.26538e-17   netid: c_179:n
+               8.78054e-18   netid: MM25:g
+               2.60102e-17   netid: RST_N
+               7.64805e-17   netid: MM25:g
+               5.52732e-17   netid: c_179:n
+               1.21906e-17   netid: c_199:n
+               2.71195e-18   netid: c_202:n
+               1.22024e-17   netid: MM8:g
+               3.04312e-17   netid: c_199:n
+                1.4265e-17   netid: c_208:n
+               3.66372e-19   netid: c_202:n
+               2.31031e-17   netid: c_199:n
+               4.63748e-18   netid: c_202:n
+               6.12513e-17   netid: MM8:g
+               5.67119e-19   netid: c_267:n
+               2.16315e-17   netid: c_266:n
+                 3.725e-17   netid: c_267:n
+               6.45711e-18   netid: c_272:n
+               2.37301e-17   netid: c_266:n
+               4.40882e-18   netid: c_269:n
+               1.38985e-17   netid: c_271:n
+                9.5554e-18   netid: c_272:n
+               4.26669e-17   netid: c_266:n
+               2.17564e-17   netid: MM10:g
+               2.66298e-17   netid: c_271:n
+               4.31169e-18   netid: c_272:n
+               7.20394e-18   netid: c_271:n
+               2.08753e-18   netid: MM7:d
+               7.90665e-18   netid: c_266:n
+               3.38609e-17   netid: c_267:n
+               9.57375e-17   netid: MM10:g
+               1.21912e-16   netid: c_271:n
+               6.00555e-17   netid: c_272:n
+               3.20277e-18   netid: c_405:n
+               1.09537e-18   netid: c_406:n
+               8.35612e-19   netid: c_422:n
+               1.51729e-17   netid: c_447:n
+               1.69473e-17   netid: out
+               5.02039e-17   netid: out
+               3.89162e-17   netid: c_479:n
+               9.69013e-18   netid: c_479:n
+               1.73014e-18   netid: c_479:n
+               4.30361e-17   netid: c_477:n
+
+
+8                     0.0   1.98826e-15       99.6739            0.0  VDD
+            - Coupled nets
+               c_1:p,MM0:g,c_1:p,MM4:g,MM0:g,c_13:p,c_5:p,c_2:p,c_49:p,clk,c_63:p,c_58:n,clk,MM1:g,MM2:g,c_60:n,c_66:p,c_60:n,clk,MM1:g,MM2:g,c_63:p,c_58:n,c_60:n,c_114:p,c_115:n,c_134:n,c_124:n,c_123:n,c_118:n,c_134:n,c_123:n,RST_N,c_201:n,c_202:n,c_227:p,c_213:n,c_201:n,c_202:n,c_227:p,c_212:n,c_213:n,c_227:p,MM8:g,MM3:g,c_213:n,c_201:n,c_208:n,c_202:n,c_227:p,MM8:g,c_212:n,c_213:n,c_202:n,c_266:n,c_269:n,c_267:n,c_269:n,MM10:g,MM9:g,MM10:g,c_267:n,c_269:n,MM10:g,c_322:n,c_345:n,c_328:n,c_369:n,out,c_477:n,c_477:n,c_477:n
+            - Intrinsic Capacitance
+               6.4844e-18
+            - Coupled capacitance
+               2.05394e-18   netid: c_1:p
+               1.53928e-17   netid: MM0:g
+               2.71447e-17   netid: c_1:p
+               1.36994e-17   netid: MM4:g
+               5.95255e-17   netid: MM0:g
+               9.45921e-17   netid: c_13:p
+               6.24009e-17   netid: c_5:p
+               5.22192e-17   netid: c_2:p
+               6.79622e-18   netid: c_49:p
+               4.54806e-17   netid: clk
+                6.8497e-17   netid: c_63:p
+               1.80463e-17   netid: c_58:n
+               1.11341e-17   netid: clk
+               8.32996e-18   netid: MM1:g
+               1.62824e-17   netid: MM2:g
+               2.94763e-17   netid: c_60:n
+               6.51487e-18   netid: c_66:p
+                1.4301e-18   netid: c_60:n
+               4.86947e-17   netid: clk
+               7.49024e-17   netid: MM1:g
+               1.14591e-16   netid: MM2:g
+               1.11663e-16   netid: c_63:p
+               7.81553e-17   netid: c_58:n
+               7.25358e-17   netid: c_60:n
+               6.14463e-18   netid: c_114:p
+                6.2959e-18   netid: c_115:n
+               3.27636e-17   netid: c_134:n
+               1.55913e-18   netid: c_124:n
+               1.41937e-17   netid: c_123:n
+               3.91328e-17   netid: c_118:n
+               2.15801e-17   netid: c_134:n
+               4.90943e-18   netid: c_123:n
+               2.90972e-18   netid: RST_N
+               2.36522e-17   netid: c_201:n
+               5.99578e-19   netid: c_202:n
+               4.63572e-18   netid: c_227:p
+               2.75885e-19   netid: c_213:n
+               3.63292e-17   netid: c_201:n
+               3.12731e-18   netid: c_202:n
+               1.29182e-17   netid: c_227:p
+               2.26463e-17   netid: c_212:n
+               8.60909e-18   netid: c_213:n
+               9.67023e-18   netid: c_227:p
+               7.55109e-18   netid: MM8:g
+               6.20882e-18   netid: MM3:g
+               2.27589e-19   netid: c_213:n
+               2.34571e-17   netid: c_201:n
+               2.91518e-17   netid: c_208:n
+               2.36841e-17   netid: c_202:n
+               2.02884e-17   netid: c_227:p
+               7.01527e-17   netid: MM8:g
+               1.01936e-16   netid: c_212:n
+               6.45758e-17   netid: c_213:n
+               3.43882e-18   netid: c_202:n
+               2.12371e-19   netid: c_266:n
+               2.37564e-17   netid: c_269:n
+               2.69936e-18   netid: c_267:n
+               2.44213e-17   netid: c_269:n
+               8.45447e-18   netid: MM10:g
+               8.81027e-18   netid: MM9:g
+               5.88295e-18   netid: MM10:g
+               3.11748e-17   netid: c_267:n
+               1.37873e-17   netid: c_269:n
+               8.72256e-17   netid: MM10:g
+               3.20277e-18   netid: c_322:n
+               1.09537e-18   netid: c_345:n
+               8.35612e-19   netid: c_328:n
+               1.51729e-17   netid: c_369:n
+               8.96008e-18   netid: out
+               3.84093e-17   netid: c_477:n
+               1.21142e-17   netid: c_477:n
+               5.33803e-17   netid: c_477:n
+
+
+9                     0.0   3.67158e-16           100            0.0  out
+            - Coupled nets
+               c_199:n,c_202:n,MM10:g,c_267:n,MM10:g,MM9:g,c_388:n,MM4:b,c_369:n,c_388:n,MM4:b,MM4:b,c_465:n,c_447:n,c_465:n,MM1:b
+            - Intrinsic Capacitance
+               0
+            - Coupled capacitance
+               6.99591e-19   netid: c_199:n
+               8.39086e-19   netid: c_202:n
+                1.4027e-17   netid: MM10:g
+               2.59937e-17   netid: c_267:n
+                3.8177e-17   netid: MM10:g
+               1.40338e-17   netid: MM9:g
+               1.69473e-17   netid: c_388:n
+               5.02039e-17   netid: MM4:b
+               3.89162e-17   netid: c_369:n
+               9.69013e-18   netid: c_388:n
+               1.73014e-18   netid: MM4:b
+               4.30361e-17   netid: MM4:b
+               8.96008e-18   netid: c_465:n
+               3.84093e-17   netid: c_447:n
+               1.21142e-17   netid: c_465:n
+               5.33803e-17   netid: MM1:b
+
+

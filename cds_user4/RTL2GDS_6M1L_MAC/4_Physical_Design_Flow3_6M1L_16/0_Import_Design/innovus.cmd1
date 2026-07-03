@@ -1,0 +1,61 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Mon Jun 22 16:22:05 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 21.15-s110_1 NR220912-2004/21_15-UB (database version 18.20.592) {superthreading v2.17}
+#@(#)CDS: AAE 21.15-s039 (64bit) 09/23/2022 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 21.15-s038_1 () Sep 20 2022 11:42:13 ( )
+#@(#)CDS: SYNTECH 21.15-s012_1 () Sep  5 2022 10:25:51 ( )
+#@(#)CDS: CPE v21.15-s076
+#@(#)CDS: IQuantus/TQuantus 21.1.1-s867 (64bit) Sun Jun 26 22:12:54 PDT 2022 (Linux 3.10.0-693.el7.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+win
+set init_design_netlisttype Verilog
+set init_verilog ./top_streamed_wrapper_chip_netlist.v
+set init_top_cell mac_4x4_wrapper_chip
+set init_lef_file {/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/lef/tsl180l6.lef /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/lef/scl18fs120_std.lef /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/lef/tsl18cio150_6lm.lef /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/memory/dpram/6M1L/DP_SRAM_rd3_1024x8/rd3_1024x8.lef}
+set init_io_file ./final.io
+set init_mmmc_file ./Default.view
+set init_gnd_net {VSS_CORE VSSO_CORE}
+set init_pwr_net {VDD_CORE VDDO_CORE}
+set floorplan_default_site CoreSite
+save_global Default.globals
+set_message -no_limit
+setDesignMode -process 180
+init_design
+add_tracks -honor_pitch
+checkUnique -verbose
+check_timing -verbose
+checkDesign -all > ./Import_Design/mac_4x4_wrapper_chip_design.rpt
+reportGateCount -hinst mac_4x4_wrapper_chip -level 10 -outfile ./Import_Design/mac_4x4_wrapper_chip_gatecount.rpt
+reportNetStat > ./Import_Design/mac_4x4_wrapper_chip_netcount.rpt
+saveDesign ./Import_Design/mac_4x4_wrapper_chip_importdesign.enc
+floorPlan -site CoreSite -d 1940 1940 200 200 200 200
+add_tracks -honor_pitch
+checkFPlan -outFile ./FloorPlanning/mac_4x4_wrapper_chip_floorplan.rpt
+saveDesign ./FloorPlanning/mac_4x4_wrapper_chip_floorplan.enc
+addIoFiller -prefix FILLER -cell {pfeed30000 pfeed10000 pfeed02000 pfeed01000 pfeed00540 pfeed00120 pfeed00040 pfeed00010}
+addIoFiller -fillAnyGap -prefix FILLER -cell pfeed00010
+verify_drc > ./FloorPlanning/mac_4x4_wrapper_chip_drc.rpt
+verifyConnectivity -type all -connLoop -error 10000 -warning 5000
+timeDesign -prePlace -outDir ./FloorPlanning/mac_4x4_wrapper_chip_timing.rpt
+saveDesign ./FloorPlanning/mac_4x4_wrapper_chip_fp_filler.enc
+gui_select -rect {1302.04800 916.61800 2038.82300 803.87400}
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage -1 0
+panPage 1 0
+panPage 1 0
+panPage -1 0
+zoomBox -2810.38800 91.35200 40.09100 1473.13200
+zoomBox -2572.70000 222.39700 -149.79200 1396.91100
+deselectAll
+zoomBox -3405.33600 -533.91300 -1434.77100 1414.87800

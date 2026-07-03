@@ -1,0 +1,15 @@
+
+
+// +++ CUSTOMIZATION SETTINGS START +++
+
+#define "6M1L" 
+#define "PEX_TECH" ts18scl
+#define "LVS_TECH" ts18scl
+#define "PEX_TYPE" USG
+#undefine "HSPICE_SIM"
+
+// +++ CUSTOMIZATION SETTINGS END +++
+
+DRC ICSTATION YES
+
+INCLUDE "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/techs/ts18scl_6M1L/calibre/default_scr/PEX.header"

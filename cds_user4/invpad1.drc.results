@@ -1,0 +1,39 @@
+invpad1 1000
+AA.C.1
+1 1 4 Jun 25 11:18:59 2026                     
+Rule File Pathname: _DRC.rules_
+Rule File Title: SCL DRC  Check ver.00_00_01
+Violation of this rule will result in an automatic rejection of your gds.
+AA.C.1: Sized AA density, should be min 0.15 , for Window of 200X200 microns ( AA.C.1 ). 
+p 1 4
+CN invpad1 c 1 0 0 1 0 0 0
+271935 276435
+571935 276435
+571935 476435
+271935 476435
+AA.C.5
+1 1 5 Jun 25 11:19:00 2026                     
+Rule File Pathname: _DRC.rules_
+Rule File Title: SCL DRC  Check ver.00_00_01
+Violation of this rule will result in an automatic rejection of your gds.
+AA.C.5: Sized AA density, should be min 0.30 , for Window of 100X100 microns ( AA.C.5 ). 
+: Except where spacing is smaller than 20 Microns.
+p 1 4
+CN invpad1 c 1 0 0 1 0 0 0
+371935 476435
+471935 476435
+471935 576435
+371935 576435
+DENSITY_PRINT_FILES
+0 0 11 Jun 25 11:19:14 2026
+density_logs/AA_C_1_COV.log
+density_logs/AA_C_3_COV.log
+density_logs/AA_C_5_COV.log
+density_logs/AA_C_8_COV.log
+density_logs/AA_C_10_cov.log
+density_logs/GC_C_4_COV.log
+density_logs/GC_C_6_COV.log
+density_logs/MIM_C_1_COV.log
+density_logs/MIM_C_2_COV.log
+density_logs/MIM_C_3_COV.log
+density_logs/MIM_C_4_COV.log

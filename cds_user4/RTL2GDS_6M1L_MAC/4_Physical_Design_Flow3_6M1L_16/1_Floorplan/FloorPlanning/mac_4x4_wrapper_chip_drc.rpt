@@ -1,0 +1,141 @@
+#-check_same_via_cell true               # bool, default=false, user setting
+ *** Starting Verify DRC (MEM: 2454.2) ***
+
+  VERIFY DRC ...... Starting Verification
+  VERIFY DRC ...... Initializing
+  VERIFY DRC ...... Deleting Existing Violations
+  VERIFY DRC ...... Creating Sub-Areas
+  VERIFY DRC ...... Using new threading
+  VERIFY DRC ...... Sub-Area: {0.000 0.000 242.880 242.880} 1 of 64
+  VERIFY DRC ...... Sub-Area : 1 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {242.880 0.000 485.760 242.880} 2 of 64
+  VERIFY DRC ...... Sub-Area : 2 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {485.760 0.000 728.640 242.880} 3 of 64
+  VERIFY DRC ...... Sub-Area : 3 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {728.640 0.000 971.520 242.880} 4 of 64
+  VERIFY DRC ...... Sub-Area : 4 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {971.520 0.000 1214.400 242.880} 5 of 64
+  VERIFY DRC ...... Sub-Area : 5 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1214.400 0.000 1457.280 242.880} 6 of 64
+  VERIFY DRC ...... Sub-Area : 6 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1457.280 0.000 1700.160 242.880} 7 of 64
+  VERIFY DRC ...... Sub-Area : 7 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1700.160 0.000 1939.840 242.880} 8 of 64
+  VERIFY DRC ...... Sub-Area : 8 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {0.000 242.880 242.880 485.760} 9 of 64
+  VERIFY DRC ...... Sub-Area : 9 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {242.880 242.880 485.760 485.760} 10 of 64
+  VERIFY DRC ...... Sub-Area : 10 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {485.760 242.880 728.640 485.760} 11 of 64
+  VERIFY DRC ...... Sub-Area : 11 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {728.640 242.880 971.520 485.760} 12 of 64
+  VERIFY DRC ...... Sub-Area : 12 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {971.520 242.880 1214.400 485.760} 13 of 64
+  VERIFY DRC ...... Sub-Area : 13 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1214.400 242.880 1457.280 485.760} 14 of 64
+  VERIFY DRC ...... Sub-Area : 14 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1457.280 242.880 1700.160 485.760} 15 of 64
+  VERIFY DRC ...... Sub-Area : 15 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1700.160 242.880 1939.840 485.760} 16 of 64
+  VERIFY DRC ...... Sub-Area : 16 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {0.000 485.760 242.880 728.640} 17 of 64
+  VERIFY DRC ...... Sub-Area : 17 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {242.880 485.760 485.760 728.640} 18 of 64
+  VERIFY DRC ...... Sub-Area : 18 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {485.760 485.760 728.640 728.640} 19 of 64
+  VERIFY DRC ...... Sub-Area : 19 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {728.640 485.760 971.520 728.640} 20 of 64
+  VERIFY DRC ...... Sub-Area : 20 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {971.520 485.760 1214.400 728.640} 21 of 64
+  VERIFY DRC ...... Sub-Area : 21 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1214.400 485.760 1457.280 728.640} 22 of 64
+  VERIFY DRC ...... Sub-Area : 22 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1457.280 485.760 1700.160 728.640} 23 of 64
+  VERIFY DRC ...... Sub-Area : 23 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1700.160 485.760 1939.840 728.640} 24 of 64
+  VERIFY DRC ...... Sub-Area : 24 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {0.000 728.640 242.880 971.520} 25 of 64
+  VERIFY DRC ...... Sub-Area : 25 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {242.880 728.640 485.760 971.520} 26 of 64
+  VERIFY DRC ...... Sub-Area : 26 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {485.760 728.640 728.640 971.520} 27 of 64
+  VERIFY DRC ...... Sub-Area : 27 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {728.640 728.640 971.520 971.520} 28 of 64
+  VERIFY DRC ...... Sub-Area : 28 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {971.520 728.640 1214.400 971.520} 29 of 64
+  VERIFY DRC ...... Sub-Area : 29 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1214.400 728.640 1457.280 971.520} 30 of 64
+  VERIFY DRC ...... Sub-Area : 30 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1457.280 728.640 1700.160 971.520} 31 of 64
+  VERIFY DRC ...... Sub-Area : 31 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1700.160 728.640 1939.840 971.520} 32 of 64
+  VERIFY DRC ...... Sub-Area : 32 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {0.000 971.520 242.880 1214.400} 33 of 64
+  VERIFY DRC ...... Sub-Area : 33 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {242.880 971.520 485.760 1214.400} 34 of 64
+  VERIFY DRC ...... Sub-Area : 34 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {485.760 971.520 728.640 1214.400} 35 of 64
+  VERIFY DRC ...... Sub-Area : 35 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {728.640 971.520 971.520 1214.400} 36 of 64
+  VERIFY DRC ...... Sub-Area : 36 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {971.520 971.520 1214.400 1214.400} 37 of 64
+  VERIFY DRC ...... Sub-Area : 37 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1214.400 971.520 1457.280 1214.400} 38 of 64
+  VERIFY DRC ...... Sub-Area : 38 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1457.280 971.520 1700.160 1214.400} 39 of 64
+  VERIFY DRC ...... Sub-Area : 39 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1700.160 971.520 1939.840 1214.400} 40 of 64
+  VERIFY DRC ...... Sub-Area : 40 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {0.000 1214.400 242.880 1457.280} 41 of 64
+  VERIFY DRC ...... Sub-Area : 41 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {242.880 1214.400 485.760 1457.280} 42 of 64
+  VERIFY DRC ...... Sub-Area : 42 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {485.760 1214.400 728.640 1457.280} 43 of 64
+  VERIFY DRC ...... Sub-Area : 43 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {728.640 1214.400 971.520 1457.280} 44 of 64
+  VERIFY DRC ...... Sub-Area : 44 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {971.520 1214.400 1214.400 1457.280} 45 of 64
+  VERIFY DRC ...... Sub-Area : 45 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1214.400 1214.400 1457.280 1457.280} 46 of 64
+  VERIFY DRC ...... Sub-Area : 46 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1457.280 1214.400 1700.160 1457.280} 47 of 64
+  VERIFY DRC ...... Sub-Area : 47 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1700.160 1214.400 1939.840 1457.280} 48 of 64
+  VERIFY DRC ...... Sub-Area : 48 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {0.000 1457.280 242.880 1700.160} 49 of 64
+  VERIFY DRC ...... Sub-Area : 49 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {242.880 1457.280 485.760 1700.160} 50 of 64
+  VERIFY DRC ...... Sub-Area : 50 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {485.760 1457.280 728.640 1700.160} 51 of 64
+  VERIFY DRC ...... Sub-Area : 51 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {728.640 1457.280 971.520 1700.160} 52 of 64
+  VERIFY DRC ...... Sub-Area : 52 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {971.520 1457.280 1214.400 1700.160} 53 of 64
+  VERIFY DRC ...... Sub-Area : 53 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1214.400 1457.280 1457.280 1700.160} 54 of 64
+  VERIFY DRC ...... Sub-Area : 54 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1457.280 1457.280 1700.160 1700.160} 55 of 64
+  VERIFY DRC ...... Sub-Area : 55 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1700.160 1457.280 1939.840 1700.160} 56 of 64
+  VERIFY DRC ...... Sub-Area : 56 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {0.000 1700.160 242.880 1939.840} 57 of 64
+  VERIFY DRC ...... Sub-Area : 57 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {242.880 1700.160 485.760 1939.840} 58 of 64
+  VERIFY DRC ...... Sub-Area : 58 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {485.760 1700.160 728.640 1939.840} 59 of 64
+  VERIFY DRC ...... Sub-Area : 59 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {728.640 1700.160 971.520 1939.840} 60 of 64
+  VERIFY DRC ...... Sub-Area : 60 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {971.520 1700.160 1214.400 1939.840} 61 of 64
+  VERIFY DRC ...... Sub-Area : 61 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1214.400 1700.160 1457.280 1939.840} 62 of 64
+  VERIFY DRC ...... Sub-Area : 62 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1457.280 1700.160 1700.160 1939.840} 63 of 64
+  VERIFY DRC ...... Sub-Area : 63 complete 0 Viols.
+  VERIFY DRC ...... Sub-Area: {1700.160 1700.160 1939.840 1939.840} 64 of 64
+  VERIFY DRC ...... Sub-Area : 64 complete 0 Viols.
+
+  Verification Complete : 0 Viols.
+
+ *** End Verify DRC (CPU: 0:00:00.0  ELAPSED TIME: 0.00  MEM: 256.1M) ***
+

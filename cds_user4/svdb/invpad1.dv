@@ -1,0 +1,1147 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/invpad1.dv
+dv_start unmatched                                
+dv_cell {invpad1} {invpad1} unmatched
+dv_obj_count -transformed_nets {22 22} -transformed_inst {36 42} -transformed_port {2 8}
+dv_discrep 1 {Incorrect Nets} -inst_count { 15 11}
+dv_discrep_line {Net } -lnet {VSS} {                                                   } -snet {VSS} {}
+dv_discrep_line {--- 15 Connections On This Net ---                        --- 11 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {--- Incorrect Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X50/X2/R0} {} -lloc {(472.295,574.545)} {  R(RW)                         } -sdev {XI11/R15} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {11} {                                                   } -sport {pos} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSS} {                                                  ** } -snet {VSS} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X37/X0/M0} {} -lloc {(479.455,102.105)} {  MN(N)                         } -sdev {XI9/M18} {  MN(N)}
+dv_discrep_line {  } -lport {g} {: } -lnet {6} {                                                      } -sport {g} {: } -snet {XI9/U31_U18_r1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X31/R0} {} -lloc {(527.065,183.205)} {  R(RW)                            } -sdev {XI9/R15} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {6} {                                                    } -sport {pos} {: } -snet {XI9/U31_U18_r1} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSS} {                                                  ** } -snet {VSS} { **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X27/M0} {} -lloc {(689.595,362.815)} {  MN(NH)                       ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {X17/8} {                                                  ** } -snet {XI7/U18_U79$3_gate} { **}
+dv_discrep_line {  } -lport {s} {: } -lnet {X17/PADR} {                                               ** no similar net **}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X27/M0} {} -lloc {(154.275,395.055)} {  MN(NH)                       ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {X16/8} {                                                  ** } -snet {XI12/U18_U79$3_gate} { **}
+dv_discrep_line {  } -lport {s} {: } -lnet {X16/PADR} {                                               ** no similar net **}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X53/X0/X0/M0} {} -lloc {(519.425,577.895)} {  MP(P)                      ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {14} {                                                     ** no similar net **}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {d} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X52/X0/X0/M0} {} -lloc {(479.445,179.975)} {  MP(P)                      ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {7} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {d} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {(cell ports)                                              (cell ports)}
+dv_discrep_line {  } -lport {VSS} {: } -lnet {VSS} {                                                  } -sport {VSS} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {VSSO} {: } -lnet {VSSO} {                                                } -sport {VSSO} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {VDD} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR1} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR2} {: } -snet {PADR2} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {PAD1} {: } -snet {PAD1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {VDDO} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {PAD2} {: } -snet {PAD2} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI8/D31} {  D(P3)}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {neg} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI8/D30} {  D(P3)}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI7/M1} {  MP(PH)}
+dv_discrep_line {  ** } -lnet {X17/8} { **                                               } -sport {g} {: } -snet {XI7/U18_U79$3_gate} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {s} {: } -snet {PAD1} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI12/M1} {  MP(PH)}
+dv_discrep_line {  ** } -lnet {X16/8} { **                                               } -sport {g} {: } -snet {XI12/U18_U79$3_gate} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {s} {: } -snet {PAD2} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {--- Correct Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {(cell ports)                                              (cell ports)}
+dv_discrep_line {  } -lport {VSS} {: } -lnet {VSS} {                                                  } -sport {VSS} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {VSSO} {: } -lnet {VSSO} {                                                } -sport {VSSO} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {VDD} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR1} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR2} {: } -snet {PADR2} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {PAD1} {: } -snet {PAD1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {VDDO} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {PAD2} {: } -snet {PAD2} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X6/D17} {} -lloc {(369.805,117.005)} {  D(P3)                        } -sdev {XI10/D30} {  D(P3)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSS} {                                                  } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSSO} {                                                 } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X6/D8} {} -lloc {(340.465,117.005)} {  D(P3)                         } -sdev {XI10/D31} {  D(P3)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSSO} {                                                 } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSS} {                                                  } -sport {neg} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/R14} {} -lloc {(729.940,399.085)} {  R(RW)                           } -sdev {XI7/R17} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSS} {                                                  } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X17/8} {                                                } -sport {neg} {: } -snet {XI7/U18_U79$3_gate} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/R14} {} -lloc {(113.930,358.785)} {  R(RW)                           } -sdev {XI12/R17} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSS} {                                                  } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X16/8} {                                                } -sport {neg} {: } -snet {XI12/U18_U79$3_gate} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets} -inst_count { 19 24}
+dv_discrep_line {Net } -lnet {VSSO} {                                                  } -snet {VSSO} {}
+dv_discrep_line {--- 19 Connections On This Net ---                        --- 24 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {--- Incorrect Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X39/X0/M0} {} -lloc {(472.215,655.765)} {  MN(N)                         } -sdev {XI11/M18} {  MN(N)}
+dv_discrep_line {  } -lport {g} {: } -lnet {11} {                                                     } -sport {g} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X64/X0/X0/M0} {} -lloc {(364.425,577.695)} {  MP(PH)                     } -sdev {XI8/M16} {  MP(PH)}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {1} {                                                      } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {g} {: } -lnet {13} {                                                     ** no similar net **}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      ** } -snet {VDD} { **}
+dv_discrep_line {  ** } -lnet {X65/6} { **                                               } -sport {g} {: } -snet {XI8/U19_U22$11_gate} {}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X10/X0/M0} {} -lloc {(324.305,102.105)} {  MN(NH)                    } -sdev {XI8/M4} {  MN(NH)}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {d} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {g} {: } -lnet {X65/6} {                                                  ** } -snet {XI8/U19_U22$11_gate} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   ** } -snet {VSSO} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {(cell ports)                                              (cell ports)}
+dv_discrep_line {  } -lport {VSS} {: } -lnet {VSS} {                                                  } -sport {VSS} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {VSSO} {: } -lnet {VSSO} {                                                } -sport {VSSO} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {VDD} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR1} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR2} {: } -snet {PADR2} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {PAD1} {: } -snet {PAD1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {VDDO} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {PAD2} {: } -snet {PAD2} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI11/D31} {  D(P3)}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI11/D30} {  D(P3)}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI9/D31} {  D(P3)}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI9/D30} {  D(P3)}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI8/C4_5} {  C(CH)}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {--- Correct Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {(cell ports)                                              (cell ports)}
+dv_discrep_line {  } -lport {VSS} {: } -lnet {VSS} {                                                  } -sport {VSS} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {VSSO} {: } -lnet {VSSO} {                                                } -sport {VSSO} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {VDD} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR1} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR2} {: } -snet {PADR2} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {PAD1} {: } -snet {PAD1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {VDDO} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {PAD2} {: } -snet {PAD2} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X6/D17} {} -lloc {(369.805,117.005)} {  D(P3)                        } -sdev {XI10/D30} {  D(P3)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSS} {                                                  } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSSO} {                                                 } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X6/D8} {} -lloc {(340.465,117.005)} {  D(P3)                         } -sdev {XI10/D31} {  D(P3)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSSO} {                                                 } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSS} {                                                  } -sport {neg} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X3/R0} {} -lloc {(372.065,183.205)} {  R(RW)                         } -sdev {XI8/R28} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X65/6} {                                                } -sport {neg} {: } -snet {XI8/U19_U22$11_gate} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSSO} {                                                 } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X49/X2/R0} {} -lloc {(317.295,574.545)} {  R(RW)                         } -sdev {XI10/R2} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {12} {                                                   } -sport {pos} {: } -snet {XI10/U30_U29_c2} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSSO} {                                                 } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X19/X0/X0/M0} {} -lloc {(746.265,368.205)} {  MN(NH)                 } -sdev {XI7/M19} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X17/10} {                                                 } -sport {g} {: } -snet {XI7/U18_U74$11_gate} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X17/PAD} {                                                } -sport {d} {: } -snet {PAD1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X15/R0} {} -lloc {(730.235,404.950)} {  R(RW)                        } -sdev {XI7/R16} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X17/10} {                                               } -sport {pos} {: } -snet {XI7/U18_U74$11_gate} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSSO} {                                                 } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X19/X0/X0/M0} {} -lloc {(97.605,389.665)} {  MN(NH)                  } -sdev {XI12/M19} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X16/10} {                                                 } -sport {g} {: } -snet {XI12/U18_U74$11_gate} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X16/PAD} {                                                } -sport {d} {: } -snet {PAD2} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X15/R0} {} -lloc {(113.635,352.920)} {  R(RW)                        } -sdev {XI12/R16} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X16/10} {                                               } -sport {pos} {: } -snet {XI12/U18_U74$11_gate} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSSO} {                                                 } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X9/X0/X0/M0} {} -lloc {(324.445,180.175)} {  MP(PH)                  } -sdev {XI10/M16} {  MP(PH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X65/7} {                                                  } -sport {g} {: } -snet {XI10/U19_U22$11_gate} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSSO} {                                                   } -sport {d} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {1} {                                                      } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X59/X0/M0} {} -lloc {(317.365,655.765)} {  MN(NH)                        } -sdev {XI10/M4} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {12} {                                                     } -sport {g} {: } -snet {XI10/U30_U29_c2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Nets} -inst_count { 16 23}
+dv_discrep_line {Net } -lnet {1} {                                                     } -snet {VDD} {}
+dv_discrep_line {--- 16 Connections On This Net ---                        --- 23 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {--- Incorrect Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X6/C18} {} -lloc {(355.305,147.330)} {  C(CH)                        } -sdev {XI11/C8_1} {  C(CH)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {1} {                                                    } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X65/6} {                                                ** } -snet {XI8/U19_U22$11_gate} { **}
+dv_discrep_line {  ** } -lnet {11} { **                                                  } -sport {neg} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X49/X0/R0} {} -lloc {(372.515,574.665)} {  R(RW)                         } -sdev {XI8/R2} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {1} {                                                    } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {13} {                                                   ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X26/M0} {} -lloc {(668.595,352.935)} {  MP(PH)                       } -sdev {XI9/M3} {  MP(P)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X17/7} {                                                  } -sport {g} {: } -snet {XI9/U33_U31_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X17/PAD} {                                                ** } -snet {PAD1} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      ** } -snet {VDD} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {VDDO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X16/R0} {} -lloc {(730.185,409.315)} {  R(RW)                        } -sdev {XI9/R1} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X17/7} {                                                } -sport {neg} {: } -snet {XI9/U33_U31_r2} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {1} {                                                    ** } -snet {VDD} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X26/M0} {} -lloc {(175.275,404.935)} {  MP(PH)                       } -sdev {XI11/M3} {  MP(P)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X16/7} {                                                  } -sport {g} {: } -snet {XI11/U32_U31_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X16/PAD} {                                                ** } -snet {PAD2} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X64/X0/X0/M0} {} -lloc {(364.425,577.695)} {  MP(PH)                     } -sdev {XI8/M16} {  MP(PH)}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {1} {                                                      } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {g} {: } -lnet {13} {                                                     ** no similar net **}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      ** } -snet {VDD} { **}
+dv_discrep_line {  ** } -lnet {X65/6} { **                                               } -sport {g} {: } -snet {XI8/U19_U22$11_gate} {}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X10/X0/M0} {} -lloc {(324.305,102.105)} {  MN(NH)                    } -sdev {XI8/M4} {  MN(NH)}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {d} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {g} {: } -lnet {X65/6} {                                                  ** } -snet {XI8/U19_U22$11_gate} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   ** } -snet {VSSO} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {(cell ports)                                              (cell ports)}
+dv_discrep_line {  } -lport {VSS} {: } -lnet {VSS} {                                                  } -sport {VSS} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {VSSO} {: } -lnet {VSSO} {                                                } -sport {VSSO} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {VDD} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR1} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR2} {: } -snet {PADR2} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {PAD1} {: } -snet {PAD1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {VDDO} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {PAD2} {: } -snet {PAD2} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X39/X0/M0} {} -lloc {(472.215,655.765)} {  MN(N)                         } -sdev {XI11/M18} {  MN(N)}
+dv_discrep_line {  } -lport {g} {: } -lnet {11} {                                                     } -sport {g} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X31/R0} {} -lloc {(527.065,183.205)} {  R(RW)                            } -sdev {XI9/R15} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {6} {                                                    } -sport {pos} {: } -snet {XI9/U31_U18_r1} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSS} {                                                  ** } -snet {VSS} { **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI9/D31} {  D(P3)}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI9/D30} {  D(P3)}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X37/X0/M0} {} -lloc {(479.455,102.105)} {  MN(N)                         } -sdev {XI9/M18} {  MN(N)}
+dv_discrep_line {  } -lport {g} {: } -lnet {6} {                                                      } -sport {g} {: } -snet {XI9/U31_U18_r1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI8/D31} {  D(P3)}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {neg} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI8/D30} {  D(P3)}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {--- Correct Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X1/R0} {} -lloc {(314.925,183.205)} {  R(RW)                         } -sdev {XI10/R28} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {1} {                                                    } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X65/7} {                                                } -sport {neg} {: } -snet {XI10/U19_U22$11_gate} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X54/C18} {} -lloc {(333.565,610.540)} {  C(CH)                           } -sdev {XI10/C3_5} {  C(CH)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {1} {                                                    } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {12} {                                                   } -sport {neg} {: } -snet {XI10/U30_U29_c2} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X16/R0} {} -lloc {(113.685,348.555)} {  R(RW)                        } -sdev {XI11/R1} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X16/7} {                                                } -sport {neg} {: } -snet {XI11/U32_U31_r2} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {1} {                                                    } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X9/X0/X0/M0} {} -lloc {(324.445,180.175)} {  MP(PH)                  } -sdev {XI10/M16} {  MP(PH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X65/7} {                                                  } -sport {g} {: } -snet {XI10/U19_U22$11_gate} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSSO} {                                                   } -sport {d} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {1} {                                                      } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X59/X0/M0} {} -lloc {(317.365,655.765)} {  MN(NH)                        } -sdev {XI10/M4} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {12} {                                                     } -sport {g} {: } -snet {XI10/U30_U29_c2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Nets} -inst_count { 3 3}
+dv_discrep_line {Net } -lnet {11} {                                                    } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 3 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {--- Incorrect Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X56/C18} {} -lloc {(488.565,610.540)} {  C(CH)                           ** no similar instance **}
+dv_discrep_line {  } -lport {pos} {: } -lnet {2} {                                                    ** no similar net **}
+dv_discrep_line {  } -lport {neg} {: } -lnet {11} {                                                   ** } -snet {XI11/U31_U18_r1} { **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X50/X2/R0} {} -lloc {(472.295,574.545)} {  R(RW)                         } -sdev {XI11/R15} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {11} {                                                   } -sport {pos} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSS} {                                                  ** } -snet {VSS} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X39/X0/M0} {} -lloc {(472.215,655.765)} {  MN(N)                         } -sdev {XI11/M18} {  MN(N)}
+dv_discrep_line {  } -lport {g} {: } -lnet {11} {                                                     } -sport {g} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X6/C18} {} -lloc {(355.305,147.330)} {  C(CH)                        } -sdev {XI11/C8_1} {  C(CH)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {1} {                                                    } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X65/6} {                                                ** } -snet {XI8/U19_U22$11_gate} { **}
+dv_discrep_line {  ** } -lnet {11} { **                                                  } -sport {neg} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Nets} -inst_count { 2 2}
+dv_discrep_line {Net } -lnet {X16/8} {                                                 } -snet {XI12/U18_U79$3_gate} {}
+dv_discrep_line {--- 2 Connections On This Net ---                         --- 2 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {--- Incorrect Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X27/M0} {} -lloc {(154.275,395.055)} {  MN(NH)                       ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {X16/8} {                                                  ** } -snet {XI12/U18_U79$3_gate} { **}
+dv_discrep_line {  } -lport {s} {: } -lnet {X16/PADR} {                                               ** no similar net **}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI12/M1} {  MP(PH)}
+dv_discrep_line {  ** } -lnet {X16/8} { **                                               } -sport {g} {: } -snet {XI12/U18_U79$3_gate} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {s} {: } -snet {PAD2} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {--- Correct Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/R14} {} -lloc {(113.930,358.785)} {  R(RW)                           } -sdev {XI12/R17} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSS} {                                                  } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X16/8} {                                                } -sport {neg} {: } -snet {XI12/U18_U79$3_gate} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Nets} -inst_count { 3 4}
+dv_discrep_line {Net } -lnet {X16/PAD} {                                               } -snet {PAD2} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 4 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {--- Incorrect Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X26/M0} {} -lloc {(175.275,404.935)} {  MP(PH)                       } -sdev {XI11/M3} {  MP(P)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X16/7} {                                                  } -sport {g} {: } -snet {XI11/U32_U31_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X16/PAD} {                                                ** } -snet {PAD2} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X22/R0} {} -lloc {(107.455,388.300)} {  R(RE)                        } -sdev {XI12/R13} {  R(RE)}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X16/PAD} {                                              } -sport {pos} {: } -snet {PAD2} {}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X16/PADR} {                                             ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {PADR2} {}
+dv_discrep_line {}
+dv_discrep_line {(cell ports)                                              (cell ports)}
+dv_discrep_line {  } -lport {VSS} {: } -lnet {VSS} {                                                  } -sport {VSS} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {VSSO} {: } -lnet {VSSO} {                                                } -sport {VSSO} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {VDD} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR1} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR2} {: } -snet {PADR2} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {PAD1} {: } -snet {PAD1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {VDDO} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {PAD2} {: } -snet {PAD2} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI12/M1} {  MP(PH)}
+dv_discrep_line {  ** } -lnet {X16/8} { **                                               } -sport {g} {: } -snet {XI12/U18_U79$3_gate} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {s} {: } -snet {PAD2} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {--- Correct Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X19/X0/X0/M0} {} -lloc {(97.605,389.665)} {  MN(NH)                  } -sdev {XI12/M19} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X16/10} {                                                 } -sport {g} {: } -snet {XI12/U18_U74$11_gate} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X16/PAD} {                                                } -sport {d} {: } -snet {PAD2} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Nets} -inst_count { 2 2}
+dv_discrep_line {Net } -lnet {X17/8} {                                                 } -snet {XI7/U18_U79$3_gate} {}
+dv_discrep_line {--- 2 Connections On This Net ---                         --- 2 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {--- Incorrect Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X27/M0} {} -lloc {(689.595,362.815)} {  MN(NH)                       ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {X17/8} {                                                  ** } -snet {XI7/U18_U79$3_gate} { **}
+dv_discrep_line {  } -lport {s} {: } -lnet {X17/PADR} {                                               ** no similar net **}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI7/M1} {  MP(PH)}
+dv_discrep_line {  ** } -lnet {X17/8} { **                                               } -sport {g} {: } -snet {XI7/U18_U79$3_gate} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {s} {: } -snet {PAD1} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {--- Correct Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/R14} {} -lloc {(729.940,399.085)} {  R(RW)                           } -sdev {XI7/R17} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSS} {                                                  } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X17/8} {                                                } -sport {neg} {: } -snet {XI7/U18_U79$3_gate} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Nets} -inst_count { 3 4}
+dv_discrep_line {Net } -lnet {X17/PAD} {                                               } -snet {PAD1} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 4 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {--- Incorrect Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X26/M0} {} -lloc {(668.595,352.935)} {  MP(PH)                       } -sdev {XI9/M3} {  MP(P)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X17/7} {                                                  } -sport {g} {: } -snet {XI9/U33_U31_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X17/PAD} {                                                ** } -snet {PAD1} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      ** } -snet {VDD} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {VDDO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X22/R0} {} -lloc {(736.415,369.570)} {  R(RE)                        } -sdev {XI7/R13} {  R(RE)}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X17/PAD} {                                              } -sport {pos} {: } -snet {PAD1} {}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X17/PADR} {                                             ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {PADR1} {}
+dv_discrep_line {}
+dv_discrep_line {(cell ports)                                              (cell ports)}
+dv_discrep_line {  } -lport {VSS} {: } -lnet {VSS} {                                                  } -sport {VSS} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {VSSO} {: } -lnet {VSSO} {                                                } -sport {VSSO} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {VDD} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR1} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR2} {: } -snet {PADR2} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {PAD1} {: } -snet {PAD1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {VDDO} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {PAD2} {: } -snet {PAD2} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI7/M1} {  MP(PH)}
+dv_discrep_line {  ** } -lnet {X17/8} { **                                               } -sport {g} {: } -snet {XI7/U18_U79$3_gate} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {s} {: } -snet {PAD1} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {d} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {b} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {--- Correct Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X19/X0/X0/M0} {} -lloc {(746.265,368.205)} {  MN(NH)                 } -sdev {XI7/M19} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X17/10} {                                                 } -sport {g} {: } -snet {XI7/U18_U74$11_gate} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X17/PAD} {                                                } -sport {d} {: } -snet {PAD1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Nets} -inst_count { 3 2}
+dv_discrep_line {Net } -lnet {X65/6} {                                                 } -snet {XI8/U19_U22$11_gate} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 2 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {--- Incorrect Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X6/C18} {} -lloc {(355.305,147.330)} {  C(CH)                        } -sdev {XI11/C8_1} {  C(CH)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {1} {                                                    } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X65/6} {                                                ** } -snet {XI8/U19_U22$11_gate} { **}
+dv_discrep_line {  ** } -lnet {11} { **                                                  } -sport {neg} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X10/X0/M0} {} -lloc {(324.305,102.105)} {  MN(NH)                    } -sdev {XI8/M4} {  MN(NH)}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {d} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {g} {: } -lnet {X65/6} {                                                  ** } -snet {XI8/U19_U22$11_gate} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   ** } -snet {VSSO} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X64/X0/X0/M0} {} -lloc {(364.425,577.695)} {  MP(PH)                     } -sdev {XI8/M16} {  MP(PH)}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {1} {                                                      } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {g} {: } -lnet {13} {                                                     ** no similar net **}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      ** } -snet {VDD} { **}
+dv_discrep_line {  ** } -lnet {X65/6} { **                                               } -sport {g} {: } -snet {XI8/U19_U22$11_gate} {}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {--- Correct Devices On This Net ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X3/R0} {} -lloc {(372.065,183.205)} {  R(RW)                         } -sdev {XI8/R28} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X65/6} {                                                } -sport {neg} {: } -snet {XI8/U19_U22$11_gate} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSSO} {                                                 } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 10 {Incorrect Nets} -inst_count { 10 0}
+dv_discrep_line {Net } -lnet {2} {                                                     ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on layout net } -lnet {2} { ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X56/C18} {} -lloc {(488.565,610.540)} {  C(CH)                           ** no similar instance **}
+dv_discrep_line {  } -lport {pos} {: } -lnet {2} {                                                    ** no similar net **}
+dv_discrep_line {  } -lport {neg} {: } -lnet {11} {                                                   ** } -snet {XI11/U31_U18_r1} { **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X55/C18} {} -lloc {(510.305,147.330)} {  C(CH)                           } -sdev {XI9/C8_1} {  C(CH)}
+dv_discrep_line {  } -lport {neg} {: } -lnet {6} {                                                    } -sport {neg} {: } -snet {XI9/U31_U18_r1} {}
+dv_discrep_line {  } -lport {pos} {: } -lnet {2} {                                                    ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X50/X0/R0} {} -lloc {(527.515,574.665)} {  R(RW)                         ** no similar instance **}
+dv_discrep_line {  } -lport {pos} {: } -lnet {2} {                                                    ** no similar net **}
+dv_discrep_line {  } -lport {neg} {: } -lnet {14} {                                                   ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X39/X0/M0} {} -lloc {(472.215,655.765)} {  MN(N)                         } -sdev {XI11/M18} {  MN(N)}
+dv_discrep_line {  } -lport {g} {: } -lnet {11} {                                                     } -sport {g} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X37/X0/M0} {} -lloc {(479.455,102.105)} {  MN(N)                         } -sdev {XI9/M18} {  MN(N)}
+dv_discrep_line {  } -lport {g} {: } -lnet {6} {                                                      } -sport {g} {: } -snet {XI9/U31_U18_r1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X29/R0} {} -lloc {(469.925,183.205)} {  R(RW)                            ** no similar instance **}
+dv_discrep_line {  } -lport {pos} {: } -lnet {2} {                                                    ** no similar net **}
+dv_discrep_line {  } -lport {neg} {: } -lnet {7} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X53/X0/X0/M0} {} -lloc {(519.425,577.895)} {  MP(P)                      ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {14} {                                                     ** no similar net **}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {d} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X52/X0/X0/M0} {} -lloc {(479.445,179.975)} {  MP(P)                      ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {7} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {d} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 11 {Incorrect Nets} -inst_count { 2 0}
+dv_discrep_line {Net } -lnet {7} {                                                     ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on layout net } -lnet {7} { ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X29/R0} {} -lloc {(469.925,183.205)} {  R(RW)                            ** no similar instance **}
+dv_discrep_line {  } -lport {pos} {: } -lnet {2} {                                                    ** no similar net **}
+dv_discrep_line {  } -lport {neg} {: } -lnet {7} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X52/X0/X0/M0} {} -lloc {(479.445,179.975)} {  MP(P)                      ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {7} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {d} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 12 {Incorrect Nets} -inst_count { 2 0}
+dv_discrep_line {Net } -lnet {13} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on layout net } -lnet {13} { ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X49/X0/R0} {} -lloc {(372.515,574.665)} {  R(RW)                         } -sdev {XI8/R2} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {1} {                                                    } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {13} {                                                   ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X64/X0/X0/M0} {} -lloc {(364.425,577.695)} {  MP(PH)                     } -sdev {XI8/M16} {  MP(PH)}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {1} {                                                      } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {g} {: } -lnet {13} {                                                     ** no similar net **}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      ** } -snet {VDD} { **}
+dv_discrep_line {  ** } -lnet {X65/6} { **                                               } -sport {g} {: } -snet {XI8/U19_U22$11_gate} {}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 13 {Incorrect Nets} -inst_count { 2 0}
+dv_discrep_line {Net } -lnet {14} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on layout net } -lnet {14} { ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X50/X0/R0} {} -lloc {(527.515,574.665)} {  R(RW)                         ** no similar instance **}
+dv_discrep_line {  } -lport {pos} {: } -lnet {2} {                                                    ** no similar net **}
+dv_discrep_line {  } -lport {neg} {: } -lnet {14} {                                                   ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X53/X0/X0/M0} {} -lloc {(519.425,577.895)} {  MP(P)                      ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {14} {                                                     ** no similar net **}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {d} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 14 {Incorrect Nets} -inst_count { 2 0}
+dv_discrep_line {Net } -lnet {X16/PADR} {                                              ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on layout net } -lnet {X16/PADR} { ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X27/M0} {} -lloc {(154.275,395.055)} {  MN(NH)                       ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {X16/8} {                                                  ** } -snet {XI12/U18_U79$3_gate} { **}
+dv_discrep_line {  } -lport {s} {: } -lnet {X16/PADR} {                                               ** no similar net **}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X22/R0} {} -lloc {(107.455,388.300)} {  R(RE)                        } -sdev {XI12/R13} {  R(RE)}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X16/PAD} {                                              } -sport {pos} {: } -snet {PAD2} {}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X16/PADR} {                                             ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {PADR2} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 15 {Incorrect Nets} -inst_count { 2 0}
+dv_discrep_line {Net } -lnet {X17/PADR} {                                              ** no similar net **}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on layout net } -lnet {X17/PADR} { ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X27/M0} {} -lloc {(689.595,362.815)} {  MN(NH)                       ** no similar instance **}
+dv_discrep_line {  } -lport {g} {: } -lnet {X17/8} {                                                  ** } -snet {XI7/U18_U79$3_gate} { **}
+dv_discrep_line {  } -lport {s} {: } -lnet {X17/PADR} {                                               ** no similar net **}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X22/R0} {} -lloc {(736.415,369.570)} {  R(RE)                        } -sdev {XI7/R13} {  R(RE)}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X17/PAD} {                                              } -sport {pos} {: } -snet {PAD1} {}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X17/PADR} {                                             ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {PADR1} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 16 {Incorrect Nets} -inst_count { 0 3}
+dv_discrep_line {** no similar net **                                      } -snet {PADR1} {}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on source net } -snet {PADR1} { ---}
+dv_discrep_line {}
+dv_discrep_line {(cell ports)                                              (cell ports)}
+dv_discrep_line {  } -lport {VSS} {: } -lnet {VSS} {                                                  } -sport {VSS} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {VSSO} {: } -lnet {VSSO} {                                                } -sport {VSSO} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {VDD} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR1} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR2} {: } -snet {PADR2} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {PAD1} {: } -snet {PAD1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {VDDO} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {PAD2} {: } -snet {PAD2} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X22/R0} {} -lloc {(736.415,369.570)} {  R(RE)                        } -sdev {XI7/R13} {  R(RE)}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X17/PAD} {                                              } -sport {pos} {: } -snet {PAD1} {}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X17/PADR} {                                             ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {PADR1} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI7/M18} {  MN(NH)}
+dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {XI7/U18_U82_gate} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {VDDO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 17 {Incorrect Nets} -inst_count { 0 3}
+dv_discrep_line {** no similar net **                                      } -snet {PADR2} {}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on source net } -snet {PADR2} { ---}
+dv_discrep_line {}
+dv_discrep_line {(cell ports)                                              (cell ports)}
+dv_discrep_line {  } -lport {VSS} {: } -lnet {VSS} {                                                  } -sport {VSS} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {VSSO} {: } -lnet {VSSO} {                                                } -sport {VSSO} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {VDD} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR1} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR2} {: } -snet {PADR2} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {PAD1} {: } -snet {PAD1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {VDDO} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {PAD2} {: } -snet {PAD2} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X22/R0} {} -lloc {(107.455,388.300)} {  R(RE)                        } -sdev {XI12/R13} {  R(RE)}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X16/PAD} {                                              } -sport {pos} {: } -snet {PAD2} {}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X16/PADR} {                                             ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {PADR2} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI12/M18} {  MN(NH)}
+dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {XI12/U18_U82_gate} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {VDDO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {PADR2} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 18 {Incorrect Nets} -inst_count { 0 16}
+dv_discrep_line {** no similar net **                                      } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on source net } -snet {VDDO} { ---}
+dv_discrep_line {}
+dv_discrep_line {(cell ports)                                              (cell ports)}
+dv_discrep_line {  } -lport {VSS} {: } -lnet {VSS} {                                                  } -sport {VSS} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {VSSO} {: } -lnet {VSSO} {                                                } -sport {VSSO} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {VDD} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR1} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {PADR2} {: } -snet {PADR2} {}
+dv_discrep_line {  ** } -lnet {X17/PAD} { **                                             } -sport {PAD1} {: } -snet {PAD1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {VDDO} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {X16/PAD} { **                                             } -sport {PAD2} {: } -snet {PAD2} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X50/X2/R0} {} -lloc {(472.295,574.545)} {  R(RW)                         } -sdev {XI11/R15} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {11} {                                                   } -sport {pos} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSS} {                                                  ** } -snet {VSS} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI11/D31} {  D(P3)}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {** missing instance **                                    } -sdev {XI11/D30} {  D(P3)}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X16/R0} {} -lloc {(730.185,409.315)} {  R(RW)                        } -sdev {XI9/R1} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X17/7} {                                                } -sport {neg} {: } -snet {XI9/U33_U31_r2} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {1} {                                                    ** } -snet {VDD} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X37/X0/M0} {} -lloc {(479.455,102.105)} {  MN(N)                         } -sdev {XI9/M18} {  MN(N)}
+dv_discrep_line {  } -lport {g} {: } -lnet {6} {                                                      } -sport {g} {: } -snet {XI9/U31_U18_r1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X55/C18} {} -lloc {(510.305,147.330)} {  C(CH)                           } -sdev {XI9/C8_1} {  C(CH)}
+dv_discrep_line {  } -lport {neg} {: } -lnet {6} {                                                    } -sport {neg} {: } -snet {XI9/U31_U18_r1} {}
+dv_discrep_line {  } -lport {pos} {: } -lnet {2} {                                                    ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI7/R15} {  R(RW)}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {XI7/U18_U82_gate} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI7/M18} {  MN(NH)}
+dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {XI7/U18_U82_gate} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {VDDO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI12/R15} {  R(RW)}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {XI12/U18_U82_gate} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI12/M18} {  MN(NH)}
+dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {XI12/U18_U82_gate} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {VDDO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {PADR2} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X26/M0} {} -lloc {(175.275,404.935)} {  MP(PH)                       } -sdev {XI11/M3} {  MP(P)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X16/7} {                                                  } -sport {g} {: } -snet {XI11/U32_U31_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X16/PAD} {                                                ** } -snet {PAD2} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X26/M0} {} -lloc {(668.595,352.935)} {  MP(PH)                       } -sdev {XI9/M3} {  MP(P)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X17/7} {                                                  } -sport {g} {: } -snet {XI9/U33_U31_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X17/PAD} {                                                ** } -snet {PAD1} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      ** } -snet {VDD} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {VDDO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 19 {Incorrect Nets} -inst_count { 0 2}
+dv_discrep_line {** no similar net **                                      } -snet {XI12/U18_U82_gate} {}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on source net } -snet {XI12/U18_U82_gate} { ---}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI12/R15} {  R(RW)}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {XI12/U18_U82_gate} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI12/M18} {  MN(NH)}
+dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {XI12/U18_U82_gate} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {VDDO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {PADR2} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 20 {Incorrect Nets} -inst_count { 0 2}
+dv_discrep_line {** no similar net **                                      } -snet {XI7/U18_U82_gate} {}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on source net } -snet {XI7/U18_U82_gate} { ---}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI7/R15} {  R(RW)}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {XI7/U18_U82_gate} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI7/M18} {  MN(NH)}
+dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {XI7/U18_U82_gate} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {VDDO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {PADR1} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 21 {Incorrect Nets} -inst_count { 0 3}
+dv_discrep_line {** no similar net **                                      } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {}
+dv_discrep_line {    --- Devices on source net } -snet {XI8/U31_U29_c2} { ---}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X49/X0/R0} {} -lloc {(372.515,574.665)} {  R(RW)                         } -sdev {XI8/R2} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {1} {                                                    } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {13} {                                                   ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {}
+dv_discrep_line {** no similar instance **                                 } -sdev {XI8/C4_5} {  C(CH)}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X10/X0/M0} {} -lloc {(324.305,102.105)} {  MN(NH)                    } -sdev {XI8/M4} {  MN(NH)}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {d} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {g} {: } -lnet {X65/6} {                                                  ** } -snet {XI8/U19_U22$11_gate} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   ** } -snet {VSSO} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 22 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {VDD} { on net: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep 23 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {PADR1} { on net: } -snet {PADR1} {}
+dv_discrep_line {}
+dv_discrep 24 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {PADR2} { on net: } -snet {PADR2} {}
+dv_discrep_line {}
+dv_discrep 25 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {PAD1} { on net: } -snet {PAD1} {}
+dv_discrep_line {}
+dv_discrep 26 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {VDDO} { on net: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep 27 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {PAD2} { on net: } -snet {PAD2} {}
+dv_discrep_line {}
+dv_discrep 28 {Incorrect Instances}
+dv_discrep_line {} -ldev {X16/X26/M0} {} -lloc {(175.275,404.935)} {  MP(PH)                       } -sdev {XI11/M3} {  MP(P)}
+dv_discrep_line {  bad component subtype}
+dv_discrep_line {}
+dv_discrep 29 {Incorrect Instances}
+dv_discrep_line {} -ldev {X17/X26/M0} {} -lloc {(668.595,352.935)} {  MP(PH)                       } -sdev {XI9/M3} {  MP(P)}
+dv_discrep_line {  bad component subtype}
+dv_discrep_line {}
+dv_discrep 30 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {XI8/D30} {  D(P3)}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep 31 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {XI8/D31} {  D(P3)}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  ** } -lnet {VSS} { **                                                 } -sport {neg} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 32 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {XI9/D30} {  D(P3)}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep 33 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {XI9/D31} {  D(P3)}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep 34 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {XI11/D30} {  D(P3)}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep 35 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {XI11/D31} {  D(P3)}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep 36 {Property Errors}
+dv_discrep_line {} -ldev {X16/R14} {} -lloc {(113.930,358.785)} {  R(RW)                           } -sdev {XI12/R17} {  R(RW)}
+dv_discrep_line {}  {r} {: }  {1190.92 ohm} {                                            }  {r} {: }  {4891 ohm} {           }  {      75.7%} {}
+dv_discrep_line {Pins:}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSS} {                                                  } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X16/8} {                                                } -sport {neg} {: } -snet {XI12/U18_U79$3_gate} {}
+dv_discrep_line {}
+dv_discrep 37 {Property Errors}
+dv_discrep_line {} -ldev {X16/X16/R0} {} -lloc {(113.685,348.555)} {  R(RW)                        } -sdev {XI11/R1} {  R(RW)}
+dv_discrep_line {}  {r} {: }  {4891.48 ohm} {                                            }  {r} {: }  {16500 ohm} {          }  {      70.4%} {}
+dv_discrep_line {Pins:}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X16/7} {                                                } -sport {neg} {: } -snet {XI11/U32_U31_r2} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {1} {                                                    } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep 38 {Property Errors}
+dv_discrep_line {} -ldev {X17/R14} {} -lloc {(729.940,399.085)} {  R(RW)                           } -sdev {XI7/R17} {  R(RW)}
+dv_discrep_line {}  {r} {: }  {1190.92 ohm} {                                            }  {r} {: }  {4891 ohm} {           }  {      75.7%} {}
+dv_discrep_line {Pins:}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSS} {                                                  } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X17/8} {                                                } -sport {neg} {: } -snet {XI7/U18_U79$3_gate} {}
+dv_discrep_line {}
+dv_discrep 39 {Property Errors}
+dv_discrep_line {} -ldev {X65/X6/D8} {} -lloc {(340.465,117.005)} {  D(P3)                         } -sdev {XI10/D31} {  D(P3)}
+dv_discrep_line {}  {a} {: }  {665.5 sq u} {                                             }  {a} {: }  {119.79 sq u} {        }  {       456%} {}
+dv_discrep_line {}  {p} {: }  {1431 u} {                                                 }  {p} {: }  {257.58 u} {           }  {       456%} {}
+dv_discrep_line {Pins:}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSSO} {                                                 } -sport {pos} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSS} {                                                  } -sport {neg} {: } -snet {VSS} {}
+dv_discrep_line {}
+dv_discrep 40 {Property Errors}
+dv_discrep_line {} -ldev {X65/X6/D17} {} -lloc {(369.805,117.005)} {  D(P3)                        } -sdev {XI10/D30} {  D(P3)}
+dv_discrep_line {}  {a} {: }  {665.5 sq u} {                                             }  {a} {: }  {119.79 sq u} {        }  {       456%} {}
+dv_discrep_line {}  {p} {: }  {1431 u} {                                                 }  {p} {: }  {257.58 u} {           }  {       456%} {}
+dv_discrep_line {Pins:}
+dv_discrep_line {  } -lport {pos} {: } -lnet {VSS} {                                                  } -sport {pos} {: } -snet {VSS} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSSO} {                                                 } -sport {neg} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep 41 {Property Errors}
+dv_discrep_line {} -ldev {X17/X16/R0} {} -lloc {(730.185,409.315)} {  R(RW)                        } -sdev {XI9/R1} {  R(RW)}
+dv_discrep_line {}  {r} {: }  {4891.48 ohm} {                                            }  {r} {: }  {16500 ohm} {          }  {      70.4%} {}
+dv_discrep_line {Pins:}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X17/7} {                                                } -sport {neg} {: } -snet {XI9/U33_U31_r2} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {1} {                                                    ** } -snet {VDD} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep -2 {Bad instance connections (#1)}
+dv_discrep_line {                                Bad instance connections}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X10/X0/M0} {} -lloc {(324.305,102.105)} {  MN(NH)                    } -sdev {XI8/M4} {  MN(NH)}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {d} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {g} {: } -lnet {X65/6} {                                                  ** } -snet {XI8/U19_U22$11_gate} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   ** } -snet {VSSO} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X64/X0/X0/M0} {} -lloc {(364.425,577.695)} {  MP(PH)                     } -sdev {XI8/M16} {  MP(PH)}
+dv_discrep_line {  } -lport {s} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {1} {                                                      } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {g} {: } -lnet {13} {                                                     ** no similar net **}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      ** } -snet {VDD} { **}
+dv_discrep_line {  ** } -lnet {X65/6} { **                                               } -sport {g} {: } -snet {XI8/U19_U22$11_gate} {}
+dv_discrep_line {  ** } -lnet {VSSO} { **                                                } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X65/X6/C18} {} -lloc {(355.305,147.330)} {  C(CH)                        } -sdev {XI11/C8_1} {  C(CH)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {1} {                                                    } -sport {pos} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X65/6} {                                                ** } -snet {XI8/U19_U22$11_gate} { **}
+dv_discrep_line {  ** } -lnet {11} { **                                                  } -sport {neg} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {}
+dv_discrep_line {Pin g of LAYOUT instance } -ldev {X65/X10/X0/M0} {} -lloc {(324.305,102.105)} {[MN(NH)] connects to net } -lnet {X65/6} { instead of (missing) LAYOUT net corresponding to SOURCE net } -snet {XI8/U31_U29_c2} {}
+dv_discrep_line {Pin b of LAYOUT instance } -ldev {X65/X10/X0/M0} {} -lloc {(324.305,102.105)} {[MN(NH)] connects to net } -lnet {VSSO} { instead of net } -lnet {1} {}
+dv_discrep_line {Pin g of LAYOUT instance } -ldev {X64/X0/X0/M0} {} -lloc {(364.425,577.695)} {[MP(PH)] connects to net } -lnet {13} { instead of net } -lnet {X65/6} {}
+dv_discrep_line {Pin b of LAYOUT instance } -ldev {X64/X0/X0/M0} {} -lloc {(364.425,577.695)} {[MP(PH)] connects to net } -lnet {1} { instead of net } -lnet {VSSO} {}
+dv_discrep_line {Pin neg of LAYOUT instance } -ldev {X65/X6/C18} {} -lloc {(355.305,147.330)} {[C(CH)] connects to net } -lnet {X65/6} { instead of net } -lnet {11} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep -2 {Bad instance connections (#2)}
+dv_discrep_line {                                Bad instance connections}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X26/M0} {} -lloc {(175.275,404.935)} {  MP(PH)                       } -sdev {XI11/M3} {  MP(P)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X16/7} {                                                  } -sport {g} {: } -snet {XI11/U32_U31_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X16/PAD} {                                                ** } -snet {PAD2} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {Pin d of LAYOUT instance } -ldev {X16/X26/M0} {} -lloc {(175.275,404.935)} {[MP(PH)] connects to net } -lnet {X16/PAD} { instead of (missing) LAYOUT net corresponding to SOURCE net } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep -2 {Pin short-circuit error (#3)}
+dv_discrep_line {                                 Pin short-circuit error}
+dv_discrep_line {}
+dv_discrep_meta {untexted_short 1}
+dv_discrep_line {} -ldev {X17/X16/R0} {} -lloc {(730.185,409.315)} {  R(RW)                        } -sdev {XI9/R1} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X17/7} {                                                } -sport {neg} {: } -snet {XI9/U33_U31_r2} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {1} {                                                    ** } -snet {VDD} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {Pin } -lport {neg} { of LAYOUT instance } -ldev {X17/X16/R0} {} -lloc {(730.185,409.315)} {[R(RW)] connects to net } -snet {VDD} { instead of (missing) LAYOUT net corresponding to SOURCE net } -snet {VDDO} {}
+dv_discrep_line {Possibly LAYOUT net } -lnet {1} { is a shorted net matching SOURCE nets } -snet {VDD} { and } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep -2 {Bad instance connections (#4)}
+dv_discrep_line {                                Bad instance connections}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X17/X26/M0} {} -lloc {(668.595,352.935)} {  MP(PH)                       } -sdev {XI9/M3} {  MP(P)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X17/7} {                                                  } -sport {g} {: } -snet {XI9/U33_U31_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {1} {                                                      } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X17/PAD} {                                                ** } -snet {PAD1} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {1} {                                                      ** } -snet {VDD} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {VDDO} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {Pin d of LAYOUT instance } -ldev {X17/X26/M0} {} -lloc {(668.595,352.935)} {[MP(PH)] connects to net } -lnet {X17/PAD} { instead of (missing) LAYOUT net corresponding to SOURCE net } -snet {VDDO} {}
+dv_discrep_line {Pin b of LAYOUT instance } -ldev {X17/X26/M0} {} -lloc {(668.595,352.935)} {[MP(PH)] connects to net } -lnet {1} { instead of (missing) LAYOUT net corresponding to SOURCE net } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep -2 {Pin short-circuit error (#5)}
+dv_discrep_line {                                 Pin short-circuit error}
+dv_discrep_line {}
+dv_discrep_meta {untexted_short VSS}
+dv_discrep_line {} -ldev {X50/X2/R0} {} -lloc {(472.295,574.545)} {  R(RW)                         } -sdev {XI11/R15} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {11} {                                                   } -sport {pos} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSS} {                                                  ** } -snet {VSS} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {neg} {: } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {Pin } -lport {neg} { of LAYOUT instance } -ldev {X50/X2/R0} {} -lloc {(472.295,574.545)} {[R(RW)] connects to net } -snet {VSS} { instead of (missing) LAYOUT net corresponding to SOURCE net } -snet {VDDO} {}
+dv_discrep_line {Possibly LAYOUT net } -lnet {VSS} { is a shorted net matching SOURCE nets } -snet {VSS} { and } -snet {VDDO} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep -2 {Pin open-circuit error (#6)}
+dv_discrep_line {                                 Pin open-circuit error}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X39/X0/M0} {} -lloc {(472.215,655.765)} {  MN(N)                         } -sdev {XI11/M18} {  MN(N)}
+dv_discrep_line {  } -lport {g} {: } -lnet {11} {                                                     } -sport {g} {: } -snet {XI11/U31_U18_r1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO} {                                                   } -sport {s} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO} {                                                   } -sport {b} {: } -snet {VSSO} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {d} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {Pin } -lport {s} { of LAYOUT instance } -ldev {X39/X0/M0} {} -lloc {(472.215,655.765)} {[MN(N)] connects to net } -lnet {2} { instead of net } -lnet {1} {}
+dv_discrep_line {Possibly LAYOUT nets } -lnet {1} { and } -lnet {2} { must be connected to match SOURCE net } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep -2 {Net mismatch error (#7)}
+dv_discrep_line {                                   Net mismatch error}
+dv_discrep_line {}
+dv_discrep_line {The following LAYOUT instances connect to net } -lnet {VSS} { instead of net } -lnet {1} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X37/X0/M0} {} -lloc {(479.455,102.105)} {  MN(N)                         } -sdev {XI9/M18} {  MN(N)}
+dv_discrep_line {  } -lport {g} {: } -lnet {6} {                                                      } -sport {g} {: } -snet {XI9/U31_U18_r1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {2} {                                                      ** no similar net **}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSS} {                                                    ** } -snet {VSS} { **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {s} {: } -snet {VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {VDDO} {}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {b} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X31/R0} {} -lloc {(527.065,183.205)} {  R(RW)                            } -sdev {XI9/R15} {  R(RW)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {6} {                                                    } -sport {pos} {: } -snet {XI9/U31_U18_r1} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {VSS} {                                                  ** } -snet {VSS} { **}
+dv_discrep_line {  ** } -lnet {1} { **                                                   } -sport {neg} {: } -snet {VDD} {}
+dv_discrep_line {}
+dv_discrep -3 {Unmatched Objects}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X52/X0/X0/M0} {} -lloc {(479.445,179.975)} {  MP(P)                      ** unmatched instance **}
+dv_discrep_line {} -ldev {X53/X0/X0/M0} {} -lloc {(519.425,577.895)} {  MP(P)                      ** unmatched instance **}
+dv_discrep_line {} -ldev {X16/X27/M0} {} -lloc {(154.275,395.055)} {  MN(NH)                       ** unmatched instance **}
+dv_discrep_line {} -ldev {X17/X27/M0} {} -lloc {(689.595,362.815)} {  MN(NH)                       ** unmatched instance **}
+dv_discrep_line {} -ldev {X29/R0} {} -lloc {(469.925,183.205)} {  R(RW)                            ** unmatched instance **}
+dv_discrep_line {} -ldev {X50/X0/R0} {} -lloc {(527.515,574.665)} {  R(RW)                         ** unmatched instance **}
+dv_discrep_line {} -ldev {X56/C18} {} -lloc {(488.565,610.540)} {  C(CH)                           ** unmatched instance **}
+dv_discrep_line {}
+dv_discrep_line {** unmatched instance **                                  } -sdev {XI12/M1} {  MP(PH)}
+dv_discrep_line {** unmatched instance **                                  } -sdev {XI12/M18} {  MN(NH)}
+dv_discrep_line {** unmatched instance **                                  } -sdev {XI12/R15} {  R(RW)}
+dv_discrep_line {** unmatched instance **                                  } -sdev {XI7/M1} {  MP(PH)}
+dv_discrep_line {** unmatched instance **                                  } -sdev {XI7/M18} {  MN(NH)}
+dv_discrep_line {** unmatched instance **                                  } -sdev {XI7/R15} {  R(RW)}
+dv_discrep_line {** unmatched instance **                                  } -sdev {XI8/C4_5} {  C(CH)}
+dv_discrep_line {}
+dv_end

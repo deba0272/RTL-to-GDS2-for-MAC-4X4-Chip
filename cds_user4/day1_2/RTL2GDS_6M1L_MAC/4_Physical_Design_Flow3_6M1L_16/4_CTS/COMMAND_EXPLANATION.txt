@@ -1,0 +1,119 @@
+================================================================================
+          ASIC CLOCK TREE SYNTHESIS (CTS) SCRIPT README
+================================================================================
+Overview:
+This document explains the commands and configurations used in the provided 
+Clock Tree Synthesis (CTS) script. The script uses Cadence's Concurrent Clock 
+and Datapath Optimization (CCOpt) engine to build, balance, and optimize the 
+clock network, ensuring minimal clock skew and proper transition times before 
+routing.
+
+================================================================================
+1. INITIAL SETUP & CONFIGURATION
+================================================================================
+* `set_global report_timing_format ...`
+  Customizes the columns generated in timing reports. It ensures that whenever 
+  a timing path is reported, it includes the instance name, timing arc, net, 
+  cell type, slew (transition time), delay, arrival time, and required time.
+
+* `source ./config.tcl`
+  Loads an external configuration script, likely containing standard design 
+  variables, library paths, or timing constraints needed before CTS begins.
+
+================================================================================
+2. CCOPT SPECIFICATION GENERATION
+================================================================================
+* `create_ccopt_clock_tree_spec -file ..._ccopt.spec`
+  Automatically analyzes the SDC constraints (clocks, generated clocks, 
+  exceptions) and the multi-mode multi-corner (MMMC) setup to generate a base 
+  CTS specification file. It defines the clock roots, skew groups, and ignore 
+  pins.
+
+* `source ./ClockTreeSynthesis/..._ccopt.spec`
+  Reads the newly generated specification file back into the tool, applying 
+  the definitions to the current design database.
+
+================================================================================
+3. CLOCK TREE DEBUGGER (CTD)
+================================================================================
+* `ctd_win -id <name>`
+  Opens the Clock Tree Debugger GUI window and takes a "snapshot" of the clock 
+  tree state at that specific moment (e.g., before_ccopt, cluster_mode). This 
+  allows designers to visually inspect how the clock tree evolves through 
+  different stages of balancing.
+
+================================================================================
+4. CTS CONSTRAINTS AND PROPERTIES (DRVs & Skew)
+================================================================================
+These commands configure Design Rule Violations (DRVs) and balancing targets:
+
+* `set_ccopt_property ... target_max_trans 2`
+  Sets a strict maximum transition (slew) target of 2ns for all parts of the 
+  clock tree:
+  - top: The highest levels of the clock tree (close to the root).
+  - trunk: The middle distribution branches.
+  - leaf: The final wires connecting to the actual flip-flop clock pins.
+  This is applied across both max_delay (setup) and min_delay (hold) corners.
+
+* `set_ccopt_property ... target_skew 0.5`
+  Sets the target clock skew (the maximum allowed difference in clock arrival 
+  times between any two flip-flops in the same skew group) to 0.5ns.
+
+* `set_ccopt_property source_driver pc3d01/CIN -clock_tree clk`
+  Explicitly defines the driver pad/cell (`pc3d01`, likely an IO pad cell) and 
+  its output pin (`CIN`) that acts as the physical root source of the clock tree.
+
+================================================================================
+5. CCOPT EXECUTION MODES
+================================================================================
+The script runs CTS in three progressive stages to build and balance the tree:
+
+* `set_ccopt_property balance_mode cluster` -> `ccopt_design -cts`
+  First pass: "Cluster" mode. The tool groups (clusters) nearby sinks (flip-flops) 
+  and inserts the first level of clock buffers to drive these local clusters.
+
+* `set_ccopt_property balance_mode trial` -> `ccopt_design -cts`
+  Second pass: "Trial" mode. The tool builds a fast, rough draft of the rest of 
+  the clock tree up to the root to estimate timing and buffering needs.
+
+* `set_ccopt_property balance_mode full` -> `ccopt_design -cts`
+  Final pass: "Full" mode. The tool commits to real buffer insertion, gate sizing, 
+  and detailed balancing to meet the 0.5ns skew and 2ns transition targets.
+
+================================================================================
+6. POST-CTS REPORTING & TIMING ANALYSIS
+================================================================================
+* `report_ccopt_clock_trees` & `report_ccopt_skew_groups`
+  Generates summary reports detailing the structure of the built clock tree, 
+  including the number of buffers inserted, longest/shortest insertion delays, 
+  and achieved skew.
+
+* `reportCongestion`
+  Checks if the newly inserted clock buffers and clock nets have created any 
+  placement or routing congestion hotspots.
+
+* `source ./cts_sta.tcl`
+  Loads post-CTS specific Static Timing Analysis (STA) settings (e.g., changing 
+  clock propagation from "ideal" to "propagated").
+
+* `timeDesign -postCTS` & `timeDesign -postCTS -hold`
+  Runs formal STA to check for Setup and Hold timing violations now that the 
+  real clock tree delays are present.
+
+================================================================================
+7. FINAL EXPORTS AND TAPE-OUT PREP
+================================================================================
+* `saveDesign ./ClockTreeSynthesis/..._CTS_FixTiming.enc`
+  Saves the Innovus database checkpoint after CTS and timing optimization.
+
+* `saveNetlist` (-includePowerGround / withoutPG)
+  Exports the updated structural Verilog netlist, which now includes all the 
+  newly inserted clock buffers/inverters.
+
+* `write_sdc`
+  Exports the updated Synopsys Design Constraints. Since clocks are now real, 
+  ideal clock constraints are removed or modified.
+
+* `write_sdf`
+  Generates the Standard Delay Format (SDF) file with updated cell and net 
+  delays reflecting the physical clock network.

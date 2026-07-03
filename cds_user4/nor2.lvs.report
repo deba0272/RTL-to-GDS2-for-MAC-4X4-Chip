@@ -1,0 +1,357 @@
+
+LVS Netlist Compiler - Errors and Warnings for "nor2.cdl"
+---------------------------------------------------------
+
+Warning: *.MEGA at line 13 in file "nor2.cdl" not applied to earlier global-scope .OPTION (or equivalent) statements
+
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         nor2.lvs.report
+LAYOUT NAME:              svdb/nor2.sp ('nor2')
+SOURCE NAME:              nor2.cdl ('nor2')
+RULE FILE:                _PEX.header_
+CREATION TIME:            Wed Jun 24 15:42:23 2026
+CURRENT DIRECTORY:        /home/iep4/projects/user4/work_libs/iep4/cds
+USER NAME:                iep4
+CALIBRE VERSION:          v2022.4_37.20    Fri Dec 2 17:43:09 PST 2022
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        nor2                          nor2
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD" "vdd" "VCC" "vcc" "VDDD" "VDD!" "vdd!" "VCC!" "vcc!" "AVDD" "DVDD"
+   LVS GROUND NAME                        "GND" "gnd" "VSS" "vss" "GNDD" "GND!" "gnd!" "VSS!" "vss!" "AVSS" "DVSS"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       NO
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS RELAX INITIAL CPOINTS              NONE
+   LVS REVERSE WL                         NO
+   // LVS NETLIST FILTER DEVICES          NO
+   // LVS PRESERVE BOX PORTS              NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            YES
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            YES
+   SOURCE CASE                            YES
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     ALL
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   LVS FILTER UNUSED OPTION               AB RC RE RG
+   LVS REPORT OPTION                      S
+   LVS REPORT UNITS                       YES
+   LVS SWAPPABLE HCELL PINS               GENERAL
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+   LVS EXPAND AMBIGUOUSLY HIGH SHORTED HCELLS NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           NO
+   LVS REDUCE PARALLEL CAPACITORS         NO
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  Q(VD)  PARALLEL
+   LVS REDUCE  Q(VD5)  PARALLEL
+   LVS REDUCE  Q(VD10)  PARALLEL
+   LVS REDUCE  Q(VH)  PARALLEL
+   LVS REDUCE  Q(VH5)  PARALLEL
+   LVS REDUCE  Q(VH10)  PARALLEL
+   LVS REDUCE  Q(VDN5)  PARALLEL
+   LVS REDUCE  C(CL)  PARALLEL
+   LVS REDUCE  C(CH)  PARALLEL
+   LVS REDUCE  C(CH3)  PARALLEL
+   LVS REDUCE  C(ch53t)  PARALLEL
+   LVS REDUCE  C(CL3)  PARALLEL
+   LVS REDUCE  C(CB)  PARALLEL
+   LVS REDUCE  C(cmim_hc)  PARALLEL
+   LVS REDUCE  C(cmim_uhd)  PARALLEL
+   LVS REDUCE  C(cmim_stk)  PARALLEL
+   LVS REDUCE  C(cmim_uhdstk)  PARALLEL
+   LVS REDUCE  D(W3)  PARALLEL NO
+   LVS REDUCE  D(DW)  PARALLEL NO
+   LVS REDUCE  MN(NH)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(N5)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(N)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(n18hvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(n18lvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(P)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(p18hvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(p18lvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(PH)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(P5)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Filter
+
+   LVS FILTER  D(dwn2psub)  OPEN
+   LVS FILTER  R(M3OPT)  OPEN
+   LVS FILTER  R(M4OPT)  OPEN
+   LVS FILTER  MT_PROBE_POINT  OPEN
+   LVS FILTER  MF1_PROBE_POINT  OPEN
+
+   // Trace Property
+
+   TRACE PROPERTY  mp  w w 3
+   TRACE PROPERTY  mp  l l 3
+   TRACE PROPERTY  mn  w w 3
+   TRACE PROPERTY  mn  l l 3
+   TRACE PROPERTY  c(cl)  w w 3
+   TRACE PROPERTY  c(cl)  l l 3
+   TRACE PROPERTY  c(cl3)  w w 3
+   TRACE PROPERTY  c(cl3)  l l 3
+   TRACE PROPERTY  c(ch)  w w 3
+   TRACE PROPERTY  c(ch)  l l 3
+   TRACE PROPERTY  c(ch3)  w w 3
+   TRACE PROPERTY  c(ch3)  l l 3
+   TRACE PROPERTY  c(ch53t)  w w 3
+   TRACE PROPERTY  c(ch53t)  l l 3
+   TRACE PROPERTY  c(cm32t)  l l 3
+   TRACE PROPERTY  c(cm32t)  nf nf 0
+   TRACE PROPERTY  c(cm33t)  l l 3
+   TRACE PROPERTY  c(cm33t)  nf nf 0
+   TRACE PROPERTY  c(usgcm32t)  l l 3
+   TRACE PROPERTY  c(usgcm32t)  nf nf 0
+   TRACE PROPERTY  c(usgcm33t)  l l 3
+   TRACE PROPERTY  c(usgcm33t)  nf nf 0
+   TRACE PROPERTY  c(cm42t)  l l 3
+   TRACE PROPERTY  c(cm42t)  nf nf 0
+   TRACE PROPERTY  c(cm43t)  l l 3
+   TRACE PROPERTY  c(cm43t)  nf nf 0
+   TRACE PROPERTY  c(usgcm42t)  l l 3
+   TRACE PROPERTY  c(usgcm42t)  nf nf 0
+   TRACE PROPERTY  c(usgcm43t)  l l 3
+   TRACE PROPERTY  c(usgcm43t)  nf nf 0
+   TRACE PROPERTY  c(cm5)  l l 3
+   TRACE PROPERTY  c(cm5)  nf nf 0
+   TRACE PROPERTY  c(cm53)  l l 3
+   TRACE PROPERTY  c(cm53)  nf nf 0
+   TRACE PROPERTY  c(usgcm52t)  l l 3
+   TRACE PROPERTY  c(usgcm52t)  nf nf 0
+   TRACE PROPERTY  c(usgcm53t)  l l 3
+   TRACE PROPERTY  c(usgcm53t)  nf nf 0
+   TRACE PROPERTY  d(ns)  a a 10
+   TRACE PROPERTY  d(dn)  a a 10
+   TRACE PROPERTY  d(n3)  a a 10
+   TRACE PROPERTY  d(dn50)  a a 10
+   TRACE PROPERTY  d(ps)  a a 10
+   TRACE PROPERTY  d(dp)  a a 10
+   TRACE PROPERTY  d(p3)  a a 10
+   TRACE PROPERTY  d(dp50)  a a 10
+   TRACE PROPERTY  d(nwldio_nc)  a a 10
+   TRACE PROPERTY  d(ns)  p p 10
+   TRACE PROPERTY  d(dn)  p p 10
+   TRACE PROPERTY  d(n3)  p p 10
+   TRACE PROPERTY  d(dn50)  p p 10
+   TRACE PROPERTY  d(ps)  p p 10
+   TRACE PROPERTY  d(dp)  p p 10
+   TRACE PROPERTY  d(p3)  p p 10
+   TRACE PROPERTY  d(dp50)  p p 10
+   TRACE PROPERTY  d(nwldio_nc)  p p 10
+   TRACE PROPERTY  q(vd)  m m 0
+   TRACE PROPERTY  q(vd5)  m m 0
+   TRACE PROPERTY  q(vd10)  m m 0
+   TRACE PROPERTY  q(vh)  m m 0
+   TRACE PROPERTY  q(vh5)  m m 0
+   TRACE PROPERTY  q(vh10)  m m 0
+   TRACE PROPERTY  q(vdn5)  m m 0
+   TRACE PROPERTY  q(vpnp18_s)  a a 10
+   TRACE PROPERTY  q(vpnp33_s)  a a 10
+   TRACE PROPERTY  q(vnpn18_s)  a a 10
+   TRACE PROPERTY  q(vpnp18_s)  p p 10
+   TRACE PROPERTY  q(vpnp33_s)  p p 10
+   TRACE PROPERTY  q(vnpn18_s)  p p 10
+   TRACE PROPERTY  mn(nh)  w w 3
+   TRACE PROPERTY  mn(nh)  l l 3
+   TRACE PROPERTY  mn(n5)  w w 3
+   TRACE PROPERTY  mn(n5)  l l 3
+   TRACE PROPERTY  mn(n)  w w 3
+   TRACE PROPERTY  mn(n)  l l 3
+   TRACE PROPERTY  mn(n18hvt)  w w 3
+   TRACE PROPERTY  mn(n18hvt)  l l 3
+   TRACE PROPERTY  mn(n18lvt)  w w 3
+   TRACE PROPERTY  mn(n18lvt)  l l 3
+   TRACE PROPERTY  mp(p)  w w 3
+   TRACE PROPERTY  mp(p)  l l 3
+   TRACE PROPERTY  mp(p18hvt)  w w 3
+   TRACE PROPERTY  mp(p18hvt)  l l 3
+   TRACE PROPERTY  mp(p18lvt)  w w 3
+   TRACE PROPERTY  mp(p18lvt)  l l 3
+   TRACE PROPERTY  mp(ph)  w w 3
+   TRACE PROPERTY  mp(ph)  l l 3
+   TRACE PROPERTY  mp(p5)  w w 3
+   TRACE PROPERTY  mp(p5)  l l 3
+   TRACE PROPERTY  d(dnpwcpl18)  a a 10
+   TRACE PROPERTY  d(dnpwcpl18)  p p 10
+   TRACE PROPERTY  d(dnpwcpl5)  a a 10
+   TRACE PROPERTY  d(dnpwcpl5)  p p 10
+   TRACE PROPERTY  d(dpnwcpl18)  a a 10
+   TRACE PROPERTY  d(dpnwcpl18)  p p 10
+   TRACE PROPERTY  d(dpnwcpl5)  a a 10
+   TRACE PROPERTY  d(dpnwcpl5)  p p 10
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+LAYOUT CELL NAME:         nor2
+SOURCE CELL NAME:         nor2
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              5         5
+
+ Nets:               6         6
+
+ Instances:          2         2         MN (4 pins)
+                     2         2         MP (4 pins)
+                ------    ------
+ Total Inst:         4         4
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              5         5
+
+ Nets:               5         5
+
+ Instances:          1         1         NOR2 (3 pins): output input input
+                ------    ------
+ Total Inst:         1         1
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               5          5            0            0
+
+   Nets:                5          5            0            0
+
+   Instances:           1          1            0            0    NOR2
+                  -------    -------    ---------    ---------
+   Total Inst:          1          1            0            0
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD GND A Y B
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

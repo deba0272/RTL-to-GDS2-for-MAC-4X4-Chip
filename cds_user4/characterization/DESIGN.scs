@@ -1,0 +1,916 @@
+// Generated for: spectre
+// Generated on: May  2 16:24:56 2026
+// Design library name: TestLogicCells
+// Design cell name: design
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/models/ts18scl/default/hspice/ts18sl_scl.lib" section=tt_18
+
+// Library name: LogicCells
+// Cell name: dff
+// View name: calibre
+// View type: maskLayout
+subckt dff D GND RST_N VDD clk out
+    MM10 (MM10_d MM10_g MM10_s MM10_b) n18 w=6e-07 l=1.8e-07 \
+        as=2.11412e-13 ad=2.88e-13 ps=1.47059e-06 pd=2.16e-06 m=1
+    MM8 (net4 MM8_g MM8_s MM8_b) n18 w=4.2e-07 l=1.8e-07 as=1.47988e-13 \
+        ad=5.25e-14 ps=1.02941e-06 pd=6.7e-07 m=1
+    MM7 (MM7_d MM7_g net4 MM7_b) n18 w=4.2e-07 l=1.8e-07 as=5.25e-14 \
+        ad=2.016e-13 ps=6.7e-07 pd=1.8e-06 m=1
+    MM25 (MM25_d MM25_g MM25_s MM25_b) n18 w=4.2e-07 l=1.8e-07 \
+        as=2.016e-13 ad=1.134e-13 ps=1.8e-06 pd=9.6e-07 m=1
+    MM5 (MM5_d MM5_g net3 MM5_b) n18 w=4.2e-07 l=1.8e-07 as=5.25e-14 \
+        ad=1.134e-13 ps=6.7e-07 pd=9.6e-07 m=1
+    MM6 (net3 MM6_g MM6_s MM6_b) n18 w=4.2e-07 l=1.8e-07 as=1.134e-13 \
+        ad=5.25e-14 ps=9.6e-07 pd=6.7e-07 m=1
+    MM4 (MM4_d MM4_g MM4_s MM4_b) n18 w=4.2e-07 l=1.8e-07 as=1.134e-13 \
+        ad=2.016e-13 ps=9.6e-07 pd=1.8e-06 m=1
+    MM9 (MM9_d MM9_g MM9_s MM9_b) p18 w=6e-07 l=1.8e-07 as=2.11412e-13 \
+        ad=2.88e-13 ps=1.47059e-06 pd=2.16e-06 m=1
+    MM3 (MM3_d MM3_g MM3_s MM3_b) p18 w=4.2e-07 l=1.8e-07 as=1.47988e-13 \
+        ad=2.016e-13 ps=1.02941e-06 pd=1.8e-06 m=1
+    MM2 (MM2_d MM2_g MM2_s MM2_b) p18 w=4.2e-07 l=1.8e-07 as=1.134e-13 \
+        ad=2.016e-13 ps=9.6e-07 pd=1.8e-06 m=1
+    MM0 (net6 MM0_g MM0_s MM0_b) p18 w=4.2e-07 l=1.8e-07 as=1.134e-13 \
+        ad=5.25e-14 ps=9.6e-07 pd=6.7e-07 m=1
+    MM1 (MM1_d MM1_g net6 MM1_b) p18 w=4.2e-07 l=1.8e-07 as=5.25e-14 \
+        ad=2.016e-13 ps=6.7e-07 pd=1.8e-06 m=1
+    rout_23 (out out_6) resistor r=0.196522
+    rout_22 (c_479_n c_477_n) resistor r=0.505714
+    rout_21 (c_479_n out_10) resistor r=0.0207748
+    rout_20 (c_477_n out_21) resistor r=10
+    rout_19 (out_6 out_10) resistor r=0.0244846
+    rout_18 (out_10 out_15) resistor r=10
+    rout_17 (out_15 MM10_d) resistor r=0.35
+    rout_16 (out_21 MM9_d) resistor r=0.35
+    rVDD_97 (MM9_s MM3_s) resistor r=0.01
+    rVDD_96 (MM2_s MM0_s) resistor r=0.01
+    rVDD_95 (MM0_b MM1_b) resistor r=0.01
+    rVDD_94 (MM2_b MM1_b) resistor r=0.01
+    rVDD_93 (MM3_b MM1_b) resistor r=0.01
+    rVDD_92 (MM9_b MM1_b) resistor r=0.01
+    rVDD_91 (VDD VDD_12) resistor r=0.153571
+    rVDD_89 (VDD MM1_b) resistor r=0.0135714
+    rVDD_88 (c_405_n MM1_b) resistor r=0.194286
+    rVDD_87 (c_405_n MM1_b) resistor r=0.0184246
+    rVDD_86 (VDD_7 c_406_n) resistor r=0.36
+    rVDD_85 (VDD_7 MM1_b) resistor r=0.0257252
+    rVDD_84 (c_406_n MM0_s) resistor r=10
+    rVDD_83 (c_422_n MM1_b) resistor r=0.122143
+    rVDD_82 (c_422_n VDD_28) resistor r=0.0184246
+    rVDD_81 (VDD_12 MM1_b) resistor r=0.0184246
+    rVDD_80 (VDD_19 c_447_n) resistor r=0.421429
+    rVDD_79 (VDD_19 VDD_28) resistor r=0.0257252
+    rVDD_78 (c_447_n VDD_55) resistor r=10
+    rVDD_77 (c_465_n MM1_b) resistor r=0.0392857
+    rVDD_76 (c_465_n VDD_28) resistor r=0.0184246
+    rVDD_75 (VDD_55 MM3_s) resistor r=0.696203
+    rGND_121 (MM10_s MM8_s) resistor r=0.01
+    rGND_120 (MM6_s MM4_s) resistor r=0.01
+    rGND_119 (MM6_b MM4_b) resistor r=0.01
+    rGND_118 (MM5_b MM4_b) resistor r=0.01
+    rGND_117 (MM25_b MM4_b) resistor r=0.01
+    rGND_116 (MM7_b MM4_b) resistor r=0.01
+    rGND_115 (MM8_b MM4_b) resistor r=0.01
+    rGND_114 (MM10_b MM4_b) resistor r=0.01
+    rGND_113 (GND MM4_b) resistor r=0.187857
+    rGND_112 (GND c_345_n) resistor r=0.00785714
+    rGND_111 (c_321_n MM4_b) resistor r=0.0692857
+    rGND_110 (c_321_n GND_27) resistor r=0.0184246
+    rGND_109 (GND_5 c_322_n) resistor r=0.45
+    rGND_108 (GND_5 GND_27) resistor r=0.0257252
+    rGND_107 (c_322_n MM4_s) resistor r=10
+    rGND_106 (c_345_n MM4_b) resistor r=0.0219738
+    rGND_105 (GND_10 MM4_b) resistor r=0.0921429
+    rGND_104 (GND_10 GND_27) resistor r=0.0184246
+    rGND_103 (GND_14 c_360_n) resistor r=0.330588
+    rGND_102 (GND_14 MM4_b) resistor r=0.0209014
+    rGND_101 (c_360_n c_328_n) resistor r=0.0046983
+    rGND_100 (c_380_n MM4_b) resistor r=0.122143
+    rGND_99 (c_380_n GND_35) resistor r=0.0184246
+    rGND_98 (GND_17 MM4_b) resistor r=0.158571
+    rGND_97 (GND_17 MM4_b) resistor r=0.0219738
+    rGND_96 (GND_20 c_369_n) resistor r=0.507143
+    rGND_95 (GND_20 GND_35) resistor r=0.0257252
+    rGND_94 (c_369_n GND_66) resistor r=10
+    rGND_93 (c_388_n MM4_b) resistor r=0.0392857
+    rGND_92 (c_388_n GND_35) resistor r=0.0184246
+    rGND_91 (GND_29 c_328_n) resistor r=0.107059
+    rGND_90 (GND_29 GND_61) resistor r=10
+    rGND_89 (GND_61 MM25_s) resistor r=0.5
+    rGND_88 (GND_66 MM8_s) resistor r=0.696203
+    rnet5_72 (MM3_d net5) resistor r=0.01
+    rnet5_71 (c_266_n c_267_n) resistor r=0.177647
+    rnet5_70 (c_266_n net5_11) resistor r=0.0374873
+    rnet5_69 (net5_2 c_267_n) resistor r=0.381176
+    rnet5_68 (net5_2 net5_5) resistor r=0.0046983
+    rnet5_67 (c_267_n net5_34) resistor r=10
+    rnet5_66 (net5_5 c_269_n) resistor r=0.108235
+    rnet5_65 (c_269_n net5_40) resistor r=10
+    rnet5_64 (net5_11 c_272_n) resistor r=7
+    rnet5_63 (MM10_g net5_16) resistor r=23.8333
+    rnet5_62 (MM10_g MM9_g) resistor r=59.6667
+    rnet5_61 (c_271_n net5_15) resistor r=46
+    rnet5_60 (c_271_n net5_16) resistor r=3.35237
+    rnet5_59 (net5_15 net5_25) resistor r=2.81684
+    rnet5_58 (c_272_n net5_25) resistor r=1.71429
+    rnet5_57 (net5_34 MM7_d) resistor r=0.5
+    rnet5_56 (net5_40 net5) resistor r=0.5
+    rnet1_88 (MM2_d net1) resistor r=0.01
+    rnet1_87 (MM25_d MM5_d) resistor r=0.01
+    rnet1_86 (net1_1 c_199_n) resistor r=0.31
+    rnet1_85 (net1_1 net1_9) resistor r=0.0046983
+    rnet1_84 (c_199_n MM5_d) resistor r=10
+    rnet1_83 (net1_5 c_201_n) resistor r=0.222857
+    rnet1_82 (net1_5 c_202_n) resistor r=0.0046983
+    rnet1_81 (c_201_n net1_14) resistor r=0.0204111
+    rnet1_80 (c_208_n net1_8) resistor r=0.274783
+    rnet1_79 (c_208_n c_227_p) resistor r=0.0046983
+    rnet1_78 (net1_8 net1_14) resistor r=0.0248483
+    rnet1_77 (net1_9 c_202_n) resistor r=0.127143
+    rnet1_76 (net1_14 net1_48) resistor r=10
+    rnet1_75 (c_227_p net1_18) resistor r=0.066087
+    rnet1_74 (net1_18 net1_31) resistor r=7
+    rnet1_73 (MM8_g MM3_g) resistor r=59.6667
+    rnet1_72 (MM3_g net1_24) resistor r=12.3333
+    rnet1_71 (c_212_n c_213_n) resistor r=39.6667
+    rnet1_70 (c_212_n net1_24) resistor r=3.35237
+    rnet1_69 (c_213_n net1_31) resistor r=4.9993
+    rnet1_68 (net1_48 net1) resistor r=0.5
+    rRST_N_31 (RST_N c_179_n) resistor r=7
+    rRST_N_28 (MM25_g RST_N_20) resistor r=26.8333
+    rRST_N_27 (RST_N_20 c_179_n) resistor r=4.9993
+    rnet2_80 (MM1_d net2) resistor r=0.01
+    rnet2_79 (c_115_n c_124_n) resistor r=0.115294
+    rnet2_78 (c_115_n net2_14) resistor r=0.0223492
+    rnet2_77 (c_116_n c_118_n) resistor r=0.438824
+    rnet2_76 (c_116_n net2_14) resistor r=0.0223492
+    rnet2_75 (c_118_n c_134_n) resistor r=0.0446983
+    rnet2_74 (c_134_n c_123_n) resistor r=0.0964706
+    rnet2_73 (c_123_n net2_38) resistor r=10
+    rnet2_72 (net2_10 c_124_n) resistor r=0.0383099
+    rnet2_71 (net2_10 c_128_n) resistor r=7
+    rnet2_70 (net2_14 net2_32) resistor r=10
+    rnet2_69 (MM5_g net2_20) resistor r=24
+    rnet2_68 (net2_16 c_132_n) resistor r=17.5
+    rnet2_67 (net2_16 c_150_p) resistor r=3.35237
+    rnet2_66 (c_127_n c_150_p) resistor r=72.5
+    rnet2_65 (c_127_n net2_20) resistor r=3.35237
+    rnet2_64 (c_128_n c_132_n) resistor r=4.9993
+    rnet2_63 (net2_32 MM4_d) resistor r=0.5
+    rnet2_62 (net2_38 net2) resistor r=0.5
+    rclk_87 (clk clk_4) resistor r=0.0269504
+    rclk_86 (clk_4 clk_34) resistor r=7
+    rclk_85 (MM6_g clk_17) resistor r=24.3333
+    rclk_84 (MM7_g clk_29) resistor r=17.6667
+    rclk_83 (MM1_g clk_11) resistor r=24.1667
+    rclk_82 (MM2_g clk_23) resistor r=43.1667
+    rclk_81 (MM2_g clk_24) resistor r=24.1667
+    rclk_80 (c_63_p c_58_n) resistor r=53.3333
+    rclk_79 (c_63_p c_114_p) resistor r=2.54067
+    rclk_78 (c_58_n clk_34) resistor r=4.9993
+    rclk_77 (clk_11 c_114_p) resistor r=0.660276
+    rclk_76 (c_60_n clk_16) resistor r=32.3333
+    rclk_75 (c_60_n clk_24) resistor r=3.35237
+    rclk_74 (clk_16 c_114_p) resistor r=2.54067
+    rclk_73 (clk_17 c_61_n) resistor r=3.35237
+    rclk_72 (c_66_p c_61_n) resistor r=23.1667
+    rclk_71 (c_66_p c_74_p) resistor r=2.54067
+    rclk_70 (clk_23 c_74_p) resistor r=0.660276
+    rclk_69 (c_70_p clk_28) resistor r=76.1667
+    rclk_68 (c_70_p clk_29) resistor r=3.35237
+    rclk_67 (clk_28 c_74_p) resistor r=2.54067
+    rD_60 (D c_1_p) resistor r=0.000654664
+    rD_59 (c_1_p c_2_p) resistor r=7
+    rD_58 (MM4_g D_9) resistor r=41.8333
+    rD_57 (MM0_g D_15) resistor r=25.6667
+    rD_56 (c_13_p D_8) resistor r=38.6667
+    rD_55 (c_13_p c_49_p) resistor r=2.54067
+    rD_54 (D_8 D_22) resistor r=2.81684
+    rD_53 (D_9 c_49_p) resistor r=0.660276
+    rD_52 (c_5_p D_14) resistor r=23.1667
+    rD_51 (c_5_p D_15) resistor r=3.35237
+    rD_50 (D_14 c_49_p) resistor r=2.54067
+    rD_49 (c_2_p D_22) resistor r=1.71429
+    cc_246 (MM1_b c_477_n) capacitor c=5.33803e-17
+    cc_245 (c_465_n c_477_n) capacitor c=1.21142e-17
+    cc_244 (c_447_n c_477_n) capacitor c=3.84093e-17
+    cc_243 (c_465_n out) capacitor c=8.96008e-18
+    cc_242 (MM4_b c_477_n) capacitor c=4.30361e-17
+    cc_241 (MM4_b c_479_n) capacitor c=1.73014e-18
+    cc_240 (c_388_n c_479_n) capacitor c=9.69013e-18
+    cc_239 (c_369_n c_479_n) capacitor c=3.89162e-17
+    cc_238 (MM4_b out) capacitor c=5.02039e-17
+    cc_237 (c_388_n out) capacitor c=1.69473e-17
+    cc_236 (c_369_n c_447_n) capacitor c=1.51729e-17
+    cc_235 (c_328_n c_422_n) capacitor c=8.35612e-19
+    cc_234 (c_345_n c_406_n) capacitor c=1.09537e-18
+    cc_233 (c_322_n c_405_n) capacitor c=3.20277e-18
+    cc_232 (MM9_g c_477_n) capacitor c=1.40338e-17
+    cc_231 (MM10_g c_477_n) capacitor c=3.8177e-17
+    cc_230 (c_267_n c_477_n) capacitor c=2.59937e-17
+    cc_229 (MM10_g c_479_n) capacitor c=1.4027e-17
+    cc_228 (MM10_g MM1_b) capacitor c=8.72256e-17
+    cc_227 (c_269_n MM1_b) capacitor c=1.37873e-17
+    cc_226 (c_267_n MM1_b) capacitor c=3.11748e-17
+    cc_225 (MM10_g c_465_n) capacitor c=5.88295e-18
+    cc_224 (MM9_g c_447_n) capacitor c=8.81027e-18
+    cc_223 (MM10_g c_447_n) capacitor c=8.45447e-18
+    cc_222 (c_269_n c_447_n) capacitor c=2.44213e-17
+    cc_221 (c_267_n c_447_n) capacitor c=2.69936e-18
+    cc_220 (c_269_n c_422_n) capacitor c=2.37564e-17
+    cc_219 (c_266_n c_422_n) capacitor c=2.12371e-19
+    cc_218 (c_272_n MM4_b) capacitor c=6.00555e-17
+    cc_217 (c_271_n MM4_b) capacitor c=1.21912e-16
+    cc_216 (MM10_g MM4_b) capacitor c=9.57375e-17
+    cc_215 (c_267_n MM4_b) capacitor c=3.38609e-17
+    cc_214 (c_266_n MM4_b) capacitor c=7.90665e-18
+    cc_213 (MM7_d c_328_n) capacitor c=2.08753e-18
+    cc_212 (c_271_n c_388_n) capacitor c=7.20394e-18
+    cc_211 (c_272_n c_369_n) capacitor c=4.31169e-18
+    cc_210 (c_271_n c_369_n) capacitor c=2.66298e-17
+    cc_209 (MM10_g c_369_n) capacitor c=2.17564e-17
+    cc_208 (c_266_n c_369_n) capacitor c=4.26669e-17
+    cc_207 (c_272_n c_380_n) capacitor c=9.5554e-18
+    cc_206 (c_271_n c_380_n) capacitor c=1.38985e-17
+    cc_205 (c_269_n c_380_n) capacitor c=4.40882e-18
+    cc_204 (c_266_n c_380_n) capacitor c=2.37301e-17
+    cc_203 (c_272_n c_360_n) capacitor c=6.45711e-18
+    cc_202 (c_267_n c_360_n) capacitor c=3.725e-17
+    cc_201 (c_266_n c_360_n) capacitor c=2.16315e-17
+    cc_200 (c_267_n c_322_n) capacitor c=5.67119e-19
+    cc_199 (c_202_n c_477_n) capacitor c=8.39086e-19
+    cc_198 (c_199_n c_477_n) capacitor c=6.99591e-19
+    cc_197 (c_202_n MM0_s) capacitor c=3.43882e-18
+    cc_196 (c_213_n MM1_b) capacitor c=6.45758e-17
+    cc_195 (c_212_n MM1_b) capacitor c=1.01936e-16
+    cc_194 (MM8_g MM1_b) capacitor c=7.01527e-17
+    cc_193 (c_227_p MM1_b) capacitor c=2.02884e-17
+    cc_192 (c_202_n MM1_b) capacitor c=2.36841e-17
+    cc_191 (c_208_n MM1_b) capacitor c=2.91518e-17
+    cc_190 (c_201_n MM1_b) capacitor c=2.34571e-17
+    cc_189 (c_213_n c_447_n) capacitor c=2.27589e-19
+    cc_188 (MM3_g c_447_n) capacitor c=6.20882e-18
+    cc_187 (MM8_g c_447_n) capacitor c=7.55109e-18
+    cc_186 (c_227_p c_447_n) capacitor c=9.67023e-18
+    cc_185 (c_213_n c_422_n) capacitor c=8.60909e-18
+    cc_184 (c_212_n c_422_n) capacitor c=2.26463e-17
+    cc_183 (c_227_p c_422_n) capacitor c=1.29182e-17
+    cc_182 (c_202_n c_422_n) capacitor c=3.12731e-18
+    cc_181 (c_201_n c_422_n) capacitor c=3.63292e-17
+    cc_180 (c_213_n c_406_n) capacitor c=2.75885e-19
+    cc_179 (c_227_p c_406_n) capacitor c=4.63572e-18
+    cc_178 (c_202_n c_406_n) capacitor c=5.99578e-19
+    cc_177 (c_201_n c_406_n) capacitor c=2.36522e-17
+    cc_176 (MM8_g MM4_b) capacitor c=6.12513e-17
+    cc_175 (c_202_n MM4_b) capacitor c=4.63748e-18
+    cc_174 (c_199_n MM4_b) capacitor c=2.31031e-17
+    cc_173 (c_202_n c_328_n) capacitor c=3.66372e-19
+    cc_172 (c_208_n c_328_n) capacitor c=1.4265e-17
+    cc_171 (c_199_n c_328_n) capacitor c=3.04312e-17
+    cc_170 (MM8_g c_369_n) capacitor c=1.22024e-17
+    cc_169 (c_202_n c_345_n) capacitor c=2.71195e-18
+    cc_168 (c_199_n c_322_n) capacitor c=1.21906e-17
+    cc_167 (c_227_p net5) capacitor c=6.90284e-19
+    cc_166 (MM8_g c_271_n) capacitor c=1.36282e-17
+    cc_165 (MM3_g MM9_g) capacitor c=8.38602e-18
+    cc_164 (MM8_g MM10_g) capacitor c=4.26628e-17
+    cc_163 (c_212_n c_269_n) capacitor c=1.93688e-17
+    cc_162 (MM3_g c_269_n) capacitor c=9.3329e-18
+    cc_161 (c_227_p c_269_n) capacitor c=2.57951e-18
+    cc_160 (c_201_n c_269_n) capacitor c=1.44078e-17
+    cc_159 (MM3_g c_267_n) capacitor c=7.15521e-19
+    cc_158 (MM8_g c_267_n) capacitor c=1.82339e-17
+    cc_157 (c_202_n c_267_n) capacitor c=1.44078e-17
+    cc_156 (c_199_n c_267_n) capacitor c=1.68121e-17
+    cc_155 (RST_N c_406_n) capacitor c=2.90972e-18
+    cc_154 (c_179_n MM4_b) capacitor c=5.52732e-17
+    cc_153 (MM25_g MM4_b) capacitor c=7.64805e-17
+    cc_152 (RST_N MM4_b) capacitor c=2.60102e-17
+    cc_151 (MM25_g c_328_n) capacitor c=8.78054e-18
+    cc_150 (c_179_n c_360_n) capacitor c=1.26538e-17
+    cc_149 (MM25_g c_360_n) capacitor c=1.23363e-17
+    cc_148 (RST_N c_360_n) capacitor c=2.0901e-17
+    cc_147 (c_179_n c_345_n) capacitor c=1.23125e-17
+    cc_146 (RST_N c_345_n) capacitor c=6.90504e-17
+    cc_145 (c_179_n c_322_n) capacitor c=4.6847e-18
+    cc_144 (MM25_g c_322_n) capacitor c=2.9913e-19
+    cc_143 (RST_N c_322_n) capacitor c=1.75284e-17
+    cc_142 (c_179_n c_272_n) capacitor c=2.00501e-18
+    cc_141 (MM25_g c_272_n) capacitor c=2.89812e-18
+    cc_140 (RST_N MM5_d) capacitor c=4.72577e-18
+    cc_139 (RST_N c_202_n) capacitor c=6.07597e-18
+    cc_138 (MM25_g c_199_n) capacitor c=1.2806e-17
+    cc_137 (RST_N c_199_n) capacitor c=1.77151e-17
+    cc_136 (c_123_n MM1_b) capacitor c=4.90943e-18
+    cc_135 (c_134_n MM1_b) capacitor c=2.15801e-17
+    cc_134 (c_118_n MM1_b) capacitor c=3.91328e-17
+    cc_133 (c_123_n c_406_n) capacitor c=1.41937e-17
+    cc_132 (c_124_n c_405_n) capacitor c=1.55913e-18
+    cc_131 (c_134_n c_405_n) capacitor c=3.27636e-17
+    cc_130 (c_115_n c_405_n) capacitor c=6.2959e-18
+    cc_129 (c_132_n MM4_b) capacitor c=4.95568e-17
+    cc_128 (c_128_n MM4_b) capacitor c=6.89353e-17
+    cc_127 (c_150_p MM4_b) capacitor c=1.90497e-17
+    cc_126 (c_127_n MM4_b) capacitor c=1.53741e-16
+    cc_125 (MM5_g MM4_b) capacitor c=5.59256e-17
+    cc_124 (c_124_n MM4_b) capacitor c=2.0816e-17
+    cc_123 (c_118_n MM4_b) capacitor c=4.58916e-17
+    cc_122 (c_116_n MM4_b) capacitor c=9.84185e-19
+    cc_121 (c_115_n MM4_b) capacitor c=1.69419e-17
+    cc_120 (c_127_n c_345_n) capacitor c=1.06787e-17
+    cc_119 (c_132_n c_322_n) capacitor c=5.08558e-18
+    cc_118 (c_128_n c_322_n) capacitor c=3.00229e-19
+    cc_117 (c_127_n c_322_n) capacitor c=3.03692e-17
+    cc_116 (MM5_g c_322_n) capacitor c=5.5775e-18
+    cc_115 (c_116_n c_322_n) capacitor c=3.07343e-17
+    cc_114 (c_128_n c_321_n) capacitor c=3.08266e-18
+    cc_113 (c_150_p c_321_n) capacitor c=3.38719e-17
+    cc_112 (c_124_n c_321_n) capacitor c=3.41721e-17
+    cc_111 (c_123_n c_321_n) capacitor c=4.22267e-18
+    cc_110 (c_118_n c_267_n) capacitor c=2.07422e-18
+    cc_109 (c_118_n c_201_n) capacitor c=1.11242e-17
+    cc_108 (MM5_g c_199_n) capacitor c=1.42976e-17
+    cc_107 (c_118_n c_199_n) capacitor c=2.55513e-17
+    cc_106 (c_127_n c_179_n) capacitor c=6.16445e-18
+    cc_105 (c_127_n MM25_g) capacitor c=2.06243e-17
+    cc_104 (MM5_g MM25_g) capacitor c=1.09474e-17
+    cc_103 (c_127_n RST_N) capacitor c=5.17878e-18
+    cc_102 (c_114_p MM1_b) capacitor c=6.14463e-18
+    cc_101 (c_60_n MM1_b) capacitor c=7.25358e-17
+    cc_100 (c_58_n MM1_b) capacitor c=7.81553e-17
+    cc_99 (c_63_p MM1_b) capacitor c=1.11663e-16
+    cc_98 (MM2_g MM1_b) capacitor c=1.14591e-16
+    cc_97 (MM1_g MM1_b) capacitor c=7.49024e-17
+    cc_96 (clk MM1_b) capacitor c=4.86947e-17
+    cc_95 (c_60_n c_422_n) capacitor c=1.4301e-18
+    cc_94 (c_66_p c_406_n) capacitor c=6.51487e-18
+    cc_93 (c_60_n c_406_n) capacitor c=2.94763e-17
+    cc_92 (MM2_g c_406_n) capacitor c=1.62824e-17
+    cc_91 (MM1_g c_406_n) capacitor c=8.32996e-18
+    cc_90 (clk c_406_n) capacitor c=1.11341e-17
+    cc_89 (c_58_n c_405_n) capacitor c=1.80463e-17
+    cc_88 (c_63_p c_405_n) capacitor c=6.8497e-17
+    cc_87 (clk c_405_n) capacitor c=4.54806e-17
+    cc_86 (c_74_p MM4_b) capacitor c=8.08816e-18
+    cc_85 (c_70_p MM4_b) capacitor c=1.9082e-16
+    cc_84 (c_61_n MM4_b) capacitor c=1.01153e-17
+    cc_83 (c_66_p MM4_b) capacitor c=4.75713e-17
+    cc_82 (MM2_g MM4_b) capacitor c=1.44195e-17
+    cc_81 (MM7_g MM4_b) capacitor c=4.8304e-17
+    cc_80 (MM6_g MM4_b) capacitor c=5.65512e-17
+    cc_79 (c_70_p c_328_n) capacitor c=2.12161e-17
+    cc_78 (MM6_g c_322_n) capacitor c=1.46544e-17
+    cc_77 (c_70_p c_272_n) capacitor c=2.06898e-18
+    cc_76 (MM7_g c_271_n) capacitor c=1.3317e-17
+    cc_75 (MM7_g MM10_g) capacitor c=4.01859e-18
+    cc_74 (c_70_p c_269_n) capacitor c=6.64927e-18
+    cc_73 (c_70_p c_267_n) capacitor c=3.10541e-17
+    cc_72 (MM7_g c_267_n) capacitor c=3.07065e-17
+    cc_71 (c_70_p c_266_n) capacitor c=2.24722e-19
+    cc_70 (c_70_p c_213_n) capacitor c=3.40468e-18
+    cc_69 (MM2_g c_213_n) capacitor c=4.4049e-18
+    cc_68 (c_70_p c_212_n) capacitor c=6.59294e-18
+    cc_67 (MM7_g MM8_g) capacitor c=5.67956e-17
+    cc_66 (c_70_p c_202_n) capacitor c=1.35533e-17
+    cc_65 (MM2_g c_202_n) capacitor c=2.47282e-17
+    cc_64 (c_70_p c_208_n) capacitor c=1.34781e-17
+    cc_63 (MM2_g c_201_n) capacitor c=3.01002e-17
+    cc_62 (c_74_p c_199_n) capacitor c=1.31741e-17
+    cc_61 (c_66_p c_199_n) capacitor c=1.21111e-17
+    cc_60 (MM2_g c_199_n) capacitor c=6.31167e-18
+    cc_59 (MM6_g c_199_n) capacitor c=5.54308e-18
+    cc_58 (c_70_p MM25_g) capacitor c=1.18053e-17
+    cc_57 (MM6_g MM25_g) capacitor c=2.91975e-18
+    cc_56 (c_66_p c_127_n) capacitor c=4.45066e-19
+    cc_55 (MM6_g c_127_n) capacitor c=1.36522e-17
+    cc_54 (c_66_p MM5_g) capacitor c=1.35562e-17
+    cc_53 (MM6_g MM5_g) capacitor c=4.2168e-17
+    cc_52 (MM1_g c_123_n) capacitor c=1.07046e-17
+    cc_51 (c_63_p c_134_n) capacitor c=1.93025e-17
+    cc_50 (MM1_g c_118_n) capacitor c=5.75871e-18
+    cc_49 (c_49_p MM1_b) capacitor c=6.79622e-18
+    cc_48 (c_2_p MM1_b) capacitor c=5.22192e-17
+    cc_47 (c_5_p MM1_b) capacitor c=6.24009e-17
+    cc_46 (c_13_p MM1_b) capacitor c=9.45921e-17
+    cc_45 (MM0_g MM1_b) capacitor c=5.95255e-17
+    cc_44 (MM4_g MM1_b) capacitor c=1.36994e-17
+    cc_43 (c_1_p MM1_b) capacitor c=2.71447e-17
+    cc_42 (MM0_g c_406_n) capacitor c=1.53928e-17
+    cc_41 (c_1_p c_405_n) capacitor c=2.05394e-18
+    cc_40 (c_2_p MM4_b) capacitor c=2.25969e-17
+    cc_39 (MM4_g MM4_b) capacitor c=9.27678e-17
+    cc_38 (c_1_p MM4_b) capacitor c=1.76109e-17
+    cc_37 (c_5_p c_322_n) capacitor c=6.90097e-18
+    cc_36 (MM4_g c_322_n) capacitor c=1.4433e-17
+    cc_35 (c_1_p c_321_n) capacitor c=2.50979e-18
+    cc_34 (c_5_p c_202_n) capacitor c=2.15036e-18
+    cc_33 (c_1_p c_201_n) capacitor c=3.11865e-19
+    cc_32 (MM4_g c_199_n) capacitor c=3.45783e-18
+    cc_31 (c_1_p c_199_n) capacitor c=6.4175e-19
+    cc_30 (MM4_g c_132_n) capacitor c=4.97805e-18
+    cc_29 (c_2_p c_128_n) capacitor c=6.73152e-18
+    cc_28 (c_13_p c_128_n) capacitor c=8.93206e-19
+    cc_27 (MM4_g c_128_n) capacitor c=5.22711e-19
+    cc_26 (c_1_p c_128_n) capacitor c=3.72899e-18
+    cc_25 (MM4_g c_127_n) capacitor c=1.29991e-17
+    cc_24 (MM4_g MM5_g) capacitor c=3.23479e-18
+    cc_23 (c_2_p c_124_n) capacitor c=2.10461e-18
+    cc_22 (c_1_p c_124_n) capacitor c=1.62151e-17
+    cc_21 (c_13_p c_123_n) capacitor c=1.67527e-17
+    cc_20 (c_2_p c_118_n) capacitor c=3.54634e-18
+    cc_19 (c_13_p c_118_n) capacitor c=3.17028e-17
+    cc_18 (MM0_g c_118_n) capacitor c=4.82564e-18
+    cc_17 (MM4_g c_118_n) capacitor c=2.988e-17
+    cc_16 (c_1_p c_118_n) capacitor c=4.27306e-17
+    cc_15 (c_13_p c_116_n) capacitor c=2.14455e-18
+    cc_14 (MM4_g c_116_n) capacitor c=5.9198e-18
+    cc_13 (c_13_p c_115_n) capacitor c=7.33612e-18
+    cc_12 (c_5_p c_61_n) capacitor c=1.60887e-17
+    cc_11 (MM0_g c_60_n) capacitor c=1.22962e-17
+    cc_10 (c_2_p c_58_n) capacitor c=3.521e-18
+    cc_9 (c_1_p c_58_n) capacitor c=1.91785e-18
+    cc_8 (c_5_p MM2_g) capacitor c=2.51216e-17
+    cc_7 (MM0_g MM2_g) capacitor c=1.09936e-17
+    cc_6 (MM4_g MM2_g) capacitor c=1.26313e-18
+    cc_5 (c_5_p MM1_g) capacitor c=1.21277e-17
+    cc_4 (MM0_g MM1_g) capacitor c=4.4781e-17
+    cc_3 (MM4_g MM6_g) capacitor c=3.46889e-17
+    cc_2 (c_2_p clk) capacitor c=1.15314e-18
+    cc_1 (c_1_p clk) capacitor c=1.84068e-17
+    ciVDD_74 (c_406_n _net0) capacitor c=5.01099e-18
+    ciVDD_73 (c_422_n _net0) capacitor c=1.47607e-19
+    ciVDD_72 (c_447_n _net0) capacitor c=1.32581e-18
+    ciGND_87 (c_322_n _net0) capacitor c=5.1958e-18
+    ciGND_86 (c_345_n _net0) capacitor c=1.16669e-19
+    ciGND_85 (c_369_n _net0) capacitor c=6.56984e-18
+    ciGND_84 (c_328_n _net0) capacitor c=7.01383e-18
+    cinet5_55 (c_272_n _net0) capacitor c=1.6292e-18
+    cinet1_67 (c_208_n _net0) capacitor c=1.16669e-19
+    ciRST_N_26 (RST_N _net0) capacitor c=1.47607e-19
+    ciRST_N_25 (c_179_n _net0) capacitor c=1.67554e-18
+    cinet2_61 (c_123_n _net0) capacitor c=1.52603e-19
+    cinet2_60 (c_124_n _net0) capacitor c=3.22315e-20
+    cinet2_59 (c_128_n _net0) capacitor c=2.49161e-18
+    ciclk_66 (clk _net0) capacitor c=3.22315e-20
+    ciclk_65 (c_70_p _net0) capacitor c=8.95896e-20
+ends dff
+// End of subcircuit definition.
+
+// Library name: LogicCells
+// Cell name: inverter
+// View name: calibre
+// View type: maskLayout
+subckt inverter GND IN OUT VDD
+    MM1 (MM1_d MM1_g MM1_s MM1_b) n18 w=1e-06 l=1.8e-07 as=4.8e-13 \
+        ad=4.8e-13 ps=2.96e-06 pd=2.96e-06 m=1
+    MM0 (MM0_d MM0_g MM0_s MM0_b) p18 w=2e-06 l=1.8e-07 as=9.6e-13 \
+        ad=9.6e-13 ps=4.96e-06 pd=4.96e-06 m=1
+    cc_41 (MM1_b c_68_n) capacitor c=2.19742e-17
+    cc_40 (c_46_n c_68_n) capacitor c=7.76779e-17
+    cc_39 (GND c_73_n) capacitor c=4.49787e-18
+    cc_38 (MM1_b c_72_n) capacitor c=3.25068e-17
+    cc_37 (MM1_b c_63_n) capacitor c=3.82461e-17
+    cc_36 (c_42_n c_61_n) capacitor c=5.57409e-18
+    cc_35 (MM1_b OUT) capacitor c=2.42746e-17
+    cc_34 (c_40_p c_75_n) capacitor c=4.84951e-17
+    cc_33 (c_39_p c_73_n) capacitor c=4.84951e-17
+    cc_32 (VDD c_73_n) capacitor c=1.17172e-17
+    cc_31 (VDD c_72_n) capacitor c=3.55568e-17
+    cc_30 (c_34_n c_61_n) capacitor c=4.84951e-17
+    cc_29 (VDD c_61_n) capacitor c=1.17172e-17
+    cc_28 (c_19_p c_68_n) capacitor c=9.35855e-18
+    cc_27 (MM1_g c_68_n) capacitor c=2.26426e-17
+    cc_26 (c_19_p c_63_n) capacitor c=2.68474e-19
+    cc_25 (c_11_p c_63_n) capacitor c=8.59473e-18
+    cc_24 (c_4_p c_63_n) capacitor c=2.26679e-17
+    cc_23 (c_2_p c_63_n) capacitor c=1.36044e-17
+    cc_22 (IN c_63_n) capacitor c=1.60202e-17
+    cc_21 (c_4_p c_61_n) capacitor c=1.14435e-17
+    cc_20 (MM0_g c_61_n) capacitor c=4.67537e-17
+    cc_19 (c_19_p MM1_b) capacitor c=3.69907e-17
+    cc_18 (c_11_p MM1_b) capacitor c=6.15706e-17
+    cc_17 (c_10_p MM1_b) capacitor c=1.93459e-17
+    cc_16 (c_4_p MM1_b) capacitor c=7.756e-17
+    cc_15 (MM1_g MM1_b) capacitor c=1.33504e-16
+    cc_14 (c_2_p MM1_b) capacitor c=2.52079e-17
+    cc_13 (IN MM1_b) capacitor c=3.57297e-17
+    cc_12 (MM1_g c_46_n) capacitor c=2.38529e-17
+    cc_11 (c_11_p c_42_n) capacitor c=1.8249e-18
+    cc_10 (c_10_p c_42_n) capacitor c=1.9087e-17
+    cc_9 (MM1_g c_42_n) capacitor c=1.41673e-18
+    cc_8 (c_2_p c_42_n) capacitor c=1.06806e-17
+    cc_7 (MM1_g GND) capacitor c=6.67972e-18
+    cc_6 (MM0_g c_34_n) capacitor c=4.87448e-17
+    cc_5 (c_5_p VDD) capacitor c=2.65976e-17
+    cc_4 (c_4_p VDD) capacitor c=7.56503e-17
+    cc_3 (MM0_g VDD) capacitor c=1.29139e-16
+    cc_2 (c_2_p VDD) capacitor c=1.74484e-18
+    cc_1 (IN VDD) capacitor c=4.88693e-18
+    ciGND_21 (GND_6 _net1) capacitor c=3.76334e-18
+    ciGND_20 (c_46_n _net1) capacitor c=2.19742e-17
+    ciVDD_13 (c_34_n _net1) capacitor c=1.17172e-17
+    ciVDD_12 (c_39_p _net1) capacitor c=1.17172e-17
+    ciIN_28 (c_11_p _net1) capacitor c=2.37892e-18
+    rOUT_39 (OUT OUT_19) resistor r=0.0973913
+    rOUT_38 (c_61_n OUT_4) resistor r=0.21
+    rOUT_37 (c_61_n c_75_n) resistor r=0.0286749
+    rOUT_36 (OUT_4 OUT_31) resistor r=5
+    rOUT_35 (OUT_6 c_63_n) resistor r=0.231304
+    rOUT_34 (OUT_6 c_68_n) resistor r=0.0124022
+    rOUT_33 (c_63_n OUT_19) resistor r=0.0046983
+    rOUT_32 (OUT_8 c_72_n) resistor r=0.316522
+    rOUT_31 (OUT_8 OUT_19) resistor r=0.0046983
+    rOUT_30 (c_72_n c_75_n) resistor r=0.0135055
+    rOUT_29 (OUT_10 c_73_n) resistor r=0.0257143
+    rOUT_28 (OUT_10 c_75_n) resistor r=0.0286749
+    rOUT_27 (c_73_n OUT_36) resistor r=5
+    rOUT_26 (OUT_15 c_68_n) resistor r=0.0828571
+    rOUT_25 (OUT_15 OUT_28) resistor r=5
+    rOUT_24 (OUT_28 MM1_d) resistor r=0.21
+    rOUT_23 (OUT_31 MM0_d) resistor r=11.5208
+    rOUT_22 (OUT_36 MM0_d) resistor r=3.86458
+    rGND_29 (GND c_42_n) resistor r=0.0153621
+    rGND_28 (GND GND_5) resistor r=0.0306507
+    rGND_27 (c_42_n MM1_b) resistor r=0.0314286
+    rGND_26 (GND_5 GND_6) resistor r=0.16
+    rGND_25 (GND_6 c_46_n) resistor r=0.0124022
+    rGND_24 (GND_10 c_46_n) resistor r=0.0785714
+    rGND_23 (GND_10 GND_26) resistor r=5
+    rGND_22 (GND_26 MM1_s) resistor r=0.21
+    rVDD_25 (MM0_b VDD) resistor r=0.01
+    rVDD_24 (VDD VDD_9) resistor r=0.0257252
+    rVDD_23 (c_34_n VDD_6) resistor r=0.185714
+    rVDD_22 (c_34_n c_40_p) resistor r=0.0338756
+    rVDD_21 (VDD_6 VDD_34) resistor r=5
+    rVDD_20 (VDD_8 VDD_9) resistor r=0.221429
+    rVDD_19 (VDD_8 c_40_p) resistor r=0.00880368
+    rVDD_18 (VDD_10 c_39_p) resistor r=0.0357143
+    rVDD_17 (VDD_10 c_40_p) resistor r=0.0338756
+    rVDD_16 (c_39_p VDD_39) resistor r=5
+    rVDD_15 (VDD_34 MM0_s) resistor r=11.5208
+    rVDD_14 (VDD_39 MM0_s) resistor r=3.86458
+    rIN_38 (IN c_2_p) resistor r=0.00117647
+    rIN_37 (c_2_p c_11_p) resistor r=7
+    rIN_36 (MM1_g c_10_p) resistor r=40.3333
+    rIN_35 (MM0_g c_5_p) resistor r=38.3333
+    rIN_34 (IN_12 c_19_p) resistor r=14
+    rIN_33 (IN_12 c_10_p) resistor r=3.35237
+    rIN_32 (c_4_p IN_27) resistor r=59.5
+    rIN_31 (c_4_p c_5_p) resistor r=3.35237
+    rIN_30 (c_11_p c_19_p) resistor r=4.9993
+    rIN_29 (c_11_p IN_27) resistor r=4.9993
+ends inverter
+// End of subcircuit definition.
+
+// Library name: LogicCells
+// Cell name: nand2x1
+// View name: calibre
+// View type: maskLayout
+subckt nand2x1 A B GND VDD Y
+    MM1 (net1 MM1_g MM1_s MM1_b) n18 w=4.05e-07 l=1.8e-07 as=2.4525e-13 \
+        ad=5.0625e-14 ps=2.02e-06 pd=6.55e-07 m=1
+    MM0 (MM0_d MM0_g net1 MM0_b) n18 w=4.05e-07 l=1.8e-07 as=5.0625e-14 \
+        ad=2.4525e-13 ps=6.55e-07 pd=2.02e-06 m=1
+    MM3 (MM3_d MM3_g MM3_s MM3_b) p18 w=3.6e-07 l=1.8e-07 as=2.376e-13 \
+        ad=1.494e-13 ps=2.02e-06 pd=1.18e-06 m=1
+    MM2 (MM2_d MM2_g MM2_s MM2_b) p18 w=3.6e-07 l=1.8e-07 as=2.376e-13 \
+        ad=1.494e-13 ps=2.02e-06 pd=1.18e-06 m=1
+    cc_82 (B MM3_s) capacitor c=6.54204e-18
+    cc_81 (c_101_n MM2_b) capacitor c=4.54926e-17
+    cc_80 (c_100_n MM2_b) capacitor c=5.04525e-18
+    cc_79 (c_119_n MM2_b) capacitor c=2.08491e-17
+    cc_78 (MM3_g MM2_b) capacitor c=9.96526e-17
+    cc_77 (B MM2_b) capacitor c=2.66817e-17
+    cc_76 (B c_155_n) capacitor c=6.61355e-18
+    cc_75 (c_119_n c_148_n) capacitor c=3.6515e-18
+    cc_74 (MM3_g c_148_n) capacitor c=1.58689e-17
+    cc_73 (B c_148_n) capacitor c=1.57107e-17
+    cc_72 (MM3_g c_136_n) capacitor c=4.48815e-18
+    cc_71 (MM0_b net1) capacitor c=3.23605e-18
+    cc_70 (c_65_n net1) capacitor c=5.09015e-18
+    cc_69 (c_75_n c_136_n) capacitor c=1.78353e-18
+    cc_68 (MM0_b c_101_n) capacitor c=3.85008e-17
+    cc_67 (MM0_b c_100_n) capacitor c=2.21991e-18
+    cc_66 (MM0_b c_119_n) capacitor c=2.09297e-17
+    cc_65 (MM0_b c_99_n) capacitor c=1.17914e-16
+    cc_64 (MM0_b c_105_n) capacitor c=1.10439e-17
+    cc_63 (MM0_b c_114_n) capacitor c=3.55326e-17
+    cc_62 (c_75_n c_114_n) capacitor c=1.39321e-17
+    cc_61 (c_65_n c_114_n) capacitor c=3.29803e-18
+    cc_60 (MM0_b MM1_g) capacitor c=4.13459e-17
+    cc_59 (c_75_n MM1_g) capacitor c=1.95187e-17
+    cc_58 (c_65_n MM1_g) capacitor c=6.63263e-18
+    cc_57 (MM0_b B) capacitor c=2.69856e-17
+    cc_56 (c_80_p B) capacitor c=1.3751e-17
+    cc_55 (c_40_n net1) capacitor c=5.1324e-18
+    cc_54 (Y MM2_b) capacitor c=4.99901e-17
+    cc_53 (Y c_148_n) capacitor c=1.74819e-17
+    cc_52 (MM2_d c_136_n) capacitor c=1.11405e-17
+    cc_51 (c_40_n c_136_n) capacitor c=4.75458e-18
+    cc_50 (Y c_136_n) capacitor c=1.5248e-17
+    cc_49 (Y c_133_n) capacitor c=1.53428e-17
+    cc_48 (Y c_101_n) capacitor c=4.80266e-19
+    cc_47 (Y c_100_n) capacitor c=3.24867e-17
+    cc_46 (c_40_n c_99_n) capacitor c=3.24867e-17
+    cc_45 (c_40_n c_105_n) capacitor c=1.27148e-17
+    cc_44 (Y MM3_g) capacitor c=5.58402e-18
+    cc_43 (Y B) capacitor c=2.16212e-17
+    cc_42 (c_42_n MM0_b) capacitor c=1.89713e-17
+    cc_41 (c_40_n MM0_b) capacitor c=3.60331e-17
+    cc_40 (c_39_n MM0_b) capacitor c=5.59219e-17
+    cc_39 (Y MM0_b) capacitor c=5.33334e-17
+    cc_38 (c_39_n c_75_n) capacitor c=8.1177e-18
+    cc_37 (c_46_p c_65_n) capacitor c=1.3202e-17
+    cc_36 (c_40_n c_65_n) capacitor c=2.34888e-17
+    cc_35 (c_39_n c_65_n) capacitor c=2.1989e-17
+    cc_34 (A c_143_n) capacitor c=4.53901e-18
+    cc_33 (c_16_p MM2_b) capacitor c=5.04615e-18
+    cc_32 (c_4_p MM2_b) capacitor c=4.71385e-17
+    cc_31 (c_7_p MM2_b) capacitor c=3.0951e-17
+    cc_30 (MM2_g MM2_b) capacitor c=1.02612e-16
+    cc_29 (A MM2_b) capacitor c=2.38193e-17
+    cc_28 (A c_137_n) capacitor c=1.05594e-17
+    cc_27 (MM2_g c_136_n) capacitor c=4.86174e-18
+    cc_26 (c_7_p c_133_n) capacitor c=3.6515e-18
+    cc_25 (MM2_g c_133_n) capacitor c=1.58689e-17
+    cc_24 (A c_133_n) capacitor c=1.73318e-17
+    cc_23 (MM2_g c_101_n) capacitor c=2.25816e-19
+    cc_22 (MM0_g c_101_n) capacitor c=2.25816e-19
+    cc_21 (c_16_p c_100_n) capacitor c=1.40944e-17
+    cc_20 (MM0_g c_99_n) capacitor c=1.40944e-17
+    cc_19 (MM2_g MM3_g) capacitor c=2.14389e-17
+    cc_18 (MM0_g MM1_g) capacitor c=5.63569e-17
+    cc_17 (A B) capacitor c=3.46329e-19
+    cc_16 (c_16_p MM0_b) capacitor c=2.2203e-18
+    cc_15 (c_4_p MM0_b) capacitor c=3.90779e-17
+    cc_14 (c_7_p MM0_b) capacitor c=2.63439e-17
+    cc_13 (MM0_g MM0_b) capacitor c=1.68079e-16
+    cc_12 (A MM0_b) capacitor c=2.25784e-17
+    cc_11 (MM0_g c_65_n) capacitor c=8.2992e-18
+    cc_10 (A c_65_n) capacitor c=9.33737e-18
+    cc_9 (c_7_p c_42_n) capacitor c=2.62039e-18
+    cc_8 (A c_42_n) capacitor c=1.34221e-17
+    cc_7 (c_7_p c_40_n) capacitor c=4.63023e-18
+    cc_6 (MM0_g c_40_n) capacitor c=2.98553e-17
+    cc_5 (MM0_g c_39_n) capacitor c=3.05414e-17
+    cc_4 (c_4_p Y) capacitor c=3.70735e-19
+    cc_3 (MM2_g Y) capacitor c=5.58402e-18
+    cc_2 (MM0_g Y) capacitor c=5.60938e-17
+    cc_1 (A Y) capacitor c=1.54903e-17
+    ciVDD_30 (c_133_n _net2) capacitor c=1.31491e-17
+    ciVDD_29 (c_148_n _net2) capacitor c=1.31491e-17
+    ciB_40 (MM3_g _net2) capacitor c=6.87678e-20
+    ciB_39 (c_99_n _net2) capacitor c=6.87678e-20
+    ciB_38 (c_100_n _net2) capacitor c=7.24368e-20
+    ciB_37 (c_101_n _net2) capacitor c=1.69388e-18
+    ciGND_31 (c_75_n _net2) capacitor c=1.60525e-17
+    ciA_35 (c_4_p _net2) capacitor c=1.79592e-18
+    ciA_34 (c_16_p _net2) capacitor c=1.07928e-19
+    rVDD_44 (MM3_b MM2_b) resistor r=0.01
+    rVDD_43 (VDD MM2_b) resistor r=0.0335714
+    rVDD_42 (VDD c_136_n) resistor r=0.0885714
+    rVDD_41 (VDD_5 c_133_n) resistor r=0.32
+    rVDD_40 (VDD_5 c_137_n) resistor r=0.0257252
+    rVDD_39 (c_133_n c_143_n) resistor r=10
+    rVDD_38 (c_136_n c_155_n) resistor r=0.0184246
+    rVDD_37 (VDD_10 MM2_b) resistor r=0.106429
+    rVDD_36 (VDD_10 c_137_n) resistor r=0.0184246
+    rVDD_35 (VDD_14 c_148_n) resistor r=0.32
+    rVDD_34 (VDD_14 c_155_n) resistor r=0.0257252
+    rVDD_33 (c_148_n VDD_44) resistor r=10
+    rVDD_32 (c_143_n MM2_s) resistor r=1.47643
+    rVDD_31 (VDD_44 MM3_s) resistor r=1.47643
+    rB_52 (B c_101_n) resistor r=7
+    rB_51 (MM1_g B_10) resistor r=12.1
+    rB_50 (MM3_g B_18) resistor r=34.3333
+    rB_49 (B_10 c_105_n) resistor r=3.35237
+    rB_48 (c_114_n c_105_n) resistor r=11
+    rB_47 (c_114_n B_16) resistor r=3.35237
+    rB_46 (B_16 c_99_n) resistor r=46.8333
+    rB_45 (c_99_n c_100_n) resistor r=2.54067
+    rB_44 (B_18 c_100_n) resistor r=2.54067
+    rB_43 (c_119_n B_23) resistor r=17.6667
+    rB_42 (c_119_n c_101_n) resistor r=4.9993
+    rB_41 (B_23 c_100_n) resistor r=0.660276
+    rGND_40 (MM1_b MM0_b) resistor r=0.01
+    rGND_39 (GND MM0_b) resistor r=0.0321429
+    rGND_37 (GND c_65_n) resistor r=0.0157143
+    rGND_36 (c_65_n c_80_p) resistor r=0.0184246
+    rGND_35 (GND_8 c_75_n) resistor r=0.217143
+    rGND_34 (GND_8 c_80_p) resistor r=0.0257252
+    rGND_33 (c_75_n GND_29) resistor r=10
+    rGND_32 (GND_29 MM1_s) resistor r=1.43029
+    rY_40 (MM3_d MM2_d) resistor r=0.01
+    rY_38 (Y Y_13) resistor r=0.478571
+    rY_37 (Y Y_9) resistor r=0.12
+    rY_36 (Y_3 c_39_n) resistor r=0.222857
+    rY_35 (Y_3 c_42_n) resistor r=0.0446983
+    rY_34 (c_39_n c_46_p) resistor r=10
+    rY_33 (c_40_n c_42_n) resistor r=0.188571
+    rY_32 (c_40_n Y_9) resistor r=0.0446983
+    rY_31 (Y_13 MM2_d) resistor r=10
+    rY_30 (c_46_p MM0_d) resistor r=1.43029
+    rA_43 (A A_21) resistor r=7
+    rA_42 (MM0_g A_12) resistor r=64.9333
+    rA_41 (MM2_g A_16) resistor r=34.3333
+    rA_40 (c_7_p c_4_p) resistor r=24.3333
+    rA_39 (c_7_p c_16_p) resistor r=0.660276
+    rA_38 (c_4_p A_21) resistor r=4.9993
+    rA_37 (A_12 c_16_p) resistor r=2.54067
+    rA_36 (A_16 c_16_p) resistor r=2.54067
+ends nand2x1
+// End of subcircuit definition.
+
+// Library name: LogicCells
+// Cell name: nor2
+// View name: calibre
+// View type: maskLayout
+subckt nor2 A B GND VDD Y
+    MM1 (MM1_d MM1_g MM1_s MM1_b) n18 w=2.2e-07 l=1.8e-07 as=2.138e-13 \
+        ad=1.256e-13 ps=2.02e-06 pd=1.18e-06 m=1
+    MM0 (MM0_d MM0_g MM0_s MM0_b) n18 w=2.2e-07 l=1.8e-07 as=2.138e-13 \
+        ad=1.256e-13 ps=2.02e-06 pd=1.18e-06 m=1
+    MM2 (net1 MM2_g MM2_s MM2_b) p18 w=3.76e-06 l=1.8e-07 as=1.8048e-12 \
+        ad=4.7e-13 ps=8.48e-06 pd=4.01e-06 m=1
+    MM3 (MM3_d MM3_g net1 MM3_b) p18 w=3.76e-06 l=1.8e-07 as=4.7e-13 \
+        ad=1.8048e-12 ps=4.01e-06 pd=8.48e-06 m=1
+    cc_75 (MM0_b c_132_n) capacitor c=6.0529e-17
+    cc_74 (MM0_b c_124_n) capacitor c=6.52973e-17
+    cc_73 (c_99_n c_124_n) capacitor c=5.01138e-18
+    cc_72 (MM0_b c_146_n) capacitor c=3.26079e-17
+    cc_71 (c_99_n c_146_n) capacitor c=3.34053e-18
+    cc_70 (MM0_b c_123_n) capacitor c=1.37766e-17
+    cc_69 (MM0_b c_142_n) capacitor c=8.87865e-17
+    cc_68 (c_99_n c_142_n) capacitor c=5.4648e-18
+    cc_67 (c_97_n c_142_n) capacitor c=8.11982e-18
+    cc_66 (MM0_b MM1_g) capacitor c=7.52366e-17
+    cc_65 (c_97_n MM1_g) capacitor c=1.40982e-17
+    cc_64 (c_83_n MM1_g) capacitor c=5.76089e-18
+    cc_63 (MM0_b B) capacitor c=4.69512e-17
+    cc_62 (c_99_n B) capacitor c=2.25082e-17
+    cc_61 (VDD c_132_n) capacitor c=7.98427e-17
+    cc_60 (VDD c_119_n) capacitor c=1.66615e-16
+    cc_59 (VDD B) capacitor c=7.31507e-18
+    cc_58 (c_40_p c_132_n) capacitor c=1.09065e-17
+    cc_57 (c_34_n c_132_n) capacitor c=8.02475e-18
+    cc_56 (c_40_p c_124_n) capacitor c=5.51358e-18
+    cc_55 (c_34_n c_124_n) capacitor c=1.83087e-18
+    cc_54 (c_40_p c_123_n) capacitor c=2.55708e-17
+    cc_53 (c_32_n MM3_g) capacitor c=9.27991e-17
+    cc_52 (c_34_n MM1_g) capacitor c=2.83648e-17
+    cc_51 (c_40_p B) capacitor c=1.01243e-17
+    cc_50 (c_34_n B) capacitor c=6.4374e-18
+    cc_49 (MM0_d MM0_b) capacitor c=1.09344e-17
+    cc_48 (c_34_n MM0_b) capacitor c=9.36054e-17
+    cc_47 (c_32_n MM0_b) capacitor c=5.96326e-18
+    cc_46 (c_40_p c_99_n) capacitor c=6.29571e-18
+    cc_45 (c_40_p c_97_n) capacitor c=4.82248e-18
+    cc_44 (c_34_n c_97_n) capacitor c=1.53428e-17
+    cc_43 (MM0_d c_83_n) capacitor c=9.73683e-18
+    cc_42 (c_40_p c_83_n) capacitor c=4.19454e-18
+    cc_41 (c_34_n c_83_n) capacitor c=2.09535e-17
+    cc_40 (c_32_n c_83_n) capacitor c=4.19454e-18
+    cc_39 (c_34_n c_81_n) capacitor c=1.53428e-17
+    cc_38 (c_32_n c_81_n) capacitor c=4.82248e-18
+    cc_37 (c_43_p c_77_n) capacitor c=4.12141e-17
+    cc_36 (c_40_p c_76_n) capacitor c=4.12141e-17
+    cc_35 (c_32_n c_71_n) capacitor c=4.12141e-17
+    cc_34 (c_40_p VDD) capacitor c=2.17459e-17
+    cc_33 (c_34_n VDD) capacitor c=3.57681e-17
+    cc_32 (c_32_n VDD) capacitor c=2.17459e-17
+    cc_31 (MM2_g c_124_n) capacitor c=2.41544e-19
+    cc_30 (c_2_p c_123_n) capacitor c=1.02409e-17
+    cc_29 (c_6_p c_119_n) capacitor c=1.50396e-18
+    cc_28 (c_2_p c_119_n) capacitor c=3.52283e-18
+    cc_27 (c_1_p c_119_n) capacitor c=7.19777e-18
+    cc_26 (MM2_g c_119_n) capacitor c=2.62112e-17
+    cc_25 (MM2_g MM3_g) capacitor c=1.50883e-16
+    cc_24 (MM0_g MM1_g) capacitor c=1.54155e-17
+    cc_23 (c_6_p MM0_b) capacitor c=7.42843e-17
+    cc_22 (c_2_p MM0_b) capacitor c=1.2885e-16
+    cc_21 (c_21_p MM0_b) capacitor c=1.75493e-17
+    cc_20 (c_20_p MM0_b) capacitor c=1.85279e-17
+    cc_19 (c_1_p MM0_b) capacitor c=6.08857e-17
+    cc_18 (MM0_g MM0_b) capacitor c=7.55279e-17
+    cc_17 (A MM0_b) capacitor c=7.2953e-17
+    cc_16 (MM0_g c_83_n) capacitor c=5.76089e-18
+    cc_15 (c_2_p c_81_n) capacitor c=8.11982e-18
+    cc_14 (MM0_g c_81_n) capacitor c=1.40982e-17
+    cc_13 (MM2_g c_71_n) capacitor c=1.13706e-16
+    cc_12 (c_9_p c_68_n) capacitor c=1.71736e-17
+    cc_11 (MM2_g c_68_n) capacitor c=4.20458e-18
+    cc_10 (A c_68_n) capacitor c=1.05394e-17
+    cc_9 (c_9_p VDD) capacitor c=2.0168e-17
+    cc_8 (c_1_p VDD) capacitor c=1.24962e-16
+    cc_7 (MM2_g VDD) capacitor c=2.15313e-16
+    cc_6 (c_6_p c_34_n) capacitor c=1.56865e-18
+    cc_5 (c_1_p c_34_n) capacitor c=8.2863e-18
+    cc_4 (MM0_g c_34_n) capacitor c=2.81777e-17
+    cc_3 (A c_34_n) capacitor c=5.6109e-18
+    cc_2 (c_2_p c_32_n) capacitor c=2.59604e-17
+    cc_1 (c_1_p c_32_n) capacitor c=9.01505e-18
+    ciB_35 (MM1_g _net3) capacitor c=1.64091e-19
+    ciB_34 (c_124_n _net3) capacitor c=3.3546e-18
+    ciGND_37 (c_81_n _net3) capacitor c=1.31491e-17
+    ciGND_36 (c_97_n _net3) capacitor c=1.31491e-17
+    ciVDD_17 (c_71_n _net3) capacitor c=1.24031e-17
+    ciVDD_16 (c_76_n _net3) capacitor c=1.24031e-17
+    ciA_32 (MM0_g _net3) capacitor c=1.82704e-19
+    ciA_31 (c_6_p _net3) capacitor c=3.33599e-18
+    rB_46 (B B_23) resistor r=7
+    rB_45 (MM1_g B_12) resistor r=26.3333
+    rB_44 (MM3_g c_119_n) resistor r=72
+    rB_43 (c_119_n c_132_n) resistor r=3.35237
+    rB_42 (B_12 c_123_n) resistor r=3.35237
+    rB_41 (c_142_n c_123_n) resistor r=36.3333
+    rB_40 (c_142_n B_23) resistor r=4.9993
+    rB_39 (c_146_n c_124_n) resistor r=8.66667
+    rB_38 (c_146_n B_20) resistor r=3.35237
+    rB_37 (c_124_n B_23) resistor r=4.9993
+    rB_36 (B_20 c_132_n) resistor r=51.6667
+    rGND_53 (MM1_b MM0_b) resistor r=0.01
+    rGND_52 (GND GND_9) resistor r=0.14
+    rGND_51 (GND MM0_b) resistor r=0.0285714
+    rGND_50 (GND_4 c_81_n) resistor r=0.228571
+    rGND_49 (GND_4 MM0_b) resistor r=0.0257252
+    rGND_48 (c_81_n GND_35) resistor r=10
+    rGND_47 (c_83_n MM0_b) resistor r=0.06
+    rGND_46 (c_83_n GND_22) resistor r=0.0184246
+    rGND_45 (GND_9 MM0_b) resistor r=0.0184246
+    rGND_44 (GND_13 c_97_n) resistor r=0.228571
+    rGND_43 (GND_13 GND_22) resistor r=0.0257252
+    rGND_42 (c_97_n GND_41) resistor r=10
+    rGND_41 (c_99_n MM0_b) resistor r=0.0342857
+    rGND_40 (c_99_n GND_22) resistor r=0.0184246
+    rGND_39 (GND_35 MM0_s) resistor r=1.63912
+    rGND_38 (GND_41 MM1_s) resistor r=1.63912
+    rVDD_36 (MM2_b VDD) resistor r=0.01
+    rVDD_35 (MM3_b VDD) resistor r=0.01
+    rVDD_34 (VDD c_68_n) resistor r=0.132143
+    rVDD_33 (VDD VDD_15) resistor r=0.123571
+    rVDD_32 (VDD VDD_15) resistor r=0.0338756
+    rVDD_31 (VDD c_68_n) resistor r=0.0338756
+    rVDD_30 (VDD VDD_10) resistor r=0.00880368
+    rVDD_29 (c_71_n VDD_7) resistor r=0.238571
+    rVDD_28 (c_71_n c_77_n) resistor r=0.0576508
+    rVDD_27 (VDD_7 VDD_39) resistor r=3.33333
+    rVDD_26 (VDD_9 VDD_10) resistor r=0.1
+    rVDD_25 (VDD_9 c_77_n) resistor r=0.00647627
+    rVDD_24 (VDD_11 c_76_n) resistor r=0.237143
+    rVDD_23 (VDD_11 c_77_n) resistor r=0.0576508
+    rVDD_22 (c_76_n VDD_46) resistor r=3.33333
+    rVDD_21 (c_77_n VDD_44) resistor r=10
+    rVDD_20 (VDD_39 MM2_s) resistor r=16.1875
+    rVDD_19 (VDD_44 MM2_s) resistor r=0.0729167
+    rVDD_18 (VDD_44 VDD_46) resistor r=16.1875
+    rY_48 (MM1_d MM0_d) resistor r=0.01
+    rY_47 (Y c_34_n) resistor r=0.411429
+    rY_46 (Y Y_6) resistor r=0.191429
+    rY_45 (c_32_n Y_4) resistor r=0.228571
+    rY_44 (c_32_n c_43_p) resistor r=0.0338756
+    rY_43 (Y_4 Y_22) resistor r=3.33333
+    rY_42 (Y_6 c_43_p) resistor r=0.00880368
+    rY_41 (c_34_n MM0_d) resistor r=10
+    rY_40 (Y_11 Y_13) resistor r=0.168571
+    rY_39 (Y_11 c_43_p) resistor r=0.0338756
+    rY_38 (Y_13 c_40_p) resistor r=0.317143
+    rY_37 (Y_13 Y_27) resistor r=3.33333
+    rY_36 (c_40_p Y_29) resistor r=10
+    rY_35 (Y_22 MM3_d) resistor r=16.1875
+    rY_34 (Y_27 MM3_d) resistor r=8.16667
+    rY_33 (Y_27 Y_29) resistor r=16.1875
+    rA_44 (A A_5) resistor r=0.00135593
+    rA_43 (A_5 A_24) resistor r=7
+    rA_42 (MM0_g A_19) resistor r=26.3333
+    rA_41 (MM2_g c_9_p) resistor r=90
+    rA_40 (A_9 c_1_p) resistor r=66
+    rA_39 (A_9 c_21_p) resistor r=3.35237
+    rA_38 (c_1_p c_9_p) resistor r=3.35237
+    rA_37 (c_20_p c_21_p) resistor r=8.66667
+    rA_36 (c_20_p A_24) resistor r=4.9993
+    rA_35 (c_2_p c_6_p) resistor r=43
+    rA_34 (c_2_p A_19) resistor r=3.35237
+    rA_33 (c_6_p A_24) resistor r=4.9993
+ends nor2
+// End of subcircuit definition.
+
+// Library name: TestLogicCells
+// Cell name: design
+// View name: schematic
+I0 (net2 net4 net6 net3 net1 net5) dff
+I1 (net10 net7 net8 net9) inverter
+I2 (net12 net11 net15 net14 net13) nand2x1
+I3 (net17 net16 net20 net19 net18) nor2
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1e-06 gmin=1e-12 \
+    rforce=1 maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=both 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub subcktprobelvl=2

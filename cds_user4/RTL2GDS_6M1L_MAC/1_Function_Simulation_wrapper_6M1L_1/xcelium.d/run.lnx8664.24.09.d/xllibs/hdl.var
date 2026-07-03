@@ -1,0 +1,5 @@
+define LIB_MAP ( $LIB_MAP \
+, ../../../../../../../../../../../../tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3o01.v => pc3o01 \
+, ../../../../../../../../../../../../tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3d01.v => pc3d01 \
+, ../../../../../../../../../../../../tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3c01.v => pc3c01 \
+)

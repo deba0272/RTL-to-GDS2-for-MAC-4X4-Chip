@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE cov SYSTEM "ucdb_srcinfo.dtd">
+  <srcinfo name="/home/iep4/projects/user4/work_libs/iep4/cds/14_Coverage_VCS/codes"  >
+    <ucapi_version  major_ver="13"  minor_ver="1"  patch_str="U-2023.03"  />
+      <fileinfo name="1_CovergroupWithoutEvent.sv"  id="0"  timestamp="1782213011"  />
+    </srcinfo>

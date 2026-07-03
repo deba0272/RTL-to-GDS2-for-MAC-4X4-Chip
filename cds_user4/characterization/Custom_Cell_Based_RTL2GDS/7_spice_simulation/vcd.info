@@ -1,0 +1,11 @@
+
+.scope muxdelay
+.in clk rst A B C S
+.out Y
+.vih 1.8
+.vil 0.0
+.vol 0
+.voh 1.8
+.tfall 0.1 clk rst A B C S
+.trise 0.1 clk rst A B C S
+

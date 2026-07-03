@@ -1,0 +1,5 @@
+
+// Library name: basic_gates
+// Cell name: inverter
+// View name: schematic
+subckt inverter_schematic GND IN OUT VDD

@@ -1,0 +1,19 @@
+
+
+// +++ CUSTOMIZATION SETTINGS START +++
+
+#define "DRC_OPT" DRC
+#define "DRC_TECH" ts18scl
+#define "6M1L" 
+#define "USG" 
+#define "DRC_TYPE" BLOCK
+#undefine "DFM_CHECK"
+#define "DRC_VOLTAGE" 1.8V/3V
+#undefine "MORE_SWITCHES"
+#undefine "BIT_CELL_RUNSETS"
+
+// +++ CUSTOMIZATION SETTINGS END +++
+
+DRC ICSTATION YES
+
+INCLUDE "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/techs/ts18scl/calibre/default_scr/headers/DRC.rules"

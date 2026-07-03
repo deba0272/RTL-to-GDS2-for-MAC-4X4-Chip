@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "inverter_tb"
+  repList "spectre calibre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/iep4/projects/user4/work_libs/iep4/cds/simulation/inverter_tb/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "basic_gates/inverter/calibre" "inverter_calibre" )
+( "basic_gates/inverter_tb/schematic" "inverter_tb_schematic" )
+ )
+( "inverter_tb_schematic" "ihnl/cds7/map" )
+( "inverter_calibre" "ihnl/cds8/map" )
+ )

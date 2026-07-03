@@ -1,0 +1,2370 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2022 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[15:25:02.427898] Configured Lic search path (21.01-s002): 5280@14.139.1.126:1717@14.139.1.126
+
+Version: 21.14-s082_1, built Thu Jun 23 02:02:08 PDT 2022
+Options: -legacy_ui -files script_sv.tcl 
+Date:    Mon Jun 22 15:25:02 2026
+Host:    server3.eced.svnit.ac.in (x86_64 w/Linux 4.18.0-553.124.1.el8_10.x86_64) (16cores*32cpus*1physical cpu*Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz 22528KB) (65290480KB)
+PID:     349171
+OS:      Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+
+[15:25:05.175865] Periodic Lic check successful
+[15:25:05.175891] Feature usage summary:
+[15:25:05.175891] Genus_Synthesis
+Checking out license: Genus_Synthesis (3 seconds elapsed).
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (18 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source script_sv.tcl
+  Setting attribute of root '/': 'init_hdl_search_path' = ../rtl_7
+
+Threads Configured:8
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab4' (File /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/liberty/lib_flow_ss/tsl18fs120_scl_ss.lib, Line 88858)
+        : Sequential timing checks, such as 'setup_rising' or 'hold_rising', on flop and latch cells require a clock pin. Verify that the 'clock' attribute of the clock pin is set to 'true' or that the clock pin has a 'clocked_on' attribute.
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab2' (File /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/liberty/lib_flow_ss/tsl18fs120_scl_ss.lib, Line 128076)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab1' (File /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/liberty/lib_flow_ss/tsl18fs120_scl_ss.lib, Line 211354)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab4' (File /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/liberty/lib_flow_ff/tsl18fs120_scl_ff.lib, Line 88865)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab2' (File /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/liberty/lib_flow_ff/tsl18fs120_scl_ff.lib, Line 128091)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'srlab1' (File /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/liberty/lib_flow_ff/tsl18fs120_scl_ff.lib, Line 211382)
+
+  Message Summary for Library all 4 libraries:
+  ********************************************
+  Missing clock pin in the sequential cell. [LBR-525]: 6
+  Missing a function attribute in the output pin definition. [LBR-518]: 2
+  An unsupported construct was detected in this library. [LBR-40]: 190
+  ********************************************
+ 
+Warning : Libraries have inconsistent nominal operating conditions. In the Liberty library, there are attributes called nom_voltage, nom_process and nom_temperature. Genus reports the message, if the respective values of the 2 given .libs differ. [LBR-38]
+        : The libraries are 'tsl18fs120_scl_ss' and 'tsl18fs120_scl_ff'.
+        : This is a common source of delay calculation confusion and should be avoided.
+Warning : Libraries have inconsistent nominal operating conditions. In the Liberty library, there are attributes called nom_voltage, nom_process and nom_temperature. Genus reports the message, if the respective values of the 2 given .libs differ. [LBR-38]
+        : The libraries are 'tsl18fs120_scl_ss' and 'tsl18cio150_min'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.200000, 1.620000, 125.000000) in library 'tsl18fs120_scl_ss.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.200000, 1.620000, 125.000000) in library 'tsl18cio150_max.lib'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (0.800000, 1.980000, -40.000000) in library 'tsl18fs120_scl_ff.lib'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (0.800000, 1.980000, -40.000000) in library 'tsl18cio150_min.lib'.
+Cell 'slbhb2' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+        : This library has a valid test_cell function, but its regular cell function is either missing or not completely understood (for example, cell has a state_table construct). Consult your library vendor about why this cell is either missing or has an incorrectly specified cell non-test function. Comparing this cell to the other cells that do not display this Warning, can be helpful to debug the issue.
+Cell 'slbhb1' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'adiode' must have an output pin.
+        : Add the missing output pin(s), then reload the library. Else the library cell will be marked as timing model i.e. unusable. Timing_model means that the cell does not have any defined function. If there is no output pin, Genus will mark library cell as unusable i.e. the attribute 'usable' will be marked to 'false' on the libcell. Therefore, the cell is not used for mapping and it will not be picked up from the library for synthesis. If you query the attribute 'unusable_reason' on the libcell; result will be: 'Library cell has no output pins.'Note: The message LBR-9 is only for the logical pins and not for the power_ground pins. Genus will depend upon the output function defined in the pin group (output pin) of the cell, to use it for mapping. The pg_pin will not have any function defined.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'adiode' must have an output pin.
+Cell 'slbhb4' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'cload1' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'cload1' must have an output pin.
+Warning : The specified pin is invalid. [LBR-146]
+        : Pin 'Z_reg' is used in data_in function, but does not exist in cell 'slnht4'
+        : Specify the pin name which is an input pin and exist in the cell.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : The specified pin is invalid. [LBR-146]
+        : Pin 'Z_reg' is used in data_in function, but does not exist in cell 'slnht1'
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : The specified pin is invalid. [LBR-146]
+        : Pin 'Z_reg' is used in data_in function, but does not exist in cell 'slnht2'
+Warning : Found libraries with and without pg_pin construct. [LBR-12]
+        : Libraries with and without pg_pin construct have been loaded.
+        : This can lead to issues later in the flow.
+Cell 'slbhb2' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Cell 'slbhb1' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'adiode' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'adiode' must have an output pin.
+Cell 'slbhb4' is avoided.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slbhb4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'cload1' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'cload1' must have an output pin.
+Warning : The specified pin is invalid. [LBR-146]
+        : Pin 'Z_reg' is used in data_in function, but does not exist in cell 'slnht4'
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn2' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnln1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn4' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : The specified pin is invalid. [LBR-146]
+        : Pin 'Z_reg' is used in data_in function, but does not exist in cell 'slnht1'
+Warning : Library cell only has usable test_cell function. [LBR-66]
+        : Cell 'slnhn1' can be used as a regular flop/latch by tying off its test pins, or as a scan flop/latch in 'muxed_scan' style.
+Warning : The specified pin is invalid. [LBR-146]
+        : Pin 'Z_reg' is used in data_in function, but does not exist in cell 'slnht2'
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/aor211d1 and tsl18fs120_scl_ff/aor211d1).  Deleting (tsl18fs120_scl_ff/aor211d1).
+        : Library cell names must be unique.  Any duplicates will be deleted.  Only the first (as determined by the order of libraries) will be retained.
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/invtd2 and tsl18fs120_scl_ff/invtd2).  Deleting (tsl18fs120_scl_ff/invtd2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/xn02d2 and tsl18fs120_scl_ff/xn02d2).  Deleting (tsl18fs120_scl_ff/xn02d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/oai221d1 and tsl18fs120_scl_ff/oai221d1).  Deleting (tsl18fs120_scl_ff/oai221d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/nd13d2 and tsl18fs120_scl_ff/nd13d2).  Deleting (tsl18fs120_scl_ff/nd13d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/oai322d2 and tsl18fs120_scl_ff/oai322d2).  Deleting (tsl18fs120_scl_ff/oai322d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/dfnrq2 and tsl18fs120_scl_ff/dfnrq2).  Deleting (tsl18fs120_scl_ff/dfnrq2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/aor22d2 and tsl18fs120_scl_ff/aor22d2).  Deleting (tsl18fs120_scl_ff/aor22d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/sdpfb1 and tsl18fs120_scl_ff/sdpfb1).  Deleting (tsl18fs120_scl_ff/sdpfb1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/aoim311d1 and tsl18fs120_scl_ff/aoim311d1).  Deleting (tsl18fs120_scl_ff/aoim311d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/oai311d2 and tsl18fs120_scl_ff/oai311d2).  Deleting (tsl18fs120_scl_ff/oai311d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/senrb4 and tsl18fs120_scl_ff/senrb4).  Deleting (tsl18fs120_scl_ff/senrb4).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/inv0d2 and tsl18fs120_scl_ff/inv0d2).  Deleting (tsl18fs120_scl_ff/inv0d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/xr02d1 and tsl18fs120_scl_ff/xr02d1).  Deleting (tsl18fs120_scl_ff/xr02d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/aoim211d4 and tsl18fs120_scl_ff/aoim211d4).  Deleting (tsl18fs120_scl_ff/aoim211d4).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/nr04d1 and tsl18fs120_scl_ff/nr04d1).  Deleting (tsl18fs120_scl_ff/nr04d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/oaim21d2 and tsl18fs120_scl_ff/oaim21d2).  Deleting (tsl18fs120_scl_ff/oaim21d2).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/dl04d1 and tsl18fs120_scl_ff/dl04d1).  Deleting (tsl18fs120_scl_ff/dl04d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/aon211d1 and tsl18fs120_scl_ff/aon211d1).  Deleting (tsl18fs120_scl_ff/aon211d1).
+Warning : Multiply-defined library cell. [LBR-22]
+        : Library-cell name collision (tsl18fs120_scl_ss/sdbrb2 and tsl18fs120_scl_ff/sdbrb2).  Deleting (tsl18fs120_scl_ff/sdbrb2).
+Warning : Maximum message print count reached. [MESG-11]
+        : Maximum print count of '20' reached for message 'LBR-22'.
+  Setting attribute of root '/': 'library' = /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/liberty/lib_flow_ss/tsl18fs120_scl_ss.lib /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/liberty/tsl18cio150_max.lib /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/liberty/lib_flow_ff/tsl18fs120_scl_ff.lib /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/liberty/tsl18cio150_min.lib
+  Setting attribute of root '/': 'information_level' = 7
+            Reading Verilog file '../rtl_7/top_wrapper.v'
+            Reading Verilog file '../rtl_7/mac.v'
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A2' and 'ZN' in libcell 'xn02d2' is 'neg_unate', but unateness determined from function is 'non_unate'.
+        : The 'timing_sense' attribute will be respected.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A2' and 'ZN' in libcell 'xn02d2' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A2' and 'ZN' in libcell 'xn02d2'.
+        : Setting the 'timing_sense' to non_unate.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A1' and 'ZN' in libcell 'xn02d2' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A1' and 'ZN' in libcell 'xn02d2' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A1' and 'ZN' in libcell 'xn02d2'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A2' and 'Z' in libcell 'xr02d1' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A2' and 'Z' in libcell 'xr02d1' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A2' and 'Z' in libcell 'xr02d1'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A1' and 'Z' in libcell 'xr02d1' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A1' and 'Z' in libcell 'xr02d1' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A1' and 'Z' in libcell 'xr02d1'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SD' and 'Q' in libcell 'slbhb2' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_Q_n90' between pins 'SD' and 'Q' in libcell 'slbhb2'.
+        : The library cell is sequential and it has a combinational arc involving at least one pin that is only used in scan mode.  You can enable such arcs by setting root-level attribute "ignore_scan_combinational_arcs" to false, but that will deem the cell unusable.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'SC' and 'Q' in libcell 'slbhb2' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n61' between pins 'SC' and 'Q' in libcell 'slbhb2'.
+Info    : Setting the maximum print count of this message to 10 if information_level is less than 9. [LBR-161]
+        : To print all the warning messages, set the information_level to 9.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'Q' in libcell 'slbhb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n92' between pins 'SC' and 'Q' in libcell 'slbhb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_QN_n61' between pins 'SD' and 'QN' in libcell 'slbhb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_QN_n63' between pins 'SC' and 'QN' in libcell 'slbhb2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'QN' in libcell 'slbhb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_QN_n94' between pins 'SC' and 'QN' in libcell 'slbhb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_Q_n90' between pins 'SD' and 'Q' in libcell 'slchq4'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n61' between pins 'SC' and 'Q' in libcell 'slchq4'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'Q' in libcell 'slchq4'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n92' between pins 'SC' and 'Q' in libcell 'slchq4'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_Q_n90' between pins 'SD' and 'Q' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n61' between pins 'SC' and 'Q' in libcell 'slnlb2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'Q' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n92' between pins 'SC' and 'Q' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_QN_n61' between pins 'SD' and 'QN' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_QN_n63' between pins 'SC' and 'QN' in libcell 'slnlb2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'QN' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_QN_n94' between pins 'SC' and 'QN' in libcell 'slnlb2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_Q_n90' between pins 'SD' and 'Q' in libcell 'slnlq2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n61' between pins 'SC' and 'Q' in libcell 'slnlq2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'Q' in libcell 'slnlq2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n92' between pins 'SC' and 'Q' in libcell 'slnlq2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'S' and 'ZN' in libcell 'mi02d4'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'su01d1'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'su01d1'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'su01d1'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SD_Q_n90' between pins 'SD' and 'Q' in libcell 'slnhq2'.
+Info    : Automatically disabling a scan-only combinational arc. [LBR-77]
+        : The arc is named 'SC_Q_n61' between pins 'SC' and 'Q' in libcell 'slnhq2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'SC' and 'Q' in libcell 'slnhq2'.
+Warning : Maximum message print count reached. [MESG-11]
+        : Maximum print count of '20' reached for message 'LBR-77'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A3' and 'Z' in libcell 'xr03d2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A2' and 'Z' in libcell 'xr03d2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A1' and 'Z' in libcell 'xr03d2'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ad01d1'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ad01d1'.
+Warning : Maximum message print count reached. [MESG-11]
+        : Maximum print count of '20' reached for message 'LBR-162'.
+Warning : Libcell will be treated as a timing model. [LBR-158]
+        : Lib_pin 'bh01d1/I' has no incoming arcs.
+        : Ensure that the relevant timing arcs are defined in the Liberty model of the libcell.
+  Libraries have 328 usable logic and 153 usable sequential lib-cells.
+Info    : Elaborating Design. [ELAB-1]
+        : Elaborating top-level block 'mac_4x4_wrapper_chip' from file '../rtl_7/top_wrapper.v'.
+Info    : Elaborating Subdesign. [ELAB-2]
+        : Elaborating block 'mac_4x4' from file '../rtl_7/mac.v'.
+Info    : Bitwidth mismatch in assignment. [CDFG-372]
+        : Width of left hand side 'mult_wire' [8] doesn't match the width of right hand side [4] in assignment in file '../rtl_7/mac.v' on line 46.
+        : Review and make sure the mismatch is unintentional. Genus can possibly issue bitwidth mismatch warning for explicit assignments present in RTL as-well-as for implicit assignments inferred by the tool. For example, in case of enum declaration without value, the tool will implicitly assign value to the enum variables. It also issues the warning for any bitwidth mismatch that appears in this implicit assignment.
+Info    : Common subexpression eliminated. [CDFG-738]
+        : Eliminated '+' in file '../rtl_7/mac.v' on line 101.
+Info    : Common subexpression kept. [CDFG-739]
+        : Kept '+' in file '../rtl_7/mac.v' on line 89.
+Info    : Done Elaborating Design. [ELAB-3]
+        : Done elaborating 'mac_4x4_wrapper_chip'.
+Checking for analog nets...
+Check completed for analog nets.
+Checking for source RTL...
+Check completed for source RTL.
+Running Unified Mux Engine Tricks...
+Completed Unified Mux Engine Tricks
+
+Stage: post_elab
+--------------------------------------------------------
+| Trick             | Accepts | Rejects | Runtime (ms) | 
+--------------------------------------------------------
+| ume_constant_bmux |       0 |       0 |         0.00 | 
+--------------------------------------------------------
+Starting clip mux common data inputs [v1.0] (stage: post_elab, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed clip mux common data inputs (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting clip the non-user hierarchies [v2.0] (stage: post_elab, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed clip the non-user hierarchies (accepts: 0, rejects: 0, runtime: 0.000s)
+
+Stage: post_elab
+---------------------------------------------------------
+| Transform          | Accepts | Rejects | Runtime (ms) | 
+---------------------------------------------------------
+| hlo_clip_mux_input |       0 |       0 |         0.00 | 
+| hlo_clip           |       0 |       0 |         0.00 | 
+---------------------------------------------------------
+        Applying wireload models.
+        Computing net loads.
+Warning : Could not find requested search value. [SDC-208] [get_ports]
+        : The 'get_ports' command on line '50' of the SDC file '../constraints/constraints_top_2.sdc'  cannot find any ports named 'valid_in'
+        : Use get_* commands to find the objects along with a wild card entry in the name of the object to check if the object is existing with different naming style.
+Error   : Invalid SDC command option combination. [SDC-204] [set_io_delay]
+        : The set_io_delay command does not accept empty ports lists
+        : This option is not valid for the indicated SDC command. Check the SDC command and contact Cadence customer support if you believe this option combination should be supported.
+Error   : Could not interpret SDC command. [SDC-202] [read_sdc]
+        : The 'read_sdc' command encountered an error while processing this command on line '50' of the SDC file '../constraints/constraints_top_2.sdc': set_input_delay -clock clk 8.000 [get_ports valid_in].
+        : The 'read_sdc' command encountered a problem while trying to evaluate an SDC command. This SDC command will be added to the Tcl variable $::dc::sdc_failed_commands.
+Warning : Could not find requested search value. [SDC-208] [get_ports]
+        : The 'get_ports' command on line '57' of the SDC file '../constraints/constraints_top_2.sdc'  cannot find any ports named 'stream_a_in[0]'
+Warning : Maximum message print count reached. [MESG-11] [get_ports]
+        : Maximum print count of '2' reached for message 'SDC-208'.
+Warning : Suppressed remaining 'SDC-208' warnings. [SDC-236]
+        : The line '57' of the SDC file '../constraints/constraints_top_2.sdc' had total 32 failures.
+        : Use the attribute 'collapse_sdc_msg' to control printing of warning 'SDC-208'.
+Error   : Could not interpret SDC command. [SDC-202] [read_sdc]
+        : The 'read_sdc' command encountered an error while processing this command on line '57' of the SDC file '../constraints/constraints_top_2.sdc': foreach bit {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15} {
+    # Applies a 5.0 ns input delay to every single bit (0 through 15) of the stream_a_in bus.
+    set_input_delay -clock clk 5.000 [get_ports 'stream_a_in[$bit]']
+    # Applies a 5.0 ns input delay to every single bit (0 through 15) of the stream_b_in bus.
+    set_input_delay -clock clk 5.000 [get_ports 'stream_b_in[$bit]']
+}.
+Warning : Could not find requested search value. [SDC-208] [get_ports]
+        : The 'get_ports' command on line '72' of the SDC file '../constraints/constraints_top_2.sdc'  cannot find any ports named 'stream_out[0]'
+Warning : Suppressed remaining 'SDC-208' warnings. [SDC-236]
+        : The line '72' of the SDC file '../constraints/constraints_top_2.sdc' had total 16 failures.
+Error   : Could not interpret SDC command. [SDC-202] [read_sdc]
+        : The 'read_sdc' command encountered an error while processing this command on line '72' of the SDC file '../constraints/constraints_top_2.sdc': foreach bit {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15} {
+    # Tells the tool: 'The outside world needs 3.0 ns to process this output.'
+    # So, our chip must push the data out of the stream_out pins 3.0 ns BEFORE the next clock edge.
+    set_output_delay -clock clk 3.000 [get_ports 'stream_out[$bit]']
+}.
+Warning : Could not find requested search value. [SDC-208] [get_ports]
+        : The 'get_ports' command on line '78' of the SDC file '../constraints/constraints_top_2.sdc'  cannot find any ports named 'valid_out'
+Error   : Could not interpret SDC command. [SDC-202] [read_sdc]
+        : The 'read_sdc' command encountered an error while processing this command on line '78' of the SDC file '../constraints/constraints_top_2.sdc': set_output_delay -clock clk 3.000 [get_ports valid_out].
+Error   : Unknown TCL command in the SDC file. [SDC-234] [read_sdc]
+        : Invalid command 'set_fix_hold'
+        : The 'read_sdc' command encountered a problem while trying to evaluate a command in the SDC file.
+Error   : Could not interpret SDC command. [SDC-202] [read_sdc]
+        : The TCL interpreter encountered the following error while processing line '103' of the SDC file '../constraints/constraints_top_2.sdc': invalid command name 'set_fix_hold'.
+Statistics for commands executed by read_sdc:
+ "all_inputs"               - successful      1 , failed      0 (runtime  0.00)
+ "all_outputs"              - successful      1 , failed      0 (runtime  0.00)
+ "all_registers"            - successful      4 , failed      0 (runtime  0.00)
+ "create_clock"             - successful      1 , failed      0 (runtime  0.01)
+ "get_clocks"               - successful      3 , failed      0 (runtime  0.00)
+ "get_ports"                - successful      2 , failed     50 (runtime  0.01)
+ "group_path"               - successful      3 , failed      0 (runtime  0.01)
+ "set_clock_uncertainty"    - successful      2 , failed      0 (runtime  0.00)
+ "set_input_delay"          - successful      1 , failed     33 (runtime  0.00)
+ "set_output_delay"         - successful      0 , failed     17 (runtime  0.00)
+ "set_units"                - successful      2 , failed      0 (runtime  0.00)
+Warning : Total failed commands during read_sdc are 100
+Warning : One or more commands failed when these constraints were applied. [SDC-209]
+        : The 'read_sdc' command encountered a problem while processing commands.
+        : You can examine the failed commands or save them to a file by querying the Tcl variable $::dc::sdc_failed_commands.
+read_sdc completed in 00:00:00 (hh:mm:ss)
+      Running additional step before syn_gen...
+
+
+Stage: pre_early_cg
+------------------------------------------------
+| Transform | Accepts | Rejects | Runtime (ms) | 
+------------------------------------------------
+------------------------------------------------
+##Generic Timing Info for library domain: _default_ typical gate delay: 213.9 ps std_slew: 29.7 ps std_load: 5.3 fF
+Starting mux data reorder optimization [v1.0] (stage: pre_to_gen_setup, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+
+Stage: pre_to_gen_setup
+------------------------------------------------------
+| Transform       | Accepts | Rejects | Runtime (ms) | 
+------------------------------------------------------
+| hlo_mux_reorder |       0 |       0 |         0.00 | 
+------------------------------------------------------
+Info    : Multimode clock gating check is disabled. [TIM-1000]
+Info    : Synthesizing. [SYNTH-1]
+        : Synthesizing 'mac_4x4_wrapper_chip' to generic gates using 'medium' effort.
+PBS_Generic-Start - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_Generic-Start' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:00:14) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:26 (Jun22) |  233.3 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+        Applying wireload models.
+        Computing net loads.
+TNS Restructuring config: no_value at stage: generic applied.
+Info    : Partition Based Synthesis execution skipped. [PHYS-752]
+        : Design size is less than the partition size '100000' for distributed generic optimization to kick in.
+Starting mux data reorder optimization [v1.0] (stage: pre_to_gen_setup, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.001s)
+
+Stage: pre_to_gen_setup
+------------------------------------------------------
+| Transform       | Accepts | Rejects | Runtime (ms) | 
+------------------------------------------------------
+| hlo_mux_reorder |       0 |       0 |         1.00 | 
+------------------------------------------------------
+Starting mux data reorder optimization [v1.0] (stage: post_to_gen_setup, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+
+Stage: post_to_gen_setup
+------------------------------------------------------
+| Transform       | Accepts | Rejects | Runtime (ms) | 
+------------------------------------------------------
+| hlo_mux_reorder |       0 |       0 |         0.00 | 
+------------------------------------------------------
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[0]' and 'mac_out_reg[0]' in 'mac_4x4' have been merged.
+        : To prevent merging of sequential instances, set the 'optimize_merge_flops' and 'optimize_merge_latches' root attributes to 'false' or the 'optimize_merge_seq' instance attribute to 'false'.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[1]' and 'mac_out_reg[1]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[2]' and 'mac_out_reg[2]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[3]' and 'mac_out_reg[3]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[4]' and 'mac_out_reg[4]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[5]' and 'mac_out_reg[5]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[6]' and 'mac_out_reg[6]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[7]' and 'mac_out_reg[7]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[8]' and 'mac_out_reg[8]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[9]' and 'mac_out_reg[9]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[10]' and 'mac_out_reg[10]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[11]' and 'mac_out_reg[11]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[12]' and 'mac_out_reg[12]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[13]' and 'mac_out_reg[13]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[14]' and 'mac_out_reg[14]' in 'mac_4x4' have been merged.
+Info    : Equivalent sequential instances have been merged. [GLO-42]
+        : Instances 'acc_reg_reg[15]' and 'mac_out_reg[15]' in 'mac_4x4' have been merged.
+Running Unified Mux Engine Tricks...
+Completed Unified Mux Engine Tricks
+
+Stage: pre_hlo_rtlopt
+--------------------------------------------
+| Trick | Accepts | Rejects | Runtime (ms) | 
+--------------------------------------------
+--------------------------------------------
+Starting infer macro optimization [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed infer macro optimization (accepts: 0, rejects: 0, runtime: 0.002s)
+Starting decode mux sandwich optimization [v2.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed decode mux sandwich optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting decode mux optimization [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed decode mux optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting chop wide muxes [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed chop wide muxes (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting common data mux cascade opt [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed common data mux cascade opt (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting mux input consolidation [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed mux input consolidation (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting constant-data mux optimization [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed constant-data mux optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting chain-to-tree inequality transform [v2.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed chain-to-tree inequality transform (accepts: 0, rejects: 0, runtime: 0.001s)
+Starting reconvergence optimization [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed reconvergence optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting logic restructure optimization [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed logic restructure optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting common select mux optimization [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed common select mux optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting identity transform [v3.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed identity transform (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting reduce operator chain [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed reduce operator chain (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting common data mux cascade opt [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed common data mux cascade opt (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting mux input consolidation [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed mux input consolidation (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting optimize datapath elements [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed optimize datapath elements (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting datapath recasting [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed datapath recasting (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting clip mux common data inputs [v1.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed clip mux common data inputs (accepts: 0, rejects: 0, runtime: 0.001s)
+Starting clip the non-user hierarchies [v2.0] (stage: pre_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed clip the non-user hierarchies (accepts: 0, rejects: 0, runtime: 0.000s)
+
+Stage: pre_rtlopt
+----------------------------------------------------------------
+| Transform                 | Accepts | Rejects | Runtime (ms) | 
+----------------------------------------------------------------
+| hlo_infer_macro           |       0 |       0 |         2.00 | 
+| hlo_decode_mux_sandwich   |       0 |       0 |         0.00 | 
+| hlo_mux_decode            |       0 |       0 |         0.00 | 
+| hlo_chop_mux              |       0 |       0 |         0.00 | 
+| hlo_mux_cascade_opt       |       0 |       0 |         0.00 | 
+| hlo_mux_consolidation     |       0 |       0 |         0.00 | 
+| hlo_constant_mux_opt      |       0 |       0 |         0.00 | 
+| hlo_inequality_transform  |       0 |       0 |         1.00 | 
+| hlo_reconv_opt            |       0 |       0 |         0.00 | 
+| hlo_restructure           |       0 |       0 |         0.00 | 
+| hlo_common_select_muxopto |       0 |       0 |         0.00 | 
+| hlo_identity_transform    |       0 |       0 |         0.00 | 
+| hlo_reduce_operator_chain |       0 |       0 |         0.00 | 
+| hlo_mux_cascade_opt       |       0 |       0 |         0.00 | 
+| hlo_mux_consolidation     |       0 |       0 |         0.00 | 
+| hlo_optimize_datapath     |       0 |       0 |         0.00 | 
+| hlo_datapath_recast       |       0 |       0 |         0.00 | 
+| hlo_clip_mux_input        |       0 |       0 |         1.00 | 
+| hlo_clip                  |       0 |       0 |         0.00 | 
+----------------------------------------------------------------
+Running Unified Mux Engine Tricks...
+Completed Unified Mux Engine Tricks
+
+Stage: post_hlo_rtlopt
+--------------------------------------------------
+| Trick       | Accepts | Rejects | Runtime (ms) | 
+--------------------------------------------------
+| ume_runtime |       0 |       0 |         0.00 | 
+--------------------------------------------------
+Number of big hc bmuxes before = 0
+              Info: total 0 bmuxes found, 0 are converted to onehot form, and 0 are kept as binary form
+Info    : Pre-processed datapath logic. [DPOPT-6]
+        : No pre-processing optimizations applied to datapath logic in 'mac_4x4_wrapper_chip'.
+Info    : Optimizing datapath logic. [DPOPT-1]
+        : Optimizing datapath logic in 'mac_4x4_wrapper_chip'.
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_0_1'
+CSAGen Prep Share:0 Re-Write:0 Speculation: 0
+    MaxCSA: weighted_instance_count is 32 
+MaxCSA: Successfully built Maximal CSA Expression Expr0
+CDN_DP_region_0_1 level = 0 loads = 0 drivers = 0
+CDN_DP_region_0_1_c0 in mac_4x4: area: 3194284176 ,dp = 1 mux = 0 sg = slow         worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ skipped
+CDN_DP_region_0_1_c1 in mac_4x4: area: 3194284176 ,dp = 1 mux = 0 sg = fast         worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c2 in mac_4x4: area: 3194284176 ,dp = 1 mux = 0 sg = very_slow    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c3 in mac_4x4: area: 3194284176 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c4 in mac_4x4: area: 3194284176 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c5 in mac_4x4: area: 3194284176 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c6 in mac_4x4: area: 3194284176 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c7 in mac_4x4: area: 3194284176 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+Best config: CDN_DP_region_0_1_c7 in mac_4x4: area: 3194284176 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+  Smallest config area : 3194284176.  Fastest config wns;  0
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Summary table of configs (Best config is CDN_DP_region_0_1_c7)
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>                     0                  1                  2                  3                  4                  5                  6                  7            
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>           Area       3194284176         3194284176         3194284176         3194284176         3194284176         3194284176         3194284176         3194284176  
+##>            WNS       +189979.40         +189979.40         +189979.40         +189979.40         +189979.40         +189979.40         +189979.40         +189979.40  
+##>            TNS                0                  0                  0                  0                  0                  0                  0                  0  
+##>    Num Rewrite                0                  0                  0                  0                  0                  0                  0                  0  
+##>     Num Factor                0                  0                  0                  0                  0                  0                  0                  0  
+##>      Num Share                0                  0                  0                  0                  0                  0                  0                  0  
+##>   Num CmultCse                0                  0                  0                  0                  0                  0                  0                  0  
+##>   Num Downsize                0                  0                  0                  0                  0                  0                  0                  0  
+##>  Num Speculate                0                  0                  0                  0                  0                  0                  0                  0  
+##>     Runtime(s)                0                  0                  0                  0                  0                  0                  0                  0  
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>
+##>
+##>+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Optimization Step DEBUG Table for config CDN_DP_region_0_1_c7
+##>
+##>                          Step                        Area   ( % Chg)        WNS (Change)        TNS (Change)          Runtime (s)        Comment                   
+##>+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>EquationExtraction              START             3194284176 (      )    189979.40 (        )             0 (        )              
+##> rewrite                        START             7084353024 (+121.78)    189931.20 (  -48.20)             0 (       0)              (a,ar) Expr0_from --> Expr0_to
+##>                                  END             6388568352 ( -9.82)    189931.20 (   +0.00)             0 (       0)           0  
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>createMaxCarrySave              START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##> datapath_rewrite_one_def       START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##> csa_opto                       START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>canonicalize_by_names           START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>datapath_rewrite_post_csa_one_  START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>datapath_csa_factoring_one_gde  START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>dpopt_share_one_def             START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>datapath_rewrite_post_share     START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>dp_combine_const_mult_with_com  START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>dp_operator_level_decompositio  START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>selective_flatten_dp_config     START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>createMaxCarrySave              START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##> datapath_rewrite_one_def       START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>  fast_cse_elim                 START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>  fast_cse_elim                 START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##> csa_opto                       START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>context_based_simplify          START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>group_csa_final_adder_dp        START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>dpopt_flatten_critical_muxes_i  START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>create_score                    START             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)              
+##>                                  END             3194284176 ( +0.00)    189979.40 (   +0.00)             0 (       0)           0  
+##>+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Committed config: CDN_DP_region_0_1_c7
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 7 for module 'CDN_DP_region_0_1'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_0_0'
+CSAGen Prep Share:0 Re-Write:0 Speculation: 0
+    MaxCSA: weighted_instance_count is 80 
+MaxCSA: Successfully built Maximal CSA Expression Expr1
+CDN_DP_region_0_0 level = 0 loads = 0 drivers = 0
+CDN_DP_region_0_0_c0 in mac_4x4: area: 1950305520 ,dp = 1 mux = 0 sg = slow         worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ skipped
+CDN_DP_region_0_0_c1 in mac_4x4: area: 1950305520 ,dp = 1 mux = 0 sg = fast         worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c2 in mac_4x4: area: 1950305520 ,dp = 1 mux = 0 sg = very_slow    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c3 in mac_4x4: area: 1950305520 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c4 in mac_4x4: area: 1950305520 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c5 in mac_4x4: area: 1950305520 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c6 in mac_4x4: area: 1950305520 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c7 in mac_4x4: area: 1950305520 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+Best config: CDN_DP_region_0_0_c7 in mac_4x4: area: 1950305520 ,dp = 1 mux = 0 sg = very_fast    worst_clk_period: -1.0000 
+    wns: 0  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  0  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+  Smallest config area : 1950305520.  Fastest config wns;  0
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Summary table of configs (Best config is CDN_DP_region_0_0_c7)
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>                     0                  1                  2                  3                  4                  5                  6                  7            
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>           Area       1950305520         1950305520         1950305520         1950305520         1950305520         1950305520         1950305520         1950305520  
+##>            WNS       +190340.20         +190340.20         +190340.20         +190340.20         +190340.20         +190340.20         +190340.20         +190340.20  
+##>            TNS                0                  0                  0                  0                  0                  0                  0                  0  
+##>    Num Rewrite                0                  0                  0                  0                  0                  0                  0                  0  
+##>     Num Factor                0                  0                  0                  0                  0                  0                  0                  0  
+##>      Num Share                0                  0                  0                  0                  0                  0                  0                  0  
+##>   Num CmultCse                0                  0                  0                  0                  0                  0                  0                  0  
+##>   Num Downsize                0                  0                  0                  0                  0                  0                  0                  0  
+##>  Num Speculate                0                  0                  0                  0                  0                  0                  0                  0  
+##>     Runtime(s)                0                  0                  0                  0                  0                  0                  0                  0  
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>
+##>
+##>+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Optimization Step DEBUG Table for config CDN_DP_region_0_0_c7
+##>
+##>                          Step                        Area   ( % Chg)        WNS (Change)        TNS (Change)          Runtime (s)        Comment                   
+##>+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>EquationExtraction              START             1950305520 (      )    190340.20 (        )             0 (        )              
+##> rewrite                        START             6125013552 (+214.05)    190073.30 ( -266.90)             0 (       0)              (a,ar) Expr1_from --> Expr1_to
+##>                                  END             5650614912 ( -7.75)    190073.30 (   +0.00)             0 (       0)           0  
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>createMaxCarrySave              START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##> datapath_rewrite_one_def       START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##> csa_opto                       START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>canonicalize_by_names           START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>datapath_rewrite_post_csa_one_  START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>datapath_csa_factoring_one_gde  START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>dpopt_share_one_def             START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>datapath_rewrite_post_share     START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>dp_combine_const_mult_with_com  START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>dp_operator_level_decompositio  START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>selective_flatten_dp_config     START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>createMaxCarrySave              START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##> datapath_rewrite_one_def       START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>  fast_cse_elim                 START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>  fast_cse_elim                 START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##> csa_opto                       START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>context_based_simplify          START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>group_csa_final_adder_dp        START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>dpopt_flatten_critical_muxes_i  START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>create_score                    START             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)              
+##>                                  END             1950305520 ( +0.00)    190340.20 (   +0.00)             0 (       0)           0  
+##>+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Committed config: CDN_DP_region_0_0_c7
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 7 for module 'CDN_DP_region_0_0'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+              Prepare netlist for verification ...
+              Prepare netlist for verification Done.
+Info    : Done optimizing datapath logic. [DPOPT-2]
+        : Done optimizing datapath logic in 'mac_4x4_wrapper_chip'.
+      Removing temporary intermediate hierarchies under mac_4x4_wrapper_chip
+Number of big hc bmuxes after = 0
+Starting logic reduction [v1.0] (stage: post_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed logic reduction (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting mux data reorder optimization [v1.0] (stage: post_rtlopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+
+Stage: post_rtlopt
+----------------------------------------------------------
+| Transform           | Accepts | Rejects | Runtime (ms) | 
+----------------------------------------------------------
+| hlo_logic_reduction |       0 |       0 |         0.00 | 
+| hlo_mux_reorder     |       0 |       0 |         0.00 | 
+----------------------------------------------------------
+Starting mux speculation [v1.0] (stage: post_muxopt, startdef: mac_4x4_wrapper_chip, recur: true)
+Starting speculation optimization
+Completed speculation optimization (accepts:0)
+Completed mux speculation (accepts: 0, rejects: 0, runtime: 0.015s)
+
+Stage: post_muxopt
+------------------------------------------------------
+| Transform       | Accepts | Rejects | Runtime (ms) | 
+------------------------------------------------------
+| hlo_speculation |       0 |       0 |        15.00 | 
+------------------------------------------------------
+==================================
+Stage : to_generic 
+==================================
+  =================
+   Message Summary
+  =================
+--------------------------------------------------------------------------------
+|    Id    |  Sev   |Count |                   Message Text                    |
+--------------------------------------------------------------------------------
+| CDFG-372 |Info    |    1 |Bitwidth mismatch in assignment.                   |
+|          |        |      |Review and make sure the mismatch is               |
+|          |        |      | unintentional. Genus can possibly issue bitwidth  |
+|          |        |      | mismatch warning for explicit assignments present |
+|          |        |      | in RTL as-well-as for implicit assignments        |
+|          |        |      | inferred by the tool. For example, in case of     |
+|          |        |      | enum declaration without value, the tool will     |
+|          |        |      | implicitly assign value to the enum variables. It |
+|          |        |      | also issues the warning for any bitwidth mismatch |
+|          |        |      | that appears in this implicit assignment.         |
+| CDFG-738 |Info    |    1 |Common subexpression eliminated.                   |
+| CDFG-739 |Info    |    1 |Common subexpression kept.                         |
+| CWD-19   |Info    |    4 |An implementation was inferred.                    |
+| DPOPT-1  |Info    |    1 |Optimizing datapath logic.                         |
+| DPOPT-2  |Info    |    1 |Done optimizing datapath logic.                    |
+| DPOPT-3  |Info    |    2 |Implementing datapath configurations.              |
+| DPOPT-4  |Info    |    2 |Done implementing datapath configurations.         |
+| DPOPT-6  |Info    |    1 |Pre-processed datapath logic.                      |
+| ELAB-1   |Info    |    1 |Elaborating Design.                                |
+| ELAB-2   |Info    |    1 |Elaborating Subdesign.                             |
+| ELAB-3   |Info    |    1 |Done Elaborating Design.                           |
+| GB-6     |Info    |    2 |A datapath component has been ungrouped.           |
+| GLO-42   |Info    |   16 |Equivalent sequential instances have been merged.  |
+|          |        |      |To prevent merging of sequential instances, set    |
+|          |        |      | the 'optimize_merge_flops' and                    |
+|          |        |      | 'optimize_merge_latches' root attributes to       |
+|          |        |      | 'false' or the 'optimize_merge_seq' instance      |
+|          |        |      | attribute to 'false'.                             |
+| LBR-9    |Warning |    8 |Library cell has no output pins defined.           |
+|          |        |      |Add the missing output pin(s)                      |
+|          |        |      | , then reload the library. Else the library cell  |
+|          |        |      | will be marked as timing model i.e. unusable.     |
+|          |        |      | Timing_model means that the cell does not have    |
+|          |        |      | any defined function. If there is no output pin,  |
+|          |        |      | Genus will mark library cell as unusable i.e. the |
+|          |        |      | attribute 'usable' will be marked to 'false' on   |
+|          |        |      | the libcell. Therefore, the cell is not used for  |
+|          |        |      | mapping and it will not be picked up from the     |
+|          |        |      | library for synthesis. If you query the attribute |
+|          |        |      | 'unusable_reason' on the libcell; result will be: |
+|          |        |      | 'Library cell has no output pins.'Note: The       |
+|          |        |      | message LBR-9 is only for the logical pins and    |
+|          |        |      | not for the power_ground pins. Genus will depend  |
+|          |        |      | upon the output function defined in the pin group |
+|          |        |      | (output pin)                                      |
+|          |        |      | of the cell, to use it for mapping. The pg_pin    |
+|          |        |      | will not have any function defined.               |
+| LBR-12   |Warning |    1 |Found libraries with and without pg_pin construct. |
+|          |        |      |This can lead to issues later in the flow.         |
+| LBR-22   |Warning |  627 |Multiply-defined library cell.                     |
+|          |        |      |Library cell names must be unique.  Any duplicates |
+|          |        |      | will be deleted.  Only the first                  |
+|          |        |      | (as determined by the order of libraries)         |
+|          |        |      | will be retained.                                 |
+| LBR-38   |Warning |    2 |Libraries have inconsistent nominal operating      |
+|          |        |      | conditions. In the Liberty library, there are     |
+|          |        |      | attributes called nom_voltage, nom_process and    |
+|          |        |      | nom_temperature. Genus reports the message, if    |
+|          |        |      | the respective values of the 2 given .libs        |
+|          |        |      | differ.                                           |
+|          |        |      |This is a common source of delay calculation       |
+|          |        |      | confusion and should be avoided.                  |
+| LBR-40   |Info    |  190 |An unsupported construct was detected in this      |
+|          |        |      | library.                                          |
+|          |        |      |Check to see if this construct is really needed    |
+|          |        |      | for synthesis. Many liberty constructs are not    |
+|          |        |      | actually required.                                |
+| LBR-41   |Info    |   20 |An output library pin lacks a function attribute.  |
+|          |        |      |If the remainder of this library cell's semantic   |
+|          |        |      | checks are successful, it will be considered as a |
+|          |        |      | timing-model                                      |
+|          |        |      | (because one of its outputs does not have a valid |
+|          |        |      | function.                                         |
+| LBR-66   |Warning |   18 |Library cell only has usable test_cell function.   |
+|          |        |      |This library has a valid test_cell function, but   |
+|          |        |      | its regular cell function is either missing or    |
+|          |        |      | not completely understood                         |
+|          |        |      | (for example, cell has a state_table construct)   |
+|          |        |      | . Consult your library vendor about why this cell |
+|          |        |      | is either missing or has an incorrectly specified |
+|          |        |      | cell non-test function. Comparing this cell to    |
+|          |        |      | the other cells that do not display this Warning, |
+|          |        |      | can be helpful to debug the issue.                |
+| LBR-77   |Info    |  117 |Automatically disabling a scan-only combinational  |
+|          |        |      | arc.                                              |
+|          |        |      |The library cell is sequential and it has a        |
+|          |        |      | combinational arc involving at least one pin that |
+|          |        |      | is only used in scan mode.  You can enable such   |
+|          |        |      | arcs by setting root-level attribute              |
+|          |        |      | 'ignore_scan_combinational_arcs' to false, but    |
+|          |        |      | that will deem the cell unusable.                 |
+| LBR-146  |Warning |    6 |The specified pin is invalid.                      |
+|          |        |      |Specify the pin name which is an input pin and     |
+|          |        |      | exist in the cell.                                |
+| LBR-155  |Info    |  171 |Mismatch in unateness between 'timing_sense'       |
+|          |        |      | attribute and the function.                       |
+|          |        |      |The 'timing_sense' attribute will be respected.    |
+| LBR-158  |Warning |    1 |Libcell will be treated as a timing model.         |
+|          |        |      |Ensure that the relevant timing arcs are defined   |
+|          |        |      | in the Liberty model of the libcell.              |
+| LBR-161  |Info    |    1 |Setting the maximum print count of this message to |
+|          |        |      | 10 if information_level is less than 9.           |
+| LBR-162  |Info    |  142 |Both 'pos_unate' and 'neg_unate' timing_sense arcs |
+|          |        |      | have been processed.                              |
+|          |        |      |Setting the 'timing_sense' to non_unate.           |
+| LBR-412  |Info    |    4 |Created nominal operating condition.               |
+|          |        |      |The nominal operating condition is represented,    |
+|          |        |      | either by the nominal PVT values specified in the |
+|          |        |      | library source                                    |
+|          |        |      | (via nom_process,nom_voltage and nom_temperature  |
+|          |        |      | respectively)                                     |
+|          |        |      | , or by the default PVT values (1.0,1.0,1.0).     |
+| LBR-518  |Info    |    2 |Missing a function attribute in the output pin     |
+|          |        |      | definition.                                       |
+| LBR-525  |Warning |    6 |Missing clock pin in the sequential cell.          |
+|          |        |      |Sequential timing checks, such as 'setup_rising'   |
+|          |        |      | or 'hold_rising', on flop and latch cells require |
+|          |        |      | a clock pin. Verify that the 'clock' attribute of |
+|          |        |      | the clock pin is set to 'true' or that the clock  |
+|          |        |      | pin has a 'clocked_on' attribute.                 |
+| LBR-785  |Info    |  627 |Stored shadowed libcells.                          |
+|          |        |      |Before deleting duplicate libcells, their names    |
+|          |        |      | are stored.                                       |
+| PHYS-752 |Info    |    1 |Partition Based Synthesis execution skipped.       |
+| SDC-202  |Error   |    5 |Could not interpret SDC command.                   |
+|          |        |      |The 'read_sdc' command encountered a problem while |
+|          |        |      | trying to evaluate an SDC command. This SDC       |
+|          |        |      | command will be added to the Tcl variable         |
+|          |        |      | $::dc::sdc_failed_commands.                       |
+| SDC-204  |Error   |    1 |Invalid SDC command option combination.            |
+|          |        |      |This option is not valid for the indicated SDC     |
+|          |        |      | command. Check the SDC command and contact        |
+|          |        |      | Cadence customer support if you believe this      |
+|          |        |      | option combination should be supported.           |
+| SDC-208  |Warning |   50 |Could not find requested search value.             |
+|          |        |      |Use get_* commands to find the objects along with  |
+|          |        |      | a wild card entry in the name of the object to    |
+|          |        |      | check if the object is existing with different    |
+|          |        |      | naming style.                                     |
+| SDC-209  |Warning |    1 |One or more commands failed when these constraints |
+|          |        |      | were applied.                                     |
+|          |        |      |You can examine the failed commands or save them   |
+|          |        |      | to a file by querying the Tcl variable            |
+|          |        |      | $::dc::sdc_failed_commands.                       |
+| SDC-234  |Error   |    1 |Unknown TCL command in the SDC file.               |
+|          |        |      |The 'read_sdc' command encountered a problem while |
+|          |        |      | trying to evaluate a command in the SDC file.     |
+| SDC-236  |Warning |    2 |Suppressed remaining 'SDC-208' warnings.           |
+|          |        |      |Use the attribute 'collapse_sdc_msg' to control    |
+|          |        |      | printing of warning 'SDC-208'.                    |
+| SYNTH-1  |Info    |    1 |Synthesizing.                                      |
+| TIM-1000 |Info    |    1 |Multimode clock gating check is disabled.          |
+--------------------------------------------------------------------------------
+Mapper: Libraries have:
+	domain _default_: 328 combo usable cells and 153 sequential usable cells
+      Mapping 'mac_4x4_wrapper_chip'...
+        Preparing the circuit
+          Pruning unused logic
+Multi-threaded constant propagation [1|0] ...
+          Analyzing hierarchical boundaries
+          Aggressive hierarchical optimization: disabled
+          Propagating constants
+        Done preparing the circuit
+          Structuring (delay-based) mac_4x4_wrapper_chip...
+          Done structuring (delay-based) mac_4x4_wrapper_chip
+Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 32 CPUs usable)
+          Structuring (delay-based) logic partition in mac_4x4...
+            Starting partial collapsing (xors only) cb_oseq
+            Finished partial collapsing.
+            Starting partial collapsing  cb_oseq
+            Finished partial collapsing.
+            Starting redundancy-removal...
+            Finished redundancy-removal...
+            Starting redundancy-removal...
+            Finished redundancy-removal...
+          Done structuring (delay-based) logic partition in mac_4x4
+        Mapping logic partition in mac_4x4...
+          Structuring (delay-based) add_signed_4...
+            Starting partial collapsing (xors only) add_signed_4
+            Finished partial collapsing.
+            Starting partial collapsing  add_signed_4
+            Finished partial collapsing.
+          Done structuring (delay-based) add_signed_4
+        Mapping component add_signed_4...
+          Structuring (delay-based) logic partition in mac_4x4...
+          Done structuring (delay-based) logic partition in mac_4x4
+        Mapping logic partition in mac_4x4...
+==================================
+Stage : first_condense 
+==================================
+  =================
+   Message Summary
+  =================
+---------------------------------------------------------------
+|  Id  |Sev  |Count |              Message Text               |
+---------------------------------------------------------------
+| GB-6 |Info |    1 |A datapath component has been ungrouped. |
+---------------------------------------------------------------
+ 
+Global mapping target info
+==========================
+Cost Group 'I2R' target slack:  5603 ps
+Target path end-point (Pin: dut/mult_reg_reg[0]/d)
+
+             Pin                            Type         Fanout  Load  Arrival   
+                                                                 (fF)    (ps)    
+---------------------------------------------------------------------------------
+(clock clk)                      <<<    launch                               0 R 
+(constraints_top_2.sd_line_53)          ext delay                                
+rst                                     in port               1 3538.0           
+pc3d01_rst/PAD                                                                   
+pc3d01_rst/CIN                 (u) (P)  pc3d01               34   45.9           
+dut/rst 
+  cb_oseqi/rst 
+    g643/sel0                                                                    
+    g643/z                       (u)    unmapped_bmux3        1    5.5           
+    mult_reg_reg[0]/d            <<<    unmapped_d_flop                          
+    mult_reg_reg[0]/clk                 setup                                    
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(clock clk)                             capture                         200000 R 
+                                        uncertainty                              
+---------------------------------------------------------------------------------
+Cost Group   : 'I2R' (path_group 'constraints_top_2.sd_line_89')
+Start-point  : rst
+End-point    : dut/cb_oseqi/mult_reg_reg[0]/d
+
+(P) : Instance is preserved
+(u) : Net has unmapped pin(s).
+
+The global mapper estimates a slack for this path of 186408ps.
+ 
+Cost Group 'R2R' target slack:  5602 ps
+Target path end-point (Pin: dut/acc_reg_reg[15]/d)
+
+         Pin                      Type          Fanout Load Arrival   
+                                                       (fF)   (ps)    
+----------------------------------------------------------------------
+(clock clk)             <<<  launch                               0 R 
+dut
+  cb_oseqi
+    mult_reg_reg[0]/clk                                               
+    mult_reg_reg[0]/q   (u)  unmapped_d_flop         3 15.3           
+  cb_oseqi/add_89_32_B[0] 
+  add_89_32/B[0] 
+    g5/in_1                                                           
+    g5/z                (u)  unmapped_nand2          3 16.5           
+    g643/in_0                                                         
+    g643/z              (u)  unmapped_complex2       1  5.5           
+    g633/in_0                                                         
+    g633/z              (u)  unmapped_nand2          3 15.3           
+    g632/in_1                                                         
+    g632/z              (u)  unmapped_nand2          1  5.5           
+    g628/in_0                                                         
+    g628/z              (u)  unmapped_nand2          3 15.3           
+    g624/in_1                                                         
+    g624/z              (u)  unmapped_nand2          1  5.5           
+    g623/in_0                                                         
+    g623/z              (u)  unmapped_nand2          3 15.3           
+    g619/in_1                                                         
+    g619/z              (u)  unmapped_nand2          1  5.5           
+    g618/in_0                                                         
+    g618/z              (u)  unmapped_nand2          3 15.3           
+    g614/in_1                                                         
+    g614/z              (u)  unmapped_nand2          1  5.5           
+    g613/in_0                                                         
+    g613/z              (u)  unmapped_nand2          3 15.3           
+    g612/in_1                                                         
+    g612/z              (u)  unmapped_nand2          1  5.5           
+    g608/in_1                                                         
+    g608/z              (u)  unmapped_nand2          3 15.3           
+    g607/in_1                                                         
+    g607/z              (u)  unmapped_nand2          1  5.5           
+    g603/in_1                                                         
+    g603/z              (u)  unmapped_nand2          5 25.5           
+    g597/in_1                                                         
+    g597/z              (u)  unmapped_nand2          2 11.0           
+    g596/in_0                                                         
+    g596/z              (u)  unmapped_complex2       1  5.5           
+    g588/in_1                                                         
+    g588/z              (u)  unmapped_complex2       2 11.0           
+    g583/in_1                                                         
+    g583/z              (u)  unmapped_complex2       2 11.0           
+    g575/in_0                                                         
+    g575/z              (u)  unmapped_complex2       2 11.0           
+    g572/in_0                                                         
+    g572/z              (u)  unmapped_complex2       1  5.5           
+    g571/in_0                                                         
+    g571/z              (u)  unmapped_nand2          1  5.1           
+    g566/in_0                                                         
+    g566/z              (u)  unmapped_or2            1  5.1           
+    g562/in_0                                                         
+    g562/z              (u)  unmapped_or2            2 10.2           
+    g560/in_0                                                         
+    g560/z              (u)  unmapped_or2            1  5.1           
+    g561/in_1                                                         
+    g561/z              (u)  unmapped_nand2          1  5.5           
+  add_89_32/Z[15] 
+  cb_seqi/add_89_32_Z[15] 
+    g121/data1                                                        
+    g121/z              (u)  unmapped_bmux3          1  5.5           
+    g122/data0                                                        
+    g122/z              (u)  unmapped_bmux3          1  5.5           
+    acc_reg_reg[15]/d   <<<  unmapped_d_flop                          
+    acc_reg_reg[15]/clk      setup                                    
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(clock clk)                  capture                         200000 R 
+                             uncertainty                              
+----------------------------------------------------------------------
+Cost Group   : 'R2R' (path_group 'constraints_top_2.sd_line_95')
+Start-point  : dut/cb_oseqi/mult_reg_reg[0]/clk
+End-point    : dut/cb_seqi/acc_reg_reg[15]/d
+
+(u) : Net has unmapped pin(s).
+
+The global mapper estimates a slack for this path of 187196ps.
+ 
+          Performing post-condense optimization ...
+
+
+State Retention Synthesis Status
+================================
+
+Category                        Flops   Percentage
+--------------------------------------------------
+Total instances                    34        100.0
+Excluded from State Retention      34        100.0
+    - Will not convert             34        100.0
+      - Preserved                   0          0.0
+      - Power intent excluded      34        100.0
+    - Could not convert             0          0.0
+      - Scan type                   0          0.0
+      - No suitable cell            0          0.0
+State Retention instances           0          0.0
+--------------------------------------------------
+
+PBS_Generic_Opt-Post - Elapsed_Time 5, CPU_Time 4.753923
+stamp 'PBS_Generic_Opt-Post' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:00:14) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:26 (Jun22) |  233.3 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:04(00:00:05) | 100.0(100.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+        Applying wireload models.
+        Computing net loads.
+PBS_Generic-Postgen HBO Optimizations - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_Generic-Postgen HBO Optimizations' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:00:14) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:26 (Jun22) |  233.3 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:04(00:00:05) | 100.0(100.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+##>=================== Cadence Confidential (Generic-Logical) ===================
+##>=================== Cadence Confidential (Generic-Logical) ===================
+##>Main Thread Summary:
+##>----------------------------------------------------------------------------------------
+##>STEP                           Elapsed       WNS       TNS     Insts      Area    Memory
+##>----------------------------------------------------------------------------------------
+##>G:Initial                            0         -         -       347     45106       233
+##>G:Setup                              0         -         -         -         -         -
+##>G:Launch ST                          0         -         -         -         -         -
+##>G:Design Partition                   0         -         -         -         -         -
+##>G:Create Partition Netlists          0         -         -         -         -         -
+##>G:Init Power                         0         -         -         -         -         -
+##>G:Budgeting                          0         -         -         -         -         -
+##>G:Derenv-DB                          0         -         -         -         -         -
+##>G:Debug Outputs                      0         -         -         -         -         -
+##>G:ST loading                         0         -         -         -         -         -
+##>G:Distributed                        0         -         -         -         -         -
+##>G:Timer                              0         -         -         -         -         -
+##>G:Assembly                           0         -         -         -         -         -
+##>G:DFT                                0         -         -         -         -         -
+##>G:Const Prop                         0         -         -       297     43725       660
+##>G:Misc                               5
+##>----------------------------------------------------------------------------------------
+##>Total Elapsed                        5
+##>========================================================================================
+Info    : Done synthesizing. [SYNTH-2]
+        : Done synthesizing 'mac_4x4_wrapper_chip' to generic gates.
+        Applying wireload models.
+        Computing net loads.
+  Setting attribute of root '/': 'syn_map_effort' = medium
+##Generic Timing Info for library domain: _default_ typical gate delay: 213.9 ps std_slew: 29.7 ps std_load: 5.3 fF
+Info    : Mapping. [SYNTH-4]
+        : Mapping 'mac_4x4_wrapper_chip' using 'medium' effort.
+Mapper: Libraries have:
+	domain _default_: 328 combo usable cells and 153 sequential usable cells
+Configuring mapper costing (none)
+TNS Restructuring config: no_value at stage: map applied.
+PBS_TechMap-Start - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_TechMap-Start' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:00:14) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:26 (Jun22) |  233.3 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:04(00:00:05) | 100.0(100.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+        Applying wireload models.
+        Computing net loads.
+PBS_TechMap-Premap HBO Optimizations - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_TechMap-Premap HBO Optimizations' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:00:14) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:26 (Jun22) |  233.3 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:04(00:00:05) | 100.0(100.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+Info    : Partition Based Synthesis execution skipped. [PHYS-752]
+        : Design size is less than the partition size '100000' for distributed mapping optimization to kick in.
+Mapper: Libraries have:
+	domain _default_: 328 combo usable cells and 153 sequential usable cells
+      Mapping 'mac_4x4_wrapper_chip'...
+        Preparing the circuit
+          Pruning unused logic
+          Analyzing hierarchical boundaries
+          Aggressive hierarchical optimization: disabled
+          Propagating constants
+        Done preparing the circuit
+          Structuring (delay-based) mac_4x4_wrapper_chip...
+          Done structuring (delay-based) mac_4x4_wrapper_chip
+Multi-threaded Virtual Mapping    (8 threads, 8 of 32 CPUs usable)
+          Structuring (delay-based) logic partition in mac_4x4...
+            Starting redundancy-removal...
+            Finished redundancy-removal...
+            Starting xor partial collapsing cb_oseq
+            Finished xor partial collapsing.
+          Done structuring (delay-based) logic partition in mac_4x4
+        Mapping logic partition in mac_4x4...
+          Structuring (delay-based) add_signed_4...
+          Done structuring (delay-based) add_signed_4
+        Mapping component add_signed_4...
+          Structuring (delay-based) logic partition in mac_4x4...
+          Done structuring (delay-based) logic partition in mac_4x4
+        Mapping logic partition in mac_4x4...
+==================================
+Stage : first_condense 
+==================================
+  =================
+   Message Summary
+  =================
+-----------------------------------------------------------------------
+|    Id    |Sev  |Count |                Message Text                 |
+-----------------------------------------------------------------------
+| PHYS-752 |Info |    1 |Partition Based Synthesis execution skipped. |
+| SYNTH-2  |Info |    1 |Done synthesizing.                           |
+| SYNTH-4  |Info |    1 |Mapping.                                     |
+-----------------------------------------------------------------------
+ 
+Global mapping target info
+==========================
+Cost Group 'I2R' target slack:  5603 ps
+Target path end-point (Pin: dut/mult_reg_reg[0]/d)
+
+             Pin                            Type         Fanout  Load  Arrival   
+                                                                 (fF)    (ps)    
+---------------------------------------------------------------------------------
+(clock clk)                      <<<    launch                               0 R 
+(constraints_top_2.sd_line_53)          ext delay                                
+rst                                     in port               1 3538.0           
+pc3d01_rst/PAD                                                                   
+pc3d01_rst/CIN                 (u) (P)  pc3d01               34   45.9           
+dut/rst 
+  cb_oseqi/rst 
+    g908/sel0                                                                    
+    g908/z                       (u)    unmapped_bmux3        1    5.5           
+    mult_reg_reg[0]/d            <<<    unmapped_d_flop                          
+    mult_reg_reg[0]/clk                 setup                                    
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(clock clk)                             capture                         200000 R 
+                                        uncertainty                              
+---------------------------------------------------------------------------------
+Cost Group   : 'I2R' (path_group 'constraints_top_2.sd_line_89')
+Start-point  : rst
+End-point    : dut/cb_oseqi/mult_reg_reg[0]/d
+
+(P) : Instance is preserved
+(u) : Net has unmapped pin(s).
+
+The global mapper estimates a slack for this path of 186408ps.
+ 
+Cost Group 'R2R' target slack:  5602 ps
+Target path end-point (Pin: dut/acc_reg_reg[15]/d)
+
+         Pin                      Type          Fanout Load Arrival   
+                                                       (fF)   (ps)    
+----------------------------------------------------------------------
+(clock clk)             <<<  launch                               0 R 
+dut
+  cb_oseqi
+    mult_reg_reg[0]/clk                                               
+    mult_reg_reg[0]/q   (u)  unmapped_d_flop         3 15.3           
+  cb_oseqi/add_89_32_B[0] 
+  add_89_32/B[0] 
+    g5/in_1                                                           
+    g5/z                (u)  unmapped_nand2          3 16.5           
+    g995/in_0                                                         
+    g995/z              (u)  unmapped_complex2       1  5.5           
+    g986/in_1                                                         
+    g986/z              (u)  unmapped_nand2          3 15.3           
+    g980/in_1                                                         
+    g980/z              (u)  unmapped_nand2          1  5.5           
+    g979/in_1                                                         
+    g979/z              (u)  unmapped_nand2          3 15.3           
+    g975/in_1                                                         
+    g975/z              (u)  unmapped_nand2          1  5.5           
+    g974/in_1                                                         
+    g974/z              (u)  unmapped_nand2          3 15.3           
+    g973/in_1                                                         
+    g973/z              (u)  unmapped_nand2          1  5.5           
+    g969/in_1                                                         
+    g969/z              (u)  unmapped_nand2          3 15.3           
+    g965/in_1                                                         
+    g965/z              (u)  unmapped_nand2          1  5.5           
+    g964/in_1                                                         
+    g964/z              (u)  unmapped_nand2          3 15.3           
+    g960/in_1                                                         
+    g960/z              (u)  unmapped_nand2          1  5.5           
+    g959/in_1                                                         
+    g959/z              (u)  unmapped_nand2          3 15.3           
+    g955/in_1                                                         
+    g955/z              (u)  unmapped_nand2          1  5.5           
+    g954/in_1                                                         
+    g954/z              (u)  unmapped_nand2          4 20.4           
+    g953/in_0                                                         
+    g953/z              (u)  unmapped_nand2          2 11.0           
+    g948/in_1                                                         
+    g948/z              (u)  unmapped_complex2       2 11.0           
+    g942/in_0                                                         
+    g942/z              (u)  unmapped_complex2       2 11.0           
+    g937/in_1                                                         
+    g937/z              (u)  unmapped_complex2       2 11.0           
+    g932/in_0                                                         
+    g932/z              (u)  unmapped_complex2       2 11.0           
+    g926/in_1                                                         
+    g926/z              (u)  unmapped_complex2       1  5.5           
+    g921/in_0                                                         
+    g921/z              (u)  unmapped_complex2       1  5.1           
+    g917/in_0                                                         
+    g917/z              (u)  unmapped_complex2       1  5.1           
+    g916/in_0                                                         
+    g916/z              (u)  unmapped_or2            2 10.2           
+    g914/in_0                                                         
+    g914/z              (u)  unmapped_or2            1  5.1           
+    g915/in_1                                                         
+    g915/z              (u)  unmapped_nand2          1  5.5           
+  add_89_32/Z[15] 
+  cb_seqi/add_89_32_Z[15] 
+    g644/data1                                                        
+    g644/z              (u)  unmapped_bmux3          1  5.5           
+    g645/data0                                                        
+    g645/z              (u)  unmapped_bmux3          1  5.5           
+    acc_reg_reg[15]/d   <<<  unmapped_d_flop                          
+    acc_reg_reg[15]/clk      setup                                    
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(clock clk)                  capture                         200000 R 
+                             uncertainty                              
+----------------------------------------------------------------------
+Cost Group   : 'R2R' (path_group 'constraints_top_2.sd_line_95')
+Start-point  : dut/cb_oseqi/mult_reg_reg[0]/clk
+End-point    : dut/cb_seqi/acc_reg_reg[15]/d
+
+(u) : Net has unmapped pin(s).
+
+The global mapper estimates a slack for this path of 187141ps.
+ 
+Multi-threaded Technology Mapping (8 threads, 8 of 32 CPUs usable)
+          Restructuring (delay-based) logic partition in mac_4x4...
+          Done restructuring (delay-based) logic partition in mac_4x4
+        Optimizing logic partition in mac_4x4...
+          Restructuring (delay-based) add_signed_4...
+          Done restructuring (delay-based) add_signed_4
+        Optimizing component add_signed_4...
+        Early Area Reclamation for add_signed_4 'very_fast' (slack=179432, area=1214)...
+          Restructuring (delay-based) add_signed...
+          Done restructuring (delay-based) add_signed
+        Optimizing component add_signed...
+          Restructuring (delay-based) logic partition in mac_4x4...
+          Done restructuring (delay-based) logic partition in mac_4x4
+        Optimizing logic partition in mac_4x4...
+ 
+Global mapping timing result
+============================
+        Applying wireload models.
+        Computing net loads.
+        Tracing clock networks.
+        Levelizing the circuit.
+        Computing delays.
+        Computing arrivals and requireds.
+             Pin                      Type       Fanout  Load  Slew Delay Arrival   
+                                                         (fF)  (ps)  (ps)   (ps)    
+------------------------------------------------------------------------------------
+(clock clk)                         launch                                      0 R 
+(constraints_top_2.sd_line_53)      ext delay                       +5000    5000 F 
+rst                                 in port           1 3538.0    0    +0    5000 F 
+pc3d01_rst/PAD                                                         +0    5000   
+pc3d01_rst/CIN                 (P)  pc3d01           22  376.6 1534 +1704    6704 F 
+dut/rst 
+  cb_oseqi/rst 
+    g1218/I                                                            +0    6704   
+    g1218/ZN                        inv0d2           13  132.3  895  +734    7439 R 
+    g1175/A1                                                          +17    7456   
+    g1175/Z                         an03d1            1    5.3  147  +294    7749 R 
+    mult_reg_reg[1]/D          <<<  dfnrq1                             +0    7749   
+    mult_reg_reg[1]/CP              setup                         0  +151    7901 R 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(clock clk)                         capture                                200000 R 
+                                    uncertainty                     -7000  193000 R 
+------------------------------------------------------------------------------------
+Cost Group   : 'I2R' (path_group 'constraints_top_2.sd_line_89')
+Timing slack :  185099ps 
+Start-point  : rst
+End-point    : dut/cb_oseqi/mult_reg_reg[1]/D
+
+(P) : Instance is preserved
+
+         Pin                  Type       Fanout  Load Slew Delay Arrival   
+                                                 (fF) (ps)  (ps)   (ps)    
+---------------------------------------------------------------------------
+(clock clk)                 launch                                     0 R 
+dut
+  cb_seqi
+    acc_reg_reg[0]/CP                                    0    +0       0 R 
+    acc_reg_reg[0]/Q        dfnrq1            3 128.9  745  +938     938 F 
+  cb_seqi/mac_out[0] 
+  add_89_32/A[0] 
+    g383/A                                                    +2     941   
+    g383/CO                 ah01d1            1  15.4  194  +510    1451 F 
+    g382/CI                                                   +0    1451   
+    g382/CO                 ad01d1            1  15.4  229  +403    1854 F 
+    g381/CI                                                   +0    1854   
+    g381/CO                 ad01d1            1  15.4  229  +410    2263 F 
+    g380/CI                                                   +0    2263   
+    g380/CO                 ad01d1            1  15.4  229  +410    2673 F 
+    g379/CI                                                   +0    2673   
+    g379/CO                 ad01d1            1  15.4  229  +410    3083 F 
+    g378/CI                                                   +0    3083   
+    g378/CO                 ad01d1            1  15.4  229  +410    3492 F 
+    g377/CI                                                   +0    3492   
+    g377/CO                 ad01d1            1  15.4  229  +410    3902 F 
+    g376/CI                                                   +0    3902   
+    g376/CO                 ad01d1            1  15.4  231  +410    4312 F 
+    g375/CI                                                   +0    4312   
+    g375/CO                 ad01d1            1  15.4  231  +410    4722 F 
+    g374/CI                                                   +0    4722   
+    g374/CO                 ad01d1            1  15.4  231  +410    5132 F 
+    g373/CI                                                   +0    5132   
+    g373/CO                 ad01d1            1  15.4  231  +410    5542 F 
+    g372/CI                                                   +0    5542   
+    g372/CO                 ad01d1            1  15.4  231  +410    5953 F 
+    g371/CI                                                   +0    5953   
+    g371/CO                 ad01d1            1  15.4  231  +410    6363 F 
+    g370/CI                                                   +0    6363   
+    g370/CO                 ad01d1            1  15.4  231  +410    6773 F 
+    g369/CI                                                   +0    6773   
+    g369/CO                 ad01d1            2  12.6  214  +394    7167 F 
+    g368/B1                                                   +0    7167   
+    g368/ZN                 oaim22d1          1   6.6  173  +219    7387 F 
+  add_89_32/Z[15] 
+  cb_seqi/add_89_32_Z[15] 
+    g691/B1                                                   +0    7387   
+    g691/ZN                 aoi22d1           1   7.8  388  +207    7594 R 
+    g675/A1                                                   +0    7594   
+    g675/ZN                 nr02d1            1   5.4  203  +116    7710 F 
+    acc_reg_reg[15]/D  <<<  dfnrq1                            +0    7710   
+    acc_reg_reg[15]/CP      setup                        0  +240    7950 R 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(clock clk)                 capture                               200000 R 
+                            uncertainty                    -7000  193000 R 
+---------------------------------------------------------------------------
+Cost Group   : 'R2R' (path_group 'constraints_top_2.sd_line_95')
+Timing slack :  185050ps 
+Start-point  : dut/cb_seqi/acc_reg_reg[0]/CP
+End-point    : dut/cb_seqi/acc_reg_reg[15]/D
+
+ 
+ 
+Global mapping status
+=====================
+                                   Group   
+                                  Tot Wrst 
+                           Total  Weighted 
+Operation                   Area   Slacks  
+ global_map                40925        0 
+
+    Cost Group            Target    Slack    Diff.  Constr.
+-----------------------------------------------------------
+           R2R              5602   185050            200000 
+           I2R              5603   185099            200000 
+
+ 
+Global incremental target info
+==============================
+Cost Group 'I2R' target slack:  3735 ps
+Target path end-point (Pin: dut/mult_reg_reg[1]/D (dfnrq1/D))
+
+             Pin                      Type       Fanout  Load  Arrival   
+                                                         (fF)    (ps)    
+-------------------------------------------------------------------------
+(clock clk)                    <<<  launch                           0 R 
+(constraints_top_2.sd_line_53)      ext delay                            
+rst                                 in port           1 3538.0           
+pc3d01_rst/PAD                                                           
+pc3d01_rst/CIN                 (P)  pc3d01           22  376.6           
+dut/rst 
+  cb_oseqi/rst 
+    g1218/I                                                              
+    g1218/ZN                        inv0d2           13  132.3           
+    g1175/A1                                                             
+    g1175/Z                         an03d1            1    5.3           
+    mult_reg_reg[1]/D          <<<  dfnrq1                               
+    mult_reg_reg[1]/CP              setup                                
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(clock clk)                         capture                     200000 R 
+                                    uncertainty                          
+-------------------------------------------------------------------------
+Cost Group   : 'I2R' (path_group 'constraints_top_2.sd_line_89')
+Start-point  : rst
+End-point    : dut/cb_oseqi/mult_reg_reg[1]/D
+
+(P) : Instance is preserved
+
+The global mapper estimates a slack for this path of 184965ps.
+ 
+Cost Group 'R2R' target slack:  3733 ps
+Target path end-point (Pin: dut/acc_reg_reg[15]/D (dfnrq1/D))
+
+         Pin                  Type       Fanout  Load Arrival   
+                                                 (fF)   (ps)    
+----------------------------------------------------------------
+(clock clk)            <<<  launch                          0 R 
+dut
+  cb_seqi
+    acc_reg_reg[0]/CP                                           
+    acc_reg_reg[0]/Q        dfnrq1            3 128.9           
+  cb_seqi/mac_out[0] 
+  add_89_32/A[0] 
+    g383/A                                                      
+    g383/CO                 ah01d1            1  15.4           
+    g382/CI                                                     
+    g382/CO                 ad01d1            1  15.4           
+    g381/CI                                                     
+    g381/CO                 ad01d1            1  15.4           
+    g380/CI                                                     
+    g380/CO                 ad01d1            1  15.4           
+    g379/CI                                                     
+    g379/CO                 ad01d1            1  15.4           
+    g378/CI                                                     
+    g378/CO                 ad01d1            1  15.4           
+    g377/CI                                                     
+    g377/CO                 ad01d1            1  15.4           
+    g376/CI                                                     
+    g376/CO                 ad01d1            1  15.4           
+    g375/CI                                                     
+    g375/CO                 ad01d1            1  15.4           
+    g374/CI                                                     
+    g374/CO                 ad01d1            1  15.4           
+    g373/CI                                                     
+    g373/CO                 ad01d1            1  15.4           
+    g372/CI                                                     
+    g372/CO                 ad01d1            1  15.4           
+    g371/CI                                                     
+    g371/CO                 ad01d1            1  15.4           
+    g370/CI                                                     
+    g370/CO                 ad01d1            1  15.4           
+    g369/CI                                                     
+    g369/CO                 ad01d1            2  12.6           
+    g368/B1                                                     
+    g368/ZN                 oaim22d1          1   6.6           
+  add_89_32/Z[15] 
+  cb_seqi/add_89_32_Z[15] 
+    g691/B1                                                     
+    g691/ZN                 aoi22d1           1   7.8           
+    g675/A1                                                     
+    g675/ZN                 nr02d1            1   5.4           
+    acc_reg_reg[15]/D  <<<  dfnrq1                              
+    acc_reg_reg[15]/CP      setup                               
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(clock clk)                 capture                    200000 R 
+                            uncertainty                         
+----------------------------------------------------------------
+Cost Group   : 'R2R' (path_group 'constraints_top_2.sd_line_95')
+Start-point  : dut/cb_seqi/acc_reg_reg[0]/CP
+End-point    : dut/cb_seqi/acc_reg_reg[15]/D
+
+The global mapper estimates a slack for this path of 182962ps.
+ 
+ 
+Global incremental timing result
+================================
+        Applying wireload models.
+        Computing net loads.
+        Tracing clock networks.
+        Levelizing the circuit.
+        Computing delays.
+        Computing arrivals and requireds.
+         Pin                  Type       Fanout  Load Slew Delay Arrival   
+                                                 (fF) (ps)  (ps)   (ps)    
+---------------------------------------------------------------------------
+(clock clk)                 launch                                     0 R 
+dut
+  cb_seqi
+    acc_reg_reg[0]/CP                                    0    +0       0 R 
+    acc_reg_reg[0]/Q        dfnrq1            3 128.9  745  +938     938 F 
+  cb_seqi/mac_out[0] 
+  add_89_32/A[0] 
+    g383/A                                                    +2     941   
+    g383/CO                 ah01d1            1  15.4  194  +510    1451 F 
+    g382/CI                                                   +0    1451   
+    g382/CO                 ad01d1            1  15.4  229  +403    1854 F 
+    g381/CI                                                   +0    1854   
+    g381/CO                 ad01d1            1  15.4  229  +410    2263 F 
+    g380/CI                                                   +0    2263   
+    g380/CO                 ad01d1            1  15.4  229  +410    2673 F 
+    g379/CI                                                   +0    2673   
+    g379/CO                 ad01d1            1  15.4  229  +410    3083 F 
+    g378/CI                                                   +0    3083   
+    g378/CO                 ad01d1            1  15.4  229  +410    3492 F 
+    g377/CI                                                   +0    3492   
+    g377/CO                 ad01d1            1  15.4  229  +410    3902 F 
+    g376/CI                                                   +0    3902   
+    g376/CO                 ad01d1            1  15.4  231  +410    4312 F 
+    g375/CI                                                   +0    4312   
+    g375/CO                 ad01d1            1  15.4  231  +410    4722 F 
+    g374/CI                                                   +0    4722   
+    g374/CO                 ad01d1            1  15.4  231  +410    5132 F 
+    g373/CI                                                   +0    5132   
+    g373/CO                 ad01d1            1  15.4  231  +410    5542 F 
+    g372/CI                                                   +0    5542   
+    g372/CO                 ad01d1            1  15.4  231  +410    5953 F 
+    g371/CI                                                   +0    5953   
+    g371/CO                 ad01d1            1  15.4  231  +410    6363 F 
+    g370/CI                                                   +0    6363   
+    g370/CO                 ad01d1            1  15.4  231  +410    6773 F 
+    g369/CI                                                   +0    6773   
+    g369/CO                 ad01d1            2  12.6  213  +394    7167 F 
+    g368/B1                                                   +0    7167   
+    g368/ZN                 oaim22d1          1   6.6  176  +219    7387 F 
+  add_89_32/Z[15] 
+  cb_seqi/add_89_32_Z[15] 
+    g691/B1                                                   +0    7387   
+    g691/ZN                 aoi22d1           1   7.8  403  +208    7595 R 
+    g675/A1                                                   +0    7595   
+    g675/ZN                 nr02d1            1   5.4  202  +118    7713 F 
+    acc_reg_reg[15]/D  <<<  dfnrq1                            +0    7713   
+    acc_reg_reg[15]/CP      setup                        0  +240    7952 R 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(clock clk)                 capture                               200000 R 
+                            uncertainty                    -7000  193000 R 
+---------------------------------------------------------------------------
+Cost Group   : 'R2R' (path_group 'constraints_top_2.sd_line_95')
+Timing slack :  185048ps 
+Start-point  : dut/cb_seqi/acc_reg_reg[0]/CP
+End-point    : dut/cb_seqi/acc_reg_reg[15]/D
+
+             Pin                      Type       Fanout  Load  Slew Delay Arrival   
+                                                         (fF)  (ps)  (ps)   (ps)    
+------------------------------------------------------------------------------------
+(clock clk)                         launch                                      0 R 
+(constraints_top_2.sd_line_53)      ext delay                       +5000    5000 F 
+rst                                 in port           1 3538.0    0    +0    5000 F 
+pc3d01_rst/PAD                                                         +0    5000   
+pc3d01_rst/CIN                 (P)  pc3d01           22  372.5 1522 +1698    6698 F 
+dut/rst 
+  cb_oseqi/rst 
+    g1218/I                                                            +0    6698   
+    g1218/ZN                        inv0d1           13  132.3 1681 +1123    7821 R 
+    g1175/A1                                                          +17    7838   
+    g1175/Z                         an03d1            1    5.3  161  +325    8163 R 
+    mult_reg_reg[1]/D          <<<  dfnrq1                             +0    8163   
+    mult_reg_reg[1]/CP              setup                         0  +153    8316 R 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(clock clk)                         capture                                200000 R 
+                                    uncertainty                     -7000  193000 R 
+------------------------------------------------------------------------------------
+Cost Group   : 'I2R' (path_group 'constraints_top_2.sd_line_89')
+Timing slack :  184684ps 
+Start-point  : rst
+End-point    : dut/cb_oseqi/mult_reg_reg[1]/D
+
+(P) : Instance is preserved
+
+ 
+==================================
+Stage : global_incr_map 
+==================================
+  =================
+   Message Summary
+  =================
+---------------------------------------------------------------------
+|  Id  |Sev  |Count |                 Message Text                  |
+---------------------------------------------------------------------
+| PA-7 |Info |    6 |Resetting power analysis results.              |
+|      |     |      |All computed switching activities are removed. |
+---------------------------------------------------------------------
+ 
+Global incremental optimization status
+======================================
+                                   Group   
+                                  Tot Wrst 
+                           Total  Weighted 
+Operation                   Area   Slacks  
+ global_incr               40909        0 
+
+    Cost Group            Target    Slack    Diff.  Constr.
+-----------------------------------------------------------
+           R2R              3733   185048            200000 
+           I2R              3735   184684            200000 
+
+
+Scan mapping status report
+==========================
+    Scan mapping: converting flip-flops that pass TDRC.
+    Scan mapping: bypassed.  You have to either 1) set attribute 'dft_scan_map_mode' to 'tdrc_pass' and run 'check_dft_rules' or 2) set attribute 'dft_scan_map_mode' to 'force_all'.
+
+    Scan mapping bypassed because no TDRC data is available: either command 'check_dft_rules' has not been run or TDRC data has been subsequently invalidated.
+
+State Retention Synthesis Status
+================================
+
+Category                        Flops   Percentage
+--------------------------------------------------
+Total instances                    34        100.0
+Excluded from State Retention      34        100.0
+    - Will not convert             34        100.0
+      - Preserved                   0          0.0
+      - Power intent excluded      34        100.0
+    - Could not convert             0          0.0
+      - Scan type                   0          0.0
+      - No suitable cell            0          0.0
+State Retention instances           0          0.0
+--------------------------------------------------
+
+INFO: skipping constant propagation
+PBS_Techmap-Global Mapping - Elapsed_Time 2, CPU_Time 2.225065999999998
+stamp 'PBS_Techmap-Global Mapping' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:00:14) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:26 (Jun22) |  233.3 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:04(00:00:05) |  68.1( 71.4) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:25(00:00:21) |  00:00:02(00:00:02) |  31.9( 28.6) |   15:25:33 (Jun22) |  660.6 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+Warning : Command 'commit_power_intent' cannot proceed as there is no power intent loaded. [CPI-506]
+        : Command 'commit_power_intent' requires a valid power_intent to be loaded.
+Info    : Wrote formal verification information. [CFM-5]
+        : Wrote 'fv/mac_4x4_wrapper_chip/fv_map.fv.json' for netlist 'fv/mac_4x4_wrapper_chip/fv_map.v.gz'.
+Info    : Existing dofile found. Copied as fv/mac_4x4_wrapper_chip/rtl_to_fv_map.do~.
+Info    : Wrote dofile. [CFM-1]
+        : Dofile is 'fv/mac_4x4_wrapper_chip/rtl_to_fv_map.do'.
+        : Alias mapping flow is enabled.
+        Applying wireload models.
+        Computing net loads.
+PBS_TechMap-Datapath Postmap Operations - Elapsed_Time 3, CPU_Time 1.999061000000001
+stamp 'PBS_TechMap-Datapath Postmap Operations' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:00:14) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:26 (Jun22) |  233.3 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:04(00:00:05) |  53.0( 50.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:25(00:00:21) |  00:00:02(00:00:02) |  24.8( 20.0) |   15:25:33 (Jun22) |  660.6 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:01(00:00:03) |  22.3( 30.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Datapath Postmap Operations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+PBS_TechMap-Postmap HBO Optimizations - Elapsed_Time 0, CPU_Time -0.0012259999999990612
+stamp 'PBS_TechMap-Postmap HBO Optimizations' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:00:14) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:26 (Jun22) |  233.3 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:04(00:00:05) |  53.0( 50.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:25(00:00:21) |  00:00:02(00:00:02) |  24.8( 20.0) |   15:25:33 (Jun22) |  660.6 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:01(00:00:03) |  22.3( 30.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Datapath Postmap Operations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:00(00:00:00) |  -0.0(  0.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Postmap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+ Doing ConstProp on /designs/mac_4x4_wrapper_chip ... 
+
+Time taken by ConstProp Step: 00:00:00
+PBS_TechMap-Postmap Clock Gating - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_TechMap-Postmap Clock Gating' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:00:14) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:26 (Jun22) |  233.3 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:04(00:00:05) |  53.0( 50.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:25(00:00:21) |  00:00:02(00:00:02) |  24.8( 20.0) |   15:25:33 (Jun22) |  660.6 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:01(00:00:03) |  22.3( 30.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Datapath Postmap Operations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:00(00:00:00) |  -0.0(  0.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Postmap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Postmap Clock Gating
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+-------------------------------------------------------------------------------
+ hi_fo_buf                 40909        0         0         0        0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+       hi_fo_buf         0  (        0 /        0 )  0.00
+
+ 
+Incremental optimization status
+===============================
+                                   Group   
+                                  Tot Wrst     Total - - - - DRC Totals - - - -
+                           Total  Weighted      Neg      Max       Max     Max  
+Operation                   Area   Slacks      Slack    Trans      Cap   Fanout 
+ init_delay                40909        0         0         0        0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+       crit_upsz         0  (        0 /        0 )  0.00
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+    plc_st_fence         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+      plc_laf_st         0  (        0 /        0 )  0.00
+ plc_laf_st_fence         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+   plc_laf_lo_st         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+        mb_split         0  (        0 /        0 )  0.00
+
+ 
+Local TNS optimization status
+=============================
+                                   Group   
+                                  Tot Wrst     Total - - - - DRC Totals - - - -
+                           Total  Weighted      Neg      Max       Max     Max  
+Operation                   Area   Slacks      Slack    Trans      Cap   Fanout 
+ init_tns                  40909        0         0         0        0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+   plc_laf_lo_st         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+        mb_split         0  (        0 /        0 )  0.00
+
+PBS_TechMap-Postmap Cleanup - Elapsed_Time 0, CPU_Time -0.001224000000000558
+stamp 'PBS_TechMap-Postmap Cleanup' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:00:14) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:26 (Jun22) |  233.3 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:04(00:00:05) |  53.0( 50.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:25(00:00:21) |  00:00:02(00:00:02) |  24.8( 20.0) |   15:25:33 (Jun22) |  660.6 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:01(00:00:03) |  22.3( 30.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Datapath Postmap Operations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:00(00:00:00) |  -0.0(  0.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Postmap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Postmap Clock Gating
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:00(00:00:00) |  -0.0(  0.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Postmap Cleanup
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+PBS_Techmap-Post_MBCI - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_Techmap-Post_MBCI' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:19(00:00:14) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:26 (Jun22) |  233.3 MB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:04(00:00:05) |  53.0( 50.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:23(00:00:19) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:31 (Jun22) |  660.6 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:25(00:00:21) |  00:00:02(00:00:02) |  24.8( 20.0) |   15:25:33 (Jun22) |  660.6 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:01(00:00:03) |  22.3( 30.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Datapath Postmap Operations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:00(00:00:00) |  -0.0(  0.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Postmap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Postmap Clock Gating
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:00(00:00:00) |  -0.0(  0.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_TechMap-Postmap Cleanup
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:27(00:00:24) |  00:00:00(00:00:00) |   0.0(  0.0) |   15:25:36 (Jun22) |  659.9 MB | PBS_Techmap-Post_MBCI
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+##>=================== Cadence Confidential (Mapping-Logical) ===================
+##>Main Thread Summary:
+##>----------------------------------------------------------------------------------------
+##>STEP                           Elapsed       WNS       TNS     Insts      Area    Memory
+##>----------------------------------------------------------------------------------------
+##>M:Initial                            0         -         -       297     43725       660
+##>M:Pre Cleanup                        0         -         -       297     43725       660
+##>M:Setup                              0         -         -         -         -         -
+##>M:Launch ST                          0         -         -         -         -         -
+##>M:Design Partition                   0         -         -         -         -         -
+##>M:Create Partition Netlists          0         -         -         -         -         -
+##>M:Init Power                         0         -         -         -         -         -
+##>M:Budgeting                          0         -         -         -         -         -
+##>M:Derenv-DB                          0         -         -         -         -         -
+##>M:Debug Outputs                      0         -         -         -         -         -
+##>M:ST loading                         0         -         -         -         -         -
+##>M:Distributed                        0         -         -         -         -         -
+##>M:Timer                              0         -         -         -         -         -
+##>M:Assembly                           0         -         -         -         -         -
+##>M:DFT                                0         -         -         -         -         -
+##>M:DP Operations                      3         -         -       166     40841       659
+##>M:Const Prop                         0    184683         0       166     40841       659
+##>M:Cleanup                            0    184683         0       166     40841       659
+##>M:MBCI                               0         -         -       166     40841       659
+##>M:Const Gate Removal                 0         -         -         -         -         -
+##>M:Misc                               2
+##>----------------------------------------------------------------------------------------
+##>Total Elapsed                        5
+##>========================================================================================
+Info    : Done mapping. [SYNTH-5]
+        : Done mapping 'mac_4x4_wrapper_chip'.
+        Applying wireload models.
+        Computing net loads.
+  Setting attribute of root '/': 'syn_opt_effort' = medium
+Info    : Incrementally optimizing. [SYNTH-7]
+        : Incrementally optimizing 'mac_4x4_wrapper_chip' using 'medium' effort.
+ 
+Incremental optimization status
+===============================
+                                   Group   
+                                  Tot Wrst     Total - - - - DRC Totals - - - -
+                           Total  Weighted      Neg      Max       Max     Max  
+Operation                   Area   Slacks      Slack    Trans      Cap   Fanout 
+ init_iopt                 40909        0         0         0        0        0
+-------------------------------------------------------------------------------
+ const_prop                40909        0         0         0        0        0
+ simp_cc_inputs            40908        0         0         0        0        0
+ 
+Incremental optimization status
+===============================
+                                   Group   
+                                  Tot Wrst     Total - - - - DRC Totals - - - -
+                           Total  Weighted      Neg      Max       Max     Max  
+Operation                   Area   Slacks      Slack    Trans      Cap   Fanout 
+ init_delay                40908        0         0         0        0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+       crit_upsz         0  (        0 /        0 )  0.00
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+    plc_st_fence         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+      plc_laf_st         0  (        0 /        0 )  0.00
+ plc_laf_st_fence         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+   plc_laf_lo_st         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+         buf2inv         0  (        0 /        0 )  0.00
+        mb_split         0  (        0 /        0 )  0.00
+             exp         0  (        0 /        0 )  0.00
+       gate_deco         0  (        0 /        0 )  0.00
+       gcomp_tim         0  (        0 /        0 )  0.00
+  inv_pair_2_buf         0  (        0 /        0 )  0.00
+
+ init_drc                  40908        0         0         0        0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+      simple_buf         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+      drc_buf_sp         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+      simple_buf         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+      drc_buf_sp         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+ init_tns                  40908        0         0         0        0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+   plc_laf_lo_st         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+         buf2inv         0  (        0 /        0 )  0.00
+        mb_split         0  (        0 /        0 )  0.00
+
+ init_area                 40908        0         0         0        0        0
+ rem_inv_qb                40895        0         0         0        0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+           undup         0  (        0 /        0 )  0.00
+         rem_buf         0  (        0 /        0 )  0.00
+         rem_inv         0  (        0 /        0 )  0.00
+        merge_bi         0  (        0 /        0 )  0.00
+      rem_inv_qb         3  (        1 /        1 )  0.01
+        io_phase         0  (        0 /        0 )  0.00
+       gate_comp         2  (        0 /        0 )  0.01
+       gcomp_mog         1  (        0 /        0 )  0.01
+       glob_area        19  (        0 /       19 )  0.01
+       area_down         1  (        0 /        0 )  0.01
+      size_n_buf         0  (        0 /        0 )  0.00
+  gate_deco_area         0  (        0 /        0 )  0.00
+         rem_buf         0  (        0 /        0 )  0.00
+         rem_inv         0  (        0 /        0 )  0.00
+        merge_bi         0  (        0 /        0 )  0.00
+      rem_inv_qb         0  (        0 /        0 )  0.00
+
+ 
+Incremental optimization status
+===============================
+                                   Group   
+                                  Tot Wrst     Total - - - - DRC Totals - - - -
+                           Total  Weighted      Neg      Max       Max     Max  
+Operation                   Area   Slacks      Slack    Trans      Cap   Fanout 
+ init_delay                40895        0         0         0        0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+       crit_upsz         0  (        0 /        0 )  0.00
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+          plc_st         0  (        0 /        0 )  0.00
+    plc_st_fence         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+      plc_laf_st         0  (        0 /        0 )  0.00
+ plc_laf_st_fence         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+   plc_laf_lo_st         0  (        0 /        0 )  0.00
+       plc_lo_st         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+            fopt         0  (        0 /        0 )  0.00
+        setup_dn         0  (        0 /        0 )  0.00
+         buf2inv         0  (        0 /        0 )  0.00
+        mb_split         0  (        0 /        0 )  0.00
+             exp         0  (        0 /        0 )  0.00
+       gate_deco         0  (        0 /        0 )  0.00
+       gcomp_tim         0  (        0 /        0 )  0.00
+  inv_pair_2_buf         0  (        0 /        0 )  0.00
+
+ init_drc                  40895        0         0         0        0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+      simple_buf         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+      simple_buf         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+          plc_st         0  (        0 /        0 )  0.00
+        plc_star         0  (        0 /        0 )  0.00
+        drc_bufs         0  (        0 /        0 )  0.00
+        drc_fopt         0  (        0 /        0 )  0.00
+        drc_bufb         0  (        0 /        0 )  0.00
+             dup         0  (        0 /        0 )  0.00
+       crit_dnsz         0  (        0 /        0 )  0.00
+       crit_upsz         0  (        0 /        0 )  0.00
+
+ init_area                 40895        0         0         0        0        0
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+           undup         0  (        0 /        0 )  0.00
+         rem_buf         0  (        0 /        0 )  0.00
+         rem_inv         0  (        0 /        0 )  0.00
+        merge_bi         0  (        0 /        0 )  0.00
+      rem_inv_qb         0  (        0 /        0 )  0.00
+        io_phase         0  (        0 /        0 )  0.00
+       gate_comp         2  (        0 /        0 )  0.01
+       gcomp_mog         1  (        0 /        0 )  0.02
+       glob_area        19  (        0 /       19 )  0.01
+       area_down         1  (        0 /        0 )  0.01
+      size_n_buf         0  (        0 /        0 )  0.00
+  gate_deco_area         0  (        0 /        0 )  0.00
+
+==================================
+Stage : incr_opt 
+==================================
+  =================
+   Message Summary
+  =================
+--------------------------------------------------------------------------------
+|   Id    |  Sev   |Count |                   Message Text                     |
+--------------------------------------------------------------------------------
+| CFM-1   |Info    |    1 |Wrote dofile.                                       |
+| CFM-5   |Info    |    1 |Wrote formal verification information.              |
+| CPI-506 |Warning |    1 |Command 'commit_power_intent' cannot proceed as     |
+|         |        |      | there is no power intent loaded.                   |
+| PA-7    |Info    |    4 |Resetting power analysis results.                   |
+|         |        |      |All computed switching activities are removed.      |
+| SYNTH-5 |Info    |    1 |Done mapping.                                       |
+| SYNTH-7 |Info    |    1 |Incrementally optimizing.                           |
+--------------------------------------------------------------------------------
+Info    : Done incrementally optimizing. [SYNTH-8]
+        : Done incrementally optimizing 'mac_4x4_wrapper_chip'.
+        Applying wireload models.
+        Computing net loads.
+Finished SDC export (command execution time mm:ss (real) = 00:01).
+Warning : Default value for an option has changed in this release. [WSDF-104]
+        : Default value for -setuphold has changed from split to merge_always. Specify '-setuphold split' to preserve the behavior of the previous release.
+        : Specify the option explicitly.
+Info    : Joules engine is used. [RPT-16]
+        : Joules engine is being used for the command report_power.
+Info   : ACTP-0001 [ACTPInfo] Activity propagation started for stim#0 netlist
+       : mac_4x4_wrapper_chip
+Info   : ACTP-0009 [ACTPInfo] Activity Propagation Progress Report :   0%   1%   2%   3%   4%   5%   6%   7%   8%   9%  10%  11%  12%  13%  14%  15%  16%  17%  18%  19%  20%  21%  22%  23%  24%  25%  26%  27%  28%  29%  30%  31%  32%  33%  34%  35%  36%  37%  38%  39%  40%  41%  42%  43%  44%  45%  46%  47%  48%  49%  50%  51%  52%  53%  54%  55%  56%  57%  58%  59%  60%  61%  62%  63%  64%  65%  66%  67%  68%  69%  70%  71%  72%  73%  74%  75%  76%  77%  78%  79%  80%  81%  82%  83%  84%  85%  86%  87%  88%  89%  90%  91%  92%  93%  94%  95%  96%  97%  98%  99% 100%
+Info   : ACTP-0001 Activity propagation ended for stim#0
+Info   : PWRA-0001 [PwrInfo] compute_power effective options 
+       : -mode : vectorless
+       : -skip_propagation : 1
+       : -frequency_scaling_factor : 1.0
+       : -use_clock_freq : stim
+       : -stim :/stim#0
+       : -fromGenus : 1
+Info   : ACTP-0001 Timing initialization started
+Info   : ACTP-0001 Timing initialization ended
+Info   : PWRA-0002 [PwrInfo] Skipping activity propagation due to -skip_ap
+       : option....
+Warning: PWRA-0302 [PwrWarn] Frequency scaling is not applicable for vectorless
+       : flow. Ignoring frequency scaling.
+Warning: PWRA-0304 [PwrWarn] -stim option is not applicable with vectorless mode
+       : of power analysis, ignored this option.
+Info   : PWRA-0002 Started 'vectorless' power computation.
+Info   : PWRA-0009 [PwrInfo] Power Computation Progress Report :   0%   1%   2%   3%   4%   5%   6%   7%   8%   9%  10%  11%  12%  13%  14%  15%  16%  17%  18%  19%  20%  21%  22%  23%  24%  25%  26%  27%  28%  29%  30%  31%  32%  33%  34%  35%  36%  37%  38%  39%  40%  41%  42%  43%  44%  45%  46%  47%  48%  49%  50%  51%  52%  53%  54%  55%  56%  57%  58%  59%  60%  61%  62%  63%  64%  65%  66%  67%  68%  69%  70%  71%  72%  73%  74%  75%  76%  77%  78%  79%  80%  81%  82%  83%  84%  85%  86%  87%  88%  89%  90%  91%  92%  93%  94%  95%  96%  97%  98%  99% 100%
+Info   : PWRA-0002 Finished power computation.
+Info   : PWRA-0007 [PwrInfo] Completed successfully.
+       : Info=6, Warn=2, Error=0, Fatal=0
+Output file: power.rpt
+============================
+Synthesis Finished .........
+============================
+WARNING: This version of the tool is 1460 days old.
+legacy_genus:/> gui_show

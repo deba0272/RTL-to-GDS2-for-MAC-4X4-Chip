@@ -1,0 +1,10 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/nor2.dv
+dv_start matched                                  
+dv_global
+dv_discrep 1 {Warning: Ignored statement}
+dv_discrep_line {*.MEGA at line 13 in file "nor2.cdl" not applied to earlier global-scope .OPTION (or equivalent) statements}
+dv_discrep_line {}
+dv_cell {nor2} {nor2} matched
+dv_obj_count -transformed_nets {5 5} -transformed_inst {1 1} -transformed_port {5 5}
+dv_end

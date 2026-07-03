@@ -1,0 +1,21 @@
+EVcdFile ""
+EVcdInfoFile ""
+VcdFile ""
+VcdInfoFile ""
+VectorFile nil
+allDefinitionFiles nil
+allDspfFiles nil
+allEVcdFiles nil
+allIncludedPaths ((t "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3//HOTCODE/amslibs/cds_default/cdslibs/ts18scl/models/default/spectre"))
+allPspiceFiles nil
+allSpefFiles nil
+allStimulusFiles nil
+allVcdFiles nil
+allVectorFiles nil
+definitionFiles nil
+dspfFile nil
+hlcheck "off"
+includePath "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3//HOTCODE/amslibs/cds_default/cdslibs/ts18scl/models/default/spectre"
+pspiceFile nil
+spefFile nil
+stimulusFile nil

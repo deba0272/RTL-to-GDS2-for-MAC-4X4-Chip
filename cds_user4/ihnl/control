@@ -1,0 +1,87 @@
+hnlLastStopCellInfo = '(
+                           ( "symbolforPAD" "pc3d00" "auCdl" "172" "1782364385" )
+                          ( "symbolforPAD" "pv0a" "auCdl" "120" "1782364391" )
+                          ( "symbolforPAD" "pv0i" "auCdl" "120" "1782364394" )
+                          ( "symbolforPAD" "pvda" "auCdl" "121" "1782364400" )
+                          ( "symbolforPAD" "pvdi" "auCdl" "121" "1782364404" )
+                       )
+hnlLastTopViewWasConfig = 0
+hnlLastMaxNameLength = 60
+hnlLastNamePrefix = "hnl_"
+hnlLastNetNamePrefix = "N"
+hnlLastInstNamePrefix = ""
+hnlLastModelNamePrefix = ""
+hnlLastGlobalNetPrefix = "G"
+hnlLastModulePrefix = "sub"
+hnlLastHierarchyDelimiter = "."
+hnlLastNetlistRevision = "__Revision2"
+hnlLastOptimizeCellGenerationInConfig = nil
+hnlLastMapNetFirstChar = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastMapNetInName = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastMapInstFirstChar = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastMapInstInName = '(
+                            "	"
+                            " "
+                            "$"
+                            ","
+                            "/"
+                            ":"
+                            ";"
+                            "="
+                          )
+hnlLastInstNameDifferentFrom = '( )
+hnlLastModelNameDifferentFrom = '( )
+hnlLastNetNameDifferentFrom = '( )
+hnlLastTermNameDifferentFrom = '( )
+hnlLastParamNameDifferentFrom = '( )
+hnlLastLibInfo = '(
+                    ( "invpad" "1782365405" )
+                  )
+hnlLastDesignVars = '( )

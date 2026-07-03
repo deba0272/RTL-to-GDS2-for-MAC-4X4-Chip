@@ -1,0 +1,132 @@
+================================================================================
+          ASIC ROUTING SCRIPT README
+================================================================================
+Overview:
+This document explains each configuration and command used in the provided 
+routing script. The script outlines a standard physical implementation 
+routing flow, covering global and detailed routing, timing analysis, 
+filler insertion, and final database/GDSII extraction (notably targeting 
+a 180nm standard cell library).
+
+================================================================================
+1. ROUTING CONFIGURATION VARIABLES
+================================================================================
+These commands set up TCL variables to control how the NanoRoute engine will 
+behave during the routing phase.
+
+* `set ROUTE_TIMING true` 
+  Enables timing-driven routing. The router will prioritize paths with negative 
+  or tight slack to prevent timing violations.
+
+* `set ROUTE_TDR_EFFORT 0` 
+  Sets the trade-off effort between Congestion and Timing. 
+  '0' prioritizes congestion resolution, while higher numbers (up to 10) 
+  prioritize timing.
+
+* `set ROUTE_SI true`
+  Enables Signal Integrity (SI) aware routing. The router will actively try to 
+  space out parallel wire runs to reduce capacitive crosstalk (glitches and 
+  delta delays).
+
+* `set ANTENNA_CELL true` 
+  Instructs the tool to insert antenna diodes during routing to fix 
+  process-induced antenna violations (charge accumulation on long metal wires).
+
+* `set ANTENNA_CELL_NAME adiode`
+  Specifies the exact standard cell name ("adiode") from the technology library 
+  to be used when fixing antenna violations.
+
+================================================================================
+2. NANOROUTE INITIALIZATION
+================================================================================
+* `setNanoRouteMode`
+  Passes the previously defined variables into the actual NanoRoute engine. 
+  It configures the internal router settings (-routeWithTimingDriven, 
+  -routeTdrEffort, -routeWithSiDriven, etc.) before the routing actually begins.
+
+================================================================================
+3. ROUTING EXECUTION
+================================================================================
+* `routeDesign -globalDetail`
+  The primary execution command. It performs both Global Routing (assigning 
+  nets to routing regions/gcells) and Detailed Routing (laying down the exact 
+  metal tracks and vias) in one step, using the modes set above.
+
+* `checkRoute` (Commented out)
+  Analyzes the design post-routing to report any unconnected pins, opens, 
+  shorts, or off-grid routing errors.
+
+================================================================================
+4. CUSTOM SCRIPTS & DESIGN SAVING
+================================================================================
+* `source ./userDrawHotSpots.tcl`
+  Executes an external custom TCL script, likely containing procedures to 
+  visually highlight congested areas.
+
+* `clearDrc` / `userDrawHotSpots`
+  Clears existing DRC markers from the GUI and invokes the custom hotspot 
+  drawing command defined in the sourced script.
+
+* `saveDesign ./Routing/..._detailedRoute.enc`
+  Saves the current state of the design into an Innovus database (.enc) file. 
+  This acts as a checkpoint in the ASIC flow.
+
+================================================================================
+5. TIMING ANALYSIS & OPTIMIZATION
+================================================================================
+* `source ./sta_route.tcl`
+  Loads static timing analysis constraints or settings specific to the routing 
+  stage.
+
+* `timeDesign -postRoute`
+  Runs Static Timing Analysis (STA) on the routed design to check for SETUP 
+  violations, writing the results to a report file.
+
+* `timeDesign -postRoute -hold`
+  Runs STA to check for HOLD violations on the routed design.
+
+================================================================================
+6. STANDARD CELL FILLER INSERTION
+================================================================================
+* `set FILLER_CELL_NAME {feedth feedth3 feedth9}` / `set FILLER_PREFIX FILLER`
+  Defines the specific standard cell filler names and prefix. Fillers are 
+  empty cells used to fill gaps in standard cell rows.
+
+* `addFiller -doDRC -fitGap -markFixed ...`
+  Inserts the filler cells into the design. This is critical for maintaining 
+  N-well and implant layer continuity across the rows, and ensuring the chip 
+  meets minimum density DRC rules.
+
+================================================================================
+7. REPORTING & EXPORTING (TAPE-OUT PREP)
+================================================================================
+* `reportGateCount`
+  Generates a report of the total logic gate count for the specified 
+  hierarchy level.
+
+* `reportCongestion -overflow -hotSpot`
+  Generates a text report detailing routing congestion, track overflows, and 
+  problematic hotspots after optimization/fill.
+
+* `saveNetlist` (-includePowerGround / withoutPG)
+  Exports the final structural Verilog netlist of the routed design. One 
+  includes VDD/VSS pins (for LVS verification), the other excludes them 
+  (often used for standard gate-level simulation).
+
+* `write_sdc`
+  Exports the Synopsys Design Constraints file, capturing the final timing 
+  constraints.
+
+* `write_sdf`
+  Generates the Standard Delay Format (SDF) file, containing the calculated 
+  cell and net delays needed for timing-annotated simulations.
+
+* `rcOut -spef`
+  Extracts the parasitic resistance and capacitance of the routed wires into 
+  a Standard Parasitic Exchange Format (SPEF) file for sign-off STA tools.
+
+* `streamOut`
+  The final export command. It converts the database layout into standard GDSII 
+  format. In this script, it specifically maps the layers for a 6-Metal 1-Local 
+  (6M1L) stack using the SCL 180nm PDK paths, merging the physical macros/pads 
+  with the routed standard cells to create the final fabrication-ready mask layout.

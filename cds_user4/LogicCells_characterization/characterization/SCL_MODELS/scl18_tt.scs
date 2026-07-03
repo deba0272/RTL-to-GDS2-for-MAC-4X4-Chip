@@ -1,0 +1,5 @@
+//  library SCL-180 PDK Spectre Model File
+simulator lang=spectre insensitive=yes
+ 
+//section nom
+include "ts18sl_scl.lib" section=tt_18

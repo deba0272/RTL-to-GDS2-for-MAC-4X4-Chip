@@ -1,0 +1,8 @@
+HEADER
+"PSFversion" "1.00"
+"M0n" "ts018_scl_prim_pmos_18_spectre"
+"M1n" "ts018_scl_prim_nmos_18_spectre"
+"inv" ":1v"
+"outv" ":2v"
+"vddv" ":3v"
+"vssv" ":4v"

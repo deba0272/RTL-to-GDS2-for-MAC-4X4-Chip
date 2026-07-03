@@ -1,0 +1,102 @@
+ahdlcmicompile: Compiling ahdlcmi in ./mac_chip.ahdlSimDB//bsource_7bc9d4.va.bsource_7bc9d4.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Mon Jun 22 20:08:55 IST 2026 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /tools/cadence/SPECTRE211/bin:/tools/cadence/SPECTRE211/tools.lnx86/bin/64bit:/tools/cadence/SPECTRE211/tools.lnx86/bin:/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3//HOTCODE/bin/rfbin:/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3//HOTCODE/amslibs/cds_default/cdsware/bin:/tools/cadence/IC618/bin:/tools/cadence/IC618/tools/bin:/tools/cadence/IC618/tools.lnx86/dfII/bin:/tools/cadence/IC618/share/bin:/tools/cadence/IC618/tools/dfII/bin:/tools/cadence/IC618/tools.lnx86/bin:/tools/cadence/SPECTRE211/share/bin:/tools/cadence/XCELIUM2409/tools.lnx86/dfII/bin:/tools/cadence/XCELIUM2409/share/bin:/tools/cadence/XCELIUM2409/bin:/tools/cadence/XCELIUM2409/tools/bin:/tools/cadence/XCELIUM2409/tools/dfII/bin:/tools/cadence/XCELIUM2409/tools.lnx86/bin:/tools/cadence/INCISIVE152/bin:/tools/cadence/INCISIVE152/tools.lnx86/bin:/tools/cadence/INCISIVE152/tools/dfII/bin:/tools/cadence/INCISIVE152/tools.lnx86/dfII/bin:/tools/cadence/INCISIVE152/share/bin:/tools/cadence/ASSURA41/bin:/tools/cadence/ASSURA41/tools/bin:/tools/cadence/ASSURA41/tools/dfII/bin:/tools/cadence/ASSURA41/tools.lnx86/dfII/bin:/tools/cadence/ASSURA41/share/bin:/tools/cadence/PVS222/tools/assura/bin:/tools/cadence/PVS222/tools/bin:/tools/cadence/PVS222/bin:/tools/cadence/PVS222/tools.lnx86/bin:/tools/cadence/PVS222/tools/dfII/bin:/tools/cadence/QUANTUS212/tools/bin:/tools/cadence/SPB174/bin:/tools/cadence/SPB174/tools.lnx86/pcb/bin:/tools/cadence/SPB174/tools.lnx86/dfII/bin:/tools/cadence/SPB174/tools.lnx86/bin:/tools/cadence/CONFRML211/bin:/tools/cadence/CONFRML211/tools.lnx86/bin:/tools/cadence/CONFRML211/tools.lnx86/dfII/bin:/tools/cadence/CONFRML211/share/bin:/tools/cadence/LIBERATE217/tools.lnx86/bin:/tools/cadence/LIBERATE217/tools.lnx86/dfII/bin:/tools/cadence/LIBERATE217/bin:/tools/cadence/GENUS211/bin:/tools/cadence/GENUS211/share/bin:/tools/cadence/GENUS211/tools.lnx86/dfII/bin:/tools/cadence/GENUS211/tools.lnx86/bin:/tools/cadence/INNOVUS211/bin:/tools/cadence/INNOVUS211/tools/bin:/tools/cadence/INNOVUS211/tools/dfII/bin:/tools/cadence/INNOVUS211/share/bin:/tools/cadence/SSV221/bin:/tools/cadence/SSV221/tools.lnx86/bin:/tools/cadence/SSV221/tools.lnx86/dfII/bin:/tools/cadence/SSV221/share/bin:/tools/cadence/MODUS201/bin:/tools/cadence/MODUS201/tools.lnx86/bin:/tools/cadence/MODUS201/tools.lnx86/dfII/bin:/tools/cadence/JASPER1909/bin:/tools/cadence/JASPER1909/tools.lnx86/bin:/tools/cadence/JASPER1909/tools.lnx86/dfII/bin:/tools/cadence/JASPER1909/share/bin:/tools/cadence/MVS202/tools.lnx86/dfII/bin:/tools/cadence/MVS202/share/bin:/tools/cadence/MVS202/bin:/tools/cadence/MVS202/tools.lnx86/bin:/tools/cadence/SIGRITY20211/tools.lnx86/dfII/bin:/tools/cadence/SIGRITY20211/share/bin:/tools/cadence/SIGRITY20211/bin:/tools/cadence/SIGRITY20211/tools.lnx86/bin:/tools/cadence/STRATUS202/bin:/tools/cadence/STRATUS202/tools.lnx86/bin:/tools/cadence/STRATUS202/tools.lnx86/dfII/bin:/tools/cadence/STRATUS202/share/bin:/tools/cadence/ULTRASIM181/tools.lnx86/dfII/bin:/tools/cadence/ULTRASIM181/share/bin:/tools/cadence/ULTRASIM181/bin:/tools/cadence/ULTRASIM181/tools.lnx86/bin:/tools/cadence/VMANAGER2009/tools.lnx86/dfII/bin:/tools/cadence/VMANAGER2009/share/bin:/tools/cadence/VMANAGER2009/bin:/tools/cadence/VMANAGER2009/tools.lnx86/bin:/tools/cadence/INTEGRAND60/tools.lnx86/dfII/bin:/tools/cadence/INTEGRAND60/share/bin:/tools/cadence/INTEGRAND60/bin:/tools/cadence/INTEGRAND60/tools.lnx86/bin:/tools/cadence/JLS201/tools.lnx86/dfII/bin:/tools/cadence/JLS201/share/bin:/tools/cadence/JLS201/bin:/tools/cadence/JLS201/tools.lnx86/bin:/tools/cadence/PEGASUS232/tools/bin:/tools/cadence/PEGASUS232/tools.lnx86/bin:/tools/cadence/PEGASUS232/share/bin:/tools/cadence/PEGASUS232/tools.lnx86/dfII/bin:/home/priyank/.local/bin:/home/priyank/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+LD_LIBRARY_PATH:  /tools/cadence/SPECTRE211/tools.lnx86/giganta/lib/64bit:/tools/cadence/SPECTRE211/tools.lnx86/mdl/lib/64bit:/tools/cadence/SPECTRE211/tools.lnx86/mmsim/lib/64bit:/tools/cadence/SPECTRE211/tools.lnx86/tcltk-8.4.20/lib/64bit:/tools/cadence/SPECTRE211/tools.lnx86/python/64bit/lib:/tools/cadence/SPECTRE211/tools.lnx86/inca/lib/64bit:/tools/cadence/SPECTRE211/tools.lnx86/awrmwo/lib/64bit:/tools/cadence/SPECTRE211/tools.lnx86/spectre/lib/64bit:/tools/cadence/SPECTRE211/tools.lnx86/dfII/lib/64bit:/tools/cadence/SPECTRE211/tools.lnx86/fmc/lib/64bit:/tools/cadence/SPECTRE211/tools.lnx86/lib/64bit:/tools/cadence/SPECTRE211/tools.lnx86/lib/64bit:/tools/cadence/SPECTRE211/tools.lnx86/lib:/tools/cadence/SPECTRE211/tools.lnx86/lib/64bit/RHEL/RHEL8:/tools/cadence/INCISIVE152/tools/lib
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j32 -f GNUmakefile
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+Compiling C file bsource_7bc9d4.c (optimize)
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /tools/cadence/SPECTRE211/tools.lnx86/cdsgcc/gcc/9.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include -c bsource_7bc9d4.c -o obj/optimize/5.0/bsource_7bc9d4.o || rm -f -f obj/optimize/5.0/bsource_7bc9d4.o
+<stdin>: In function 'bsource_7bc9d4_DcFuncDerLoad':
+<stdin>:235:49: warning: passing argument 1 of 'aslDevInterAddStaticElement' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2261:62: note: expected 'void *' but argument is of type 'long int'
+ 2261 | ASL_FUNC_DECL_START extern long aslDevInterAddStaticElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                              ^~~~~~
+<stdin>: In function 'bsource_7bc9d4_TranFuncDerLoad':
+<stdin>:661:49: warning: passing argument 1 of 'aslDevInterAddStaticElement' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2261:62: note: expected 'void *' but argument is of type 'long int'
+ 2261 | ASL_FUNC_DECL_START extern long aslDevInterAddStaticElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                              ^~~~~~
+<stdin>:667:50: warning: passing argument 1 of 'aslDevInterAddDynamicElement' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2263:63: note: expected 'void *' but argument is of type 'long int'
+ 2263 | ASL_FUNC_DECL_START extern long aslDevInterAddDynamicElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>:669:50: warning: passing argument 1 of 'aslDevInterAddDynamicElement' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2263:63: note: expected 'void *' but argument is of type 'long int'
+ 2263 | ASL_FUNC_DECL_START extern long aslDevInterAddDynamicElement( void *, double, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>: In function 'bsource_7bc9d4_pGetInstanceParams':
+<stdin>:2103:69: warning: implicit declaration of function 'devGetInstKnotStatus'; did you mean 'devGetInstState'? [-Wimplicit-function-declaration]
+<stdin>: In function 'bsource_7bc9d4_pDC_Load':
+<stdin>:2386:41: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2831:63: note: expected 'void *' but argument is of type 'long int'
+ 2831 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>: In function 'bsource_7bc9d4_pCloneStencil':
+<stdin>:2721:37: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:2722:33: warning: passing argument 1 of 'aslDevMemcpy_wrap' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1410:34: note: expected 'void *' but argument is of type 'long int'
+ 1410 | ASL_FUNC_DECL_START extern void *aslDevMemcpy_wrap( void *, const void *, size_t );
+      |                                  ^~~~~~~~~~~~~~~~~
+<stdin>:2722:68: warning: passing argument 2 of 'aslDevMemcpy_wrap' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1410:34: note: expected 'const void *' but argument is of type 'long int'
+ 1410 | ASL_FUNC_DECL_START extern void *aslDevMemcpy_wrap( void *, const void *, size_t );
+      |                                  ^~~~~~~~~~~~~~~~~
+<stdin>: In function 'bsource_7bc9d4_pCompare':
+<stdin>:2820:3: warning: implicit declaration of function 'spReplaceMatrixPointer'; did you mean 'aslDevLaplaceGetMatrixPointer'? [-Wimplicit-function-declaration]
+<stdin>:2829:38: warning: assignment to 'long int' from 'long int *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:2830:23: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5,
+                 from /tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:43:14: note: expected 'void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |              ^~~~~~
+<stdin>:2830:59: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5,
+                 from /tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:43:14: note: expected 'const void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |              ^~~~~~
+<stdin>:2832:38: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'bsource_7bc9d4_pMapSignals':
+<stdin>:2892:26: warning: comparison between pointer and integer
+<stdin>: In function 'bsource_7bc9d4_pGetMatrixPointers':
+<stdin>:3012:35: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'bsource_7bc9d4_pAnalTranLoad':
+<stdin>:3706:42: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2831:63: note: expected 'void *' but argument is of type 'long int'
+ 2831 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>: In function 'bsource_7bc9d4_pSaveRestart':
+<stdin>:3968:4: warning: implicit declaration of function 'pklAccessDouble' [-Wimplicit-function-declaration]
+<stdin>:3969:30: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+In file included from <stdin>:24:
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1269:58: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ 1269 | ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'bsource_7bc9d4_pSaveRestartInst':
+<stdin>:4037:28: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+In file included from <stdin>:24:
+/tools/cadence/SPECTRE211/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1269:58: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ 1269 | ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'ahdlbsource_7bc9d4DescInstall':
+<stdin>:4175:2: warning: implicit declaration of function 'descSetDeviceType'; did you mean 'descSetType'? [-Wimplicit-function-declaration]
+<stdin>:4177:2: warning: implicit declaration of function 'descSetSetContrInfoPtr' [-Wimplicit-function-declaration]
+<stdin>:4184:2: warning: implicit declaration of function 'descSetCopySignals'; did you mean 'descSetMapSignals'? [-Wimplicit-function-declaration]
+<stdin>:4185:2: warning: implicit declaration of function 'descSetCloneStencil'; did you mean 'descSetDeleteStencil'? [-Wimplicit-function-declaration]
+<stdin>:4212:2: warning: implicit declaration of function 'descSetGetNodeNamesForBranch' [-Wimplicit-function-declaration]
+<stdin>:4213:2: warning: implicit declaration of function 'descSetGetLinearityFactor' [-Wimplicit-function-declaration]
+rm -f -rf bsource_7bc9d4.c
+/tools/cadence/SPECTRE211/tools.lnx86/cdsgcc/gcc/9.3/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_bsource_7bc9d4.so ./obj/optimize/5.0/bsource_7bc9d4.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -s 
+rm -f -f ./obj/optimize/5.0/bsource_7bc9d4.o 

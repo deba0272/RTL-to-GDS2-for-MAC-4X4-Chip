@@ -1,0 +1,96 @@
+Peak memory beginning genPrelayoutRCnet 0.86G
+
+Notice from spectre during initial setup.
+    X_CC.dXpv0a_VSSO_3/D30: Terminals are connected together (to node `0').
+    X_CC.dXpvda_VDDO_3/D30@9: Terminals are connected together (to node `0').
+    X_CC.dXpvda_VDDO_3/D30@8: Terminals are connected together (to node `0').
+    X_CC.dXpvda_VDDO_3/D30@7: Terminals are connected together (to node `0').
+    X_CC.dXpvda_VDDO_3/D30@6: Terminals are connected together (to node `0').
+        Further occurrences of this notice will be suppressed.
+
+Peak memory End genPrelayoutRCnet : 0.86G
+
+Notice from spectre during topology check.
+    No DC path from node `X_CC.noxref_308' to ground, Gmin installed to provide
+        path.
+    No DC path from node `X_CC.noxref_326' to ground, Gmin installed to provide
+        path.
+    No DC path from node `X_CC.noxref_334' to ground, Gmin installed to provide
+        path.
+    No DC path from node `X_CC.noxref_306' to ground, Gmin installed to provide
+        path.
+    No DC path from node `X_CC.noxref_307' to ground, Gmin installed to provide
+        path.
+        Further occurrences of this notice will be suppressed.
+Notice from spectre during initial setup.
+    Number of thread was limited because of small circuit size.
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-592): Following parameters are disabled because they are
+        ignored or redefined in Spectre X:
+        Option Parameters:
+          reltol
+        Tran Parameters:
+          errpreset
+          method
+
+
+Global user options:
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 447978
+                bit 11    
+     bsource_7bc9d4 16    
+              diode 309   
+            vsource 4     
+          capacitor 343366
+           resistor 748754
+            bsim3v3 4669  
+     bsource_7dd33c 115   
+     bsource_f74ba3 168   
+
+Analysis and control statement inventory:
+               tran 1     
+
+Output statements:
+             .probe 1     
+           .measure 0     
+               save 0     
+
+
+Notice from spectre during initial setup.
+    8753 resistors are shorted because their absolute value is less than or
+        equal to 'rabsshort'.
+    Deleting SFE database ...
+    Spectre X preset=vx enabled.
+    590 notices suppressed.
+    Multithreading enabled: 16 threads in the system with 32 available
+        processors.
+
+Time for parsing: CPU = -18.6995 s, elapsed = 20.2469 s.
+Time accumulated: CPU = 26.8151 s, elapsed = 44.7646 s.
+Peak resident memory used = 884 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (Spectre X) Multi-threading. The recommended number of threads is [4,
+        8], consider adding +mt=4 or +mt=8 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+****************************************************
+Transient Analysis `timeSweep': time = (0 s -> 4 us)
+****************************************************
+DC simulation time: CPU = 681.749 ms, elapsed = 134.002 ms.
+
+Aggregate audit (8:27:56 PM, Mon Jun 22, 2026):
+Time used: CPU = 27.5 s, elapsed = 44.9 s, util. = 61.3%.
+Peak memory used = 868 Mbytes.
+Simulation started at: 8:27:11 PM, Mon Jun 22, 2026, ended at: 8:27:56 PM, Mon
+        Jun 22, 2026, with elapsed time (wall clock): 44.9 s.
+DCOpt first-stage simulation completes with 0 errors, 22 warnings, and 26
+        notices.
+First stage DC successful
+First stage DC Setup CPU time =     0.347 ElapseTime =    40.120
+First stage DC Solve CPU time =     0.105 ElapseTime =     0.020

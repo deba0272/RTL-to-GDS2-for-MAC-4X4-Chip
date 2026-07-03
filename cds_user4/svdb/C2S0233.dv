@@ -1,0 +1,605 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/C2S0233.dv
+dv_start unmatched                                
+dv_global
+dv_discrep 1 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "dl04d1" at line 7 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 3413 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 2 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "dl04d2" at line 10 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 8992 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 3 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "buffd1" at line 13 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 1881 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 4 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "buffd3" at line 16 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 1888 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 5 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "dfnrq1" at line 19 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 3184 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 6 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "oan211d1" at line 22 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 5997 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 7 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "aoi211d1" at line 25 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 480 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 8 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "an02d1" at line 28 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 300 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 9 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "nd02d1" at line 31 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 4542 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 10 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "ad01d1" at line 34 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 40 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 11 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "nd12d1" at line 37 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 4692 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 12 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "an03d1" at line 40 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 344 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 13 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "or02d1" at line 43 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 6053 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 14 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "ah01d1" at line 46 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 253 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 15 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "oai21d1" at line 49 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 5110 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 16 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "nr02d1" at line 52 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 4830 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 17 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "oai22d1" at line 55 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 5341 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 18 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "dfnrn1" at line 58 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 3128 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 19 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "inv0d1" at line 61 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 3441 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 20 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "an12d1" at line 64 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 441 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 21 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "aoi22d1" at line 67 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 765 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 22 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "xr03d1" at line 70 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 7832 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 23 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "dfnrb1" at line 73 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 3066 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"}
+dv_discrep_line {}
+dv_discrep 24 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "pc3c01" at line 76 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 2636 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"}
+dv_discrep_line {}
+dv_discrep 25 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "pc3d01" at line 79 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 2892 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"}
+dv_discrep_line {}
+dv_discrep 26 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "pc3o01" at line 82 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 4055 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"}
+dv_discrep_line {}
+dv_discrep 27 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "pvdi" at line 85 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 9530 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"}
+dv_discrep_line {}
+dv_discrep 28 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "pv0i" at line 88 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 9398 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"}
+dv_discrep_line {}
+dv_discrep 29 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "pvda" at line 91 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 9438 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"}
+dv_discrep_line {}
+dv_discrep 30 {Warning: Duplicate subckt}
+dv_discrep_line {Duplicate subckt definition "pv0a" at line 94 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"}
+dv_discrep_line {         previously defined at line 9272 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"}
+dv_discrep_line {}
+dv_cell {C2S0233} {mac_4x4_wrapper_chip} unmatched
+dv_obj_count -transformed_nets {1452 1452} -transformed_inst {2086 2086} -transformed_port {4 27}
+dv_discrep 1 {Incorrect Nets} -inst_count { 3 4}
+dv_discrep_line {Net } -lnet {X8/X134/PAD} {                                           } -snet {a[1]} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 4 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X8/X134/X2/M0} {} -lloc {(505.100,1766.580)} {:}  {d} {                         ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3d01_a1/M20} {:}  {s} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets} -inst_count { 3 4}
+dv_discrep_line {Net } -lnet {X8/X136/PAD} {                                           } -snet {a[3]} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 4 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X8/X136/X1/M0} {} -lloc {(730.845,1874.250)} {:}  {s} {                         ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3d01_a3/M7} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Nets} -inst_count { 3 4}
+dv_discrep_line {Net } -lnet {X8/X137/PAD} {                                           } -snet {b[0]} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 4 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X8/X137/X1/M0} {} -lloc {(1309.620,1874.250)} {:}  {s} {                        ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3d01_b0/M7} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Nets} -inst_count { 5 6}
+dv_discrep_line {Net } -lnet {X12/X31/PAD} {                                           } -snet {mac_out[4]} {}
+dv_discrep_line {--- 5 Connections On This Net ---                         --- 6 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X31/X2/M0} {} -lloc {(1874.250,343.110)} {:}  {s} {                         ** missing connection **}
+dv_discrep_line {} -ldev {X12/X31/X3/M0} {} -lloc {(1766.580,337.340)} {:}  {d} {                         ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out4/M5} {:}  {d} {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out4/M17} {:}  {s} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Nets} -inst_count { 5 6}
+dv_discrep_line {Net } -lnet {X12/X32/PAD} {                                           } -snet {mac_out[5]} {}
+dv_discrep_line {--- 5 Connections On This Net ---                         --- 6 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X32/X2/M0} {} -lloc {(1874.250,458.870)} {:}  {s} {                         ** missing connection **}
+dv_discrep_line {} -ldev {X12/X32/X3/M0} {} -lloc {(1766.580,453.100)} {:}  {d} {                         ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out5/M5} {:}  {d} {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out5/M17} {:}  {s} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Nets} -inst_count { 5 6}
+dv_discrep_line {Net } -lnet {X12/X33/PAD} {                                           } -snet {mac_out[6]} {}
+dv_discrep_line {--- 5 Connections On This Net ---                         --- 6 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X33/X2/M0} {} -lloc {(1874.250,574.630)} {:}  {s} {                         ** missing connection **}
+dv_discrep_line {} -ldev {X12/X33/X3/M0} {} -lloc {(1766.580,568.860)} {:}  {d} {                         ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out6/M5} {:}  {d} {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out6/M17} {:}  {s} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Nets} -inst_count { 5 6}
+dv_discrep_line {Net } -lnet {X12/X34/PAD} {                                           } -snet {mac_out[7]} {}
+dv_discrep_line {--- 5 Connections On This Net ---                         --- 6 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X34/X2/M0} {} -lloc {(1874.250,690.385)} {:}  {s} {                         ** missing connection **}
+dv_discrep_line {} -ldev {X12/X34/X3/M0} {} -lloc {(1766.580,684.615)} {:}  {d} {                         ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out7/M5} {:}  {d} {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out7/M17} {:}  {s} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Nets} -inst_count { 5 6}
+dv_discrep_line {Net } -lnet {X13/X119/PAD} {                                          } -snet {mac_out[14]} {}
+dv_discrep_line {--- 5 Connections On This Net ---                         --- 6 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X13/X119/X6/R0} {} -lloc {(585.885,165.600)} {:}  {neg} {                       ** missing connection **}
+dv_discrep_line {} -ldev {X13/X119/X2/M0} {} -lloc {(574.630,125.750)} {:}  {s} {                         ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out14/R1} {:}  {pos} {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out14/M5} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Nets} -inst_count { 5 6}
+dv_discrep_line {Net } -lnet {X13/X120/PAD} {                                          } -snet {mac_out[15]} {}
+dv_discrep_line {--- 5 Connections On This Net ---                         --- 6 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X13/X120/X6/R0} {} -lloc {(701.640,165.600)} {:}  {neg} {                       ** missing connection **}
+dv_discrep_line {} -ldev {X13/X120/X2/M0} {} -lloc {(690.385,125.750)} {:}  {s} {                         ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out15/R1} {:}  {pos} {}
+dv_discrep_line {** missing connection **                                  } -sdev {Xpc3o01_mac_out15/M5} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 10 {Incorrect Nets} -inst_count { 5 0}
+dv_discrep_line {Net } -lnet {X8/X117/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 11 {Incorrect Nets} -inst_count { 3 0}
+dv_discrep_line {Net } -lnet {X8/X133/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 12 {Incorrect Nets} -inst_count { 3 0}
+dv_discrep_line {Net } -lnet {X8/X135/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 13 {Incorrect Nets} -inst_count { 3 0}
+dv_discrep_line {Net } -lnet {X8/X138/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 14 {Incorrect Nets} -inst_count { 3 0}
+dv_discrep_line {Net } -lnet {X8/X139/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 15 {Incorrect Nets} -inst_count { 3 0}
+dv_discrep_line {Net } -lnet {X8/X140/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 16 {Incorrect Nets} -inst_count { 5 0}
+dv_discrep_line {Net } -lnet {X9/X27/PAD} {                                            ** no similar net **}
+dv_discrep_line {}
+dv_discrep 17 {Incorrect Nets} -inst_count { 5 0}
+dv_discrep_line {Net } -lnet {X9/X28/PAD} {                                            ** no similar net **}
+dv_discrep_line {}
+dv_discrep 18 {Incorrect Nets} -inst_count { 5 0}
+dv_discrep_line {Net } -lnet {X10/X42/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 19 {Incorrect Nets} -inst_count { 5 0}
+dv_discrep_line {Net } -lnet {X13/X117/PAD} {                                          ** no similar net **}
+dv_discrep_line {}
+dv_discrep 20 {Incorrect Nets} -inst_count { 5 0}
+dv_discrep_line {Net } -lnet {X13/X118/PAD} {                                          ** no similar net **}
+dv_discrep_line {}
+dv_discrep 21 {Incorrect Nets} -inst_count { 5 0}
+dv_discrep_line {Net } -lnet {X14/X18/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 22 {Incorrect Nets} -inst_count { 5 0}
+dv_discrep_line {Net } -lnet {X15/X18/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 23 {Incorrect Nets} -inst_count { 5 0}
+dv_discrep_line {Net } -lnet {X15/X19/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 24 {Incorrect Nets} -inst_count { 5 0}
+dv_discrep_line {Net } -lnet {X16/X18/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 25 {Incorrect Nets} -inst_count { 3 0}
+dv_discrep_line {Net } -lnet {X18/X29/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 26 {Incorrect Nets} -inst_count { 3 0}
+dv_discrep_line {Net } -lnet {X18/X30/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 27 {Incorrect Nets} -inst_count { 3 0}
+dv_discrep_line {Net } -lnet {X18/X31/PAD} {                                           ** no similar net **}
+dv_discrep_line {}
+dv_discrep 28 {Incorrect Nets} -inst_count { 0 4}
+dv_discrep_line {** no similar net **                                      } -snet {clk} {}
+dv_discrep_line {}
+dv_discrep 29 {Incorrect Nets} -inst_count { 0 4}
+dv_discrep_line {** no similar net **                                      } -snet {rst} {}
+dv_discrep_line {}
+dv_discrep 30 {Incorrect Nets} -inst_count { 0 4}
+dv_discrep_line {** no similar net **                                      } -snet {enable} {}
+dv_discrep_line {}
+dv_discrep 31 {Incorrect Nets} -inst_count { 0 4}
+dv_discrep_line {** no similar net **                                      } -snet {a[2]} {}
+dv_discrep_line {}
+dv_discrep 32 {Incorrect Nets} -inst_count { 0 4}
+dv_discrep_line {** no similar net **                                      } -snet {a[0]} {}
+dv_discrep_line {}
+dv_discrep 33 {Incorrect Nets} -inst_count { 0 4}
+dv_discrep_line {** no similar net **                                      } -snet {b[3]} {}
+dv_discrep_line {}
+dv_discrep 34 {Incorrect Nets} -inst_count { 0 4}
+dv_discrep_line {** no similar net **                                      } -snet {b[2]} {}
+dv_discrep_line {}
+dv_discrep 35 {Incorrect Nets} -inst_count { 0 4}
+dv_discrep_line {** no similar net **                                      } -snet {b[1]} {}
+dv_discrep_line {}
+dv_discrep 36 {Incorrect Nets} -inst_count { 0 6}
+dv_discrep_line {** no similar net **                                      } -snet {mac_out[13]} {}
+dv_discrep_line {}
+dv_discrep 37 {Incorrect Nets} -inst_count { 0 6}
+dv_discrep_line {** no similar net **                                      } -snet {mac_out[12]} {}
+dv_discrep_line {}
+dv_discrep 38 {Incorrect Nets} -inst_count { 0 6}
+dv_discrep_line {** no similar net **                                      } -snet {mac_out[11]} {}
+dv_discrep_line {}
+dv_discrep 39 {Incorrect Nets} -inst_count { 0 6}
+dv_discrep_line {** no similar net **                                      } -snet {mac_out[10]} {}
+dv_discrep_line {}
+dv_discrep 40 {Incorrect Nets} -inst_count { 0 6}
+dv_discrep_line {** no similar net **                                      } -snet {mac_out[9]} {}
+dv_discrep_line {}
+dv_discrep 41 {Incorrect Nets} -inst_count { 0 6}
+dv_discrep_line {** no similar net **                                      } -snet {mac_out[8]} {}
+dv_discrep_line {}
+dv_discrep 42 {Incorrect Nets} -inst_count { 0 6}
+dv_discrep_line {** no similar net **                                      } -snet {mac_out[3]} {}
+dv_discrep_line {}
+dv_discrep 43 {Incorrect Nets} -inst_count { 0 6}
+dv_discrep_line {** no similar net **                                      } -snet {mac_out[2]} {}
+dv_discrep_line {}
+dv_discrep 44 {Incorrect Nets} -inst_count { 0 6}
+dv_discrep_line {** no similar net **                                      } -snet {mac_out[1]} {}
+dv_discrep_line {}
+dv_discrep 45 {Incorrect Nets} -inst_count { 0 6}
+dv_discrep_line {** no similar net **                                      } -snet {mac_out[0]} {}
+dv_discrep_line {}
+dv_discrep 46 {Incorrect Ports}
+dv_discrep_line {} -lport {VDDO_CORE} { on net: } -lnet {VDDO_CORE} {                               ** no similar port **}
+dv_discrep_line {}
+dv_discrep 47 {Incorrect Ports}
+dv_discrep_line {} -lport {VDD_CORE} { on net: } -lnet {VDD_CORE} {                                 ** no similar port **}
+dv_discrep_line {}
+dv_discrep 48 {Incorrect Ports}
+dv_discrep_line {} -lport {VSSO_CORE} { on net: } -lnet {VSSO_CORE} {                               ** no similar port **}
+dv_discrep_line {}
+dv_discrep 49 {Incorrect Ports}
+dv_discrep_line {} -lport {VSS_CORE} { on net: } -lnet {VSS_CORE} {                                 ** no similar port **}
+dv_discrep_line {}
+dv_discrep 50 {Incorrect Ports}
+dv_discrep_line {** no similar port **                                     } -sport {a[3]} { on net: } -snet {a[3]} {}
+dv_discrep_line {}
+dv_discrep 51 {Incorrect Ports}
+dv_discrep_line {** no similar port **                                     } -sport {a[1]} { on net: } -snet {a[1]} {}
+dv_discrep_line {}
+dv_discrep 52 {Incorrect Ports}
+dv_discrep_line {** no similar port **                                     } -sport {b[0]} { on net: } -snet {b[0]} {}
+dv_discrep_line {}
+dv_discrep 53 {Incorrect Ports}
+dv_discrep_line {** no similar port **                                     } -sport {mac_out[15]} { on net: } -snet {mac_out[15]} {}
+dv_discrep_line {}
+dv_discrep 54 {Incorrect Ports}
+dv_discrep_line {** no similar port **                                     } -sport {mac_out[14]} { on net: } -snet {mac_out[14]} {}
+dv_discrep_line {}
+dv_discrep 55 {Incorrect Ports}
+dv_discrep_line {** no similar port **                                     } -sport {mac_out[7]} { on net: } -snet {mac_out[7]} {}
+dv_discrep_line {}
+dv_discrep 56 {Incorrect Ports}
+dv_discrep_line {** no similar port **                                     } -sport {mac_out[6]} { on net: } -snet {mac_out[6]} {}
+dv_discrep_line {}
+dv_discrep 57 {Incorrect Ports}
+dv_discrep_line {** no similar port **                                     } -sport {mac_out[5]} { on net: } -snet {mac_out[5]} {}
+dv_discrep_line {}
+dv_discrep 58 {Incorrect Ports}
+dv_discrep_line {** no similar port **                                     } -sport {mac_out[4]} { on net: } -snet {mac_out[4]} {}
+dv_discrep_line {}
+dv_discrep -1 {Detailed Instance Connections}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X18/X3/M0} {} -lloc {(233.420,1315.390)} {  MP(PH)                   } -sdev {Xpc3o01_mac_out7/M17} {  MP(PH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X16/X18/8} {                                              } -sport {g} {: } -snet {Xpc3o01_mac_out7/U29_U37_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VDDO_CORE} {                                              } -sport {d} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VDDO_CORE} {                                              } -sport {b} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X16/X18/PAD} {                                            ** no similar net **}
+dv_discrep_line {  ** } -lnet {X12/X34/PAD} { **                                         } -sport {s} {: } -snet {mac_out[7]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X15/X19/X2/M0} {} -lloc {(125.750,1541.130)} {  MN(NH)                   } -sdev {Xpc3o01_mac_out6/M5} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X15/X19/11} {                                             } -sport {g} {: } -snet {Xpc3o01_mac_out6/U29_U74$9_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X15/X19/PAD} {                                            ** no similar net **}
+dv_discrep_line {  ** } -lnet {X12/X33/PAD} { **                                         } -sport {d} {: } -snet {mac_out[6]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X13/X120/X2/M0} {} -lloc {(690.385,125.750)} {  MN(NH)                   } -sdev {Xpc3o01_mac_out8/M5} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X13/X120/11} {                                            } -sport {g} {: } -snet {Xpc3o01_mac_out8/U29_U74$9_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X13/X120/PAD} {                                           ** } -snet {mac_out[15]} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {mac_out[8]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X13/X119/X2/M0} {} -lloc {(574.630,125.750)} {  MN(NH)                   } -sdev {Xpc3o01_mac_out0/M5} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X13/X119/11} {                                            } -sport {g} {: } -snet {Xpc3o01_mac_out0/U29_U74$9_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X13/X119/PAD} {                                           ** } -snet {mac_out[14]} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {mac_out[0]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X13/X117/X2/M0} {} -lloc {(343.110,125.750)} {  MN(NH)                   } -sdev {Xpc3o01_mac_out4/M5} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X13/X117/11} {                                            } -sport {g} {: } -snet {Xpc3o01_mac_out4/U29_U74$9_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X13/X117/PAD} {                                           ** no similar net **}
+dv_discrep_line {  ** } -lnet {X12/X31/PAD} { **                                         } -sport {d} {: } -snet {mac_out[4]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X34/X3/M0} {} -lloc {(1766.580,684.615)} {  MP(PH)                   } -sdev {Xpc3o01_mac_out1/M17} {  MP(PH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X12/X34/8} {                                              } -sport {g} {: } -snet {Xpc3o01_mac_out1/U29_U37_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VDDO_CORE} {                                              } -sport {d} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VDDO_CORE} {                                              } -sport {b} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X12/X34/PAD} {                                            ** } -snet {mac_out[7]} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {mac_out[1]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X34/X2/M0} {} -lloc {(1874.250,690.385)} {  MN(NH)                   } -sdev {Xpc3o01_mac_out14/M5} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X12/X34/11} {                                             } -sport {g} {: } -snet {Xpc3o01_mac_out14/U29_U74$9_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X12/X34/PAD} {                                            ** } -snet {mac_out[7]} { **}
+dv_discrep_line {  ** } -lnet {X13/X119/PAD} { **                                        } -sport {d} {: } -snet {mac_out[14]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X33/X3/M0} {} -lloc {(1766.580,568.860)} {  MP(PH)                   } -sdev {Xpc3o01_mac_out5/M17} {  MP(PH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X12/X33/8} {                                              } -sport {g} {: } -snet {Xpc3o01_mac_out5/U29_U37_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VDDO_CORE} {                                              } -sport {d} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VDDO_CORE} {                                              } -sport {b} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X12/X33/PAD} {                                            ** } -snet {mac_out[6]} { **}
+dv_discrep_line {  ** } -lnet {X12/X32/PAD} { **                                         } -sport {s} {: } -snet {mac_out[5]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X33/X2/M0} {} -lloc {(1874.250,574.630)} {  MN(NH)                   } -sdev {Xpc3o01_mac_out5/M5} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X12/X33/11} {                                             } -sport {g} {: } -snet {Xpc3o01_mac_out5/U29_U74$9_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X12/X33/PAD} {                                            ** } -snet {mac_out[6]} { **}
+dv_discrep_line {  ** } -lnet {X12/X32/PAD} { **                                         } -sport {d} {: } -snet {mac_out[5]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X32/X3/M0} {} -lloc {(1766.580,453.100)} {  MP(PH)                   } -sdev {Xpc3o01_mac_out4/M17} {  MP(PH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X12/X32/8} {                                              } -sport {g} {: } -snet {Xpc3o01_mac_out4/U29_U37_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VDDO_CORE} {                                              } -sport {d} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VDDO_CORE} {                                              } -sport {b} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X12/X32/PAD} {                                            ** } -snet {mac_out[5]} { **}
+dv_discrep_line {  ** } -lnet {X12/X31/PAD} { **                                         } -sport {s} {: } -snet {mac_out[4]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X32/X2/M0} {} -lloc {(1874.250,458.870)} {  MN(NH)                   } -sdev {Xpc3o01_mac_out1/M5} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X12/X32/11} {                                             } -sport {g} {: } -snet {Xpc3o01_mac_out1/U29_U74$9_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X12/X32/PAD} {                                            ** } -snet {mac_out[5]} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {mac_out[1]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X31/X3/M0} {} -lloc {(1766.580,337.340)} {  MP(PH)                   } -sdev {Xpc3o01_mac_out6/M17} {  MP(PH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X12/X31/8} {                                              } -sport {g} {: } -snet {Xpc3o01_mac_out6/U29_U37_r2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VDDO_CORE} {                                              } -sport {d} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VDDO_CORE} {                                              } -sport {b} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X12/X31/PAD} {                                            ** } -snet {mac_out[4]} { **}
+dv_discrep_line {  ** } -lnet {X12/X33/PAD} { **                                         } -sport {s} {: } -snet {mac_out[6]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/X31/X2/M0} {} -lloc {(1874.250,343.110)} {  MN(NH)                   } -sdev {Xpc3o01_mac_out7/M5} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X12/X31/11} {                                             } -sport {g} {: } -snet {Xpc3o01_mac_out7/U29_U74$9_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X12/X31/PAD} {                                            ** } -snet {mac_out[4]} { **}
+dv_discrep_line {  ** } -lnet {X12/X34/PAD} { **                                         } -sport {d} {: } -snet {mac_out[7]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X8/X117/X2/M0} {} -lloc {(1874.250,1616.430)} {  MN(NH)                  } -sdev {Xpc3o01_mac_out15/M5} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X8/X117/11} {                                             } -sport {g} {: } -snet {Xpc3o01_mac_out15/U29_U74$9_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X8/X117/PAD} {                                            ** no similar net **}
+dv_discrep_line {  ** } -lnet {X13/X120/PAD} { **                                        } -sport {d} {: } -snet {mac_out[15]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X8/X133/X1/M0} {} -lloc {(383.570,1874.250)} {  MN(NH)                   } -sdev {Xpc3d01_b0/M7} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X8/X133/11} {                                             } -sport {g} {: } -snet {Xpc3d01_b0/U14_MN4$11_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X8/X133/PAD} {                                            ** no similar net **}
+dv_discrep_line {  ** } -lnet {X8/X137/PAD} { **                                         } -sport {d} {: } -snet {b[0]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X8/X134/X2/M0} {} -lloc {(505.100,1766.580)} {  MP(PH)                   } -sdev {Xpc3d01_clk/M20} {  MP(PH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X8/X134/7} {                                              } -sport {g} {: } -snet {Xpc3d01_clk/U14_pgate_tol} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VDDO_CORE} {                                              } -sport {d} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VDDO_CORE} {                                              } -sport {b} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X8/X134/PAD} {                                            ** } -snet {a[1]} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {clk} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X8/X135/X1/M0} {} -lloc {(615.090,1874.250)} {  MN(NH)                   } -sdev {Xpc3d01_a3/M7} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X8/X135/11} {                                             } -sport {g} {: } -snet {Xpc3d01_a3/U14_MN4$11_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X8/X135/PAD} {                                            ** no similar net **}
+dv_discrep_line {  ** } -lnet {X8/X136/PAD} { **                                         } -sport {d} {: } -snet {a[3]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X8/X136/X1/M0} {} -lloc {(730.845,1874.250)} {  MN(NH)                   } -sdev {Xpc3d01_a0/M7} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X8/X136/11} {                                             } -sport {g} {: } -snet {Xpc3d01_a0/U14_MN4$11_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X8/X136/PAD} {                                            ** } -snet {a[3]} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {a[0]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X8/X137/X1/M0} {} -lloc {(1309.620,1874.250)} {  MN(NH)                  } -sdev {Xpc3d01_enable/M7} {  MN(NH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X8/X137/11} {                                             } -sport {g} {: } -snet {Xpc3d01_enable/U14_MN4$11_gate} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VSSO_CORE} {                                              } -sport {s} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VSSO_CORE} {                                              } -sport {b} {: } -snet {VSSO_CORE} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X8/X137/PAD} {                                            ** } -snet {b[0]} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {enable} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X13/X119/X6/R0} {} -lloc {(585.885,165.600)} {  R(RE)                    } -sdev {Xpc3o01_mac_out10/R1} {  R(RE)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X13/X119/7} {                                           } -sport {neg} {: } -snet {Xpc3o01_mac_out10/U29_U69_padr} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X13/X119/PAD} {                                         ** } -snet {mac_out[14]} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {mac_out[10]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X13/X120/X6/R0} {} -lloc {(701.640,165.600)} {  R(RE)                    } -sdev {Xpc3o01_mac_out11/R1} {  R(RE)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X13/X120/7} {                                           } -sport {neg} {: } -snet {Xpc3o01_mac_out11/U29_U69_padr} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X13/X120/PAD} {                                         ** } -snet {mac_out[15]} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {pos} {: } -snet {mac_out[11]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X14/X18/X6/R0} {} -lloc {(165.600,1645.635)} {  R(RE)                    } -sdev {Xpc3o01_mac_out15/R1} {  R(RE)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X14/X18/7} {                                            } -sport {neg} {: } -snet {Xpc3o01_mac_out15/U29_U69_padr} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X14/X18/PAD} {                                          ** no similar net **}
+dv_discrep_line {  ** } -lnet {X13/X120/PAD} { **                                        } -sport {pos} {: } -snet {mac_out[15]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X16/X18/X6/R0} {} -lloc {(165.600,1298.365)} {  R(RE)                    } -sdev {Xpc3o01_mac_out14/R1} {  R(RE)}
+dv_discrep_line {  } -lport {pos} {: } -lnet {X16/X18/7} {                                            } -sport {neg} {: } -snet {Xpc3o01_mac_out14/U29_U69_padr} {}
+dv_discrep_line {  } -lport {neg} {: } -lnet {X16/X18/PAD} {                                          ** no similar net **}
+dv_discrep_line {  ** } -lnet {X13/X119/PAD} { **                                        } -sport {pos} {: } -snet {mac_out[14]} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X18/X31/X2/M0} {} -lloc {(233.420,736.615)} {  MP(PH)                    } -sdev {Xpc3d01_a1/M20} {  MP(PH)}
+dv_discrep_line {  } -lport {g} {: } -lnet {X18/X31/7} {                                              } -sport {g} {: } -snet {Xpc3d01_a1/U14_pgate_tol} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VDDO_CORE} {                                              } -sport {d} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {VDDO_CORE} {                                              } -sport {b} {: } -snet {VDDO_CORE} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {X18/X31/PAD} {                                            ** no similar net **}
+dv_discrep_line {  ** } -lnet {X8/X134/PAD} { **                                         } -sport {s} {: } -snet {a[1]} {}
+dv_discrep_line {}
+dv_discrep -3 {Unmatched Objects}
+dv_discrep_line {}
+dv_discrep_line {** unmatched port **                                      } -sport {clk} { on net: } -snet {clk} {}
+dv_discrep_line {** unmatched port **                                      } -sport {rst} { on net: } -snet {rst} {}
+dv_discrep_line {** unmatched port **                                      } -sport {enable} { on net: } -snet {enable} {}
+dv_discrep_line {** unmatched port **                                      } -sport {a[2]} { on net: } -snet {a[2]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {a[0]} { on net: } -snet {a[0]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {b[3]} { on net: } -snet {b[3]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {b[2]} { on net: } -snet {b[2]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {b[1]} { on net: } -snet {b[1]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {mac_out[13]} { on net: } -snet {mac_out[13]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {mac_out[12]} { on net: } -snet {mac_out[12]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {mac_out[11]} { on net: } -snet {mac_out[11]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {mac_out[10]} { on net: } -snet {mac_out[10]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {mac_out[9]} { on net: } -snet {mac_out[9]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {mac_out[8]} { on net: } -snet {mac_out[8]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {mac_out[3]} { on net: } -snet {mac_out[3]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {mac_out[2]} { on net: } -snet {mac_out[2]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {mac_out[1]} { on net: } -snet {mac_out[1]} {}
+dv_discrep_line {** unmatched port **                                      } -sport {mac_out[0]} { on net: } -snet {mac_out[0]} {}
+dv_discrep_line {}
+dv_end

@@ -1,0 +1,42 @@
+
+// In order to run as stand alone (Not using SCL customization) you must define metal combination and select which layers to run on
+// For metal combination -
+// #define <one of the below metal combination>
+// STd top metal:
+//	4M1L,5M1L,6M1L
+// Thick 2um Aluminum top metal
+//	4M1T,5M1T,6M1T
+// Thick 2.8um Aluminum top metal
+//	4M1T3,5M1T3,6M1T3
+// layer selection options:
+// #define ThickM_gen
+#define MT3_gen
+#define MT_gen
+#define M5_gen
+#define M4_gen
+#define M3_gen
+#define M2_gen
+#define M1_gen
+#define AA_gen
+#define GC_gen
+#define 6M1L
+
+// The following lines May need to be uncommented , depending on run mode (Calibre Interactive/Include/command line or other ).
+
+// Input GDS/Cellname/System Definition .
+   LAYOUT PATH "IEP_MAC_RAW_SR.gds"
+   LAYOUT PRIMARY "IEP_MAC_RAW_SR"
+   LAYOUT SYSTEM GDSII
+
+// Output Database/report 
+   DRC SUMMARY REPORT "top_streamed_wrapper_chip.db" REPLACE HIER
+   DRC RESULTS DATABASE "dummy_IEP_MAC_RAW.gds" GDSII 
+// _dummy 
+   DRC MAXIMUM RESULTS ALL
+   DRC MAXIMUM VERTEX ALL
+   DRC CELL NAME YES CELL SPACE XFORM
+
+  
+
+INCLUDE /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/techs/ts18scl/calibre/t.00_00_01_scr/DUMMYFILL_TS18SL_SCL_CALIBRE
+//INCLUDE "DUMMYFILL_TS18SL_SCL_CALIBRE"

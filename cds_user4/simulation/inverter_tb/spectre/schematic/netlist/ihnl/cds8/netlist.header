@@ -1,0 +1,5 @@
+
+// Library name: basic_gates
+// Cell name: inverter
+// View name: calibre
+subckt inverter_calibre GND IN OUT VDD

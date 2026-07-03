@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/iep4/projects/user4/work_libs/iep4/cds
+pex_PexParam LAYOUT_PRIMARY nand2x1
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {nand2x1 "" nand2x1.pdb "" } } 

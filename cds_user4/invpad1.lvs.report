@@ -1,0 +1,1649 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         invpad1.lvs.report
+LAYOUT NAME:              invpad1.sp ('invpad1')
+SOURCE NAME:              /home/iep4/projects/user4/work_libs/iep4/cds/invpad1.cdl ('invpad1')
+RULE FILE:                _LVS.header_
+CREATION TIME:            Thu Jun 25 12:40:49 2026
+CURRENT DIRECTORY:        /home/iep4/projects/user4/work_libs/iep4/cds
+USER NAME:                iep4
+CALIBRE VERSION:          v2022.4_37.20    Fri Dec 2 17:43:09 PST 2022
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Different numbers of instances.
+  Error:    Connectivity errors.
+  Error:    Instances of different types or subtypes were matched.
+  Error:    Property errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      invpad1                       invpad1
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD" "vdd" "VCC" "vcc" "VDDD" "VDD!" "vdd!" "VCC!" "vcc!" "AVDD" "DVDD"
+   LVS GROUND NAME                        "GND" "gnd" "VSS" "vss" "GNDD" "GND!" "gnd!" "VSS!" "vss!" "AVSS" "DVSS"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS RELAX INITIAL CPOINTS              NONE
+   LVS REVERSE WL                         NO
+   // LVS NETLIST FILTER DEVICES          NO
+   // LVS PRESERVE BOX PORTS              NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            YES
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            YES
+   SOURCE CASE                            YES
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     ALL
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   LVS FILTER UNUSED OPTION               AB RC RE RG
+   LVS REPORT OPTION                      A B C D FX G S V
+   LVS REPORT UNITS                       YES
+   LVS SWAPPABLE HCELL PINS               GENERAL
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+   LVS EXPAND AMBIGUOUSLY HIGH SHORTED HCELLS NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           NO
+   LVS REDUCE PARALLEL CAPACITORS         NO
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  Q(VD)  PARALLEL
+   LVS REDUCE  Q(VD5)  PARALLEL
+   LVS REDUCE  Q(VD10)  PARALLEL
+   LVS REDUCE  Q(VH)  PARALLEL
+   LVS REDUCE  Q(VH5)  PARALLEL
+   LVS REDUCE  Q(VH10)  PARALLEL
+   LVS REDUCE  Q(VDN5)  PARALLEL
+   LVS REDUCE  C(CL)  PARALLEL
+   LVS REDUCE  C(CH)  PARALLEL
+   LVS REDUCE  C(CH3)  PARALLEL
+   LVS REDUCE  C(ch53t)  PARALLEL
+   LVS REDUCE  C(CL3)  PARALLEL
+   LVS REDUCE  C(CB)  PARALLEL
+   LVS REDUCE  C(cmim_hc)  PARALLEL
+   LVS REDUCE  C(cmim_uhd)  PARALLEL
+   LVS REDUCE  C(cmim_stk)  PARALLEL
+   LVS REDUCE  C(cmim_uhdstk)  PARALLEL
+   LVS REDUCE  D(W3)  PARALLEL NO
+   LVS REDUCE  D(DW)  PARALLEL NO
+   LVS REDUCE  MN(NH)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(N5)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(N)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(n18hvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(n18lvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(P)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(p18hvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(p18lvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(PH)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(P5)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Filter
+
+   LVS FILTER  D(dwn2psub)  OPEN
+
+   // Trace Property
+
+   TRACE PROPERTY  mp  w w 3
+   TRACE PROPERTY  mp  l l 3
+   TRACE PROPERTY  mn  w w 3
+   TRACE PROPERTY  mn  l l 3
+   TRACE PROPERTY  c(cl)  w w 3
+   TRACE PROPERTY  c(cl)  l l 3
+   TRACE PROPERTY  c(cl3)  w w 3
+   TRACE PROPERTY  c(cl3)  l l 3
+   TRACE PROPERTY  c(ch)  w w 3
+   TRACE PROPERTY  c(ch)  l l 3
+   TRACE PROPERTY  c(ch3)  w w 3
+   TRACE PROPERTY  c(ch3)  l l 3
+   TRACE PROPERTY  c(ch53t)  w w 3
+   TRACE PROPERTY  c(ch53t)  l l 3
+   TRACE PROPERTY  r(rl)  r r 10
+   TRACE PROPERTY  r(rt)  r r 10
+   TRACE PROPERTY  r(rt3)  r r 10
+   TRACE PROPERTY  r(ra)  r r 10
+   TRACE PROPERTY  r(rb)  r r 10
+   TRACE PROPERTY  r(rc)  r r 10
+   TRACE PROPERTY  r(rd)  r r 10
+   TRACE PROPERTY  r(re)  r r 10
+   TRACE PROPERTY  r(rg)  r r 10
+   TRACE PROPERTY  r(rh)  r r 10
+   TRACE PROPERTY  r(rw)  r r 10
+   TRACE PROPERTY  r(rf)  r r 10
+   TRACE PROPERTY  r(rk)  r r 10
+   TRACE PROPERTY  r(rm)  r r 10
+   TRACE PROPERTY  r(r1)  r r 10
+   TRACE PROPERTY  r(r2)  r r 10
+   TRACE PROPERTY  r(rb3)  r r 10
+   TRACE PROPERTY  r(ra3)  r r 10
+   TRACE PROPERTY  r(rc3)  r r 10
+   TRACE PROPERTY  r(mr2)  r r 10
+   TRACE PROPERTY  r(mr22t)  r r 10
+   TRACE PROPERTY  r(mr33t)  r r 10
+   TRACE PROPERTY  r(rd3)  r r 10
+   TRACE PROPERTY  r(r2d3)  r r 10
+   TRACE PROPERTY  r(re3)  r r 10
+   TRACE PROPERTY  r(rg3)  r r 10
+   TRACE PROPERTY  r(rh3)  r r 10
+   TRACE PROPERTY  r(rw3)  r r 10
+   TRACE PROPERTY  r(rf3)  r r 10
+   TRACE PROPERTY  r(rk3)  r r 10
+   TRACE PROPERTY  r(rm3)  r r 10
+   TRACE PROPERTY  r(r3)  r r 10
+   TRACE PROPERTY  r(r4)  r r 10
+   TRACE PROPERTY  r(r5)  r r 10
+   TRACE PROPERTY  c(cb)  c c 6
+   TRACE PROPERTY  c(cmim_hc)  c c 6
+   TRACE PROPERTY  c(cmim_uhd)  c c 6
+   TRACE PROPERTY  c(cmim_stk)  c c 6
+   TRACE PROPERTY  c(cmim_uhdstk)  c c 6
+   TRACE PROPERTY  c(cm32t)  l l 3
+   TRACE PROPERTY  c(cm32t)  nf nf 0
+   TRACE PROPERTY  c(cm33t)  l l 3
+   TRACE PROPERTY  c(cm33t)  nf nf 0
+   TRACE PROPERTY  c(usgcm32t)  l l 3
+   TRACE PROPERTY  c(usgcm32t)  nf nf 0
+   TRACE PROPERTY  c(usgcm33t)  l l 3
+   TRACE PROPERTY  c(usgcm33t)  nf nf 0
+   TRACE PROPERTY  c(cm42t)  l l 3
+   TRACE PROPERTY  c(cm42t)  nf nf 0
+   TRACE PROPERTY  c(cm43t)  l l 3
+   TRACE PROPERTY  c(cm43t)  nf nf 0
+   TRACE PROPERTY  c(usgcm42t)  l l 3
+   TRACE PROPERTY  c(usgcm42t)  nf nf 0
+   TRACE PROPERTY  c(usgcm43t)  l l 3
+   TRACE PROPERTY  c(usgcm43t)  nf nf 0
+   TRACE PROPERTY  c(cm5)  l l 3
+   TRACE PROPERTY  c(cm5)  nf nf 0
+   TRACE PROPERTY  c(cm53)  l l 3
+   TRACE PROPERTY  c(cm53)  nf nf 0
+   TRACE PROPERTY  c(usgcm52t)  l l 3
+   TRACE PROPERTY  c(usgcm52t)  nf nf 0
+   TRACE PROPERTY  c(usgcm53t)  l l 3
+   TRACE PROPERTY  c(usgcm53t)  nf nf 0
+   TRACE PROPERTY  d(ns)  a a 10
+   TRACE PROPERTY  d(dn)  a a 10
+   TRACE PROPERTY  d(n3)  a a 10
+   TRACE PROPERTY  d(dn50)  a a 10
+   TRACE PROPERTY  d(ps)  a a 10
+   TRACE PROPERTY  d(dp)  a a 10
+   TRACE PROPERTY  d(p3)  a a 10
+   TRACE PROPERTY  d(dp50)  a a 10
+   TRACE PROPERTY  d(nwldio_nc)  a a 10
+   TRACE PROPERTY  d(ns)  p p 10
+   TRACE PROPERTY  d(dn)  p p 10
+   TRACE PROPERTY  d(n3)  p p 10
+   TRACE PROPERTY  d(dn50)  p p 10
+   TRACE PROPERTY  d(ps)  p p 10
+   TRACE PROPERTY  d(dp)  p p 10
+   TRACE PROPERTY  d(p3)  p p 10
+   TRACE PROPERTY  d(dp50)  p p 10
+   TRACE PROPERTY  d(nwldio_nc)  p p 10
+   TRACE PROPERTY  q(vd)  m m 0
+   TRACE PROPERTY  q(vd5)  m m 0
+   TRACE PROPERTY  q(vd10)  m m 0
+   TRACE PROPERTY  q(vh)  m m 0
+   TRACE PROPERTY  q(vh5)  m m 0
+   TRACE PROPERTY  q(vh10)  m m 0
+   TRACE PROPERTY  q(vdn5)  m m 0
+   TRACE PROPERTY  q(vpnp18_s)  a a 10
+   TRACE PROPERTY  q(vpnp33_s)  a a 10
+   TRACE PROPERTY  q(vnpn18_s)  a a 10
+   TRACE PROPERTY  q(vpnp18_s)  p p 10
+   TRACE PROPERTY  q(vpnp33_s)  p p 10
+   TRACE PROPERTY  q(vnpn18_s)  p p 10
+   TRACE PROPERTY  mn(nh)  w w 3
+   TRACE PROPERTY  mn(nh)  l l 3
+   TRACE PROPERTY  mn(n5)  w w 3
+   TRACE PROPERTY  mn(n5)  l l 3
+   TRACE PROPERTY  mn(n)  w w 3
+   TRACE PROPERTY  mn(n)  l l 3
+   TRACE PROPERTY  mn(n18hvt)  w w 3
+   TRACE PROPERTY  mn(n18hvt)  l l 3
+   TRACE PROPERTY  mn(n18lvt)  w w 3
+   TRACE PROPERTY  mn(n18lvt)  l l 3
+   TRACE PROPERTY  mp(p)  w w 3
+   TRACE PROPERTY  mp(p)  l l 3
+   TRACE PROPERTY  mp(p18hvt)  w w 3
+   TRACE PROPERTY  mp(p18hvt)  l l 3
+   TRACE PROPERTY  mp(p18lvt)  w w 3
+   TRACE PROPERTY  mp(p18lvt)  l l 3
+   TRACE PROPERTY  mp(ph)  w w 3
+   TRACE PROPERTY  mp(ph)  l l 3
+   TRACE PROPERTY  mp(p5)  w w 3
+   TRACE PROPERTY  mp(p5)  l l 3
+   TRACE PROPERTY  d(dnpwcpl18)  a a 10
+   TRACE PROPERTY  d(dnpwcpl18)  p p 10
+   TRACE PROPERTY  d(dnpwcpl5)  a a 10
+   TRACE PROPERTY  d(dnpwcpl5)  p p 10
+   TRACE PROPERTY  d(dpnwcpl18)  a a 10
+   TRACE PROPERTY  d(dpnwcpl18)  p p 10
+   TRACE PROPERTY  d(dpnwcpl5)  a a 10
+   TRACE PROPERTY  d(dpnwcpl5)  p p 10
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Different numbers of instances (see below).
+  Error:    Connectivity errors.
+  Error:    Instances of different types or subtypes were matched.
+  Error:    Property errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+LAYOUT CELL NAME:         invpad1
+SOURCE CELL NAME:         invpad1
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              2         8    *
+
+ Nets:              35        32    *
+
+ Instances:         74        74         MN (4 pins)
+                    72        72         MP (4 pins)
+                     4         4         C (2 pins)
+                    26        26         R (2 pins)
+                   100        12    *    D (2 pins)
+                ------    ------
+ Total Inst:       276       188
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              2         8    *
+
+ Nets:              22        22
+
+ Instances:          8         8         MN (4 pins)
+                     6         6         MP (4 pins)
+                     4         4         C (2 pins)
+                    16        16         R (2 pins)
+                     2         8    *    D (2 pins)
+                ------    ------
+ Total Inst:        36        42
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net VSS                                                   VSS
+       --- 15 Connections On This Net ---                        --- 11 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X50/X2/R0(472.295,574.545)  R(RW)                         XI11/R15  R(RW)
+         pos: 11                                                   pos: XI11/U31_U18_r1
+         neg: VSS                                                  ** VSS **
+         ** no similar net **                                      neg: VDDO
+
+       X37/X0/M0(479.455,102.105)  MN(N)                         XI9/M18  MN(N)
+         g: 6                                                      g: XI9/U31_U18_r1
+         s: 2                                                      ** no similar net **
+         d: VSS                                                    ** VSS **
+         b: VSS                                                    ** VSS **
+         ** 1 **                                                   s: VDD
+         ** no similar net **                                      d: VDDO
+         ** 1 **                                                   b: VDD
+
+       X31/R0(527.065,183.205)  R(RW)                            XI9/R15  R(RW)
+         pos: 6                                                    pos: XI9/U31_U18_r1
+         neg: VSS                                                  ** VSS **
+         ** 1 **                                                   neg: VDD
+
+       X17/X27/M0(689.595,362.815)  MN(NH)                       ** no similar instance **
+         g: X17/8                                                  ** XI7/U18_U79$3_gate **
+         s: X17/PADR                                               ** no similar net **
+         d: VSS                                                    ** VSS **
+         b: VSS                                                    ** VSS **
+
+       X16/X27/M0(154.275,395.055)  MN(NH)                       ** no similar instance **
+         g: X16/8                                                  ** XI12/U18_U79$3_gate **
+         s: X16/PADR                                               ** no similar net **
+         d: VSS                                                    ** VSS **
+         b: VSS                                                    ** VSS **
+
+       X53/X0/X0/M0(519.425,577.895)  MP(P)                      ** no similar instance **
+         g: 14                                                     ** no similar net **
+         s: VSS                                                    ** VSS **
+         d: 2                                                      ** no similar net **
+         b: 2                                                      ** no similar net **
+
+       X52/X0/X0/M0(479.445,179.975)  MP(P)                      ** no similar instance **
+         g: 7                                                      ** no similar net **
+         s: VSS                                                    ** VSS **
+         d: 2                                                      ** no similar net **
+         b: 2                                                      ** no similar net **
+
+       (cell ports)                                              (cell ports)
+         VSS: VSS                                                  VSS: VSS
+         VSSO: VSSO                                                VSSO: VSSO
+         ** 1 **                                                   VDD: VDD
+         ** no similar net **                                      PADR1: PADR1
+         ** no similar net **                                      PADR2: PADR2
+         ** X17/PAD **                                             PAD1: PAD1
+         ** no similar net **                                      VDDO: VDDO
+         ** X16/PAD **                                             PAD2: PAD2
+
+       ** missing instance **                                    XI8/D31  D(P3)
+         ** 1 **                                                   pos: VDD
+         ** VSS **                                                 neg: VSS
+
+       ** missing instance **                                    XI8/D30  D(P3)
+         ** VSS **                                                 pos: VSS
+         ** 1 **                                                   neg: VDD
+
+       ** no similar instance **                                 XI7/M1  MP(PH)
+         ** X17/8 **                                               g: XI7/U18_U79$3_gate
+         ** X17/PAD **                                             s: PAD1
+         ** VSS **                                                 d: VSS
+         ** VSS **                                                 b: VSS
+
+       ** no similar instance **                                 XI12/M1  MP(PH)
+         ** X16/8 **                                               g: XI12/U18_U79$3_gate
+         ** X16/PAD **                                             s: PAD2
+         ** VSS **                                                 d: VSS
+         ** VSS **                                                 b: VSS
+
+
+       --- Correct Devices On This Net ---
+
+       (cell ports)                                              (cell ports)
+         VSS: VSS                                                  VSS: VSS
+         VSSO: VSSO                                                VSSO: VSSO
+         ** 1 **                                                   VDD: VDD
+         ** no similar net **                                      PADR1: PADR1
+         ** no similar net **                                      PADR2: PADR2
+         ** X17/PAD **                                             PAD1: PAD1
+         ** no similar net **                                      VDDO: VDDO
+         ** X16/PAD **                                             PAD2: PAD2
+
+       X65/X6/D17(369.805,117.005)  D(P3)                        XI10/D30  D(P3)
+         pos: VSS                                                  pos: VSS
+         neg: VSSO                                                 neg: VSSO
+
+       X65/X6/D8(340.465,117.005)  D(P3)                         XI10/D31  D(P3)
+         pos: VSSO                                                 pos: VSSO
+         neg: VSS                                                  neg: VSS
+
+       X17/R14(729.940,399.085)  R(RW)                           XI7/R17  R(RW)
+         pos: VSS                                                  pos: VSS
+         neg: X17/8                                                neg: XI7/U18_U79$3_gate
+
+       X16/R14(113.930,358.785)  R(RW)                           XI12/R17  R(RW)
+         pos: VSS                                                  pos: VSS
+         neg: X16/8                                                neg: XI12/U18_U79$3_gate
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net VSSO                                                  VSSO
+       --- 19 Connections On This Net ---                        --- 24 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X39/X0/M0(472.215,655.765)  MN(N)                         XI11/M18  MN(N)
+         g: 11                                                     g: XI11/U31_U18_r1
+         d: VSSO                                                   s: VSSO
+         b: VSSO                                                   b: VSSO
+         s: 2                                                      ** no similar net **
+         ** 1 **                                                   d: VDD
+
+       X64/X0/X0/M0(364.425,577.695)  MP(PH)                     XI8/M16  MP(PH)
+         s: VSSO                                                   s: VSSO
+         d: 1                                                      d: VDD
+         g: 13                                                     ** no similar net **
+         b: 1                                                      ** VDD **
+         ** X65/6 **                                               g: XI8/U19_U22$11_gate
+         ** VSSO **                                                b: VSSO
+
+       X65/X10/X0/M0(324.305,102.105)  MN(NH)                    XI8/M4  MN(NH)
+         s: 1                                                      s: VDD
+         d: VSSO                                                   d: VSSO
+         g: X65/6                                                  ** XI8/U19_U22$11_gate **
+         b: VSSO                                                   ** VSSO **
+         ** no similar net **                                      g: XI8/U31_U29_c2
+         ** 1 **                                                   b: VDD
+
+       (cell ports)                                              (cell ports)
+         VSS: VSS                                                  VSS: VSS
+         VSSO: VSSO                                                VSSO: VSSO
+         ** 1 **                                                   VDD: VDD
+         ** no similar net **                                      PADR1: PADR1
+         ** no similar net **                                      PADR2: PADR2
+         ** X17/PAD **                                             PAD1: PAD1
+         ** no similar net **                                      VDDO: VDDO
+         ** X16/PAD **                                             PAD2: PAD2
+
+       ** missing instance **                                    XI11/D31  D(P3)
+         ** no similar net **                                      pos: VDDO
+         ** VSSO **                                                neg: VSSO
+
+       ** missing instance **                                    XI11/D30  D(P3)
+         ** VSSO **                                                pos: VSSO
+         ** no similar net **                                      neg: VDDO
+
+       ** missing instance **                                    XI9/D31  D(P3)
+         ** 1 **                                                   pos: VDD
+         ** VSSO **                                                neg: VSSO
+
+       ** missing instance **                                    XI9/D30  D(P3)
+         ** VSSO **                                                pos: VSSO
+         ** 1 **                                                   neg: VDD
+
+       ** no similar instance **                                 XI8/C4_5  C(CH)
+         ** VSSO **                                                pos: VSSO
+         ** no similar net **                                      neg: XI8/U31_U29_c2
+
+
+       --- Correct Devices On This Net ---
+
+       (cell ports)                                              (cell ports)
+         VSS: VSS                                                  VSS: VSS
+         VSSO: VSSO                                                VSSO: VSSO
+         ** 1 **                                                   VDD: VDD
+         ** no similar net **                                      PADR1: PADR1
+         ** no similar net **                                      PADR2: PADR2
+         ** X17/PAD **                                             PAD1: PAD1
+         ** no similar net **                                      VDDO: VDDO
+         ** X16/PAD **                                             PAD2: PAD2
+
+       X65/X6/D17(369.805,117.005)  D(P3)                        XI10/D30  D(P3)
+         pos: VSS                                                  pos: VSS
+         neg: VSSO                                                 neg: VSSO
+
+       X65/X6/D8(340.465,117.005)  D(P3)                         XI10/D31  D(P3)
+         pos: VSSO                                                 pos: VSSO
+         neg: VSS                                                  neg: VSS
+
+       X65/X3/R0(372.065,183.205)  R(RW)                         XI8/R28  R(RW)
+         pos: X65/6                                                neg: XI8/U19_U22$11_gate
+         neg: VSSO                                                 pos: VSSO
+
+       X49/X2/R0(317.295,574.545)  R(RW)                         XI10/R2  R(RW)
+         pos: 12                                                   pos: XI10/U30_U29_c2
+         neg: VSSO                                                 neg: VSSO
+
+       X17/X19/X0/X0/M0(746.265,368.205)  MN(NH)                 XI7/M19  MN(NH)
+         g: X17/10                                                 g: XI7/U18_U74$11_gate
+         s: X17/PAD                                                d: PAD1
+         d: VSSO                                                   s: VSSO
+         b: VSSO                                                   b: VSSO
+
+       X17/X15/R0(730.235,404.950)  R(RW)                        XI7/R16  R(RW)
+         pos: X17/10                                               pos: XI7/U18_U74$11_gate
+         neg: VSSO                                                 neg: VSSO
+
+       X16/X19/X0/X0/M0(97.605,389.665)  MN(NH)                  XI12/M19  MN(NH)
+         g: X16/10                                                 g: XI12/U18_U74$11_gate
+         s: X16/PAD                                                d: PAD2
+         d: VSSO                                                   s: VSSO
+         b: VSSO                                                   b: VSSO
+
+       X16/X15/R0(113.635,352.920)  R(RW)                        XI12/R16  R(RW)
+         pos: X16/10                                               pos: XI12/U18_U74$11_gate
+         neg: VSSO                                                 neg: VSSO
+
+       X65/X9/X0/X0/M0(324.445,180.175)  MP(PH)                  XI10/M16  MP(PH)
+         g: X65/7                                                  g: XI10/U19_U22$11_gate
+         s: VSSO                                                   d: VSSO
+         d: 1                                                      s: VDD
+         b: 1                                                      b: VDD
+
+       X59/X0/M0(317.365,655.765)  MN(NH)                        XI10/M4  MN(NH)
+         g: 12                                                     g: XI10/U30_U29_c2
+         s: 1                                                      d: VDD
+         d: VSSO                                                   s: VSSO
+         b: VSSO                                                   b: VSSO
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 1                                                     VDD
+       --- 16 Connections On This Net ---                        --- 23 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X65/X6/C18(355.305,147.330)  C(CH)                        XI11/C8_1  C(CH)
+         pos: 1                                                    pos: VDD
+         neg: X65/6                                                ** XI8/U19_U22$11_gate **
+         ** 11 **                                                  neg: XI11/U31_U18_r1
+
+       X49/X0/R0(372.515,574.665)  R(RW)                         XI8/R2  R(RW)
+         pos: 1                                                    neg: VDD
+         neg: 13                                                   ** no similar net **
+         ** no similar net **                                      pos: XI8/U31_U29_c2
+
+       X17/X26/M0(668.595,352.935)  MP(PH)                       XI9/M3  MP(P)
+         g: X17/7                                                  g: XI9/U33_U31_r2
+         s: 1                                                      d: VDD
+         d: X17/PAD                                                ** PAD1 **
+         b: 1                                                      ** VDD **
+         ** no similar net **                                      s: VDDO
+         ** no similar net **                                      b: VDDO
+
+       X17/X16/R0(730.185,409.315)  R(RW)                        XI9/R1  R(RW)
+         pos: X17/7                                                neg: XI9/U33_U31_r2
+         neg: 1                                                    ** VDD **
+         ** no similar net **                                      pos: VDDO
+
+       X16/X26/M0(175.275,404.935)  MP(PH)                       XI11/M3  MP(P)
+         g: X16/7                                                  g: XI11/U32_U31_r2
+         s: 1                                                      s: VDD
+         b: 1                                                      b: VDD
+         d: X16/PAD                                                ** PAD2 **
+         ** no similar net **                                      d: VDDO
+
+       X64/X0/X0/M0(364.425,577.695)  MP(PH)                     XI8/M16  MP(PH)
+         s: VSSO                                                   s: VSSO
+         d: 1                                                      d: VDD
+         g: 13                                                     ** no similar net **
+         b: 1                                                      ** VDD **
+         ** X65/6 **                                               g: XI8/U19_U22$11_gate
+         ** VSSO **                                                b: VSSO
+
+       X65/X10/X0/M0(324.305,102.105)  MN(NH)                    XI8/M4  MN(NH)
+         s: 1                                                      s: VDD
+         d: VSSO                                                   d: VSSO
+         g: X65/6                                                  ** XI8/U19_U22$11_gate **
+         b: VSSO                                                   ** VSSO **
+         ** no similar net **                                      g: XI8/U31_U29_c2
+         ** 1 **                                                   b: VDD
+
+       (cell ports)                                              (cell ports)
+         VSS: VSS                                                  VSS: VSS
+         VSSO: VSSO                                                VSSO: VSSO
+         ** 1 **                                                   VDD: VDD
+         ** no similar net **                                      PADR1: PADR1
+         ** no similar net **                                      PADR2: PADR2
+         ** X17/PAD **                                             PAD1: PAD1
+         ** no similar net **                                      VDDO: VDDO
+         ** X16/PAD **                                             PAD2: PAD2
+
+       X39/X0/M0(472.215,655.765)  MN(N)                         XI11/M18  MN(N)
+         g: 11                                                     g: XI11/U31_U18_r1
+         d: VSSO                                                   s: VSSO
+         b: VSSO                                                   b: VSSO
+         s: 2                                                      ** no similar net **
+         ** 1 **                                                   d: VDD
+
+       X31/R0(527.065,183.205)  R(RW)                            XI9/R15  R(RW)
+         pos: 6                                                    pos: XI9/U31_U18_r1
+         neg: VSS                                                  ** VSS **
+         ** 1 **                                                   neg: VDD
+
+       ** missing instance **                                    XI9/D31  D(P3)
+         ** 1 **                                                   pos: VDD
+         ** VSSO **                                                neg: VSSO
+
+       ** missing instance **                                    XI9/D30  D(P3)
+         ** VSSO **                                                pos: VSSO
+         ** 1 **                                                   neg: VDD
+
+       X37/X0/M0(479.455,102.105)  MN(N)                         XI9/M18  MN(N)
+         g: 6                                                      g: XI9/U31_U18_r1
+         s: 2                                                      ** no similar net **
+         d: VSS                                                    ** VSS **
+         b: VSS                                                    ** VSS **
+         ** 1 **                                                   s: VDD
+         ** no similar net **                                      d: VDDO
+         ** 1 **                                                   b: VDD
+
+       ** missing instance **                                    XI8/D31  D(P3)
+         ** 1 **                                                   pos: VDD
+         ** VSS **                                                 neg: VSS
+
+       ** missing instance **                                    XI8/D30  D(P3)
+         ** VSS **                                                 pos: VSS
+         ** 1 **                                                   neg: VDD
+
+
+       --- Correct Devices On This Net ---
+
+       X65/X1/R0(314.925,183.205)  R(RW)                         XI10/R28  R(RW)
+         pos: 1                                                    pos: VDD
+         neg: X65/7                                                neg: XI10/U19_U22$11_gate
+
+       X54/C18(333.565,610.540)  C(CH)                           XI10/C3_5  C(CH)
+         pos: 1                                                    pos: VDD
+         neg: 12                                                   neg: XI10/U30_U29_c2
+
+       X16/X16/R0(113.685,348.555)  R(RW)                        XI11/R1  R(RW)
+         pos: X16/7                                                neg: XI11/U32_U31_r2
+         neg: 1                                                    pos: VDD
+
+       X65/X9/X0/X0/M0(324.445,180.175)  MP(PH)                  XI10/M16  MP(PH)
+         g: X65/7                                                  g: XI10/U19_U22$11_gate
+         s: VSSO                                                   d: VSSO
+         d: 1                                                      s: VDD
+         b: 1                                                      b: VDD
+
+       X59/X0/M0(317.365,655.765)  MN(NH)                        XI10/M4  MN(NH)
+         g: 12                                                     g: XI10/U30_U29_c2
+         s: 1                                                      d: VDD
+         d: VSSO                                                   s: VSSO
+         b: VSSO                                                   b: VSSO
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net 11                                                    XI11/U31_U18_r1
+       --- 3 Connections On This Net ---                         --- 3 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X56/C18(488.565,610.540)  C(CH)                           ** no similar instance **
+         pos: 2                                                    ** no similar net **
+         neg: 11                                                   ** XI11/U31_U18_r1 **
+
+       X50/X2/R0(472.295,574.545)  R(RW)                         XI11/R15  R(RW)
+         pos: 11                                                   pos: XI11/U31_U18_r1
+         neg: VSS                                                  ** VSS **
+         ** no similar net **                                      neg: VDDO
+
+       X39/X0/M0(472.215,655.765)  MN(N)                         XI11/M18  MN(N)
+         g: 11                                                     g: XI11/U31_U18_r1
+         d: VSSO                                                   s: VSSO
+         b: VSSO                                                   b: VSSO
+         s: 2                                                      ** no similar net **
+         ** 1 **                                                   d: VDD
+
+       X65/X6/C18(355.305,147.330)  C(CH)                        XI11/C8_1  C(CH)
+         pos: 1                                                    pos: VDD
+         neg: X65/6                                                ** XI8/U19_U22$11_gate **
+         ** 11 **                                                  neg: XI11/U31_U18_r1
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net X16/8                                                 XI12/U18_U79$3_gate
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X16/X27/M0(154.275,395.055)  MN(NH)                       ** no similar instance **
+         g: X16/8                                                  ** XI12/U18_U79$3_gate **
+         s: X16/PADR                                               ** no similar net **
+         d: VSS                                                    ** VSS **
+         b: VSS                                                    ** VSS **
+
+       ** no similar instance **                                 XI12/M1  MP(PH)
+         ** X16/8 **                                               g: XI12/U18_U79$3_gate
+         ** X16/PAD **                                             s: PAD2
+         ** VSS **                                                 d: VSS
+         ** VSS **                                                 b: VSS
+
+
+       --- Correct Devices On This Net ---
+
+       X16/R14(113.930,358.785)  R(RW)                           XI12/R17  R(RW)
+         pos: VSS                                                  pos: VSS
+         neg: X16/8                                                neg: XI12/U18_U79$3_gate
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net X16/PAD                                               PAD2
+       --- 3 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X16/X26/M0(175.275,404.935)  MP(PH)                       XI11/M3  MP(P)
+         g: X16/7                                                  g: XI11/U32_U31_r2
+         s: 1                                                      s: VDD
+         b: 1                                                      b: VDD
+         d: X16/PAD                                                ** PAD2 **
+         ** no similar net **                                      d: VDDO
+
+       X16/X22/R0(107.455,388.300)  R(RE)                        XI12/R13  R(RE)
+         neg: X16/PAD                                              pos: PAD2
+         pos: X16/PADR                                             ** no similar net **
+         ** no similar net **                                      neg: PADR2
+
+       (cell ports)                                              (cell ports)
+         VSS: VSS                                                  VSS: VSS
+         VSSO: VSSO                                                VSSO: VSSO
+         ** 1 **                                                   VDD: VDD
+         ** no similar net **                                      PADR1: PADR1
+         ** no similar net **                                      PADR2: PADR2
+         ** X17/PAD **                                             PAD1: PAD1
+         ** no similar net **                                      VDDO: VDDO
+         ** X16/PAD **                                             PAD2: PAD2
+
+       ** no similar instance **                                 XI12/M1  MP(PH)
+         ** X16/8 **                                               g: XI12/U18_U79$3_gate
+         ** X16/PAD **                                             s: PAD2
+         ** VSS **                                                 d: VSS
+         ** VSS **                                                 b: VSS
+
+
+       --- Correct Devices On This Net ---
+
+       X16/X19/X0/X0/M0(97.605,389.665)  MN(NH)                  XI12/M19  MN(NH)
+         g: X16/10                                                 g: XI12/U18_U74$11_gate
+         s: X16/PAD                                                d: PAD2
+         d: VSSO                                                   s: VSSO
+         b: VSSO                                                   b: VSSO
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    Net X17/8                                                 XI7/U18_U79$3_gate
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X17/X27/M0(689.595,362.815)  MN(NH)                       ** no similar instance **
+         g: X17/8                                                  ** XI7/U18_U79$3_gate **
+         s: X17/PADR                                               ** no similar net **
+         d: VSS                                                    ** VSS **
+         b: VSS                                                    ** VSS **
+
+       ** no similar instance **                                 XI7/M1  MP(PH)
+         ** X17/8 **                                               g: XI7/U18_U79$3_gate
+         ** X17/PAD **                                             s: PAD1
+         ** VSS **                                                 d: VSS
+         ** VSS **                                                 b: VSS
+
+
+       --- Correct Devices On This Net ---
+
+       X17/R14(729.940,399.085)  R(RW)                           XI7/R17  R(RW)
+         pos: VSS                                                  pos: VSS
+         neg: X17/8                                                neg: XI7/U18_U79$3_gate
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    Net X17/PAD                                               PAD1
+       --- 3 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X17/X26/M0(668.595,352.935)  MP(PH)                       XI9/M3  MP(P)
+         g: X17/7                                                  g: XI9/U33_U31_r2
+         s: 1                                                      d: VDD
+         d: X17/PAD                                                ** PAD1 **
+         b: 1                                                      ** VDD **
+         ** no similar net **                                      s: VDDO
+         ** no similar net **                                      b: VDDO
+
+       X17/X22/R0(736.415,369.570)  R(RE)                        XI7/R13  R(RE)
+         neg: X17/PAD                                              pos: PAD1
+         pos: X17/PADR                                             ** no similar net **
+         ** no similar net **                                      neg: PADR1
+
+       (cell ports)                                              (cell ports)
+         VSS: VSS                                                  VSS: VSS
+         VSSO: VSSO                                                VSSO: VSSO
+         ** 1 **                                                   VDD: VDD
+         ** no similar net **                                      PADR1: PADR1
+         ** no similar net **                                      PADR2: PADR2
+         ** X17/PAD **                                             PAD1: PAD1
+         ** no similar net **                                      VDDO: VDDO
+         ** X16/PAD **                                             PAD2: PAD2
+
+       ** no similar instance **                                 XI7/M1  MP(PH)
+         ** X17/8 **                                               g: XI7/U18_U79$3_gate
+         ** X17/PAD **                                             s: PAD1
+         ** VSS **                                                 d: VSS
+         ** VSS **                                                 b: VSS
+
+
+       --- Correct Devices On This Net ---
+
+       X17/X19/X0/X0/M0(746.265,368.205)  MN(NH)                 XI7/M19  MN(NH)
+         g: X17/10                                                 g: XI7/U18_U74$11_gate
+         s: X17/PAD                                                d: PAD1
+         d: VSSO                                                   s: VSSO
+         b: VSSO                                                   b: VSSO
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    Net X65/6                                                 XI8/U19_U22$11_gate
+       --- 3 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X65/X6/C18(355.305,147.330)  C(CH)                        XI11/C8_1  C(CH)
+         pos: 1                                                    pos: VDD
+         neg: X65/6                                                ** XI8/U19_U22$11_gate **
+         ** 11 **                                                  neg: XI11/U31_U18_r1
+
+       X65/X10/X0/M0(324.305,102.105)  MN(NH)                    XI8/M4  MN(NH)
+         s: 1                                                      s: VDD
+         d: VSSO                                                   d: VSSO
+         g: X65/6                                                  ** XI8/U19_U22$11_gate **
+         b: VSSO                                                   ** VSSO **
+         ** no similar net **                                      g: XI8/U31_U29_c2
+         ** 1 **                                                   b: VDD
+
+       X64/X0/X0/M0(364.425,577.695)  MP(PH)                     XI8/M16  MP(PH)
+         s: VSSO                                                   s: VSSO
+         d: 1                                                      d: VDD
+         g: 13                                                     ** no similar net **
+         b: 1                                                      ** VDD **
+         ** X65/6 **                                               g: XI8/U19_U22$11_gate
+         ** VSSO **                                                b: VSSO
+
+
+       --- Correct Devices On This Net ---
+
+       X65/X3/R0(372.065,183.205)  R(RW)                         XI8/R28  R(RW)
+         pos: X65/6                                                neg: XI8/U19_U22$11_gate
+         neg: VSSO                                                 pos: VSSO
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    Net 2                                                     ** no similar net **
+
+           --- Devices on layout net 2 ---
+
+       X56/C18(488.565,610.540)  C(CH)                           ** no similar instance **
+         pos: 2                                                    ** no similar net **
+         neg: 11                                                   ** XI11/U31_U18_r1 **
+
+       X55/C18(510.305,147.330)  C(CH)                           XI9/C8_1  C(CH)
+         neg: 6                                                    neg: XI9/U31_U18_r1
+         pos: 2                                                    ** no similar net **
+         ** no similar net **                                      pos: VDDO
+
+       X50/X0/R0(527.515,574.665)  R(RW)                         ** no similar instance **
+         pos: 2                                                    ** no similar net **
+         neg: 14                                                   ** no similar net **
+
+       X39/X0/M0(472.215,655.765)  MN(N)                         XI11/M18  MN(N)
+         g: 11                                                     g: XI11/U31_U18_r1
+         d: VSSO                                                   s: VSSO
+         b: VSSO                                                   b: VSSO
+         s: 2                                                      ** no similar net **
+         ** 1 **                                                   d: VDD
+
+       X37/X0/M0(479.455,102.105)  MN(N)                         XI9/M18  MN(N)
+         g: 6                                                      g: XI9/U31_U18_r1
+         s: 2                                                      ** no similar net **
+         d: VSS                                                    ** VSS **
+         b: VSS                                                    ** VSS **
+         ** 1 **                                                   s: VDD
+         ** no similar net **                                      d: VDDO
+         ** 1 **                                                   b: VDD
+
+       X29/R0(469.925,183.205)  R(RW)                            ** no similar instance **
+         pos: 2                                                    ** no similar net **
+         neg: 7                                                    ** no similar net **
+
+       X53/X0/X0/M0(519.425,577.895)  MP(P)                      ** no similar instance **
+         g: 14                                                     ** no similar net **
+         s: VSS                                                    ** VSS **
+         d: 2                                                      ** no similar net **
+         b: 2                                                      ** no similar net **
+
+       X52/X0/X0/M0(479.445,179.975)  MP(P)                      ** no similar instance **
+         g: 7                                                      ** no similar net **
+         s: VSS                                                    ** VSS **
+         d: 2                                                      ** no similar net **
+         b: 2                                                      ** no similar net **
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    Net 7                                                     ** no similar net **
+
+           --- Devices on layout net 7 ---
+
+       X29/R0(469.925,183.205)  R(RW)                            ** no similar instance **
+         pos: 2                                                    ** no similar net **
+         neg: 7                                                    ** no similar net **
+
+       X52/X0/X0/M0(479.445,179.975)  MP(P)                      ** no similar instance **
+         g: 7                                                      ** no similar net **
+         s: VSS                                                    ** VSS **
+         d: 2                                                      ** no similar net **
+         b: 2                                                      ** no similar net **
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 12    Net 13                                                    ** no similar net **
+
+           --- Devices on layout net 13 ---
+
+       X49/X0/R0(372.515,574.665)  R(RW)                         XI8/R2  R(RW)
+         pos: 1                                                    neg: VDD
+         neg: 13                                                   ** no similar net **
+         ** no similar net **                                      pos: XI8/U31_U29_c2
+
+       X64/X0/X0/M0(364.425,577.695)  MP(PH)                     XI8/M16  MP(PH)
+         s: VSSO                                                   s: VSSO
+         d: 1                                                      d: VDD
+         g: 13                                                     ** no similar net **
+         b: 1                                                      ** VDD **
+         ** X65/6 **                                               g: XI8/U19_U22$11_gate
+         ** VSSO **                                                b: VSSO
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 13    Net 14                                                    ** no similar net **
+
+           --- Devices on layout net 14 ---
+
+       X50/X0/R0(527.515,574.665)  R(RW)                         ** no similar instance **
+         pos: 2                                                    ** no similar net **
+         neg: 14                                                   ** no similar net **
+
+       X53/X0/X0/M0(519.425,577.895)  MP(P)                      ** no similar instance **
+         g: 14                                                     ** no similar net **
+         s: VSS                                                    ** VSS **
+         d: 2                                                      ** no similar net **
+         b: 2                                                      ** no similar net **
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 14    Net X16/PADR                                              ** no similar net **
+
+           --- Devices on layout net X16/PADR ---
+
+       X16/X27/M0(154.275,395.055)  MN(NH)                       ** no similar instance **
+         g: X16/8                                                  ** XI12/U18_U79$3_gate **
+         s: X16/PADR                                               ** no similar net **
+         d: VSS                                                    ** VSS **
+         b: VSS                                                    ** VSS **
+
+       X16/X22/R0(107.455,388.300)  R(RE)                        XI12/R13  R(RE)
+         neg: X16/PAD                                              pos: PAD2
+         pos: X16/PADR                                             ** no similar net **
+         ** no similar net **                                      neg: PADR2
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 15    Net X17/PADR                                              ** no similar net **
+
+           --- Devices on layout net X17/PADR ---
+
+       X17/X27/M0(689.595,362.815)  MN(NH)                       ** no similar instance **
+         g: X17/8                                                  ** XI7/U18_U79$3_gate **
+         s: X17/PADR                                               ** no similar net **
+         d: VSS                                                    ** VSS **
+         b: VSS                                                    ** VSS **
+
+       X17/X22/R0(736.415,369.570)  R(RE)                        XI7/R13  R(RE)
+         neg: X17/PAD                                              pos: PAD1
+         pos: X17/PADR                                             ** no similar net **
+         ** no similar net **                                      neg: PADR1
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    ** no similar net **                                      PADR1
+
+           --- Devices on source net PADR1 ---
+
+       (cell ports)                                              (cell ports)
+         VSS: VSS                                                  VSS: VSS
+         VSSO: VSSO                                                VSSO: VSSO
+         ** 1 **                                                   VDD: VDD
+         ** no similar net **                                      PADR1: PADR1
+         ** no similar net **                                      PADR2: PADR2
+         ** X17/PAD **                                             PAD1: PAD1
+         ** no similar net **                                      VDDO: VDDO
+         ** X16/PAD **                                             PAD2: PAD2
+
+       X17/X22/R0(736.415,369.570)  R(RE)                        XI7/R13  R(RE)
+         neg: X17/PAD                                              pos: PAD1
+         pos: X17/PADR                                             ** no similar net **
+         ** no similar net **                                      neg: PADR1
+
+       ** no similar instance **                                 XI7/M18  MN(NH)
+         ** no similar net **                                      g: XI7/U18_U82_gate
+         ** no similar net **                                      s: VDDO
+         ** no similar net **                                      d: PADR1
+         ** no similar net **                                      b: VDDO
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    ** no similar net **                                      PADR2
+
+           --- Devices on source net PADR2 ---
+
+       (cell ports)                                              (cell ports)
+         VSS: VSS                                                  VSS: VSS
+         VSSO: VSSO                                                VSSO: VSSO
+         ** 1 **                                                   VDD: VDD
+         ** no similar net **                                      PADR1: PADR1
+         ** no similar net **                                      PADR2: PADR2
+         ** X17/PAD **                                             PAD1: PAD1
+         ** no similar net **                                      VDDO: VDDO
+         ** X16/PAD **                                             PAD2: PAD2
+
+       X16/X22/R0(107.455,388.300)  R(RE)                        XI12/R13  R(RE)
+         neg: X16/PAD                                              pos: PAD2
+         pos: X16/PADR                                             ** no similar net **
+         ** no similar net **                                      neg: PADR2
+
+       ** no similar instance **                                 XI12/M18  MN(NH)
+         ** no similar net **                                      g: XI12/U18_U82_gate
+         ** no similar net **                                      s: VDDO
+         ** no similar net **                                      d: PADR2
+         ** no similar net **                                      b: VDDO
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    ** no similar net **                                      VDDO
+
+           --- Devices on source net VDDO ---
+
+       (cell ports)                                              (cell ports)
+         VSS: VSS                                                  VSS: VSS
+         VSSO: VSSO                                                VSSO: VSSO
+         ** 1 **                                                   VDD: VDD
+         ** no similar net **                                      PADR1: PADR1
+         ** no similar net **                                      PADR2: PADR2
+         ** X17/PAD **                                             PAD1: PAD1
+         ** no similar net **                                      VDDO: VDDO
+         ** X16/PAD **                                             PAD2: PAD2
+
+       X50/X2/R0(472.295,574.545)  R(RW)                         XI11/R15  R(RW)
+         pos: 11                                                   pos: XI11/U31_U18_r1
+         neg: VSS                                                  ** VSS **
+         ** no similar net **                                      neg: VDDO
+
+       ** missing instance **                                    XI11/D31  D(P3)
+         ** no similar net **                                      pos: VDDO
+         ** VSSO **                                                neg: VSSO
+
+       ** missing instance **                                    XI11/D30  D(P3)
+         ** VSSO **                                                pos: VSSO
+         ** no similar net **                                      neg: VDDO
+
+       X17/X16/R0(730.185,409.315)  R(RW)                        XI9/R1  R(RW)
+         pos: X17/7                                                neg: XI9/U33_U31_r2
+         neg: 1                                                    ** VDD **
+         ** no similar net **                                      pos: VDDO
+
+       X37/X0/M0(479.455,102.105)  MN(N)                         XI9/M18  MN(N)
+         g: 6                                                      g: XI9/U31_U18_r1
+         s: 2                                                      ** no similar net **
+         d: VSS                                                    ** VSS **
+         b: VSS                                                    ** VSS **
+         ** 1 **                                                   s: VDD
+         ** no similar net **                                      d: VDDO
+         ** 1 **                                                   b: VDD
+
+       X55/C18(510.305,147.330)  C(CH)                           XI9/C8_1  C(CH)
+         neg: 6                                                    neg: XI9/U31_U18_r1
+         pos: 2                                                    ** no similar net **
+         ** no similar net **                                      pos: VDDO
+
+       ** no similar instance **                                 XI7/R15  R(RW)
+         ** no similar net **                                      pos: XI7/U18_U82_gate
+         ** no similar net **                                      neg: VDDO
+
+       ** no similar instance **                                 XI7/M18  MN(NH)
+         ** no similar net **                                      g: XI7/U18_U82_gate
+         ** no similar net **                                      s: VDDO
+         ** no similar net **                                      d: PADR1
+         ** no similar net **                                      b: VDDO
+
+       ** no similar instance **                                 XI12/R15  R(RW)
+         ** no similar net **                                      pos: XI12/U18_U82_gate
+         ** no similar net **                                      neg: VDDO
+
+       ** no similar instance **                                 XI12/M18  MN(NH)
+         ** no similar net **                                      g: XI12/U18_U82_gate
+         ** no similar net **                                      s: VDDO
+         ** no similar net **                                      d: PADR2
+         ** no similar net **                                      b: VDDO
+
+       X16/X26/M0(175.275,404.935)  MP(PH)                       XI11/M3  MP(P)
+         g: X16/7                                                  g: XI11/U32_U31_r2
+         s: 1                                                      s: VDD
+         b: 1                                                      b: VDD
+         d: X16/PAD                                                ** PAD2 **
+         ** no similar net **                                      d: VDDO
+
+       X17/X26/M0(668.595,352.935)  MP(PH)                       XI9/M3  MP(P)
+         g: X17/7                                                  g: XI9/U33_U31_r2
+         s: 1                                                      d: VDD
+         d: X17/PAD                                                ** PAD1 **
+         b: 1                                                      ** VDD **
+         ** no similar net **                                      s: VDDO
+         ** no similar net **                                      b: VDDO
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    ** no similar net **                                      XI12/U18_U82_gate
+
+           --- Devices on source net XI12/U18_U82_gate ---
+
+       ** no similar instance **                                 XI12/R15  R(RW)
+         ** no similar net **                                      pos: XI12/U18_U82_gate
+         ** no similar net **                                      neg: VDDO
+
+       ** no similar instance **                                 XI12/M18  MN(NH)
+         ** no similar net **                                      g: XI12/U18_U82_gate
+         ** no similar net **                                      s: VDDO
+         ** no similar net **                                      d: PADR2
+         ** no similar net **                                      b: VDDO
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    ** no similar net **                                      XI7/U18_U82_gate
+
+           --- Devices on source net XI7/U18_U82_gate ---
+
+       ** no similar instance **                                 XI7/R15  R(RW)
+         ** no similar net **                                      pos: XI7/U18_U82_gate
+         ** no similar net **                                      neg: VDDO
+
+       ** no similar instance **                                 XI7/M18  MN(NH)
+         ** no similar net **                                      g: XI7/U18_U82_gate
+         ** no similar net **                                      s: VDDO
+         ** no similar net **                                      d: PADR1
+         ** no similar net **                                      b: VDDO
+
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    ** no similar net **                                      XI8/U31_U29_c2
+
+           --- Devices on source net XI8/U31_U29_c2 ---
+
+       X49/X0/R0(372.515,574.665)  R(RW)                         XI8/R2  R(RW)
+         pos: 1                                                    neg: VDD
+         neg: 13                                                   ** no similar net **
+         ** no similar net **                                      pos: XI8/U31_U29_c2
+
+       ** no similar instance **                                 XI8/C4_5  C(CH)
+         ** VSSO **                                                pos: VSSO
+         ** no similar net **                                      neg: XI8/U31_U29_c2
+
+       X65/X10/X0/M0(324.305,102.105)  MN(NH)                    XI8/M4  MN(NH)
+         s: 1                                                      s: VDD
+         d: VSSO                                                   d: VSSO
+         g: X65/6                                                  ** XI8/U19_U22$11_gate **
+         b: VSSO                                                   ** VSSO **
+         ** no similar net **                                      g: XI8/U31_U29_c2
+         ** 1 **                                                   b: VDD
+
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 22    ** missing port **                                        VDD on net: VDD
+ 23    ** missing port **                                        PADR1 on net: PADR1
+ 24    ** missing port **                                        PADR2 on net: PADR2
+ 25    ** missing port **                                        PAD1 on net: PAD1
+ 26    ** missing port **                                        VDDO on net: VDDO
+ 27    ** missing port **                                        PAD2 on net: PAD2
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 28    X16/X26/M0(175.275,404.935)  MP(PH)                       XI11/M3  MP(P)
+         bad component subtype
+
+--------------------------------------------------------------------------------------------------------------
+
+ 29    X17/X26/M0(668.595,352.935)  MP(PH)                       XI9/M3  MP(P)
+         bad component subtype
+
+--------------------------------------------------------------------------------------------------------------
+
+ 30    ** missing instance **                                    XI8/D30  D(P3)
+         ** VSS **                                                 pos: VSS
+         ** 1 **                                                   neg: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 31    ** missing instance **                                    XI8/D31  D(P3)
+         ** 1 **                                                   pos: VDD
+         ** VSS **                                                 neg: VSS
+
+--------------------------------------------------------------------------------------------------------------
+
+ 32    ** missing instance **                                    XI9/D30  D(P3)
+         ** VSSO **                                                pos: VSSO
+         ** 1 **                                                   neg: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+ 33    ** missing instance **                                    XI9/D31  D(P3)
+         ** 1 **                                                   pos: VDD
+         ** VSSO **                                                neg: VSSO
+
+--------------------------------------------------------------------------------------------------------------
+
+ 34    ** missing instance **                                    XI11/D30  D(P3)
+         ** VSSO **                                                pos: VSSO
+         ** no similar net **                                      neg: VDDO
+
+--------------------------------------------------------------------------------------------------------------
+
+ 35    ** missing instance **                                    XI11/D31  D(P3)
+         ** no similar net **                                      pos: VDDO
+         ** VSSO **                                                neg: VSSO
+
+
+
+**************************************************************************************************************
+                                      PROPERTY ERRORS
+
+DISC#  LAYOUT                                                    SOURCE                      ERROR
+**************************************************************************************************************
+
+ 36    X16/R14(113.930,358.785)  R(RW)                           XI12/R17  R(RW)
+       r: 1190.92 ohm                                            r: 4891 ohm                 75.7%
+       Pins:
+         pos: VSS                                                  pos: VSS
+         neg: X16/8                                                neg: XI12/U18_U79$3_gate
+
+ 37    X16/X16/R0(113.685,348.555)  R(RW)                        XI11/R1  R(RW)
+       r: 4891.48 ohm                                            r: 16500 ohm                70.4%
+       Pins:
+         pos: X16/7                                                neg: XI11/U32_U31_r2
+         neg: 1                                                    pos: VDD
+
+ 38    X17/R14(729.940,399.085)  R(RW)                           XI7/R17  R(RW)
+       r: 1190.92 ohm                                            r: 4891 ohm                 75.7%
+       Pins:
+         pos: VSS                                                  pos: VSS
+         neg: X17/8                                                neg: XI7/U18_U79$3_gate
+
+ 39    X65/X6/D8(340.465,117.005)  D(P3)                         XI10/D31  D(P3)
+       a: 665.5 sq u                                             a: 119.79 sq u               456%
+       p: 1431 u                                                 p: 257.58 u                  456%
+       Pins:
+         pos: VSSO                                                 pos: VSSO
+         neg: VSS                                                  neg: VSS
+
+ 40    X65/X6/D17(369.805,117.005)  D(P3)                        XI10/D30  D(P3)
+       a: 665.5 sq u                                             a: 119.79 sq u               456%
+       p: 1431 u                                                 p: 257.58 u                  456%
+       Pins:
+         pos: VSS                                                  pos: VSS
+         neg: VSSO                                                 neg: VSSO
+
+ 41    X17/X16/R0(730.185,409.315)  R(RW)                        XI9/R1  R(RW)
+       r: 4891.48 ohm                                            r: 16500 ohm                70.4%
+       Pins:
+         pos: X17/7                                                neg: XI9/U33_U31_r2
+         neg: 1                                                    ** VDD **
+         ** no similar net **                                      pos: VDDO
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               2          2            0            6
+
+   Nets:               16         16            6            6
+
+   Instances:           2          2            0            0    MN(N)
+                        4          4            2            2    MN(NH)
+                        2          2            2            0    MP(P)
+                        2          2            0            2    MP(PH)
+                        3          3            1            1    C(CH)
+                        2          2            0            0    R(RE)
+                       12         12            2            2    R(RW)
+                        2          2            0            6    D(P3)
+                  -------    -------    ---------    ---------
+   Total Inst:         29         29            7           13
+
+
+o Statistics:
+
+   3 isolated layout nets were deleted.
+
+   144 layout mos transistors were reduced to 12.
+     132 mos transistors were deleted by parallel reduction.
+   144 source mos transistors were reduced to 12.
+     132 mos transistors were deleted by parallel reduction.
+
+   20 series layout resistors were reduced to 10.  10 connecting nets were deleted.
+   20 series source resistors were reduced to 10.  10 connecting nets were deleted.
+
+   100 parallel layout diodes were reduced to 2.
+   6 parallel source diodes were reduced to 2.
+
+   2 nets and 2 instances were matched arbitrarily.
+
+
+o Initial Correspondence Points:
+
+   Ports:        VSS VSSO
+
+
+o Ambiguity Resolution Points:
+
+      (Each one of the following objects belongs to a group of indistinguishable objects.
+       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
+       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
+
+       Layout                                                    Source
+       ------                                                    ------
+
+                                     Nets
+                                     ----
+
+       X17/7                                                     XI9/U33_U31_r2
+       X16/10                                                    XI12/U18_U74$11_gate
+
+
+                                   Instances
+                                   ---------
+
+       X49/X2/R0(317.295,574.545)  R(RW)                         XI10/R2  R(RW)
+       X17/R14(729.940,399.085)  R(RW)                           XI7/R17  R(RW)
+
+
+
+**************************************************************************************************************
+                                DETAILED ERROR ANALYSIS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed error analysis and suggestions for
+           fixing the layout errors).
+
+--------------------------------------------------------------------------------------------------------------
+                                Bad instance connections
+
+       X65/X10/X0/M0(324.305,102.105)  MN(NH)                    XI8/M4  MN(NH)
+         s: 1                                                      s: VDD
+         d: VSSO                                                   d: VSSO
+         g: X65/6                                                  ** XI8/U19_U22$11_gate **
+         b: VSSO                                                   ** VSSO **
+         ** no similar net **                                      g: XI8/U31_U29_c2
+         ** 1 **                                                   b: VDD
+
+       X64/X0/X0/M0(364.425,577.695)  MP(PH)                     XI8/M16  MP(PH)
+         s: VSSO                                                   s: VSSO
+         d: 1                                                      d: VDD
+         g: 13                                                     ** no similar net **
+         b: 1                                                      ** VDD **
+         ** X65/6 **                                               g: XI8/U19_U22$11_gate
+         ** VSSO **                                                b: VSSO
+
+       X65/X6/C18(355.305,147.330)  C(CH)                        XI11/C8_1  C(CH)
+         pos: 1                                                    pos: VDD
+         neg: X65/6                                                ** XI8/U19_U22$11_gate **
+         ** 11 **                                                  neg: XI11/U31_U18_r1
+
+ Pin g of LAYOUT instance X65/X10/X0/M0(324.305,102.105)[MN(NH)] connects to net X65/6 instead of (missing) LAYOUT net corresponding to SOURCE net XI8/U31_U29_c2
+ Pin b of LAYOUT instance X65/X10/X0/M0(324.305,102.105)[MN(NH)] connects to net VSSO instead of net 1
+ Pin g of LAYOUT instance X64/X0/X0/M0(364.425,577.695)[MP(PH)] connects to net 13 instead of net X65/6
+ Pin b of LAYOUT instance X64/X0/X0/M0(364.425,577.695)[MP(PH)] connects to net 1 instead of net VSSO
+ Pin neg of LAYOUT instance X65/X6/C18(355.305,147.330)[C(CH)] connects to net X65/6 instead of net 11
+ 
+--------------------------------------------------------------------------------------------------------------
+                                Bad instance connections
+
+       X16/X26/M0(175.275,404.935)  MP(PH)                       XI11/M3  MP(P)
+         g: X16/7                                                  g: XI11/U32_U31_r2
+         s: 1                                                      s: VDD
+         b: 1                                                      b: VDD
+         d: X16/PAD                                                ** PAD2 **
+         ** no similar net **                                      d: VDDO
+
+ Pin d of LAYOUT instance X16/X26/M0(175.275,404.935)[MP(PH)] connects to net X16/PAD instead of (missing) LAYOUT net corresponding to SOURCE net VDDO
+ 
+--------------------------------------------------------------------------------------------------------------
+                                 Pin short-circuit error
+
+       X17/X16/R0(730.185,409.315)  R(RW)                        XI9/R1  R(RW)
+         pos: X17/7                                                neg: XI9/U33_U31_r2
+         neg: 1                                                    ** VDD **
+         ** no similar net **                                      pos: VDDO
+
+ Pin neg of LAYOUT instance X17/X16/R0(730.185,409.315)[R(RW)] connects to net VDD instead of (missing) LAYOUT net corresponding to SOURCE net VDDO
+   Possibly LAYOUT net 1 is a shorted net matching SOURCE nets VDD and VDDO
+ 
+--------------------------------------------------------------------------------------------------------------
+                                Bad instance connections
+
+       X17/X26/M0(668.595,352.935)  MP(PH)                       XI9/M3  MP(P)
+         g: X17/7                                                  g: XI9/U33_U31_r2
+         s: 1                                                      d: VDD
+         d: X17/PAD                                                ** PAD1 **
+         b: 1                                                      ** VDD **
+         ** no similar net **                                      s: VDDO
+         ** no similar net **                                      b: VDDO
+
+ Pin d of LAYOUT instance X17/X26/M0(668.595,352.935)[MP(PH)] connects to net X17/PAD instead of (missing) LAYOUT net corresponding to SOURCE net VDDO
+ Pin b of LAYOUT instance X17/X26/M0(668.595,352.935)[MP(PH)] connects to net 1 instead of (missing) LAYOUT net corresponding to SOURCE net VDDO
+ 
+--------------------------------------------------------------------------------------------------------------
+                                 Pin short-circuit error
+
+       X50/X2/R0(472.295,574.545)  R(RW)                         XI11/R15  R(RW)
+         pos: 11                                                   pos: XI11/U31_U18_r1
+         neg: VSS                                                  ** VSS **
+         ** no similar net **                                      neg: VDDO
+
+ Pin neg of LAYOUT instance X50/X2/R0(472.295,574.545)[R(RW)] connects to net VSS instead of (missing) LAYOUT net corresponding to SOURCE net VDDO
+   Possibly LAYOUT net VSS is a shorted net matching SOURCE nets VSS and VDDO
+ 
+--------------------------------------------------------------------------------------------------------------
+                                 Pin open-circuit error
+
+       X39/X0/M0(472.215,655.765)  MN(N)                         XI11/M18  MN(N)
+         g: 11                                                     g: XI11/U31_U18_r1
+         d: VSSO                                                   s: VSSO
+         b: VSSO                                                   b: VSSO
+         s: 2                                                      ** no similar net **
+         ** 1 **                                                   d: VDD
+
+ Pin s of LAYOUT instance X39/X0/M0(472.215,655.765)[MN(N)] connects to net 2 instead of net 1
+   Possibly LAYOUT nets 1 and 2 must be connected to match SOURCE net VDD
+ 
+--------------------------------------------------------------------------------------------------------------
+                                   Net mismatch error
+
+ The following LAYOUT instances connect to net VSS instead of net 1
+ 
+       X37/X0/M0(479.455,102.105)  MN(N)                         XI9/M18  MN(N)
+         g: 6                                                      g: XI9/U31_U18_r1
+         s: 2                                                      ** no similar net **
+         d: VSS                                                    ** VSS **
+         b: VSS                                                    ** VSS **
+         ** 1 **                                                   s: VDD
+         ** no similar net **                                      d: VDDO
+         ** 1 **                                                   b: VDD
+
+       X31/R0(527.065,183.205)  R(RW)                            XI9/R15  R(RW)
+         pos: 6                                                    pos: XI9/U31_U18_r1
+         neg: VSS                                                  ** VSS **
+         ** 1 **                                                   neg: VDD
+
+
+
+**************************************************************************************************************
+                                  UNMATCHED OBJECTS
+       LAYOUT                                                    SOURCE
+**************************************************************************************************************
+
+       X52/X0/X0/M0(479.445,179.975)  MP(P)                      ** unmatched instance **
+       X53/X0/X0/M0(519.425,577.895)  MP(P)                      ** unmatched instance **
+       X16/X27/M0(154.275,395.055)  MN(NH)                       ** unmatched instance **
+       X17/X27/M0(689.595,362.815)  MN(NH)                       ** unmatched instance **
+       X29/R0(469.925,183.205)  R(RW)                            ** unmatched instance **
+       X50/X0/R0(527.515,574.665)  R(RW)                         ** unmatched instance **
+       X56/C18(488.565,610.540)  C(CH)                           ** unmatched instance **
+
+       ** unmatched instance **                                  XI12/M1  MP(PH)
+       ** unmatched instance **                                  XI12/M18  MN(NH)
+       ** unmatched instance **                                  XI12/R15  R(RW)
+       ** unmatched instance **                                  XI7/M1  MP(PH)
+       ** unmatched instance **                                  XI7/M18  MN(NH)
+       ** unmatched instance **                                  XI7/R15  R(RW)
+       ** unmatched instance **                                  XI8/C4_5  C(CH)
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

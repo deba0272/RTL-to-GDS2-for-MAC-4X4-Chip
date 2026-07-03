@@ -1,0 +1,38 @@
+//
+//  Rule file generated on Wed Jun 24 15:43:42 2026
+//  by Calibre Interactive v2022.4_37.20    Fri Dec 2 17:43:16 PST 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+
+// +++ CUSTOMIZATION SETTINGS START +++
+
+#define "6M1L" 
+#define "PEX_TECH" ts18scl
+#define "LVS_TECH" ts18scl
+#define "PEX_TYPE" USG
+#undefine "HSPICE_SIM"
+
+// +++ CUSTOMIZATION SETTINGS END +++
+
+
+LAYOUT PATH "dff.gds"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "dff"
+
+SOURCE PATH "dff.cdl"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "dff"
+
+PEX NETLIST "dff.pex.netlist" CALIBREVIEW 1 SOURCENAMES LOCATION
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "dff.lvs.report"
+PEX REPORT "dff.pex.report" SOURCENAMES
+
+DRC ICSTATION YES
+
+INCLUDE "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/techs/ts18scl_6M1L/calibre/default_scr/PEX.header"

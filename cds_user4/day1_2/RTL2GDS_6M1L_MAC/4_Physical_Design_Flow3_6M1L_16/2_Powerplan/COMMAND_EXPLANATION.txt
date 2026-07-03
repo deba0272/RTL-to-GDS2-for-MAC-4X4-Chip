@@ -1,0 +1,90 @@
+================================================================================
+          ASIC POWER PLANNING SCRIPT README
+================================================================================
+Overview:
+This document explains the commands used in the Power Planning (Power Grid 
+Design) stage of the physical design flow. The goal of this script is to 
+create a robust power delivery network (PDN) that connects the logical power 
+and ground nets to the physical metal tracks, ensuring every standard cell 
+and macro receives adequate power with minimal voltage (IR) drop and 
+electromigration (EM) issues.
+
+================================================================================
+1. GLOBAL NET CONNECTIONS (Logical to Physical Mapping)
+================================================================================
+* `globalNetConnect ... -type pgpin -pin VDD -all` (and VSS, VDDO, VSSO)
+  This command maps the logical power pins (like 'VDD' and 'VSS') defined in 
+  the standard cell libraries to the physical global power nets in the design 
+  (like 'VDD_CORE' and 'VSS_CORE'). The `-all` flag ensures this applies to 
+  all instances in the design.
+
+* `globalNetConnect VDD_CORE -type tiehi` / `... VSS_CORE -type tielo`
+  Connects any logical tie-high (1) or tie-low (0) pins directly to the physical 
+  VDD_CORE and VSS_CORE nets, respectively.
+
+================================================================================
+2. CORE POWER RINGS
+================================================================================
+* `setAddRingMode ...`
+  Configures the rules for creating power rings. It defines the via structures 
+  to use (from M1 up to TOP_M/M6) when routing orthogonal intersections and tells 
+  the tool to skip dropping vias directly on standard cell pins to avoid 
+  placement DRCs.
+
+* `addRing -nets {VDD_CORE VSS_CORE} ...`
+  Builds the main rectangular power ring around the standard cell core area. 
+  - `-layer {top M5 bottom M5 left TOP_M right TOP_M}`: Defines that horizontal 
+    ring segments will use Metal 5, and vertical segments will use the top metal 
+    layer (likely Metal 6).
+  - `-width 30` / `-spacing 30`: Sets massive 30-micron widths and spacings 
+    for these trunks to carry the bulk of the current from the IO pads.
+
+================================================================================
+3. POWER STRIPES (The Power Grid)
+================================================================================
+* `setAddStripeMode ...`
+  Configures how the inner power grid will be drawn, defining via layer limits 
+  and edge-to-edge spacing rules.
+
+* `addStripe -direction vertical ...`
+  Drops vertical power lines across the core area on `TOP_M`.
+  - `-width 11.2` / `-spacing 11.2`: Dimensions for the vertical stripes.
+  - `-set_to_set_distance 112`: The pitch/distance between repeating VDD/VSS sets.
+
+* `addStripe -direction horizontal ...`
+  Drops horizontal power lines across the core area on `M5`.
+  - `-width 5.6` / `-spacing 11.2`: Dimensions for the horizontal stripes.
+  These intersecting vertical and horizontal stripes form a strong mesh/grid 
+  to deliver power uniformly to all regions of the chip.
+
+================================================================================
+4. SPECIAL ROUTING (SROUTE)
+================================================================================
+* `setSrouteMode -viaConnectToShape { ring stripe followpin }`
+  Configures the special router to connect standard cell pins (followpins) to 
+  the newly created rings and stripes.
+
+* `sroute -connect { padPin corePin } ...`
+  Executes the special routing. This command drops vias and creates short wires 
+  to hook up the standard cell power rails (M1) and physical IO pad power pins 
+  into the global M5/TOP_M power grid.
+
+================================================================================
+5. VERIFICATION & CHECKPOINTING
+================================================================================
+* `verifyConnectivity -type all -connLoop ...`
+  A critical check to ensure there are no broken power paths, unconnected 
+  instances, floating power pins, or illegal routing loops in the PDN.
+
+* `checkDesign -all`
+  Runs a comprehensive database check before proceeding to the placement stage, 
+  ensuring no missing library data, unmapped cells, or major floorplan DRCs.
+
+* `timeDesign -prePlace`
+  Performs an initial zero-wire-load Static Timing Analysis (STA). This checks 
+  if the design can meet timing theoretically before the standard cells are 
+  physically placed and wire delays are added.
+
+* `saveDesign ./PowerPlanning/..._fp_powerplan.enc`
+  Saves the database checkpoint, officially concluding the Floorplanning and 
+  Power Planning stage.

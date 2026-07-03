@@ -1,0 +1,130 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-F SUMMARY REPORT
+===
+Execution Date/Time:       Tue Jun 23 15:25:05 2026
+Calibre Version:           v2022.4_37.20    Fri Dec 2 17:43:09 PST 2022
+Rule File Pathname:        DUMMY.header
+Rule File Title:           
+Layout System:             GDS
+Layout Path(s):            mac_top.gds
+Layout Primary Cell:       mac_top
+Current Directory:         /home/iep4/projects/user4/work_libs/iep4/cds/RTL2GDS_6M1L_MAC/dummy_fill_1
+User Name:                 iep4
+Maximum Results/RuleCheck: ALL
+Maximum Result Vertices:   4294967294
+DRC Results Database:      dummy_IEP_MAC_RAW.gds (GDS w/LIBNAME drc.db)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       top_streamed_wrapper_chip.db (REPLACE)
+Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         YES
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+DRC CHECK MAP AREF specification for DRC RuleCheck MDP08_8_large not supported in CALIBRE DRC-F.
+DRC CHECK MAP AREF specification for DRC RuleCheck MDP08_8_small not supported in CALIBRE DRC-F.
+DRC CHECK MAP AREF specification for DRC RuleCheck MDP40_8 not supported in CALIBRE DRC-F.
+DRC CHECK MAP AREF specification for DRC RuleCheck MDP42_8 not supported in CALIBRE DRC-F.
+DRC CHECK MAP AREF specification for DRC RuleCheck MDP50_8 not supported in CALIBRE DRC-F.
+DRC CHECK MAP AREF specification for DRC RuleCheck MDP48_8 not supported in CALIBRE DRC-F.
+DRC CHECK MAP AREF specification for DRC RuleCheck MDP46_8 not supported in CALIBRE DRC-F.
+DRC CHECK MAP AREF specification for DRC RuleCheck MDP44_8 not supported in CALIBRE DRC-F.
+DRC CHECK MAP AREF specification for DRC RuleCheck dumINarea_AA_all not supported in CALIBRE DRC-F.
+RuleCheck output to GDSII results database dummy_IEP_MAC_RAW.gds with maximum polygon vertex count of 4294967294 reset to 8190.
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER ext_AREA ...... TOTAL Original Geometry Count = 4
+LAYER PADldi ........ TOTAL Original Geometry Count = 0
+LAYER AREA10fci ..... TOTAL Original Geometry Count = 0
+LAYER SPC_fci ....... TOTAL Original Geometry Count = 0
+LAYER SPC_fei ....... TOTAL Original Geometry Count = 0
+LAYER ext_DEV ....... TOTAL Original Geometry Count = 4
+LAYER AREA10_is_i ... TOTAL Original Geometry Count = 0
+LAYER dy_PADi ....... TOTAL Original Geometry Count = 0
+LAYER lc_PADi ....... TOTAL Original Geometry Count = 238
+LAYER all_dy ........ TOTAL Original Geometry Count = 94
+LAYER all_lc3 ....... TOTAL Original Geometry Count = 3975403
+LAYER all_lc2 ....... TOTAL Original Geometry Count = 1771897
+LAYER all_lc1 ....... TOTAL Original Geometry Count = 562953
+LAYER AA_ipi ........ TOTAL Original Geometry Count = 0
+LAYER AA_nodummy .... TOTAL Original Geometry Count = 4
+LAYER DEV_mfc ....... TOTAL Original Geometry Count = 0
+LAYER GC_ipi ........ TOTAL Original Geometry Count = 0
+LAYER GC_nodummy .... TOTAL Original Geometry Count = 0
+LAYER ndip_M1 ....... TOTAL Original Geometry Count = 0
+LAYER M1_nodummy .... TOTAL Original Geometry Count = 0
+LAYER ndip_M2 ....... TOTAL Original Geometry Count = 0
+LAYER M2_nodummy .... TOTAL Original Geometry Count = 0
+LAYER ndip_M3 ....... TOTAL Original Geometry Count = 0
+LAYER M3_nodummy .... TOTAL Original Geometry Count = 0
+LAYER ndip_M4 ....... TOTAL Original Geometry Count = 0
+LAYER M4_nodummy .... TOTAL Original Geometry Count = 0
+LAYER ndip_M5 ....... TOTAL Original Geometry Count = 0
+LAYER M5_nodummy .... TOTAL Original Geometry Count = 0
+LAYER ndip_MT ....... TOTAL Original Geometry Count = 0
+LAYER MT_nodummy .... TOTAL Original Geometry Count = 0
+LAYER dy_AA ......... TOTAL Original Geometry Count = 47
+LAYER lc_AA ......... TOTAL Original Geometry Count = 92099
+LAYER dy_GC ......... TOTAL Original Geometry Count = 47
+LAYER lc_GC ......... TOTAL Original Geometry Count = 43256
+LAYER mk_M1 ......... TOTAL Original Geometry Count = 0
+LAYER dy_M1 ......... TOTAL Original Geometry Count = 0
+LAYER lc_M1 ......... TOTAL Original Geometry Count = 139774
+LAYER mk_M2 ......... TOTAL Original Geometry Count = 0
+LAYER dy_M2 ......... TOTAL Original Geometry Count = 0
+LAYER lc_M2 ......... TOTAL Original Geometry Count = 19779
+LAYER mk_M3 ......... TOTAL Original Geometry Count = 0
+LAYER dy_M3 ......... TOTAL Original Geometry Count = 0
+LAYER lc_M3 ......... TOTAL Original Geometry Count = 16470
+LAYER mk_M4 ......... TOTAL Original Geometry Count = 0
+LAYER dy_M4 ......... TOTAL Original Geometry Count = 0
+LAYER lc_M4 ......... TOTAL Original Geometry Count = 14292
+LAYER mk_M5 ......... TOTAL Original Geometry Count = 0
+LAYER dy_M5 ......... TOTAL Original Geometry Count = 0
+LAYER lc_M5 ......... TOTAL Original Geometry Count = 14357
+LAYER mk_MT ......... TOTAL Original Geometry Count = 0
+LAYER dy_MT ......... TOTAL Original Geometry Count = 0
+LAYER lc_MT ......... TOTAL Original Geometry Count = 12082
+LAYER mk_MT3 ........ TOTAL Original Geometry Count = 0
+LAYER dy_MT3 ........ TOTAL Original Geometry Count = 0
+LAYER lc_MT3 ........ TOTAL Original Geometry Count = 0
+LAYER lc_AREA1 ...... TOTAL Original Geometry Count = 0
+LAYER res_DEV ....... TOTAL Original Geometry Count = 283
+LAYER lc_WN ......... TOTAL Original Geometry Count = 43503
+LAYER lc_XP ......... TOTAL Original Geometry Count = 83807
+LAYER seal_DEV ...... TOTAL Original Geometry Count = 1
+LAYER lc_CE ......... TOTAL Original Geometry Count = 2
+LAYER ld_WTP ........ TOTAL Original Geometry Count = 0
+LAYER ld_WTN ........ TOTAL Original Geometry Count = 0
+LAYER lc_VNN ........ TOTAL Original Geometry Count = 0
+LAYER lc_HWN ........ TOTAL Original Geometry Count = 0
+LAYER lc_DT ......... TOTAL Original Geometry Count = 0
+LAYER lc_CS ......... TOTAL Original Geometry Count = 839986
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK MDP08_8_large ...... TOTAL Result Count = 12076
+RULECHECK MDP08_8_small ...... TOTAL Result Count = 7613
+RULECHECK MDP08_8_PAD ........ TOTAL Result Count = 0
+RULECHECK MDP40_8 ............ TOTAL Result Count = 14058
+RULECHECK MDP42_8 ............ TOTAL Result Count = 13910
+RULECHECK MDP50_8 ............ TOTAL Result Count = 12466
+RULECHECK MDP48_8 ............ TOTAL Result Count = 12051
+RULECHECK MDP46_8 ............ TOTAL Result Count = 12173
+RULECHECK MDP44_8 ............ TOTAL Result Count = 12051
+RULECHECK dumINarea_AA_all ... TOTAL Result Count = 48778
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  11
+TOTAL REAL Time:                 12
+TOTAL Original Layer Geometries: 7630382
+TOTAL DRC RuleChecks Executed:   10
+TOTAL DRC Results Generated:     145176

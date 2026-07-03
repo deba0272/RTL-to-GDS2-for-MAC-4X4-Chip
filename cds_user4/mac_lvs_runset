@@ -1,0 +1,51 @@
+//  Runset file generated on Tue Jun 23 17:37:59 2026
+//  by Calibre Interactive v2022.4_37.20    Fri Dec 2 17:43:16 PST 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+cmn.showOptionPages.value = [ "Options" ]
+lvs.rulesFile.value = "$RDS_TECH/$RDS_CDS_TECH/calibre/default_scr/headers/LVS.header"
+lvs.layout.layoutFile.value = "C2S0233.gds"
+cmn.layout.defFiles.value = [ "C2S0233.def" ]
+lvs.layout.topCellLibrary.value = "C2S0233"
+cmn.layout.topCellLibraryFDI.value = "C2S0233"
+lvs.layout.topCell.value = "C2S0233"
+lvs.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+lvs.layout.layoutNetlist.value = "C2S0233.sp"
+lvs.source2.topCellLibrary.value = "C2S0233"
+lvs.source2.topCellLibraryFDI.value = "C2S0233"
+lvs.source2.topCell.value = "C2S0233"
+lvs.source2.topCellFDI.value = "C2S0233"
+lvs.source.format.value = "VERILOG"
+lvs.source.exportFromSourceViewer.value = false
+lvs.source.sourceFile.value = "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v"
+lvs.source.topCellLibrary.value = "C2S0233"
+lvs.source.topCellLibraryFDI.value = "C2S0233"
+lvs.source.topCell.value = "mac_4x4_wrapper_chip"
+lvs.source.topCellFDI.value = "C2S0233"
+lvs.reports.lvsReport.value = "C2S0233.lvs.report"
+lvs.supply.lvsIgnorePorts.value = "YES"
+lvs.supply.lvsIgnorePorts.specified = true
+lvs.supply.powerNames.value = [ "VDD_CORE", "VDDO_CORE" ]
+lvs.supply.powerNames.specified = true
+lvs.supply.groundNames.value = [ "VSS_CORE", "VSSO_CORE" ]
+lvs.supply.groundNames.specified = true
+lvs.lvsReportOption.specified = true
+lvs.lvsReportOption.optionKeywords.value = [ "A", "B", "C", "D", "FX", "G", "S", "V" ]
+lvs.ercdb.resultsFile.value = "C2S0233.erc.results"
+lvs.ercSummaryReport.report.value = "C2S0233.erc.summary"
+lvs.ercSummaryReport.report.specified = true
+
+lvs.v2LVSLibraries.vLOGLibFiles.value = [ "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3d01.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3o01.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3c01.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pvdi.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pv0a.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pvda.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pv0i.v" ]
+lvs.v2LVSLibraries.vLOGLibFiles.specified = true
+lvs.v2LVSLibraries.sPICELibFiles.value = [ "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl" ]
+lvs.v2LVSLibraries.sPICELibFiles.specified = true
+lvs.v2LVSLibraries.sPICEIncFiles.value = [ "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl" ]
+lvs.v2LVSLibraries.sPICEIncFiles.specified = true
+cmn.runsetPrefs.saveOnClose.value = "NOSAVE"
+lvs.setNameTemplate("nt_layFile", "%l.gds")
+lvs.setNameTemplate("nt_srcFile", "%l.cdl")
+lvs.setNameTemplate("nt_efSrcVwr", "1")

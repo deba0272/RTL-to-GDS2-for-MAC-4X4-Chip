@@ -1,0 +1,2 @@
+spectre muxdelay_chip.sp +preset=vx +fxm=s=3 +mt=32 -raw ./result
+

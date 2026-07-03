@@ -1,0 +1,85 @@
+================================================================================
+          ASIC TIMING CONSTRAINTS (SDC) SCRIPT README
+================================================================================
+Overview:
+This document explains the Synopsys Design Constraints (SDC) file used for the 
+Sliding Window 4x4 Stream Wrapper block. The SDC acts as the definitive "rulebook" 
+for logic synthesis and physical design tools. It defines the target clock frequency, 
+safety margins, and the electrical/timing environment outside the chip, ensuring 
+the final layout meets real-world performance requirements.
+
+================================================================================
+1. BASE UNITS DEFINITION
+================================================================================
+* `set_units -time 1ns` / `set_units -capacitance 1pF`
+  Establishes the baseline units for the entire file. All timing values are 
+  interpreted as nanoseconds (ns), and all capacitive load values are 
+  interpreted as picoFarads (pF).
+
+================================================================================
+2. CLOCK DEFINITION & MARGINS (UNCERTAINTY)
+================================================================================
+* `set clk_period 200.000`
+  Defines a variable for the clock period (200ns, which is 5 MHz), making it 
+  easy to globally update the target frequency later.
+
+* `create_clock -name clk -period $clk_period -waveform {0 100} [get_ports clk]`
+  The most critical command. It defines the primary clock for the design, 
+  specifying its name, its 200ns period, and its 50% duty cycle (HIGH at 0ns, 
+  LOW at 100ns), arriving at the physical input port "clk".
+
+* `set_clock_uncertainty -setup 7.0` / `-hold 7.0`
+  Adds a conservative 7.0ns safety margin for both setup and hold checks. This 
+  accounts for real-world imperfections like clock jitter and routing skew, 
+  forcing the tool to over-optimize paths by 7.0ns to guarantee they will work 
+  post-fabrication.
+
+================================================================================
+3. INPUT DELAYS (External Environment Modeling)
+================================================================================
+Input delays model how much of the clock cycle was already consumed by logic 
+*outside* of our chip before reaching the input pins.
+
+* `set_input_delay -clock clk 8.000 [get_ports valid_in]`
+  Tells the tool that the `valid_in` signal arrives 8.0ns *after* the clock edge. 
+  Our internal logic only has the remaining 192ns (minus uncertainty) to process it.
+
+* `set_input_delay -clock clk 5.000 [get_ports rst]` (and stream_a/b via loop)
+  Applies a 5.0ns input delay to the reset signal and uses a `foreach` loop to 
+  apply the same 5.0ns delay across all 16 bits of the `stream_a_in` and 
+  `stream_b_in` data buses.
+
+================================================================================
+4. OUTPUT DELAYS (External Requirements)
+================================================================================
+Output delays model how much time the external logic needs to capture our data.
+
+* `set_output_delay -clock clk 3.000 ...` (for stream_out and valid_out)
+  Tells the tool that the external world requires 3.0ns to successfully capture 
+  the output signals. Therefore, our chip must push the data out of the pins at 
+  least 3.0ns *before* the next clock edge.
+
+================================================================================
+5. PATH GROUPING
+================================================================================
+Timing engines prioritize the worst timing violations. Grouping forces the tool 
+to optimize different types of paths independently, ensuring it doesn't neglect 
+IO paths in favor of internal logic.
+
+* `group_path -name I2R -from [all_inputs] -to [all_registers]`
+  Groups paths starting from input pins and ending at the first internal flip-flop.
+
+* `group_path -name R2O -from [all_registers] -to [all_outputs]`
+  Groups paths starting from the last internal flip-flop and ending at an output pin.
+
+* `group_path -name R2R -from [all_registers] -to [all_registers]`
+  Groups pure internal paths moving from one flip-flop to another.
+
+================================================================================
+6. POST-ROUTE HOLD FIXING
+================================================================================
+* `set_fix_hold -hold [get_clocks clk]`
+  An explicit instruction for the Physical Design (PD) tools. If a signal travels 
+  so fast between two registers that it overwrites the previous data (Hold Violation), 
+  this command permits the tool to insert delay buffers to artificially slow down 
+  that specific path.
