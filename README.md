@@ -66,7 +66,8 @@ The core design is a synchronous **4x4 MAC Unit** that performs fast signed mult
 │   └── top_wrapper.v         # Top level module containing Pad Frame/IO Ring
 ├── testbench/
 │   └── tb_mac.v
-    └── tb_post_mac.v            # Verification environment for signed arithmetic corner cases
+    └── tb_post_mac.v
+    └── ts180_scl.v        # Verification environment for signed arithmetic corner cases
 ├── constraints/
 │   └── constraints.sdc       # Timing constraints file (Clock, Input/Output delays)
 ├── synthesis/
@@ -91,7 +92,7 @@ The core design is a synchronous **4x4 MAC Unit** that performs fast signed mult
 | Waveform Analysis | SimVision |
 | Logic Synthesis | Cadence Genus |
 | Physical Design | Cadence Innovus |
-| Technology Node | SCL 180nm Bulk CMOS |
+| Technology Node | SCL 180nm |
 
 ---
 
@@ -572,7 +573,7 @@ Performed filler insertion in the whole empty space followed by GDSII stream-out
 
 | Metric | Result |
 |---------|---------|
-| Technology | SCL 180nm prim |
+| Technology | SCL 180nm |
 | DRC Errors | **0** |
 | LVS Mismatches | **0** |
 | Antenna Violations | **0** |
