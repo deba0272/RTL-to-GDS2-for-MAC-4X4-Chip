@@ -245,7 +245,7 @@ echo username > user_list
 Initialize the complete project tree using the SCL 180nm technology flow.
 
 ```bash
-makeProjectTree scl6m \
+makeProjectTree providename \
 -flow SCLSL18_6M1L \
 -users user_list \
 -flow_lib create \
@@ -337,7 +337,7 @@ After successful initialization, the project structure will resemble:
 ```text
 <work_directory>/
 │
-└── scl6m/
+└──  providename/
     ├── work_libs/
     │   └── <username>/
     │       ├── cds/
