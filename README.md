@@ -1,8 +1,8 @@
 # RTL to GDSII Flow Implementation for a 4x4 MAC Unit Chip
 
-[![VLSI Backend](https://img.shields.io/badge/VLSI-Backend%20Design-blue.svg)](https://github.com/) 
+[![VLSI Backend](https://img.shields.io/badge/VLSI-Backend%20Design-blue.svg)]() 
 [![Cadence Suite](https://img.shields.io/badge/Tools-Cadence%20Suite-green.svg)](https://www.cadence.com/)
-[![Process Node](https://img.shields.io/badge/PDK-SCL%20180nm-orange.svg)](https://www.isro.gov.in/SCL.html)
+[![Process Node](https://img.shields.io/badge/PDK-SCL%20180nm-orange.svg)]()
 
 This repository contains the complete physical design and implementation flow to transform a **4x4 Multiply-Accumulate (MAC) Unit** from Register Transfer Level (RTL) code into a tapeout-ready **GDSII** database. The flow is built using the industry-standard Cadence Digital Design Suite.
 
