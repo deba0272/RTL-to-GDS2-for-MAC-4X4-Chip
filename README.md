@@ -493,7 +493,6 @@ source place.tcl
 ```
 
 <img width="1920" height="1080" alt="Screenshot from 2026-07-01 15-21-27 (1)" src="https://github.com/user-attachments/assets/c70ce5b8-4eaa-4995-b1be-7e172398e673" />
-<img width="1920" height="1080" alt="Screenshot from 2026-07-01 15-21-27" src="https://github.com/user-attachments/assets/3f337c2c-ae17-434e-a7d9-41d8c2a6d630" />
 
 
 </p>
