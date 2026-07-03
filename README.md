@@ -381,6 +381,8 @@ source ~/toolRC_scl
 
 Compile and simulate the RTL design using the Xcelium tool.For this run the below cmd and if incisive used replace with the irun.
 
+[RTL simulation_script](./cds_user4/RTL2GDS_6M1L_MAC/1_Function_Simulation_wrapper_6M1L_1/fun_simulation.f)
+
 ```bash
 xrun -f fun_simulation.f -gui -access +rwc
 ```
@@ -409,6 +411,8 @@ xrun -f fun_simulation.f -gui -access +rwc
 ## ③ Logic Synthesis
 
 Generate the technology-mapped gate-level netlist.
+
+[Logic synthesis_script](./cds_user4/RTL2GDS_6M1L_MAC/2_Synthesis_wrapper_7_wrapper_6M1L_2/script_sv.tcl)
 
 ```bash
 genus -legacy_ui -f scripts/script_sv.tcl
@@ -442,6 +446,10 @@ It generates the gate level netlist file ext .v along the sdc constraints.
 
 Imported the synthesized netlist into Cadence Innovus and created the chip floorplan.
 
+[](./cds_user4/RTL2GDS_6M1L_MAC/4_Physical_Design_Flow3_6M1L_16/0_Import_Design/import.tcl)
+[](./cds_user4/RTL2GDS_6M1L_MAC/4_Physical_Design_Flow3_6M1L_16/0_Import_Design/final.io)
+[](./cds_user4/RTL2GDS_6M1L_MAC/4_Physical_Design_Flow3_6M1L_16/0_Import_Design/Default.view)
+[](./cds_user4/RTL2GDS_6M1L_MAC/4_Physical_Design_Flow3_6M1L_16/0_Import_Design/Default.globals)
 ```bash
 source import.tcl
 ```
@@ -457,6 +465,9 @@ source import.tcl
 <p align="center">
 
 ### Floorplan & Powerplan
+
+[Floorplan script](./cds_user4/RTL2GDS_6M1L_MAC/4_Physical_Design_Flow3_6M1L_16/1_Floorplan/floorplan.tcl)
+[Powerplan script](./cds_user4/RTL2GDS_6M1L_MAC/4_Physical_Design_Flow3_6M1L_16/2_Powerplan/powerplan.tcl)
 
 ```bash
 cd 1_Floorplan (folder -> floorplan)
@@ -487,6 +498,8 @@ Performed timing-driven placement with congestion optimization.
 
 ### Placement
 
+[Placement script](./cds_user4/RTL2GDS_6M1L_MAC/4_Physical_Design_Flow3_6M1L_16/3_Placement/placement.tcl)
+
 ```bash
 cd 3_placement
 source place.tcl
@@ -502,6 +515,8 @@ source place.tcl
 ## ⑥ Clock Tree Synthesis (CTS)
 
 Generated an optimized clock network for all sequential elements.
+
+[CTS script](./cds_user4/RTL2GDS_6M1L_MAC/4_Physical_Design_Flow3_6M1L_16/4_CTS/cts.tcl)
 
 ```bash
 cd 4_CTS
@@ -531,6 +546,8 @@ source cts.tcl
 ## ⑦ Global & Detail Routing
 
 Completed signal routing while satisfying design rules.
+
+[Routing script](./cds_user4/RTL2GDS_6M1L_MAC/4_Physical_Design_Flow3_6M1L_16/5_Routing/route.tcl)
 
 ### Routing Features
 
