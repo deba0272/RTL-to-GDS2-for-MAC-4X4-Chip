@@ -442,8 +442,70 @@ It generates the gate level netlist file ext .v along the sdc constraints.
 
 ## ④ Floorplanning & Power Planning
 
-## Now before moving on to the Physical Design, at first import the netlist and constraint file into the import design folder inside the physical design.along with otherfiles needs to be created move into the tcl script file where its mentioned what all need to be configured.
+## Now, before moving on to the Physical Design, first import the netlist and constraint file into the import design folder inside the Physical Design. Along with other files, it needs to be created move into the tcl script file, where it's mentioned what all needs to be configured.
 
+## I/O Pad Calculation
+
+[IO script](cds_user4/RTL2GDS_6M1L_MAC/4_Physical_Design_Flow3_6M1L_16/0_Import_Design/final.io)
+
+The number of **Power** and **GND** pads is determined based on the number of signal pins.
+
+### Formula
+
+```text
+Required Power/GND Sets = ceil(Number of Signal Pins / 6)
+```
+
+Each **Power/GND set** contains:
+
+- 2 × Power (VDD) pads
+- 2 × Ground (VSS) pads
+
+**Total pads per set = 4**
+
+### Example Calculation
+
+Given:
+
+- **Signal Pins = 13**
+
+#### Step 1: Calculate the required Power/GND sets
+
+```text
+ceil(13 / 6) = 2 sets
+```
+
+#### Step 2: Calculate the total Power/GND pads
+
+```text
+2 sets × 4 pads/set = 8 pads
+```
+
+#### Step 3: Calculate the total functional pads
+
+```text
+Signal Pads + Power/GND Pads
+= 13 + 8
+= 21 pads
+```
+
+#### Step 4: Add Dummy Pads
+
+```text
+21 + 3 Dummy Pads = 24 Total Pads
+```
+
+### Summary
+
+| Pad Type | Count |
+|----------|------:|
+| Signal Pads | 13 |
+| Power/GND Pads | 8 |
+| Dummy Pads | 3 |
+| **Total SCL Pins** | **24** |
+
+> **Final Result:** A total of **24 SCL pins** (choose as per the given standards and the nearest one) are required, consisting of **13 signal pads**, **8 Power/GND pads**, and **3 dummy pads**.
+ 
 Imported the synthesized netlist into Cadence Innovus and created the chip floorplan.
 
 [](./cds_user4/RTL2GDS_6M1L_MAC/4_Physical_Design_Flow3_6M1L_16/0_Import_Design/import.tcl)
