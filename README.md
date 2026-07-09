@@ -153,7 +153,20 @@ GDSII Generation
 DRC & LVS Verification
     │
     ▼
+PEX Extraction
+    │
+    ▼
+Post-Layout (SDF) Simulation
+    │
+    ▼
+SPICE Simulation (Spectre)
+    │
+    ▼
+Waveform Analysis (ViVA)
+    │
+    ▼
 Tapeout Ready
+
 ```
 
 ---
@@ -646,6 +659,131 @@ Performed filler insertion in the whole empty space followed by GDSII stream-out
 <img width="1710" height="1112" alt="Screenshot 2026-06-26 at 7 36 01 PM" src="https://github.com/user-attachments/assets/f53bea35-ad69-47fc-b5d8-f8519ffd5372" />
 
 ---
+
+---
+
+# ⑨ Parasitic Extraction (PEX)
+
+After completing a DRC-clean and LVS-matched layout, perform **Parasitic Extraction (PEX)** to generate the extracted netlist containing the interconnect parasitics (R and C).
+
+### Steps
+
+1. Launch the **PEX** run from the physical verification environment.
+2. Start the extraction process.
+3. After completion, click **Start RVE** to review the extraction report and verify that the extraction completed successfully.
+
+### Outputs
+
+- Extracted SPICE Netlist (`.sp`)
+- Parasitic RC Data
+- PEX Report
+- RVE Extraction Results
+
+<p align="center">
+
+### PEX Verification
+
+<!-- Add your PEX/RVE screenshot here -->
+
+</p>
+
+---
+
+# ⑩ Post-Layout Timing Simulation (SDF Simulation)
+
+To verify the functionality of the routed design with real interconnect delays, perform a **post-layout simulation** using the generated **SDF** file.
+
+### Simulation Flow
+
+1. Compile the post-layout testbench.
+2. Annotate the generated **SDF** file.
+3. Launch Xcelium.
+4. Verify the waveforms.
+5. Save the simulation activity as a **VCD** file.
+
+```bash
+xrun -f post_layout_simulation.f -gui -access +rwc
+```
+
+### Outputs
+
+- Post-layout waveform
+- Timing verification
+- Generated `.vcd` file
+
+> **Note:** The generated VCD file may require minor modifications depending on the SPICE simulation setup before it is used for power analysis.
+
+<p align="center">
+
+### Post-Layout Waveform
+
+<!-- Add your post-layout simulation screenshot here -->
+
+</p>
+
+---
+
+# ⑪ SPICE Simulation
+
+The extracted SPICE netlist is used for transistor-level verification of the complete design.
+
+### Required Files
+
+```
+pex.netlist
+.pxi
+simvision.vcd
+```
+
+### Simulation Flow
+
+Run Spectre simulation.
+
+```bash
+spectre pqc_top_wrapper.sp +mt=32 -raw ./result
+```
+
+Open the waveform viewer.
+
+```bash
+viva &
+```
+
+### Verification
+
+- Functional Verification
+- Timing Validation
+- Analog Waveform Analysis
+- Dynamic Power Analysis
+
+<p align="center">
+
+### Spectre / ViVA Results
+
+<!-- Add your Spectre waveform screenshot here -->
+
+</p>
+
+---
+
+# 🎯 Final Deliverables
+
+The complete RTL-to-GDSII flow generates the following design artifacts:
+
+| Output | Description |
+|---------|-------------|
+| RTL | Verilog source files |
+| Gate-Level Netlist | Technology-mapped synthesized design |
+| Constraints | SDC timing constraints |
+| DEF | Physical placement information |
+| GDSII | Tapeout-ready layout database |
+| DRC Report | Physical rule verification |
+| LVS Report | Layout versus schematic verification |
+| Extracted SPICE Netlist | Parasitic extracted transistor-level netlist |
+| SDF | Annotated timing delay file |
+| VCD | Switching activity for power analysis |
+| Spectre Results | Transistor-level simulation results |
+| ViVA Waveforms | Analog waveform analysis |
 
 # 📊 Quality of Results (QoR)
 
