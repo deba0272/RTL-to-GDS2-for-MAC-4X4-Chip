@@ -1,0 +1,56 @@
+Warning: Invalid environment variable  on line 69 of /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/amslibs/cds_default/etc/system.lib
+INFO: cds.lib has been converted to lib.defs /var/tmp/1151916_result_lib.defs
+RUNNING PEX back-annotation...
+//  Calibre FDI  v2022.4_37.20 Fri Dec 2 17:32:51 PST 2022
+//
+//                  Copyright Mentor Graphics Corporation 2008-2022
+//                             All Rights Reserved.
+//         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//             WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//               OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//  64 bit virtual addressing enabled
+//
+//         This software is in pre-production form and is considered to be
+//         beta code that is subject to the terms of the current Mentor
+//         Graphics End-User License Agreement or your signed agreement
+//         with Mentor Graphics that contains beta terms, whichever applies.
+//
+//  Running on Linux server3.eced.svnit.ac.in 4.18.0-553.124.1.el8_10.x86_64 #1 SMP Mon May 11 07:30:18 EDT 2026 x86_64
+//  OS: Red Hat Enterprise Linux release 8.10 (Ootpa)[4.18.0-553.124.1.el8_10.x86_64]
+//
+//  Entries in /proc/meminfo:
+//
+//  MemTotal:       65290480 kB
+//  MemFree:         2851356 kB
+//  Cached:         19411224 kB
+//  SwapCached:        62460 kB
+//  Dirty:             24960 kB
+//  Writeback:             0 kB
+//
+//  Processor : Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz
+//  CPU Info: Cores = 16
+//  Process ID: 1151916
+//  Starting time: Wed Jun 24 15:44:14 2026
+INFO: Parsing command line arguments...
+INFO: License checked out successfully for calibreqdb.
+INFO: Parsing cellmap file...
+WARNING: [FDI3062] The device "dnwell33" with 2 pins is already defined in the cellmap file. Ignoring the previous definitions.
+INFO: Executing back annotation...
+INFO: Creating new view: calibre in library: LogicCells cell: dff.
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:nmos_18:symbol) to instance of (ts018_scl_prim:nmos_18:spectre).
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:nmos_18:symbol) to instance of (ts018_scl_prim:nmos_18:spectre).
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:nmos_18:symbol) to instance of (ts018_scl_prim:nmos_18:spectre).
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:nmos_18:symbol) to instance of (ts018_scl_prim:nmos_18:spectre).
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:nmos_18:symbol) to instance of (ts018_scl_prim:nmos_18:spectre).
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:nmos_18:symbol) to instance of (ts018_scl_prim:nmos_18:spectre).
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:nmos_18:symbol) to instance of (ts018_scl_prim:nmos_18:spectre).
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:pmos_18:symbol) to instance of (ts018_scl_prim:pmos_18:spectre).
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:pmos_18:symbol) to instance of (ts018_scl_prim:pmos_18:spectre).
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:pmos_18:symbol) to instance of (ts018_scl_prim:pmos_18:spectre).
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:pmos_18:symbol) to instance of (ts018_scl_prim:pmos_18:spectre).
+WARNING: [FDI3037] Copying properties from schematic instance of (ts018_scl_prim:pmos_18:symbol) to instance of (ts018_scl_prim:pmos_18:spectre).
+INFO: Back annotation is completed.
+Calibre View generation completed with 13 WARNINGs and 0 ERRORs.
+Please consult the CIW transcript for messages.

@@ -1,0 +1,32 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx8664.24.09.d
+-RUNMODE
+../testbench/tb_sliding_4x4_post_synthesis_wrapper_3.v
+-VFILE
+../2_Synthesis_wrapper_7_wrapper_6M1L_2/top_streamed_wrapper_chip_netlist.v
+-VFILE
+../testbench/ss_verilog.v
+-VFILE
+../testbench/ss_verilog_udp.v
+-VFILE
+/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1IL/verilog/vcs_sim_model/tsl18fs120_scl.v
+-VFILE
+/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3c01.v
+-VFILE
+/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3d01.v
+-VFILE
+/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3o01.v
+-CDSLIB
+./xcelium.d/run.lnx8664.24.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.24.09.d/hdlrun.var
+-no_analogsolver
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./xcelium.d/run.lnx8664.24.09.d/xllibs
+-ALLOWUNBOUND

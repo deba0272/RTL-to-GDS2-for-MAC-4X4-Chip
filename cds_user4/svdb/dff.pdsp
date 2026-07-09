@@ -1,0 +1,74 @@
+* Calibre pushdown separate-properties (back-annotation) data
+***************************************
+*
+* These lvs-actionable properties, indexed by DEVICE element(model) will be kept in the netlist:
+*
+* KEEP_PROP_BEGIN
+* KEEP_PROP C(CH) w l
+* KEEP_PROP C(CH3) w l
+* KEEP_PROP C(ch53t) w l
+* KEEP_PROP C(CL) w l
+* KEEP_PROP C(CL3) w l
+* KEEP_PROP C(CM32T) l nf
+* KEEP_PROP C(CM33T) l nf
+* KEEP_PROP C(CM42T) l nf
+* KEEP_PROP C(CM43T) l nf
+* KEEP_PROP C(CM5) l nf
+* KEEP_PROP C(CM53) l nf
+* KEEP_PROP C(usgcm32t) l nf
+* KEEP_PROP C(usgcm33t) l nf
+* KEEP_PROP C(usgcm42t) l nf
+* KEEP_PROP C(usgcm43t) l nf
+* KEEP_PROP C(usgcm52t) l nf
+* KEEP_PROP C(usgcm53t) l nf
+* KEEP_PROP D(DN) a p
+* KEEP_PROP D(dn50) a p
+* KEEP_PROP D(dnpwcpl18) a p
+* KEEP_PROP D(dnpwcpl5) a p
+* KEEP_PROP D(DP) a p
+* KEEP_PROP D(dp50) a p
+* KEEP_PROP D(dpnwcpl18) a p
+* KEEP_PROP D(dpnwcpl5) a p
+* KEEP_PROP D(N3) a p
+* KEEP_PROP D(NS) a p
+* KEEP_PROP D(nwldio_nc) a p
+* KEEP_PROP D(P3) a p
+* KEEP_PROP D(PS) a p
+* KEEP_PROP MN(N) w l rf_flag
+* KEEP_PROP MN(n18hvt) w l rf_flag
+* KEEP_PROP MN(n18hvt_iso) w l
+* KEEP_PROP MN(n18lvt) w l rf_flag
+* KEEP_PROP MN(n18lvt_iso) w l
+* KEEP_PROP MN(n18pcesd) w l
+* KEEP_PROP MN(N5) w l rf_flag
+* KEEP_PROP MN(n59pcesd) w l
+* KEEP_PROP MN(N5_ISO) w l
+* KEEP_PROP MN(n5pcesd) w l
+* KEEP_PROP MN(N_ISO) w l
+* KEEP_PROP MN(NA) w l
+* KEEP_PROP MN(NB) w l
+* KEEP_PROP MN(NB5) w l
+* KEEP_PROP MN(NH) w l rf_flag
+* KEEP_PROP MN(NH_ISO) w l
+* KEEP_PROP MP(P) w l rf_flag
+* KEEP_PROP MP(p18hvt) w l rf_flag
+* KEEP_PROP MP(p18lvt) w l rf_flag
+* KEEP_PROP MP(P33MVT) w l
+* KEEP_PROP MP(P5) w l rf_flag
+* KEEP_PROP MP(PH) w l rf_flag
+* KEEP_PROP Q(VD) M
+* KEEP_PROP Q(VD10) M
+* KEEP_PROP Q(VD5) M
+* KEEP_PROP Q(VDN5) M
+* KEEP_PROP Q(VH) M
+* KEEP_PROP Q(VH10) M
+* KEEP_PROP Q(VH5) M
+* KEEP_PROP Q(VNPN18_S) a p
+* KEEP_PROP Q(VPNP18_S) a p
+* KEEP_PROP Q(VPNP33_S) a p
+* KEEP_PROP_END
+*
+.SUBCKT dff
+* nothing transcripted
+.ENDS
+***************************************

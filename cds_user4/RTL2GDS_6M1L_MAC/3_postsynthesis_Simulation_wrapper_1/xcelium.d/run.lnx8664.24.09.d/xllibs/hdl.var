@@ -1,0 +1,8 @@
+define LIB_MAP ( $LIB_MAP \
+, ../../../../../../../../../../../../tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3o01.v => pc3o01 \
+, ../../../../../../../../../../../../tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3d01.v => pc3d01 \
+, ../../../../../../../../../../../../tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3c01.v => pc3c01 \
+, ../../../../testbench/ss_verilog_udp.v => ss_verilog_udp \
+, ../../../../testbench/ss_verilog.v => ss_verilog \
+, ../../../../2_Synthesis_wrapper_7_wrapper_6M1L_2/top_streamed_wrapper_chip_netlist.v => top_streamed_wrapper_chip_netlist \
+)

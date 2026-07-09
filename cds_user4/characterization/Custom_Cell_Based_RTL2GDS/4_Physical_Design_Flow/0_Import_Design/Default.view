@@ -1,0 +1,25 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+
+create_library_set -name max_timing -timing {./SVNIT_SCL180_tt_ccs.lib }
+create_library_set -name min_timing -timing {./SVNIT_SCL180_tt_ccs.lib }
+
+create_rc_corner -name rc_worst -T 125 -cap_table {/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/digital_pnr_kit/snps/non_rh/6M1L/6M/generated_captable_6M}
+create_rc_corner -name rc_best -T -40 -cap_table {/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/digital_pnr_kit/snps/non_rh/6M1L/6M/generated_captable_6M}
+
+create_constraint_mode -name all -sdc_files muxdelay_const.sdc
+
+create_delay_corner -name max_delay -rc_corner {rc_worst} -early_library_set {min_timing} -late_library_set  {max_timing} -early_opcond_library {PVT_1P8V_25C} -late_opcond_library {PVT_1P8V_25C} -early_opcond {op_cond_best} -late_opcond {op_cond_worst}
+create_delay_corner -name min_delay -rc_corner {rc_best} -early_library_set {min_timing} -late_library_set  {max_timing} -early_opcond_library {PVT_1P8V_25C} -late_opcond_library {PVT_1P8V_25C} -early_opcond {op_cond_best} -late_opcond {op_cond_worst}
+
+create_analysis_view -name worst -constraint_mode {all} -delay_corner {max_delay}
+create_analysis_view -name best -constraint_mode {all} -delay_corner {min_delay}
+
+set_analysis_view -setup {worst} -hold {best}
+
+#create_constraint_mode -name CONST -sdc_files muxdelay_const.sdc
+#create_delay_corner -name MAXDELAY -library_set {FAST} -rc_corner {RC}
+#create_delay_corner -name MINDELAY -library_set {SLOW} -rc_corner {RC}
+#create_analysis_view -name WORST -constraint_mode {CONST} -delay_corner {MAXDELAY}
+#create_analysis_view -name BEST -constraint_mode {CONST} -delay_corner {MINDELAY}
+#set_analysis_view -setup {WORST} -hold {BEST}

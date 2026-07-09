@@ -1,0 +1,723 @@
+$date
+    Jun 22, 2026  15:13:58
+$end
+$version
+    TOOL:	xmsim(64)	24.09-s005
+$end
+$timescale
+    1 ps
+$end
+
+$scope module tb_mac_4x4_wrapper_chip $end
+$var reg       1 !    clk $end
+$var reg       1 "    rst $end
+$var reg       1 #    enable $end
+$var reg       4 $    a [3:0] $end
+$var reg       4 %    b [3:0] $end
+$var wire      1 &    mac_out [15] $end
+$var wire      1 '    mac_out [14] $end
+$var wire      1 (    mac_out [13] $end
+$var wire      1 )    mac_out [12] $end
+$var wire      1 *    mac_out [11] $end
+$var wire      1 +    mac_out [10] $end
+$var wire      1 ,    mac_out [9] $end
+$var wire      1 -    mac_out [8] $end
+$var wire      1 .    mac_out [7] $end
+$var wire      1 /    mac_out [6] $end
+$var wire      1 0    mac_out [5] $end
+$var wire      1 1    mac_out [4] $end
+$var wire      1 2    mac_out [3] $end
+$var wire      1 3    mac_out [2] $end
+$var wire      1 4    mac_out [1] $end
+$var wire      1 5    mac_out [0] $end
+
+$scope module dut $end
+$var wire      1 6    clk  $end
+$var wire      1 7    rst  $end
+$var wire      1 8    enable  $end
+$var wire      1 9    a [3] $end
+$var wire      1 :    a [2] $end
+$var wire      1 ;    a [1] $end
+$var wire      1 <    a [0] $end
+$var wire      1 =    b [3] $end
+$var wire      1 >    b [2] $end
+$var wire      1 ?    b [1] $end
+$var wire      1 @    b [0] $end
+$var wire      1 &    mac_out [15] $end
+$var wire      1 '    mac_out [14] $end
+$var wire      1 (    mac_out [13] $end
+$var wire      1 )    mac_out [12] $end
+$var wire      1 *    mac_out [11] $end
+$var wire      1 +    mac_out [10] $end
+$var wire      1 ,    mac_out [9] $end
+$var wire      1 -    mac_out [8] $end
+$var wire      1 .    mac_out [7] $end
+$var wire      1 /    mac_out [6] $end
+$var wire      1 0    mac_out [5] $end
+$var wire      1 1    mac_out [4] $end
+$var wire      1 2    mac_out [3] $end
+$var wire      1 3    mac_out [2] $end
+$var wire      1 4    mac_out [1] $end
+$var wire      1 5    mac_out [0] $end
+$var wire      1 A    clk_pad  $end
+$var wire      1 B    clk_buf  $end
+$var wire      1 C    rst_pad  $end
+$var wire      1 D    enable_pad  $end
+$var wire      1 E    a_pad [3] $end
+$var wire      1 F    a_pad [2] $end
+$var wire      1 G    a_pad [1] $end
+$var wire      1 H    a_pad [0] $end
+$var wire      1 I    b_pad [3] $end
+$var wire      1 J    b_pad [2] $end
+$var wire      1 K    b_pad [1] $end
+$var wire      1 L    b_pad [0] $end
+$var wire      1 M    mac_out_pad [15] $end
+$var wire      1 N    mac_out_pad [14] $end
+$var wire      1 O    mac_out_pad [13] $end
+$var wire      1 P    mac_out_pad [12] $end
+$var wire      1 Q    mac_out_pad [11] $end
+$var wire      1 R    mac_out_pad [10] $end
+$var wire      1 S    mac_out_pad [9] $end
+$var wire      1 T    mac_out_pad [8] $end
+$var wire      1 U    mac_out_pad [7] $end
+$var wire      1 V    mac_out_pad [6] $end
+$var wire      1 W    mac_out_pad [5] $end
+$var wire      1 X    mac_out_pad [4] $end
+$var wire      1 Y    mac_out_pad [3] $end
+$var wire      1 Z    mac_out_pad [2] $end
+$var wire      1 [    mac_out_pad [1] $end
+$var wire      1 \    mac_out_pad [0] $end
+
+$scope module dut $end
+$var wire      1 B    clk  $end
+$var wire      1 C    rst  $end
+$var wire      1 D    enable  $end
+$var wire      1 E    a [3] $end
+$var wire      1 F    a [2] $end
+$var wire      1 G    a [1] $end
+$var wire      1 H    a [0] $end
+$var wire      1 I    b [3] $end
+$var wire      1 J    b [2] $end
+$var wire      1 K    b [1] $end
+$var wire      1 L    b [0] $end
+$var reg      16 ]    mac_out [15:0] $end
+$var reg       4 ^    a_reg [3:0] $end
+$var reg       4 _    b_reg [3:0] $end
+$var reg       1 `    enable_s1 $end
+$var wire      8 a    mult_wire [7:0] $end
+$var reg       8 b    mult_reg [7:0] $end
+$var reg       1 c    enable_s2 $end
+$var wire     16 d    mult_ext [15:0] $end
+$var reg      16 e    acc_reg [15:0] $end
+$upscope $end
+
+
+$scope module pc3d01_clk $end
+$var wire      1 A    CIN  $end
+$var wire      1 6    PAD  $end
+$upscope $end
+
+
+$scope module pc3c01_clk_buf $end
+$var wire      1 B    CP  $end
+$var wire      1 A    CCLK  $end
+$upscope $end
+
+
+$scope module pc3d01_rst $end
+$var wire      1 C    CIN  $end
+$var wire      1 7    PAD  $end
+$upscope $end
+
+
+$scope module pc3d01_enable $end
+$var wire      1 D    CIN  $end
+$var wire      1 8    PAD  $end
+$upscope $end
+
+
+$scope module pc3d01_a0 $end
+$var wire      1 H    CIN  $end
+$var wire      1 <    PAD  $end
+$upscope $end
+
+
+$scope module pc3d01_a1 $end
+$var wire      1 G    CIN  $end
+$var wire      1 ;    PAD  $end
+$upscope $end
+
+
+$scope module pc3d01_a2 $end
+$var wire      1 F    CIN  $end
+$var wire      1 :    PAD  $end
+$upscope $end
+
+
+$scope module pc3d01_a3 $end
+$var wire      1 E    CIN  $end
+$var wire      1 9    PAD  $end
+$upscope $end
+
+
+$scope module pc3d01_b0 $end
+$var wire      1 L    CIN  $end
+$var wire      1 @    PAD  $end
+$upscope $end
+
+
+$scope module pc3d01_b1 $end
+$var wire      1 K    CIN  $end
+$var wire      1 ?    PAD  $end
+$upscope $end
+
+
+$scope module pc3d01_b2 $end
+$var wire      1 J    CIN  $end
+$var wire      1 >    PAD  $end
+$upscope $end
+
+
+$scope module pc3d01_b3 $end
+$var wire      1 I    CIN  $end
+$var wire      1 =    PAD  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out0 $end
+$var wire      1 5    PAD  $end
+$var wire      1 \    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out1 $end
+$var wire      1 4    PAD  $end
+$var wire      1 [    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out2 $end
+$var wire      1 3    PAD  $end
+$var wire      1 Z    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out3 $end
+$var wire      1 2    PAD  $end
+$var wire      1 Y    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out4 $end
+$var wire      1 1    PAD  $end
+$var wire      1 X    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out5 $end
+$var wire      1 0    PAD  $end
+$var wire      1 W    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out6 $end
+$var wire      1 /    PAD  $end
+$var wire      1 V    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out7 $end
+$var wire      1 .    PAD  $end
+$var wire      1 U    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out8 $end
+$var wire      1 -    PAD  $end
+$var wire      1 T    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out9 $end
+$var wire      1 ,    PAD  $end
+$var wire      1 S    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out10 $end
+$var wire      1 +    PAD  $end
+$var wire      1 R    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out11 $end
+$var wire      1 *    PAD  $end
+$var wire      1 Q    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out12 $end
+$var wire      1 )    PAD  $end
+$var wire      1 P    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out13 $end
+$var wire      1 (    PAD  $end
+$var wire      1 O    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out14 $end
+$var wire      1 '    PAD  $end
+$var wire      1 N    I  $end
+$upscope $end
+
+
+$scope module pc3o01_mac_out15 $end
+$var wire      1 &    PAD  $end
+$var wire      1 M    I  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+1"
+0#
+b0 $
+b0 %
+x&
+x'
+x(
+x)
+x*
+x+
+x,
+x-
+x.
+x/
+x0
+x1
+x2
+x3
+x4
+x5
+06
+17
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+1C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+xM
+xN
+xO
+xP
+xQ
+xR
+xS
+xT
+xU
+xV
+xW
+xX
+xY
+xZ
+x[
+x\
+bx ]
+bx ^
+bx _
+x`
+bx a
+bx b
+xc
+bx d
+bx e
+$end
+#5000
+1!
+16
+1A
+1B
+b0 ]
+b0 e
+b0 b
+0c
+b0 ^
+b0 _
+0`
+b0 a
+b0 d
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+#10000
+0!
+06
+0A
+0B
+#15000
+1!
+16
+1A
+1B
+#20000
+0!
+06
+0A
+0B
+#25000
+1!
+16
+1A
+1B
+#30000
+0"
+0!
+06
+07
+0C
+0A
+0B
+#35000
+1!
+1#
+b11 $
+b10 %
+1?
+1;
+1<
+18
+16
+1A
+1D
+1H
+1G
+1K
+1B
+b11 ^
+b10 _
+1`
+b110 a
+#40000
+0!
+06
+0A
+0B
+#45000
+1!
+b100 $
+b101 %
+1>
+0?
+1@
+1:
+0;
+0<
+16
+1A
+0H
+0G
+1F
+1L
+0K
+1J
+1B
+b110 b
+1c
+b100 ^
+b101 _
+b10100 a
+b110 d
+#50000
+0!
+06
+0A
+0B
+#55000
+1!
+b1110 $
+b11 %
+0>
+1?
+19
+1;
+16
+1A
+1G
+1E
+1K
+0J
+1B
+b110 ]
+b110 e
+b10100 b
+b1110 ^
+b11 _
+b11111010 a
+b10100 d
+1Z
+1[
+14
+13
+#60000
+0!
+06
+0A
+0B
+#65000
+1!
+b1100 $
+b1110 %
+1=
+1>
+0@
+0;
+16
+1A
+0G
+0L
+1J
+1I
+1B
+b11010 ]
+b11010 e
+b11111010 b
+b1100 ^
+b1110 _
+b1000 a
+b1111111111111010 d
+1X
+1Y
+0Z
+03
+12
+11
+#70000
+0!
+06
+0A
+0B
+#75000
+1!
+b111 $
+b1111 %
+1@
+09
+1;
+1<
+16
+1A
+1H
+1G
+0E
+1L
+1B
+b10100 ]
+b10100 e
+b1000 b
+b111 ^
+b1111 _
+b11111001 a
+b1000 d
+0Y
+1Z
+0[
+04
+13
+02
+#80000
+0!
+06
+0A
+0B
+#85000
+1!
+0#
+b0 $
+b0 %
+0=
+0>
+0?
+0@
+0:
+0;
+0<
+08
+16
+1A
+0D
+0H
+0G
+0F
+0L
+0K
+0J
+0I
+1B
+b11100 ]
+b11100 e
+b11111001 b
+b0 ^
+b0 _
+0`
+b0 a
+b1111111111111001 d
+1Y
+12
+#90000
+0!
+06
+0A
+0B
+#95000
+1!
+16
+1A
+1B
+b10101 ]
+b10101 e
+b0 b
+0c
+b0 d
+0Y
+1\
+15
+02
+#100000
+0!
+06
+0A
+0B
+#105000
+1!
+16
+1A
+1B
+#110000
+0!
+06
+0A
+0B
+#115000
+1!
+16
+1A
+1B
+#120000
+0!
+06
+0A
+0B
+#125000
+1!
+16
+1A
+1B
+#130000
+0!
+06
+0A
+0B
+#135000
+1!
+16
+1A
+1B
+#140000
+0!
+06
+0A
+0B
+#145000
+1!
+16
+1A
+1B
+#150000
+0!
+06
+0A
+0B
+#155000
+1!
+16
+1A
+1B
+#160000
+0!
+06
+0A
+0B
+#165000
+1!
+16
+1A
+1B
+#170000
+0!
+06
+0A
+0B
+#175000
+1!
+16
+1A
+1B
+#180000
+0!
+06
+0A
+0B
+#185000
+1!

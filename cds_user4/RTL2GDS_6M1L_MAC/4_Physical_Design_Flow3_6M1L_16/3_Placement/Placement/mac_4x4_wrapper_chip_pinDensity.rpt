@@ -1,0 +1,6 @@
+*** Starting report pin density ***
+default core: bins with pin density >   0.5 =    0 % (0 / 100)
+bin size: 200 sites by 20 row(s). total 100 bins ( 10 by 10 )
+  pin density range     #bins    %
+  total                     0      0
+

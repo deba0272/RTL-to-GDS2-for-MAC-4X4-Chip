@@ -1,0 +1,49 @@
+EDA links for coverage
+===================================================================================
+Sample code:
+
+https://www.edaplayground.com/x/q4mf
+
+Note: This link will help you to learn coverage session codes. You need to paste code in testbench.sv file only. There is no need to create run.do file each time.
+===================================================================================
+8 X 1 Mux coverage: 
+
+https://www.edaplayground.com/x/7qTN
+===================================================================================
+Priority Encoder coverage: 
+
+https://www.edaplayground.com/x/8NEk
+===================================================================================
+FIFO Coverage: 
+
+https://www.edaplayground.com/x/prAN
+===================================================================================
+Counter TB with coverage:
+
+https://www.edaplayground.com/x/TKZh
+
+====================================================================================
+RAM TB with coverage:
+
+https://www.edaplayground.com/x/DPge
+
+with reset...
++reset=reset  +testname=ei_RAM_sequential_write_read  +verbosity=LOW
+
+without reset...
+	      	+testname=ei_RAM_sequential_write_read  +verbosity=LOW
+		+testname=ei_RAM_sequential_read_write  +verbosity=LOW
+		+testname=ei_RAM_parallel_read_write    +verbosity=LOW
+		+testname=ei_RAM_in_range  		+verbosity=LOW
+			      
+====================================================================================
+FIFO TB with coverage:
+
+https://www.edaplayground.com/x/dszE
+
++testcase=seq_write_read +verbosity=LOW
++testcase=only_write 	 +verbosity=LOW
++testcase=par_write_read +verbosity=LOW
+
+====================================================================================
+

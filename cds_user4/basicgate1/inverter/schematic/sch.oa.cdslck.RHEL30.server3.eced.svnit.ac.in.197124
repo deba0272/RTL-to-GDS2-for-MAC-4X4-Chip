@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      iep4
+HostName                       server3.eced.svnit.ac.in
+ProcessIdentifier              197124
+ProcessCreationTime_UTC        1782276361
+ProcessCreationTime_Readable   Wed Jun 24 10:16:01 2026 IST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/iep4/projects/user4/work_libs/iep4/cds/basicgate1/inverter/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Wed Jun 24 11:13:57 2026 IST

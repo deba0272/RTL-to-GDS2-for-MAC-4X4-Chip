@@ -1,0 +1,44 @@
+//
+//  Rule file generated on Thu Jun 25 12:40:42 2026
+//  by Calibre Interactive v2022.4_37.20    Fri Dec 2 17:43:16 PST 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+
+// +++ CUSTOMIZATION SETTINGS START +++
+
+#define "LVS_TECH" ts18scl
+#define "6M1L" 
+#define "ANALOG_TYPE" NO
+#define "PORT_NAMES" YES
+#define "SET_TOL" NO
+
+// +++ CUSTOMIZATION SETTINGS END +++
+
+
+LAYOUT PATH "invpad1.gds"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "invpad1"
+
+SOURCE PATH "/home/iep4/projects/user4/work_libs/iep4/cds/invpad1.cdl"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "invpad1"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "invpad1.lvs.report"
+
+LVS REPORT OPTION A B C D FX G S V
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "invpad1.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+ERC SUMMARY REPORT "invpad1.erc.summary"
+
+DRC ICSTATION YES
+
+INCLUDE "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/techs/ts18scl/calibre/default_scr/headers/LVS.header"

@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"basic_gates\" \"inverter_tb\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Jun 24 11:24:54 2026"
+"title" ""
+"analysisList" "()"
+END

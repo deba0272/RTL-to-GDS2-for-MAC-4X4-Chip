@@ -1,0 +1,71 @@
+global coverage_group 0 tb::cvr_a __coverage_cvr_a unused_cvr_a_loop_label tb 0 1 0 0 0  ( 0 
+)
+ 1 1
+ 0 94 /home/iep4/projects/user4/work_libs/iep4/cds/14_Coverage_VCS/codes/1_CovergroupWithoutEvent.sv
+ 26 0 0 0 0 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+2
+0
+0
+0
+ 1 a 28 0 0 0 0 0 18 cvr_a::tb_cvr_a_fn 18 cvr_a::tb_cvr_a_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 2 0 0 0 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 b 30 0 0 0 0 0 20 cvr_a::tb_cvr_a_fn_0 20 cvr_a::tb_cvr_a_fn_0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 2 0 0 0 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

@@ -1,0 +1,31 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  LogicCells
+* Top Cell Name: nor2
+* View Name:     schematic
+* Netlisted on:  Jun 24 15:42:12 2026
+************************************************************************
+
+.INCLUDE  /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/cdlNetlist.header
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: LogicCells
+* Cell Name:    nor2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nor2 A B GND VDD Y
+*.PININFO A:I B:I Y:O GND:B VDD:B
+MM1 Y B GND GND N W=0.22 L=0.18 m=1.0
+MM0 Y A GND GND N W=0.22 L=0.18 m=1.0
+MM3 Y B net1 VDD P W=3.76 L=0.18 m=1.0
+MM2 net1 A VDD VDD P W=3.76 L=0.18 m=1.0
+.ENDS
+

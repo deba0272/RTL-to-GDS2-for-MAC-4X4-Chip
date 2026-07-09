@@ -1,0 +1,4 @@
+inverter	18.816
+nand2x1		21.952
+nor2		32.928
+dff		47.04

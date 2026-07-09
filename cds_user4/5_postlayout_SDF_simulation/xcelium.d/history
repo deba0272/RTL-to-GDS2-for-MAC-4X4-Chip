@@ -1,0 +1,10 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(22Jun2026:18:53:29):( xrun -f fun_simulation.tcl )&&(./xcelium.d/env.d/env.history.22Jun2026_18_53_29)
+s2::(22Jun2026:18:55:18):( xrun -f fun_simulation.tcl )&&(./xcelium.d/env.d/env.history.22Jun2026_18_55_18)
+s3::(22Jun2026:20:16:14):( xrun fun_simulation.tcl )&&(./xcelium.d/env.d/env.history.22Jun2026_20_16_14)
+s4::(22Jun2026:20:16:21):( xrun -f fun_simulation.tcl )&&(./xcelium.d/env.d/env.history.22Jun2026_20_16_21)
+s5::(22Jun2026:20:35:55):( xrun -f fun_simulation.tcl )&&(./xcelium.d/env.d/env.history.22Jun2026_20_35_55)
+s6::(22Jun2026:20:38:54):( xrun -f fun_simulation.tcl )&&(./xcelium.d/env.d/env.history.22Jun2026_20_38_54)

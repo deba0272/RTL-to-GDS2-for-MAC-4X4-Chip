@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1782295578 1782295579
+lvs_ExtOutFile RUNDIR /home/iep4/projects/user4/work_libs/iep4/cds
+lvs_ExtOutFile RULES_FILE _PEX.header_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/inverter.sp
+lvs_ExtOutFile EXTRACTION_REPORT inverter.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/inverter.pdsp }

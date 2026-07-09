@@ -1,0 +1,14 @@
+CADENCE IHNL11140
+$model
+basicgate1/inverter/schematic inverter
+basicgate1/inverter_tb/schematic inverter_tb
+basic_gates/inverter_tb/schematic inverter_tb_schematic
+basic_gates/inverter/calibre inverter_calibre
+basic_gates/inverter/schematic inverter_schematic
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam

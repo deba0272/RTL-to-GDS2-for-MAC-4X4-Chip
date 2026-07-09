@@ -1,0 +1,296 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 11/15/2022 19:27 (cpgbld01) $
+          : sub-version  IC6.1.8-64b.500.29 
+Started at: 25-Jun-2026  12:40:41
+User Name : iep4
+Host Name : server3.eced.svnit.ac.in
+Directory : /home/iep4/projects/user4/work_libs/iep4/cds
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+cio150pads/subil_ppgatebotringpower/layout                      43       0       6        195    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pdiodepower/layout                             387      0       6        38     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngate2buff_ESD1/layout                        2        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngatebuffsing_503/layout                      0        0       3        550    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pad/layout     2        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_m_via/layout   0        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngatebuff_ESD/layout                          0        0       4        555    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pv0acon_ESD/layout                             3462     0       0        245    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pnesd3d00/layout                               0        0       1        48     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_powermetal/layout                              21738    0       0        33     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_midconer2/layout                               0        0       51       474    0      0         0      0             0      0     0     0       0       
+cio150pads/pv0a/layout          9        0       0        2      0      0         65     0             0      0     0     0       0       
+cio150pads/subil_ppgate2buff/layout                             2        0       0        0      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_powermetalring/layout                          7085     0       3        105    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pnbuff_ESD122/layout                           8        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_preside/layout 298      0       0        15     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgateringpower/layout                         0        0       3        381    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_powermetalring_ESD/layout                      6885     0       3        105    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_psegment/layout                                3285     0       0        1101   0      0         0      0             0      0     0     0       0       
+cio150pads/subil_powermetalring_ESD1/layout                     7085     0       4        104    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppbuffpower_0di_ESD22/layout                   8        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngate2buffsing/layout                         2        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgatebotring/layout                           47       0       4        177    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_p3d00bulkcon/layout                            12       0       0        11     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngate2buff_ESD/layout                         2        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_m_via_546/layout                               0        0       0        2      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngatering_ESD22/layout                        0        0       7        147    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_iorulepower/layout                             0        0       0        4      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_powermetalring_ESD2/layout                     7161     0       4        105    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_powerbasevsso_ESD/layout                       195      0       0        7      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppbuff3d00_ESD/layout                          248      0       0        0      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pobuffcon/layout                               510      0       0        7      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pvblockcell/layout                             0        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_via1array/layout                               3570     0       0        2      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_powerbasevsso/layout                           203      0       0        7      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_m_cc/layout    0        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngatering22/layout                            0        0       7        154    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pnbuff_ESD/layout                              8        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgatering/layout                              2        0       5        298    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgate2buffpower/layout                        2        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_padmetal/layout                                146      0       0        10     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppolyres/layout                                28       0       0        7      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_powerbase_ESD2/layout                          152      0       0        3      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgateringpower_0di/layout                     0        0       3        380    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_m_via3/layout  0        0       0        2      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgatebuffpower_0di_ESD22/layout               0        0       2        183    0      0         0      0             0      0     0     0       0       
+cio150pads/pvdi/layout          9        0       0        4      0      0         70     0             0      0     0     0       0       
+ts018_scl_prim/M3_M2/layout     0        0       0        7      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pvdicon_ESD/layout                             2613     0       2        138    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_powerbaseconvsso_ESD/layout                    37       0       3        42     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pcappower/layout                               175      0       0        7      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pv0icon_ESD/layout                             2633     0       5        171    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_m_via4/layout  0        0       0        2      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngatebuff_ESD22/layout                        0        0       4        431    0      0         0      0             0      0     0     0       0       
+ts018_scl_prim/M2_M1/layout     0        0       0        7      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_nwellres/layout                                4        0       0        9      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgate2bufftop/layout                          0        0       5        425    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pvdacon_ESD/layout                             4233     0       0        136    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_4via_ESD/layout                                45       0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_powerbasecon_ESD/layout                        38       0       4        39     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_presistorpower/layout                          4        0       0        9      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgate2buffpower_0di_ESD22/layout              2        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngatebuff_ESD1/layout                         0        0       4        564    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngatering/layout                              0        0       7        155    0      0         0      0             0      0     0     0       0       
+invpad/invpad1/layout           44       0       0        0      0      0         4      0             0      0     0     0       0       
+cio150pads/subil_powerbase_ESD1/layout                          99       0       0        2      0      0         0      0             0      0     0     0       0       
+cio150pads/pfeed30000/layout    0        0       4        509    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_m_via2/layout  0        0       0        2      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgatebuff/layout                              0        0       4        308    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pnbuff_ESD22/layout                            8        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngatebuff_ESD122/layout                       0        0       4        563    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgatebuffpower/layout                         0        0       2        184    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_powerbase_1/layout                             1511     0       4        11     0      0         0      0             0      0     0     0       0       
+cio150pads/pv0i/layout          9        0       0        3      0      0         70     0             0      0     0     0       0       
+cio150pads/subil_ppwellbias3d00/layout                          47       0       3        9      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pc3d00con_ESD/layout                           215      0       5        35     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgate2buffend3d00_ESD/layout                  106      0       5        327    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_nwellres1000/layout                            4        0       0        9      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngate2buff_ESD122/layout                      2        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_via2array/layout                               2312     0       0        2      0      0         0      0             0      0     0     0       0       
+cio150pads/pc3d00/layout        12       0       0        2      0      0         69     0             0      0     0     0       0       
+cio150pads/subil_pngate2buff_ESD22/layout                       2        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppgatebotringpower_0di/layout                  43       0       6        194    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppdrive3d00_ESD/layout                         767      0       9        60     0      0         0      0             0      0     0     0       0       
+cio150pads/pfrelr/layout        2        0       0        1      0      0         56     0             0      0     0     0       0       
+cio150pads/subil_powerbaseconvsso_ESD1/layout                   33       0       4        44     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_iorule/layout  0        0       0        3      0      0         0      0             0      0     0     0       0       
+cio150pads/asubil_pdiodepower/layout                            313      0       1        53     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pnbuff3d00/layout                              8        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/cnwnmos_thn2t$$44657708/layout                       0        0       1        69     0      0         0      0             0      0     0     0       0       
+cio150pads/subil_p3d00block/layout                              34       0       1        8      0      0         0      0             0      0     0     0       0       
+cio150pads/pvda/layout          9        0       0        3      0      0         65     0             0      0     0     0       0       
+cio150pads/subil_cornerarray/layout                             1700     0       0        3      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pngatering_440/layout                          0        0       7        155    0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pnbuff_ESD1/layout                             8        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_pviblockcell/layout                            0        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_m_via2_545/layout                              0        0       0        2      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_ppbuffpower/layout                             8        0       0        1      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_m_via5/layout  0        0       0        2      0      0         0      0             0      0     0     0       0       
+cio150pads/subil_dio2/layout    341      0       0        1      0      0         0      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+cio150pads/subil_ppgatebotringpower/layout                      0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pdiodepower/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngate2buff_ESD1/layout                        0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngatebuffsing_503/layout                      0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pad/layout     0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_m_via/layout   0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngatebuff_ESD/layout                          0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pv0acon_ESD/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pnesd3d00/layout                               0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powermetal/layout                              0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_midconer2/layout                               0        0          0          0          0          0     0        0         0         0        
+cio150pads/pv0a/layout          0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgate2buff/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powermetalring/layout                          0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pnbuff_ESD122/layout                           0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_preside/layout 0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgateringpower/layout                         0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powermetalring_ESD/layout                      0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_psegment/layout                                0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powermetalring_ESD1/layout                     0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppbuffpower_0di_ESD22/layout                   0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngate2buffsing/layout                         0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgatebotring/layout                           0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_p3d00bulkcon/layout                            0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngate2buff_ESD/layout                         0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_m_via_546/layout                               0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngatering_ESD22/layout                        0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_iorulepower/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powermetalring_ESD2/layout                     0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powerbasevsso_ESD/layout                       0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppbuff3d00_ESD/layout                          0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pobuffcon/layout                               0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pvblockcell/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_via1array/layout                               0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powerbasevsso/layout                           0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_m_cc/layout    0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngatering22/layout                            0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pnbuff_ESD/layout                              0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgatering/layout                              0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgate2buffpower/layout                        0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_padmetal/layout                                0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppolyres/layout                                0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powerbase_ESD2/layout                          0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgateringpower_0di/layout                     0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_m_via3/layout  0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgatebuffpower_0di_ESD22/layout               0        0          0          0          0          0     0        0         0         0        
+cio150pads/pvdi/layout          0        0          0          0          0          0     0        0         0         0        
+ts018_scl_prim/M3_M2/layout     0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pvdicon_ESD/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powerbaseconvsso_ESD/layout                    0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pcappower/layout                               0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pv0icon_ESD/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_m_via4/layout  0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngatebuff_ESD22/layout                        0        0          0          0          0          0     0        0         0         0        
+ts018_scl_prim/M2_M1/layout     0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_nwellres/layout                                0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgate2bufftop/layout                          0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pvdacon_ESD/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_4via_ESD/layout                                0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powerbasecon_ESD/layout                        0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_presistorpower/layout                          0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgate2buffpower_0di_ESD22/layout              0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngatebuff_ESD1/layout                         0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngatering/layout                              0        0          0          0          0          0     0        0         0         0        
+invpad/invpad1/layout           0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powerbase_ESD1/layout                          0        0          0          0          0          0     0        0         0         0        
+cio150pads/pfeed30000/layout    0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_m_via2/layout  0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgatebuff/layout                              0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pnbuff_ESD22/layout                            0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngatebuff_ESD122/layout                       0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgatebuffpower/layout                         0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powerbase_1/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/pv0i/layout          0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppwellbias3d00/layout                          0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pc3d00con_ESD/layout                           0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgate2buffend3d00_ESD/layout                  0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_nwellres1000/layout                            0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngate2buff_ESD122/layout                      0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_via2array/layout                               0        0          0          0          0          0     0        0         0         0        
+cio150pads/pc3d00/layout        0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngate2buff_ESD22/layout                       0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppgatebotringpower_0di/layout                  0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppdrive3d00_ESD/layout                         0        0          0          0          0          0     0        0         4         0        
+cio150pads/pfrelr/layout        0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_powerbaseconvsso_ESD1/layout                   0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_iorule/layout  0        0          0          0          0          0     0        0         0         0        
+cio150pads/asubil_pdiodepower/layout                            0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pnbuff3d00/layout                              0        0          0          0          0          0     0        0         0         0        
+cio150pads/cnwnmos_thn2t$$44657708/layout                       0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_p3d00block/layout                              0        0          0          0          0          0     0        0         0         0        
+cio150pads/pvda/layout          0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_cornerarray/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pngatering_440/layout                          0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pnbuff_ESD1/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_pviblockcell/layout                            0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_m_via2_545/layout                              0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_ppbuffpower/layout                             0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_m_via5/layout  0        0          0          0          0          0     0        0         0         0        
+cio150pads/subil_dio2/layout    0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+DEV_AREA        esd             77      50        0        4        0        0        0             0    0   0   0     0      0      
+WN              drawing         3       0         7        39       0        0        0             0    0   0   0     0      0      
+TOP_M           drawing         50      0         7        46       0        0        0             0    0   0   0     0      0      
+V3              drawing         43      0         0        2051     0        0        0             0    0   0   0     0      0      
+V4              drawing         45      0         0        1        0        0        0             0    0   0   0     0      0      
+DEV_AREA        cvs             77      58        0        1        0        0        0             0    0   0   0     0      0      
+M5              label           48      7         0        0        0        86       0             0    0   0   0     0      0      
+ACTIVE          drawing         9       0         27       135      0        0        0             0    0   0   0     0      0      
+ACTIVE          dummy           9       8         0        1        0        0        0             0    0   0   0     0      0      
+M4              label           46      7         0        0        0        86       0             0    0   0   0     0      0      
+WN              vss             3       51        0        7        0        0        0             0    0   0   0     0      0      
+ACTIVE_noconn   esd             9       50        0        12       0        0        0             0    0   0   0     0      0      
+V5              drawing         47      0         0        1        0        0        0             0    0   0   0     0      0      
+XN              drawing         32      0         11       56       0        0        0             0    0   0   0     0      0      
+M3              label           44      7         0        0        0        80       0             0    0   0   0     0      0      
+DEV_AREA        res             77      42        0        4        0        0        0             0    0   0   0     0      0      
+GC              drawing         8       0         13       6        0        0        0             0    0   0   0     0      0      
+AREA2           drawing         72      0         5        23       0        0        0             0    0   0   0     0      0      
+M4              drawing         46      0         8        53       0        0        0             0    0   0   0     0      0      
+prBoundary      drawing         235     0         0        84       0        0        0             0    0   0   0     0      0      
+TOP_V           drawing         49      0         0        1        0        0        0             0    0   0   0     0      0      
+PAD             drawing         68      0         0        3        0        0        0             0    0   0   0     0      0      
+V2              drawing         41      0         0        2191     0        0        0             0    0   0   0     0      0      
+CS              drawing         34      0         0        4812     0        0        0             0    0   0   0     0      0      
+DEV_AREA        cap             77      43        0        1        0        0        0             0    0   0   0     0      0      
+M3              drawing         44      0         22       114      0        0        0             0    0   0   0     0      0      
+M5              drawing         48      0         12       82       0        0        0             0    0   0   0     0      0      
+NS              drawing         88      0         12       1        0        0        0             0    0   0   0     0      0      
+TOP_M           label           50      7         0        0        0        88       0             0    0   0   0     0      0      
+DEV_AREA        dio             77      44        0        16       0        0        0             0    0   0   0     0      0      
+XP              drawing         31      0         15       59       0        0        0             0    0   0   0     0      0      
+M2              label           42      7         0        0        0        59       0             0    0   0   0     0      0      
+M1              drawing         40      0         39       200      0        0        0             0    0   0   0     0      0      
+GC              dummy           8       8         0        1        0        0        0             0    0   0   0     0      0      
+M2              drawing         42      0         32       182      0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		80017
+	Array Instances:		0
+	Polygons:			210
+	Paths:				0
+	Rectangles:			10187
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			4
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				399
+	TextDisplay:		0
+	Cells:				100
+Design Libraries: 
+
+DEFINE ts018_scl_prim	/home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim
+DEFINE invpad	/home/iep4/projects/user4/work_libs/iep4/cds/invpad
+DEFINE cio150pads	/home/iep4/projects/user4/work_libs/iep4/cds/cio150pads

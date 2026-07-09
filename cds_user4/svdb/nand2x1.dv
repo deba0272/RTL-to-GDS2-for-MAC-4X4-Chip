@@ -1,0 +1,10 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/nand2x1.dv
+dv_start matched                                  
+dv_global
+dv_discrep 1 {Warning: Ignored statement}
+dv_discrep_line {*.MEGA at line 13 in file "nand2x1.cdl" not applied to earlier global-scope .OPTION (or equivalent) statements}
+dv_discrep_line {}
+dv_cell {nand2x1} {nand2x1} matched
+dv_obj_count -transformed_nets {5 5} -transformed_inst {1 1} -transformed_port {5 5}
+dv_end

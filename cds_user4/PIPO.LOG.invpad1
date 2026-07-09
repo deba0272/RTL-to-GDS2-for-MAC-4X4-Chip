@@ -1,0 +1,159 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 11/15/2022 19:27 (cpgbld01) $
+          : sub-version  IC6.1.8-64b.500.29 
+Started at: 25-Jun-2026  12:40:41
+User Name : iep4
+Host Name : server3.eced.svnit.ac.in
+Directory : /home/iep4/projects/user4/work_libs/iep4/cds
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/iep4/projects/user4/work_libs/iep4/cds/invpad1.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.layermap
+INFO (XSTRM-217): Reading the object map file, /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.objectmap
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 invpad
+strmFile                                /home/iep4/projects/user4/work_libs/iep4/cds/invpad1.gds
+topCell                                 invpad1
+view                                    layout
+runDir                                  /home/iep4/projects/user4/work_libs/iep4/cds/
+logFile                                 PIPO.LOG.invpad1
+summaryFile                             PIPO.SUM.invpad1
+layerMap                                /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.layermap
+objectMap                                /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/ts018_scl_prim.objectmap
+case                                    Preserve
+convertDot                              node
+convertPcellPin                         geometry
+
+INFO (XSTRM-223): 1. Translating cellView cio150pads/subil_pviblockcell/layout as STRUCTURE subil_pviblockcell.
+INFO (XSTRM-223): 2. Translating cellView cio150pads/subil_iorulepower/layout as STRUCTURE subil_iorulepower.
+INFO (XSTRM-223): 3. Translating cellView cio150pads/subil_m_via2/layout as STRUCTURE subil_m_via2.
+INFO (XSTRM-223): 4. Translating cellView cio150pads/subil_m_via4/layout as STRUCTURE subil_m_via4.
+INFO (XSTRM-223): 5. Translating cellView cio150pads/subil_m_via3/layout as STRUCTURE subil_m_via3.
+INFO (XSTRM-223): 6. Translating cellView cio150pads/subil_m_via/layout as STRUCTURE subil_m_via.
+INFO (XSTRM-223): 7. Translating cellView cio150pads/subil_m_via5/layout as STRUCTURE subil_m_via5.
+INFO (XSTRM-223): 8. Translating cellView cio150pads/subil_cornerarray/layout as STRUCTURE subil_cornerarray.
+INFO (XSTRM-223): 9. Translating cellView cio150pads/subil_via2array/layout as STRUCTURE subil_via2array.
+INFO (XSTRM-223): 10. Translating cellView cio150pads/subil_via1array/layout as STRUCTURE subil_via1array.
+INFO (XSTRM-223): 11. Translating cellView cio150pads/subil_padmetal/layout as STRUCTURE subil_padmetal.
+INFO (XSTRM-223): 12. Translating cellView cio150pads/subil_psegment/layout as STRUCTURE subil_psegment.
+INFO (XSTRM-223): 13. Translating cellView cio150pads/subil_pad/layout as STRUCTURE subil_pad.
+INFO (XSTRM-223): 14. Translating cellView cio150pads/subil_m_via2_545/layout as STRUCTURE subil_m_via2_545.
+INFO (XSTRM-223): 15. Translating cellView cio150pads/subil_m_via_546/layout as STRUCTURE subil_m_via_546.
+INFO (XSTRM-223): 16. Translating cellView cio150pads/subil_m_cc/layout as STRUCTURE subil_m_cc.
+INFO (XSTRM-223): 17. Translating cellView cio150pads/subil_pdiodepower/layout as STRUCTURE subil_pdiodepower.
+INFO (XSTRM-223): 18. Translating cellView cio150pads/cnwnmos_thn2t$$44657708/layout as STRUCTURE cnwnmos_thn2t$$44657708.
+INFO (XSTRM-223): 19. Translating cellView cio150pads/subil_pcappower/layout as STRUCTURE subil_pcappower.
+INFO (XSTRM-223): 20. Translating cellView cio150pads/subil_powerbase_1/layout as STRUCTURE subil_powerbase_1.
+INFO (XSTRM-223): 21. Translating cellView cio150pads/subil_powerbase_ESD1/layout as STRUCTURE subil_powerbase_ESD1.
+INFO (XSTRM-223): 22. Translating cellView cio150pads/subil_presistorpower/layout as STRUCTURE subil_presistorpower.
+INFO (XSTRM-223): 23. Translating cellView cio150pads/subil_powerbasecon_ESD/layout as STRUCTURE subil_powerbasecon_ESD.
+INFO (XSTRM-223): 24. Translating cellView cio150pads/subil_pvdicon_ESD/layout as STRUCTURE subil_pvdicon_ESD.
+INFO (XSTRM-223): 25. Translating cellView cio150pads/subil_powermetalring_ESD1/layout as STRUCTURE subil_powermetalring_ESD1.
+INFO (XSTRM-223): 26. Translating cellView cio150pads/subil_pngatebuff_ESD122/layout as STRUCTURE subil_pngatebuff_ESD122.
+INFO (XSTRM-223): 27. Translating cellView cio150pads/subil_pngate2buff_ESD122/layout as STRUCTURE subil_pngate2buff_ESD122.
+INFO (XSTRM-223): 28. Translating cellView cio150pads/subil_pngatering22/layout as STRUCTURE subil_pngatering22.
+INFO (XSTRM-223): 29. Translating cellView cio150pads/subil_pnbuff_ESD122/layout as STRUCTURE subil_pnbuff_ESD122.
+INFO (XSTRM-223): 30. Translating cellView cio150pads/subil_ppgateringpower_0di/layout as STRUCTURE subil_ppgateringpower_0di.
+INFO (XSTRM-223): 31. Translating cellView cio150pads/subil_ppgatebotringpower_0di/layout as STRUCTURE subil_ppgatebotringpower_0di.
+INFO (XSTRM-223): 32. Translating cellView cio150pads/subil_ppgatebuffpower_0di_ESD22/layout as STRUCTURE subil_ppgatebuffpower_0di_ESD22.
+INFO (XSTRM-223): 33. Translating cellView cio150pads/subil_ppgate2buffpower_0di_ESD22/layout as STRUCTURE subil_ppgate2buffpower_0di_ESD22.
+INFO (XSTRM-223): 34. Translating cellView cio150pads/subil_ppbuffpower_0di_ESD22/layout as STRUCTURE subil_ppbuffpower_0di_ESD22.
+INFO (XSTRM-223): 35. Translating cellView cio150pads/pvdi/layout as STRUCTURE pvdi.
+INFO (XSTRM-223): 36. Translating cellView cio150pads/subil_pvblockcell/layout as STRUCTURE subil_pvblockcell.
+INFO (XSTRM-223): 37. Translating cellView cio150pads/subil_ppgatebotringpower/layout as STRUCTURE subil_ppgatebotringpower.
+INFO (XSTRM-223): 38. Translating cellView cio150pads/subil_ppgatebuffpower/layout as STRUCTURE subil_ppgatebuffpower.
+INFO (XSTRM-223): 39. Translating cellView cio150pads/subil_ppgate2buffpower/layout as STRUCTURE subil_ppgate2buffpower.
+INFO (XSTRM-223): 40. Translating cellView cio150pads/subil_ppgateringpower/layout as STRUCTURE subil_ppgateringpower.
+INFO (XSTRM-223): 41. Translating cellView cio150pads/subil_ppbuffpower/layout as STRUCTURE subil_ppbuffpower.
+INFO (XSTRM-223): 42. Translating cellView cio150pads/subil_powermetalring/layout as STRUCTURE subil_powermetalring.
+INFO (XSTRM-223): 43. Translating cellView cio150pads/subil_powerbasevsso/layout as STRUCTURE subil_powerbasevsso.
+INFO (XSTRM-223): 44. Translating cellView cio150pads/subil_pngatering/layout as STRUCTURE subil_pngatering.
+INFO (XSTRM-223): 45. Translating cellView cio150pads/subil_pngatebuff_ESD1/layout as STRUCTURE subil_pngatebuff_ESD1.
+INFO (XSTRM-223): 46. Translating cellView cio150pads/subil_pngate2buff_ESD1/layout as STRUCTURE subil_pngate2buff_ESD1.
+INFO (XSTRM-223): 47. Translating cellView cio150pads/subil_pnbuff_ESD1/layout as STRUCTURE subil_pnbuff_ESD1.
+INFO (XSTRM-223): 48. Translating cellView cio150pads/subil_pvdacon_ESD/layout as STRUCTURE subil_pvdacon_ESD.
+INFO (XSTRM-223): 49. Translating cellView cio150pads/pvda/layout as STRUCTURE pvda.
+INFO (XSTRM-223): 50. Translating cellView cio150pads/subil_pngatebuff_ESD/layout as STRUCTURE subil_pngatebuff_ESD.
+INFO (XSTRM-223): 51. Translating cellView cio150pads/subil_pngate2buff_ESD/layout as STRUCTURE subil_pngate2buff_ESD.
+INFO (XSTRM-223): 52. Translating cellView cio150pads/subil_pnbuff_ESD/layout as STRUCTURE subil_pnbuff_ESD.
+INFO (XSTRM-223): 53. Translating cellView cio150pads/subil_4via_ESD/layout as STRUCTURE subil_4via_ESD.
+INFO (XSTRM-223): 54. Translating cellView cio150pads/subil_pv0acon_ESD/layout as STRUCTURE subil_pv0acon_ESD.
+INFO (XSTRM-223): 55. Translating cellView cio150pads/subil_powerbaseconvsso_ESD/layout as STRUCTURE subil_powerbaseconvsso_ESD.
+INFO (XSTRM-223): 56. Translating cellView cio150pads/subil_powermetalring_ESD/layout as STRUCTURE subil_powermetalring_ESD.
+INFO (XSTRM-223): 57. Translating cellView cio150pads/subil_powerbasevsso_ESD/layout as STRUCTURE subil_powerbasevsso_ESD.
+INFO (XSTRM-223): 58. Translating cellView cio150pads/pv0a/layout as STRUCTURE pv0a.
+INFO (XSTRM-223): 59. Translating cellView cio150pads/subil_pv0icon_ESD/layout as STRUCTURE subil_pv0icon_ESD.
+INFO (XSTRM-223): 60. Translating cellView cio150pads/subil_powerbaseconvsso_ESD1/layout as STRUCTURE subil_powerbaseconvsso_ESD1.
+INFO (XSTRM-223): 61. Translating cellView cio150pads/subil_powerbase_ESD2/layout as STRUCTURE subil_powerbase_ESD2.
+INFO (XSTRM-223): 62. Translating cellView cio150pads/subil_powermetalring_ESD2/layout as STRUCTURE subil_powermetalring_ESD2.
+INFO (XSTRM-223): 63. Translating cellView cio150pads/subil_pngatebuff_ESD22/layout as STRUCTURE subil_pngatebuff_ESD22.
+INFO (XSTRM-223): 64. Translating cellView cio150pads/subil_pngate2buff_ESD22/layout as STRUCTURE subil_pngate2buff_ESD22.
+INFO (XSTRM-223): 65. Translating cellView cio150pads/subil_pngatering_ESD22/layout as STRUCTURE subil_pngatering_ESD22.
+INFO (XSTRM-223): 66. Translating cellView cio150pads/subil_pnbuff_ESD22/layout as STRUCTURE subil_pnbuff_ESD22.
+INFO (XSTRM-223): 67. Translating cellView cio150pads/pv0i/layout as STRUCTURE pv0i.
+INFO (XSTRM-223): 68. Translating cellView cio150pads/subil_p3d00block/layout as STRUCTURE subil_p3d00block.
+INFO (XSTRM-223): 69. Translating cellView cio150pads/subil_iorule/layout as STRUCTURE subil_iorule.
+INFO (XSTRM-223): 70. Translating cellView cio150pads/subil_powermetal/layout as STRUCTURE subil_powermetal.
+INFO (XSTRM-223): 71. Translating cellView cio150pads/subil_p3d00bulkcon/layout as STRUCTURE subil_p3d00bulkcon.
+INFO (XSTRM-223): 72. Translating cellView cio150pads/subil_nwellres1000/layout as STRUCTURE subil_nwellres1000.
+INFO (XSTRM-223): 73. Translating cellView cio150pads/subil_nwellres/layout as STRUCTURE subil_nwellres.
+INFO (XSTRM-223): 74. Translating cellView cio150pads/subil_ppwellbias3d00/layout as STRUCTURE subil_ppwellbias3d00.
+INFO (XSTRM-223): 75. Translating cellView cio150pads/asubil_pdiodepower/layout as STRUCTURE asubil_pdiodepower.
+INFO (XSTRM-223): 76. Translating cellView cio150pads/subil_dio2/layout as STRUCTURE subil_dio2.
+INFO (XSTRM-223): 77. Translating cellView cio150pads/subil_ppolyres/layout as STRUCTURE subil_ppolyres.
+INFO (XSTRM-223): 78. Translating cellView cio150pads/subil_pobuffcon/layout as STRUCTURE subil_pobuffcon.
+INFO (XSTRM-223): 79. Translating cellView cio150pads/subil_pngatering_440/layout as STRUCTURE subil_pngatering_440.
+INFO (XSTRM-223): 80. Translating cellView cio150pads/subil_pngatebuffsing_503/layout as STRUCTURE subil_pngatebuffsing_503.
+INFO (XSTRM-223): 81. Translating cellView cio150pads/subil_pngate2buffsing/layout as STRUCTURE subil_pngate2buffsing.
+INFO (XSTRM-223): 82. Translating cellView cio150pads/subil_pnbuff3d00/layout as STRUCTURE subil_pnbuff3d00.
+INFO (XSTRM-223): 83. Translating cellView cio150pads/subil_ppgate2buffend3d00_ESD/layout as STRUCTURE subil_ppgate2buffend3d00_ESD.
+INFO (XSTRM-223): 84. Translating cellView cio150pads/subil_ppgatebotring/layout as STRUCTURE subil_ppgatebotring.
+INFO (XSTRM-223): 85. Translating cellView cio150pads/subil_ppgatebuff/layout as STRUCTURE subil_ppgatebuff.
+INFO (XSTRM-223): 86. Translating cellView cio150pads/subil_ppgate2buff/layout as STRUCTURE subil_ppgate2buff.
+INFO (XSTRM-223): 87. Translating cellView cio150pads/subil_ppgate2bufftop/layout as STRUCTURE subil_ppgate2bufftop.
+INFO (XSTRM-223): 88. Translating cellView cio150pads/subil_ppgatering/layout as STRUCTURE subil_ppgatering.
+INFO (XSTRM-223): 89. Translating cellView cio150pads/subil_ppbuff3d00_ESD/layout as STRUCTURE subil_ppbuff3d00_ESD.
+INFO (XSTRM-223): 90. Translating stdVia ts018_scl_prim/M2_M1/layout as STRUCTURE M2_M1_CDNS_782371441770.
+INFO (XSTRM-223): 91. Translating stdVia ts018_scl_prim/M3_M2/layout as STRUCTURE M3_M2_CDNS_782371441771.
+INFO (XSTRM-223): 92. Translating cellView cio150pads/subil_pnesd3d00/layout as STRUCTURE subil_pnesd3d00.
+INFO (XSTRM-223): 93. Translating cellView cio150pads/subil_preside/layout as STRUCTURE subil_preside.
+INFO (XSTRM-223): 94. Translating cellView cio150pads/subil_ppdrive3d00_ESD/layout as STRUCTURE subil_ppdrive3d00_ESD.
+INFO (XSTRM-223): 95. Translating cellView cio150pads/subil_pc3d00con_ESD/layout as STRUCTURE subil_pc3d00con_ESD.
+INFO (XSTRM-223): 96. Translating cellView cio150pads/pc3d00/layout as STRUCTURE pc3d00.
+INFO (XSTRM-223): 97. Translating cellView cio150pads/subil_midconer2/layout as STRUCTURE subil_midconer2.
+INFO (XSTRM-223): 98. Translating cellView cio150pads/pfrelr/layout as STRUCTURE pfrelr.
+INFO (XSTRM-223): 99. Translating cellView cio150pads/pfeed30000/layout as STRUCTURE pfeed30000.
+INFO (XSTRM-223): 100. Translating cellView invpad/invpad1/layout as STRUCTURE invpad1.
+
+Summary of Objects Translated:
+	Scalar Instances:                       80017
+	Array Instances:                        0
+	Polygons:                               210
+	Paths:                                  0
+	Rectangles:                             10187
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           4
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   399
+	TextDisplay:                            0
+	Cells:                                  100
+
+Elapsed Time: 2.4s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 18508KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

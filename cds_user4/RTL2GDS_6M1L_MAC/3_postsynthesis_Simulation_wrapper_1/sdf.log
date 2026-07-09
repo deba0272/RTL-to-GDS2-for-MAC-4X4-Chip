@@ -1,0 +1,1411 @@
+======================================================================
+
+Annotating SDF timing data:
+  Compiled SDF file:     delays.sdf.X
+  Log file:              sdf.log
+  Backannotation scope:  tb_mac_4x4_wrapper_chip_post_synthesis.DUT
+  Configuration file:    
+  MTM control:           
+  Scale factors:         
+  Scale type:            
+
+Time units: 1ns
+
+
+Annotating to instance dut.g1149__2398 of module oan211d1
+	ABSOLUTE (IOPATH C1 ZN) = (0.431, 0.122)
+	ABSOLUTE (IOPATH C2 ZN) = (0.444, 0.118)
+	ABSOLUTE (IOPATH A ZN) = (0.395, 0.092)
+	ABSOLUTE (IOPATH B ZN) = (0.232, 0.102)
+
+Annotating to instance dut.g1150__5107 of module aoi211d1
+	ABSOLUTE (IOPATH C1 ZN) = (0.379, 0.126)
+	ABSOLUTE (IOPATH C2 ZN) = (0.414, 0.117)
+	ABSOLUTE (IOPATH A ZN) = (0.437, 0.114)
+	ABSOLUTE (IOPATH B ZN) = (0.24, 0.084)
+
+Annotating to instance dut.g1152__6260 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.346)
+	ABSOLUTE (IOPATH A2 Z) = (0.167, 0.235)
+
+Annotating to instance dut.g1153__4319 of module nd02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.147, 0.119)
+	ABSOLUTE (IOPATH A2 ZN) = (0.139, 0.113)
+
+Annotating to instance dut.g1154__8428 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.293, 0.436)
+	ABSOLUTE (IOPATH A CO) = (0.295, 0.597)
+	ABSOLUTE (IOPATH B CO) = (0.307, 0.598)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 80>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 81>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 82>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 83>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 84>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 85>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 86>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 87>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 88>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 89>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 90>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 91>.
+
+Annotating to instance dut.g1156__5526 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.346)
+	ABSOLUTE (IOPATH A2 Z) = (0.167, 0.235)
+
+Annotating to instance dut.g1157__6783 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.267, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.273, 0.571)
+	ABSOLUTE (IOPATH B CO) = (0.276, 0.575)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 118>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 119>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 120>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 121>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 122>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 123>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 124>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 125>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 126>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 127>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 128>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 129>.
+
+Annotating to instance dut.g1159__3680 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.346)
+	ABSOLUTE (IOPATH A2 Z) = (0.167, 0.235)
+
+Annotating to instance dut.g1160__1617 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.273, 0.41)
+	ABSOLUTE (IOPATH A CO) = (0.274, 0.576)
+	ABSOLUTE (IOPATH B CO) = (0.279, 0.57)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 156>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 157>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 158>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 159>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 160>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 161>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 162>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 163>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 164>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 165>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 166>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 167>.
+
+Annotating to instance dut.g1162__2802 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.354, 0.43)
+	ABSOLUTE (IOPATH A CO) = (0.284, 0.584)
+	ABSOLUTE (IOPATH B CO) = (0.296, 0.598)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 182>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 183>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 184>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 185>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 186>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 187>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 188>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 189>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 190>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 191>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 192>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 193>.
+
+Annotating to instance dut.g1163__1705 of module nd12d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.223, 0.218)
+	ABSOLUTE (IOPATH A2 ZN) = (0.147, 0.133)
+
+Annotating to instance dut.g1164__5122 of module oan211d1
+	ABSOLUTE (IOPATH C1 ZN) = (0.416, 0.115)
+	ABSOLUTE (IOPATH C2 ZN) = (0.474, 0.143)
+	ABSOLUTE (IOPATH A ZN) = (0.395, 0.092)
+	ABSOLUTE (IOPATH B ZN) = (0.236, 0.106)
+
+Annotating to instance dut.g1165__8246 of module an03d1
+	ABSOLUTE (IOPATH A3 Z) = (0.318, 0.348)
+	ABSOLUTE (IOPATH A1 Z) = (0.269, 0.265)
+	ABSOLUTE (IOPATH A2 Z) = (0.312, 0.311)
+
+Annotating to instance dut.g1166__7098 of module nd12d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.229, 0.244)
+	ABSOLUTE (IOPATH A2 ZN) = (0.218, 0.199)
+
+Annotating to instance dut.g1167__6131 of module nd02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.128, 0.112)
+	ABSOLUTE (IOPATH A2 ZN) = (0.186, 0.134)
+
+Annotating to instance dut.g1168__1881 of module or02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.213, 0.333)
+	ABSOLUTE (IOPATH A2 Z) = (0.279, 0.391)
+
+Annotating to instance dut.g1169__5115 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.277, 0.403)
+	ABSOLUTE (IOPATH A CO) = (0.256, 0.553)
+	ABSOLUTE (IOPATH B CO) = (0.266, 0.559)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 286>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 287>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 288>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 289>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 290>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 291>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 292>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 293>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 294>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 295>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 296>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 297>.
+
+Annotating to instance dut.g1170__7482 of module ah01d1
+	ABSOLUTE (IOPATH A CO) = (0.186, 0.312)
+	ABSOLUTE (IOPATH B CO) = (0.22, 0.355)
+	ABSOLUTE (IOPATH A S) = (0.501, 0.411)
+	ABSOLUTE (IOPATH B S) = (0.543, 0.446)
+
+Annotating to instance dut.g1171__4733 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.289, 0.423)
+	ABSOLUTE (IOPATH A CO) = (0.31, 0.582)
+	ABSOLUTE (IOPATH B CO) = (0.3, 0.598)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 326>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 327>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 328>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 329>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 330>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 331>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 332>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 333>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 334>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 335>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 336>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 337>.
+
+Annotating to instance dut.g1173__6161 of module ah01d1
+	ABSOLUTE (IOPATH A CO) = (0.279, 0.375)
+	ABSOLUTE (IOPATH B CO) = (0.277, 0.412)
+	ABSOLUTE (IOPATH A S) = (0.469, 0.408)
+	ABSOLUTE (IOPATH B S) = (0.502, 0.408)
+
+Annotating to instance dut.g1174__9315 of module ah01d1
+	ABSOLUTE (IOPATH A CO) = (0.275, 0.375)
+	ABSOLUTE (IOPATH B CO) = (0.26, 0.418)
+	ABSOLUTE (IOPATH A S) = (0.512, 0.437)
+	ABSOLUTE (IOPATH B S) = (0.552, 0.425)
+
+Annotating to instance dut.g1175__9945 of module an03d1
+	ABSOLUTE (IOPATH A3 Z) = (0.266, 0.286)
+	ABSOLUTE (IOPATH A1 Z) = (0.325, 0.376)
+	ABSOLUTE (IOPATH A2 Z) = (0.262, 0.31)
+
+Annotating to instance dut.g1177__2883 of module oai21d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.437, 0.166)
+	ABSOLUTE (IOPATH A ZN) = (0.217, 0.184)
+	ABSOLUTE (IOPATH B1 ZN) = (0.393, 0.143)
+
+Annotating to instance dut.g1179__2346 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.162, 0.091)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g1180__1666 of module oai22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.328, 0.157)
+	ABSOLUTE (IOPATH A1 ZN) = (0.227, 0.135)
+	ABSOLUTE (IOPATH B1 ZN) = (0.302, 0.148)
+	ABSOLUTE (IOPATH A2 ZN) = (0.252, 0.149)
+
+Annotating to instance dut.g1181__7410 of module nd02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.217, 0.193)
+	ABSOLUTE (IOPATH A2 ZN) = (0.248, 0.206)
+
+Annotating to instance dut.g1182__6417 of module nd12d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.319, 0.31)
+	ABSOLUTE (IOPATH A2 ZN) = (0.248, 0.254)
+
+Annotating to instance dut.g1183__5477 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.159, 0.079)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.117)
+
+Annotating to instance dut.g1184__2398 of module nd02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.169, 0.147)
+	ABSOLUTE (IOPATH A2 ZN) = (0.18, 0.148)
+
+Annotating to instance dut.g1185__5107 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.215, 0.135)
+	ABSOLUTE (IOPATH A2 ZN) = (0.172, 0.092)
+
+Annotating to instance dut.g1186__6260 of module nd12d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.223, 0.229)
+	ABSOLUTE (IOPATH A2 ZN) = (0.138, 0.137)
+
+Annotating to instance dut.g1187__4319 of module nd12d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.278, 0.279)
+	ABSOLUTE (IOPATH A2 ZN) = (0.203, 0.204)
+
+Annotating to instance dut.g1188__8428 of module nd12d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.28, 0.28)
+	ABSOLUTE (IOPATH A2 ZN) = (0.203, 0.204)
+
+Annotating to instance dut.g1189__5526 of module nd02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.236, 0.231)
+	ABSOLUTE (IOPATH A2 ZN) = (0.217, 0.181)
+
+Annotating to instance dut.g1191__6783 of module or02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.249, 0.348)
+	ABSOLUTE (IOPATH A2 Z) = (0.268, 0.385)
+
+Annotating to instance dut.g1192__3680 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.194, 0.107)
+	ABSOLUTE (IOPATH A2 ZN) = (0.185, 0.116)
+
+Annotating to instance dut.g1193__1617 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.282, 0.167)
+	ABSOLUTE (IOPATH A2 ZN) = (0.259, 0.149)
+
+Annotating to instance dut.g1194__2802 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.194, 0.107)
+	ABSOLUTE (IOPATH A2 ZN) = (0.186, 0.117)
+
+Annotating to instance dut.g1195__1705 of module nd02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.201, 0.18)
+	ABSOLUTE (IOPATH A2 ZN) = (0.232, 0.21)
+
+Annotating to instance dut.g1196__5122 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.306, 0.178)
+	ABSOLUTE (IOPATH A2 ZN) = (0.262, 0.127)
+
+Annotating to instance dut.g1209__8246 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.346)
+	ABSOLUTE (IOPATH A2 Z) = (0.181, 0.304)
+
+Annotating to instance dut.g1210__7098 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.345)
+	ABSOLUTE (IOPATH A2 Z) = (0.181, 0.303)
+
+Annotating to instance dut.g1211__6131 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.346)
+	ABSOLUTE (IOPATH A2 Z) = (0.181, 0.304)
+
+Annotating to instance dut.g1212__1881 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.346)
+	ABSOLUTE (IOPATH A2 Z) = (0.181, 0.304)
+
+Annotating to instance dut.g1213__5115 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.346)
+	ABSOLUTE (IOPATH A2 Z) = (0.181, 0.304)
+
+Annotating to instance dut.g1214__7482 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.346)
+	ABSOLUTE (IOPATH A2 Z) = (0.181, 0.304)
+
+Annotating to instance dut.g1215__4733 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.346)
+	ABSOLUTE (IOPATH A2 Z) = (0.181, 0.304)
+
+Annotating to instance dut.g1216__6161 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.346)
+	ABSOLUTE (IOPATH A2 Z) = (0.181, 0.304)
+
+Annotating to instance dut.g1217__9315 of module an02d1
+	ABSOLUTE (IOPATH A1 Z) = (0.236, 0.345)
+	ABSOLUTE (IOPATH A2 Z) = (0.181, 0.303)
+
+Annotating to instance dut.g1218 of module inv0d1
+	ABSOLUTE (IOPATH I ZN) = (1.123, 0.539)
+
+Annotating to instance dut.g2__9945 of module an12d1
+	ABSOLUTE (IOPATH A1 Z) = (0.368, 0.314)
+	ABSOLUTE (IOPATH A2 Z) = (0.239, 0.292)
+
+Annotating to instance dut.g662__2883 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g663__2346 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g664__1666 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g665__7410 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g666__6417 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g667__5477 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g668__2398 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g669__5107 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g670__6260 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g671__4319 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g672__8428 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g673__5526 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g674__6783 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g675__3680 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g676__1617 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g677__2802 of module nr02d1
+	ABSOLUTE (IOPATH A1 ZN) = (0.195, 0.113)
+	ABSOLUTE (IOPATH A2 ZN) = (0.331, 0.118)
+
+Annotating to instance dut.g678__1705 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.132)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g679__5122 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.132)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g680__8246 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.132)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g681__7098 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.287, 0.182)
+	ABSOLUTE (IOPATH B1 ZN) = (0.2, 0.131)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g682__6131 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.131)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g683__1881 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.131)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g684__5115 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.132)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g685__7482 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.132)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g686__4733 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.132)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g687__6161 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.132)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g688__9315 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.131)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g689__9945 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.131)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g690__2883 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.132)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g691__2346 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.287, 0.182)
+	ABSOLUTE (IOPATH B1 ZN) = (0.197, 0.126)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g692__1666 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.131)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.g693__7410 of module aoi22d1
+	ABSOLUTE (IOPATH B2 ZN) = (0.36, 0.242)
+	ABSOLUTE (IOPATH A1 ZN) = (0.298, 0.183)
+	ABSOLUTE (IOPATH B1 ZN) = (0.206, 0.131)
+	ABSOLUTE (IOPATH A2 ZN) = (0.312, 0.171)
+
+Annotating to instance dut.add_89_32_g369__5477 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.228, 0.363)
+	ABSOLUTE (IOPATH A CO) = (0.286, 0.639)
+	ABSOLUTE (IOPATH B CO) = (0.325, 0.658)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1194>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1195>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1196>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1197>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1198>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1199>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1200>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1201>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1202>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1203>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1204>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1205>.
+
+Annotating to instance dut.add_89_32_g370__2398 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.375, 0.709)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1220>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1221>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1222>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1223>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1224>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1225>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1226>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1227>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1228>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1229>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1230>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1231>.
+
+Annotating to instance dut.add_89_32_g371__5107 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.375, 0.709)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1246>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1247>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1248>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1249>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1250>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1251>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1252>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1253>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1254>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1255>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1256>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1257>.
+
+Annotating to instance dut.add_89_32_g372__6260 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.375, 0.709)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1272>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1273>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1274>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1275>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1276>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1277>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1278>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1279>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1280>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1281>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1282>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1283>.
+
+Annotating to instance dut.add_89_32_g373__4319 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.375, 0.709)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1298>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1299>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1300>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1301>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1302>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1303>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1304>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1305>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1306>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1307>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1308>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1309>.
+
+Annotating to instance dut.add_89_32_g374__8428 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.375, 0.709)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1324>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1325>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1326>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1327>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1328>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1329>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1330>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1331>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1332>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1333>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1334>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1335>.
+
+Annotating to instance dut.add_89_32_g375__5526 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.375, 0.709)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1350>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1351>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1352>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1353>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1354>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1355>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1356>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1357>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1358>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1359>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1360>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1361>.
+
+Annotating to instance dut.add_89_32_g376__6783 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.375, 0.709)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1376>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1377>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1378>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1379>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1380>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1381>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1382>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1383>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1384>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1385>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1386>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1387>.
+
+Annotating to instance dut.add_89_32_g377__3680 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.278, 0.566)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1402>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1403>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1404>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1405>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1406>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1407>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1408>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1409>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1410>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1411>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1412>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1413>.
+
+Annotating to instance dut.add_89_32_g378__1617 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.278, 0.566)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1428>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1429>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1430>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1431>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1432>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1433>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1434>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1435>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1436>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1437>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1438>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1439>.
+
+Annotating to instance dut.add_89_32_g379__2802 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.278, 0.566)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1454>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1455>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1456>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1457>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1458>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1459>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1460>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1461>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1462>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1463>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1464>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1465>.
+
+Annotating to instance dut.add_89_32_g380__1705 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.278, 0.566)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1480>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1481>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1482>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1483>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1484>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1485>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1486>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1487>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1488>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1489>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1490>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1491>.
+
+Annotating to instance dut.add_89_32_g381__5122 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.272, 0.412)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.278, 0.566)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1506>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1507>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1508>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1509>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1510>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1511>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1512>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1513>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1514>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1515>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1516>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1517>.
+
+Annotating to instance dut.add_89_32_g382__8246 of module ad01d1
+	ABSOLUTE (IOPATH CI CO) = (0.273, 0.405)
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.69)
+	ABSOLUTE (IOPATH B CO) = (0.278, 0.566)
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1532>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1533>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1534>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1535>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==0)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1536>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==0)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1537>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==0)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1538>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==0)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1539>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==0)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1540>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((B==1)&&(CI==1)) (IOPATH A S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1541>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(CI==1)) (IOPATH B S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1542>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A==1)&&(B==1)) (IOPATH CI S)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246 of module ad01d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1543>.
+
+Annotating to instance dut.add_89_32_g383__7098 of module ah01d1
+	ABSOLUTE (IOPATH A CO) = (0.336, 0.511)
+	ABSOLUTE (IOPATH B CO) = (0.24, 0.393)
+	ABSOLUTE (IOPATH A S) = (0.617, 0.476)
+	ABSOLUTE (IOPATH B S) = (0.494, 0.379)
+
+Annotating to instance dut.g2 of module xr03d1
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A2==0)&&(A3==0)) (IOPATH A1 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1569>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A1==0)&&(A2==0)) (IOPATH A3 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1570>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A1==0)&&(A2==1)) (IOPATH A3 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1571>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A2==1)&&(A3==0)) (IOPATH A1 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1572>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A2==0)&&(A3==1)) (IOPATH A1 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1573>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A1==1)&&(A2==0)) (IOPATH A3 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1574>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A2==1)&&(A3==1)) (IOPATH A1 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1575>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A1==1)&&(A2==1)) (IOPATH A3 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1576>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A1==0)&&(A3==0)) (IOPATH A2 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1577>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A1==1)&&(A3==0)) (IOPATH A2 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1578>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A1==0)&&(A3==1)) (IOPATH A2 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1579>.
+xmelab: *W,SDFNEP: Unable to annotate to non-existent path (COND ((A1==1)&&(A3==1)) (IOPATH A2 Z)) of instance tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2 of module xr03d1 <../2_Synthesis_wrapper_7_wrapper_6M1L_2/delays.sdf, line 1580>.
+
+Annotating to instance dut.mult_reg_reg[7] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.316, 1.09)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.212) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.mult_reg_reg[6] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (0.478, 0.636)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.236) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.214) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.mult_reg_reg[5] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (0.478, 0.636)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.213) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.151) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.mult_reg_reg[4] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (0.478, 0.636)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.213) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.151) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.mult_reg_reg[3] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (0.478, 0.636)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.213) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.151) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.mult_reg_reg[2] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (0.478, 0.636)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.236) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.214) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.mult_reg_reg[1] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (0.478, 0.636)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.214) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.153) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.mult_reg_reg[0] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (0.422, 0.59)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.enable_s1_reg of module dfnrn1
+	ABSOLUTE (IOPATH CP QN) = (0.427, 0.386)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.224) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.153) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.226))
+	TIMINGCHECK (WIDTH (negedge CP) (0.412))
+
+Annotating to instance dut.b_reg_reg[1] of module dfnrn1
+	ABSOLUTE (IOPATH CP QN) = (0.563, 0.499)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.224) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.153) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.226))
+	TIMINGCHECK (WIDTH (negedge CP) (0.412))
+
+Annotating to instance dut.a_reg_reg[1] of module dfnrn1
+	ABSOLUTE (IOPATH CP QN) = (0.57, 0.499)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.224) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.153) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.226))
+	TIMINGCHECK (WIDTH (negedge CP) (0.412))
+
+Annotating to instance dut.b_reg_reg[3] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (0.583, 0.703)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.213) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.151) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.a_reg_reg[0] of module dfnrn1
+	ABSOLUTE (IOPATH CP QN) = (0.56, 0.496)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.224) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.153) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.226))
+	TIMINGCHECK (WIDTH (negedge CP) (0.412))
+
+Annotating to instance dut.a_reg_reg[3] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (0.543, 0.677)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.213) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.151) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.b_reg_reg[0] of module dfnrn1
+	ABSOLUTE (IOPATH CP QN) = (0.561, 0.493)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.224) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.153) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.226))
+	TIMINGCHECK (WIDTH (negedge CP) (0.412))
+
+Annotating to instance dut.acc_reg_reg[7] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[1] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[5] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[6] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[0] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.02, 0.938)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[8] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[9] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[10] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[14] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[11] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[12] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[13] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[2] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[3] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[15] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.026, 0.939)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.acc_reg_reg[4] of module dfnrq1
+	ABSOLUTE (IOPATH CP Q) = (1.073, 0.966)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.24) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.189) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.185))
+	TIMINGCHECK (WIDTH (negedge CP) (0.346))
+
+Annotating to instance dut.b_reg_reg[2] of module dfnrb1
+	ABSOLUTE (IOPATH CP Q) = (0.535, 0.684)
+	ABSOLUTE (IOPATH CP QN) = (0.47, 0.398)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.23) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.159) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.279))
+	TIMINGCHECK (WIDTH (negedge CP) (0.353))
+
+Annotating to instance dut.a_reg_reg[2] of module dfnrb1
+	ABSOLUTE (IOPATH CP Q) = (0.537, 0.686)
+	ABSOLUTE (IOPATH CP QN) = (0.477, 0.4)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.23) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.159) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.279))
+	TIMINGCHECK (WIDTH (negedge CP) (0.353))
+
+Annotating to instance dut.enable_s2_reg of module dfnrb1
+	ABSOLUTE (IOPATH CP Q) = (1.375, 1.125)
+	ABSOLUTE (IOPATH CP QN) = (1.273, 0.835)
+	TIMINGCHECK (SETUPHOLD (negedge D) (posedge CP) (0.257) (0))
+	TIMINGCHECK (SETUPHOLD (posedge D) (posedge CP) (0.2) (0))
+	TIMINGCHECK (WIDTH (posedge CP) (0.279))
+	TIMINGCHECK (WIDTH (negedge CP) (0.353))
+
+Annotating to instance pc3c01_clk_buf of module pc3c01
+	ABSOLUTE (IOPATH CCLK CP) = (0.403, 0.602)
+
+Annotating to instance pc3d01_a0 of module pc3d01
+	ABSOLUTE (IOPATH PAD CIN) = (0.663, 1.125)
+
+Annotating to instance pc3d01_a1 of module pc3d01
+	ABSOLUTE (IOPATH PAD CIN) = (0.663, 1.125)
+
+Annotating to instance pc3d01_a2 of module pc3d01
+	ABSOLUTE (IOPATH PAD CIN) = (0.663, 1.125)
+
+Annotating to instance pc3d01_a3 of module pc3d01
+	ABSOLUTE (IOPATH PAD CIN) = (0.663, 1.125)
+
+Annotating to instance pc3d01_b0 of module pc3d01
+	ABSOLUTE (IOPATH PAD CIN) = (0.663, 1.125)
+
+Annotating to instance pc3d01_b1 of module pc3d01
+	ABSOLUTE (IOPATH PAD CIN) = (0.663, 1.125)
+
+Annotating to instance pc3d01_b2 of module pc3d01
+	ABSOLUTE (IOPATH PAD CIN) = (0.663, 1.125)
+
+Annotating to instance pc3d01_b3 of module pc3d01
+	ABSOLUTE (IOPATH PAD CIN) = (0.663, 1.125)
+
+Annotating to instance pc3d01_clk of module pc3d01
+	ABSOLUTE (IOPATH PAD CIN) = (0.828, 1.41)
+
+Annotating to instance pc3d01_enable of module pc3d01
+	ABSOLUTE (IOPATH PAD CIN) = (0.663, 1.125)
+
+Annotating to instance pc3d01_rst of module pc3d01
+	ABSOLUTE (IOPATH PAD CIN) = (0.997, 1.698)
+
+Annotating to instance pc3o01_mac_out0 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.289, 2.18)
+
+Annotating to instance pc3o01_mac_out1 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out2 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out3 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out4 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out5 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out6 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out7 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out8 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out9 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out10 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out11 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out12 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out13 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out14 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.31, 2.185)
+
+Annotating to instance pc3o01_mac_out15 of module pc3o01
+	ABSOLUTE (IOPATH I PAD) = (3.292, 2.18)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1149__2398.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1149__2398.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1149__2398.C1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1149__2398.C2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1150__5107.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1150__5107.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1150__5107.C1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1150__5107.C2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1152__6260.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1152__6260.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1153__4319.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1153__4319.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1154__8428.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1156__5526.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1156__5526.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1157__6783.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1159__3680.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1159__3680.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1160__1617.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1162__2802.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1163__1705.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1163__1705.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1164__5122.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1164__5122.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1164__5122.C1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1164__5122.C2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1165__8246.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1165__8246.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1165__8246.A3 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1166__7098.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1166__7098.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1167__6131.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1167__6131.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1168__1881.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1168__1881.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1169__5115.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1170__7482.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1170__7482.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1171__4733.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1173__6161.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1173__6161.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1174__9315.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1174__9315.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1175__9945.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1175__9945.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1175__9945.A3 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1177__2883.A = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1177__2883.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1177__2883.B2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1179__2346.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1179__2346.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1180__1666.A1 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1180__1666.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1180__1666.B1 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1180__1666.B2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1181__7410.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1181__7410.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1182__6417.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1182__6417.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1183__5477.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1183__5477.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1184__2398.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1184__2398.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1185__5107.A1 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1185__5107.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1186__6260.A1 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1186__6260.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1187__4319.A1 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1187__4319.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1188__8428.A1 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1188__8428.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1189__5526.A1 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1189__5526.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1191__6783.A1 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1191__6783.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1192__3680.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1192__3680.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1193__1617.A1 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1193__1617.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1194__2802.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1194__2802.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1195__1705.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1195__1705.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1196__5122.A1 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1196__5122.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1209__8246.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1209__8246.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1210__7098.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1210__7098.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1211__6131.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1211__6131.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1212__1881.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1212__1881.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1213__5115.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1213__5115.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1214__7482.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1214__7482.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1215__4733.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1215__4733.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1216__6161.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1216__6161.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1217__9315.A1 = (0.017)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1217__9315.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g1218.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2__9945.A1 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2__9945.A2 = (0.001)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g662__2883.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g662__2883.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g663__2346.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g663__2346.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g664__1666.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g664__1666.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g665__7410.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g665__7410.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g666__6417.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g666__6417.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g667__5477.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g667__5477.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g668__2398.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g668__2398.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g669__5107.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g669__5107.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g670__6260.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g670__6260.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g671__4319.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g671__4319.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g672__8428.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g672__8428.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g673__5526.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g673__5526.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g674__6783.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g674__6783.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g675__3680.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g675__3680.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g676__1617.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g676__1617.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g677__2802.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g677__2802.A2 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g678__1705.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g678__1705.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g678__1705.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g678__1705.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g679__5122.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g679__5122.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g679__5122.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g679__5122.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g680__8246.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g680__8246.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g680__8246.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g680__8246.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g681__7098.A1 = (0.002)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g681__7098.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g681__7098.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g681__7098.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g682__6131.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g682__6131.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g682__6131.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g682__6131.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g683__1881.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g683__1881.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g683__1881.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g683__1881.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g684__5115.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g684__5115.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g684__5115.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g684__5115.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g685__7482.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g685__7482.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g685__7482.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g685__7482.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g686__4733.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g686__4733.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g686__4733.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g686__4733.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g687__6161.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g687__6161.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g687__6161.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g687__6161.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g688__9315.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g688__9315.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g688__9315.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g688__9315.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g689__9945.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g689__9945.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g689__9945.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g689__9945.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g690__2883.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g690__2883.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g690__2883.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g690__2883.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g691__2346.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g691__2346.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g691__2346.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g691__2346.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g692__1666.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g692__1666.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g692__1666.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g692__1666.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g693__7410.A1 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g693__7410.A2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g693__7410.B1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g693__7410.B2 = (0.026)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477.B = (0.013)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g369__5477.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398.B = (0.013)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g370__2398.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107.B = (0.013)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g371__5107.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260.B = (0.013)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g372__6260.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319.B = (0.013)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g373__4319.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428.B = (0.013)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g374__8428.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526.B = (0.013)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g375__5526.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783.B = (0.013)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g376__6783.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g377__3680.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g378__1617.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g379__2802.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g380__1705.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g381__5122.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246.A = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g382__8246.CI = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g383__7098.A = (0.002)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.add_89_32_g383__7098.B = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2.A1 = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2.A2 = (0.003)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.g2.A3 = (0.013)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[7] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[7] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[6] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[6] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[5] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[5] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[4] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[4] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[3] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[3] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[2] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[2] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[1] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[1] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[0] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\mult_reg_reg[0] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.enable_s1_reg.CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.enable_s1_reg.D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\b_reg_reg[1] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\b_reg_reg[1] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\a_reg_reg[1] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\a_reg_reg[1] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\b_reg_reg[3] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\b_reg_reg[3] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\a_reg_reg[0] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\a_reg_reg[0] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\a_reg_reg[3] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\a_reg_reg[3] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\b_reg_reg[0] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\b_reg_reg[0] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[7] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[7] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[1] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[1] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[5] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[5] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[6] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[6] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[0] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[0] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[8] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[8] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[9] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[9] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[10] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[10] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[14] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[14] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[11] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[11] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[12] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[12] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[13] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[13] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[2] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[2] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[3] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[3] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[15] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[15] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[4] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\acc_reg_reg[4] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\b_reg_reg[2] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\b_reg_reg[2] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\a_reg_reg[2] .CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.\a_reg_reg[2] .D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.enable_s2_reg.CP = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.dut.enable_s2_reg.D = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3c01_clk_buf.CCLK = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3d01_a0.PAD = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3d01_a1.PAD = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3d01_a2.PAD = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3d01_a3.PAD = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3d01_b0.PAD = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3d01_b1.PAD = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3d01_b2.PAD = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3d01_b3.PAD = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3d01_clk.PAD = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3d01_enable.PAD = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3d01_rst.PAD = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out0.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out1.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out2.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out3.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out4.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out5.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out6.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out7.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out8.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out9.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out10.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out11.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out12.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out13.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out14.I = (0)
+ABSOLUTE PORT: tb_mac_4x4_wrapper_chip_post_synthesis.DUT.pc3o01_mac_out15.I = (0)

@@ -1,0 +1,279 @@
+
+Spectre (R) Circuit Simulator
+Version 21.1.0.546.isr13 64bit -- 4 Nov 2022
+Copyright (C) 1989-2022 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: priyank   Host: server3.eced.svnit.ac.in   HostID: 15AC1181   PID: 1307018
+Memory  available: 57.3957 GB  physical: 66.8574 GB
+Linux   : Red Hat Enterprise Linux release 8.10 (Ootpa)
+CPU Type: Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [2100.0] ( 16 ),  1 [2100.0] ( 17 ),  2 [2100.0] ( 18 )
+                 3 [2100.0] ( 19 ),  4 [2100.0] ( 20 ),  5 [2100.0] ( 21 )
+                 6 [2100.0] ( 22 ),  7 [2100.0] ( 23 ),  8 [2100.0] ( 24 )
+                 9 [2100.0] ( 25 ), 10 [2100.0] ( 26 ), 11 [2100.0] ( 27 )
+                12 [2100.0] ( 28 ), 13 [2100.0] ( 29 ), 14 [2100.0] ( 30 )
+                15 [2100.0] ( 31 )
+        
+System load averages (1min, 5min, 15min) : 3.6 %, 8.1 %, 27.2 %
+Hyperthreading is enabled
+HPC is enabled
+
+
+Simulating `mac_chip.sp' on server3.eced.svnit.ac.in at 8:27:11 PM, Mon Jun 22, 2026 (process id: 1307018).
+Current working directory: /home/priyank/projects/user1/work_libs/priyank/cds/day1_2/RTL2GDS_6M1L_MAC/7_spice_simulation
+Command line:
+    /tools/cadence/SPECTRE211/tools.lnx86/bin/spectre -64 mac_chip.sp  \
+        +preset=vx +fxm=s=3 +mt=32 -raw ./result
+
+    WARNING (SPECTRE-438): The speed value `0' specified using '+xps=s0' is not supported in XPS SPICE Accurate mode. Valid values are 1, 2, 3, and 4 with 4 being the fastest, but least accurate. The simulator will use the default speed value of 3 for this simulation run. You can also specify a valid speed value and rerun the simulation.
+
+Licensing Information:
+[20:27:11.427882] Configured Lic search path (21.01-s002): 5280@14.139.1.126:1717@14.139.1.126
+
+Licensing Information:
+[20:27:12.468986] Periodic Lic check successful
+
+Loading /tools/cadence/SPECTRE211/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /tools/cadence/SPECTRE211/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /tools/cadence/SPECTRE211/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /tools/cadence/SPECTRE211/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /tools/cadence/SPECTRE211/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/priyank/projects/user1/work_libs/priyank/cds/day1_2/RTL2GDS_6M1L_MAC/7_spice_simulation/mac_chip.sp
+
+Notice from spectre during circuit read-in.
+    Pre_Configuration file used: /tools/cadence/SPECTRE211/tools.lnx86/spectre/etc/configs/preset.precfg
+    Configuration file used: `/tools/cadence/SPECTRE211/tools.lnx86/spectre/etc/configs/preset.cfg'.
+
+Reading file:  /tools/cadence/SPECTRE211/tools.lnx86/spectre/etc/configs/xps=s,sram.cfg
+Reading file:  /tools/cadence/SPECTRE211/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /tools/cadence/SPECTRE211/tools.lnx86/spectre/etc/configs/preset.precfg
+Reading link:  /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/models/ts18scl/default
+Reading file:  /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/models/ts18scl/v2.0/hspice/ts18sl_scl.lib
+Reading file:  /home/priyank/projects/user1/work_libs/priyank/cds/day1_2/RTL2GDS_6M1L_MAC/7_spice_simulation/mac_4x4_wrapper_chip.pex.netlist
+Reading file:  /home/priyank/projects/user1/work_libs/priyank/cds/day1_2/RTL2GDS_6M1L_MAC/7_spice_simulation/mac_4x4_wrapper_chip.pex.netlist.pex
+Reading file:  /home/priyank/projects/user1/work_libs/priyank/cds/day1_2/RTL2GDS_6M1L_MAC/7_spice_simulation/mac_4x4_wrapper_chip.pex.netlist.mac_4x4_wrapper_chip.pxi
+Reading file:  /home/priyank/projects/user1/work_libs/priyank/cds/day1_2/RTL2GDS_6M1L_MAC/7_spice_simulation/macchip_chip.vcd
+Reading file:  /home/priyank/projects/user1/work_libs/priyank/cds/day1_2/RTL2GDS_6M1L_MAC/7_spice_simulation/vcd.info
+
+Notice from spectre during Digital Vector read-in.
+    Process Vector Files.
+    File read: ./vcd.info
+    File read: ./macchip_chip.vcd
+
+Reading file:  /tools/cadence/SPECTRE211/tools.lnx86/spectre/etc/configs/preset.cfg
+Time for NDB Parsing: CPU = 5.37371 s, elapsed = 6.45403 s.
+Time accumulated: CPU = 5.48697 s, elapsed = 6.45404 s.
+Peak resident memory used = 343 Mbytes.
+
+Reading file:  /tools/cadence/SPECTRE211/tools.lnx86/spectre/etc/configs/mapsubckt.cfg
+Reading link:  /tools/cadence/SPECTRE211/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file:  /tools/cadence/SPECTRE211/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading link:  /tools/cadence/SPECTRE211/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file:  /tools/cadence/SPECTRE211/tools.lnx86/spectre/etc/ahdl/constants.vams
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-32): "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/models/ts18scl/default/hspice/ts18sl_scl.lib" 363: Duplicate specification for parameter `tnom' is overrided by `tref' (using last value specified).
+    WARNING (SFE-32): "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/models/ts18scl/default/hspice/ts18sl_scl.lib" 427: Duplicate specification for parameter `tnom' is overrided by `tref' (using last value specified).
+    WARNING (SFE-32): "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/models/ts18scl/default/hspice/ts18sl_scl.lib" 491: Duplicate specification for parameter `tnom' is overrided by `tref' (using last value specified).
+    WARNING (SFE-32): "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/models/ts18scl/default/hspice/ts18sl_scl.lib" 555: Duplicate specification for parameter `tnom' is overrided by `tref' (using last value specified).
+    WARNING (SFE-32): "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/models/ts18scl/default/hspice/ts18sl_scl.lib" 619: Duplicate specification for parameter `tnom' is overrided by `tref' (using last value specified).
+        Further occurrences of this warning will be suppressed.
+
+Existing shared object for module bsource_7dd33c is up to date.
+Installed compiled interface for bsource_7dd33c.
+Existing shared object for module bsource_7bc9d4 is up to date.
+Installed compiled interface for bsource_7bc9d4.
+Existing shared object for module bsource_f74ba3 is up to date.
+Installed compiled interface for bsource_f74ba3.
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-3026): The shorted/dummy resistor X_CC.x_PM_mac_4x4_wrapper_chip%VDD_CORE.r319501 is removed.
+    WARNING (SFE-3026): The shorted/dummy resistor X_CC.x_PM_mac_4x4_wrapper_chip%VDD_CORE.r319496 is removed.
+    WARNING (SFE-3026): The shorted/dummy resistor X_CC.x_PM_mac_4x4_wrapper_chip%VDD_CORE.r319494 is removed.
+    WARNING (SFE-3026): The shorted/dummy resistor X_CC.x_PM_mac_4x4_wrapper_chip%VDD_CORE.r319476 is removed.
+    WARNING (SFE-3026): The shorted/dummy resistor X_CC.x_PM_mac_4x4_wrapper_chip%VSSO_CORE.r152720 is removed.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SFE-3015): The dangling node X_CC.x_PM_mac_4x4_wrapper_chip%VSSO_CORE.201252 is removed.
+    WARNING (SFE-3015): The dangling node X_CC.x_PM_mac_4x4_wrapper_chip%VDDO_CORE.552999 is removed.
+    WARNING (SFE-3015): The dangling node X_CC.x_PM_mac_4x4_wrapper_chip%VSSO_CORE.222634 is removed.
+    WARNING (SFE-3015): The dangling node X_CC.x_PM_mac_4x4_wrapper_chip%VSSO_CORE.190561 is removed.
+    WARNING (SFE-3015): The dangling node X_CC.x_PM_mac_4x4_wrapper_chip%VSSO_CORE.211943 is removed.
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during hierarchy flattening.
+    Spectre X Parasitic Optimization enabled.
+    Parasitic optimization will filter out parasitic nodes, nodes only connected to RCs, by default. To view individual parasitic nodes use individual save statements (i.e. save out), or use the 'savefilter=none' option to save all parasitic nodes. Saving all parasitic nodes may slow down simulation and create large waveform files.
+
+Time for Elaboration: CPU = 15.8503 s, elapsed = 15.8812 s.
+Time accumulated: CPU = 21.3374 s, elapsed = 22.3354 s.
+Peak resident memory used = 562 Mbytes.
+
+Loading /tools/cadence/SPECTRE211/tools.lnx86/mdl/lib/64bit/libSpectreEH_sh.so ...
+
+Time for EDB Visiting: CPU = 2.17692 s, elapsed = 2.18204 s.
+Time accumulated: CPU = 23.5144 s, elapsed = 24.5176 s.
+Peak resident memory used = 574 Mbytes.
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2419): phv.7: `imax' = 1 A is larger than `imelt' = 1.337 mA.  `imelt' is increased to `imax'.
+    WARNING (CMI-2419): n18.7: `imax' = 1 A is larger than `imelt' = 100 mA.  `imelt' is increased to `imax'.
+    WARNING (CMI-2419): n18.4: `imax' = 1 A is larger than `imelt' = 100 mA.  `imelt' is increased to `imax'.
+    WARNING (CMI-2419): n18.3: `imax' = 1 A is larger than `imelt' = 100 mA.  `imelt' is increased to `imax'.
+    WARNING (CMI-2419): n18.2: `imax' = 1 A is larger than `imelt' = 100 mA.  `imelt' is increased to `imax'.
+        Further occurrences of this warning will be suppressed.
+
+First-stage MDC Memory and Time Usage:
+Peak memory used = 868 Mbytes.
+ Time used: CPU = 22 s, elapsed = 26.6 s.
+
+Notice from spectre during topology check.
+    No DC path from node `X_CC.noxref_308' to ground, Gmin installed to provide path.
+    No DC path from node `X_CC.noxref_326' to ground, Gmin installed to provide path.
+    No DC path from node `X_CC.noxref_334' to ground, Gmin installed to provide path.
+    No DC path from node `X_CC.noxref_306' to ground, Gmin installed to provide path.
+    No DC path from node `X_CC.noxref_307' to ground, Gmin installed to provide path.
+        Further occurrences of this notice will be suppressed.
+Notice from spectre during initial setup.
+    Number of thread was limited because of small circuit size.
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-592): Following parameters are disabled because they are ignored or redefined in Spectre X:
+        Option Parameters:
+          reltol
+        Tran Parameters:
+          errpreset
+          method
+
+
+Global user options:
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 447978
+                bit 11    
+     bsource_7bc9d4 16    
+              diode 309   
+            vsource 4     
+          capacitor 343366
+           resistor 748754
+            bsim3v3 4669  
+     bsource_7dd33c 115   
+     bsource_f74ba3 168   
+
+Analysis and control statement inventory:
+               tran 1     
+
+Output statements:
+             .probe 1     
+           .measure 0     
+               save 0     
+
+
+Notice from spectre during initial setup.
+    8753 resistors are shorted because their absolute value is less than or equal to 'rabsshort'.
+    Deleting SFE database ...
+    Spectre X preset=vx enabled.
+    19 notices suppressed.
+    1247 warnings suppressed.
+    Multithreading enabled: 16 threads in the system with 32 available processors.
+
+Time for parsing: CPU = 22.5684 s, elapsed = 23.283 s.
+Time accumulated: CPU = 68.0829 s (1m  8.1s), elapsed = 47.8007 s.
+Peak resident memory used = 884 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (Spectre X) Multi-threading. The recommended number of threads is [4, 8], consider adding +mt=4 or +mt=8 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+****************************************************
+Transient Analysis `timeSweep': time = (0 s -> 4 us)
+****************************************************
+Finding DC approximate solution failed with try_fast_op=yes, continue running with try_fast_op=no.
+
+Perform DC simulation with dcopt=3 
+
+DC simulation time: CPU = 2.33035 s, elapsed = 353.208 ms.
+
+Notice from spectre during transient analysis `timeSweep'.
+    Output compression for transient analysis is enabled.
+
+
+Opening the SST2 file ./result/timeSweep.tran.trn ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 4 us
+    step = 500 ps
+    maxstep = 80 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 10e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = liberal
+    method = trap
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+    compression = wildcardonly
+
+
+Wildcard match summary:
+              probe v(*) :               446704
+
+Output and IC/nodeset summary:
+                 probe  446704  (voltage)
+
+.............9.............8.............7.............6.............5.............4.............3.............2.............1.............0
+Number of accepted tran steps =             3317
+
+Maximum value achieved for any signal of each quantity: 
+V: V(X_CC.N_Xdut/XFE_PHC24_n_19/4_Xdut/XFE_PHC24_n_19/MM6_g) = 2.497 V
+I: I(Vvdd:p) = 18.4 A
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (10.4 %)      1 (43.7 %)      2 (16.8 %)      3 (60.7 %)
+         4 (38.0 %)      5 (27.1 %)      6 (34.3 %)      7 (27.4 %)
+         8 (23.1 %)      9 (40.6 %)     10 (38.5 %)     11 (32.0 %)
+        12 (46.7 %)     13 (50.2 %)     14 (53.9 %)     15 (13.1 %)
+        16 (58.5 %)     17 (22.2 %)     18 (64.0 %)     19 (8.9 %)
+        20 (29.0 %)     21 (38.8 %)     22 (32.1 %)     23 (39.0 %)
+        24 (42.8 %)     25 (23.0 %)     26 (28.4 %)     27 (73.8 %)
+        28 (22.8 %)     29 (19.4 %)     30 (12.4 %)     31 (54.0 %)
+        Total: 1125.7%
+Initial condition solution time: CPU = 2.24245 s, elapsed = 369.152 ms.
+Intrinsic tran analysis time:    CPU = 1.19146 ks, elapsed = 74.4866 s.
+Total time required for tran analysis `timeSweep': CPU = 1.19497 ks (19m  55.0s), elapsed = 75.9245 s (1m  15.9s), util. = 1.57e+03%.
+Time accumulated: CPU = 1.26467 ks (21m  4.7s), elapsed = 123.834 s (2m  3.8s).
+Peak resident memory used = 884 Mbytes.
+
+Licensing Information:
+Lic Summary:
+[20:29:15.184459] Cdslmd servers:5280@14.139.1.126:1717@14.139.1.126
+[20:29:15.184489] Feature usage summary:
+[20:29:15.184489] Spectre_XPS
+
+
+Aggregate audit (8:29:15 PM, Mon Jun 22, 2026):
+Time used: CPU = 1.26 ks (21m  4.8s), elapsed = 124 s (2m  3.8s), util. = 1.02e+03%.
+Time spent in licensing: elapsed = 946 ms.
+Peak memory used = 891 Mbytes.
+Simulation started at: 8:27:11 PM, Mon Jun 22, 2026, ended at: 8:29:15 PM, Mon Jun 22, 2026, with elapsed time (wall clock): 124 s (2m  3.8s).
+spectre completes with 0 errors, 22 warnings, and 22 notices.

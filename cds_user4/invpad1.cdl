@@ -1,0 +1,39 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  invpad
+* Top Cell Name: invpad1
+* View Name:     schematic
+* Netlisted on:  Jun 25 12:15:25 2026
+************************************************************************
+
+.INCLUDE  /tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl
+*.BIPOLAR
+*.RESI = 0 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE MICRON
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: invpad
+* Cell Name:    invpad1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT invpad1 PAD1 PAD2 PADR1 PADR2 VDD VDDO VSS VSSO
+*.PININFO PAD1:B PAD2:B PADR1:B PADR2:B VDD:B VDDO:B VSS:B VSSO:B
+XI12 PAD2 PADR2 VDD VDDO VSS VSSO / pc3d00
+XI7 PAD1 PADR1 VDD VDDO VSS VSSO / pc3d00
+XI8 VDD VDDO VSS VSSO / pv0a
+XI9 VDD VDDO VSS VSSO / pv0i
+XI10 VDD VDDO VSS VSSO / pvda
+XI11 VDD VDDO VSS VSSO / pvdi
+.ENDS
+

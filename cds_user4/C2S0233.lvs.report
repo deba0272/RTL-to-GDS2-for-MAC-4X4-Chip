@@ -1,0 +1,1146 @@
+
+LVS Netlist Compiler - Errors and Warnings for "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Warning: Duplicate subckt definition "dl04d1" at line 7 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 3413 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "dl04d2" at line 10 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 8992 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "buffd1" at line 13 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 1881 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "buffd3" at line 16 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 1888 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "dfnrq1" at line 19 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 3184 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "oan211d1" at line 22 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 5997 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "aoi211d1" at line 25 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 480 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "an02d1" at line 28 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 300 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "nd02d1" at line 31 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 4542 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "ad01d1" at line 34 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 40 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "nd12d1" at line 37 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 4692 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "an03d1" at line 40 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 344 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "or02d1" at line 43 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 6053 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "ah01d1" at line 46 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 253 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "oai21d1" at line 49 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 5110 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "nr02d1" at line 52 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 4830 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "oai22d1" at line 55 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 5341 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "dfnrn1" at line 58 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 3128 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "inv0d1" at line 61 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 3441 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "an12d1" at line 64 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 441 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "aoi22d1" at line 67 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 765 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "xr03d1" at line 70 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 7832 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "dfnrb1" at line 73 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 3066 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl"
+Warning: Duplicate subckt definition "pc3c01" at line 76 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 2636 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"
+Warning: Duplicate subckt definition "pc3d01" at line 79 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 2892 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"
+Warning: Duplicate subckt definition "pc3o01" at line 82 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 4055 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"
+Warning: Duplicate subckt definition "pvdi" at line 85 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 9530 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"
+Warning: Duplicate subckt definition "pv0i" at line 88 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 9398 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"
+Warning: Duplicate subckt definition "pvda" at line 91 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 9438 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"
+Warning: Duplicate subckt definition "pv0a" at line 94 in file "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp"
+         previously defined at line 9272 in file "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl"
+
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         C2S0233.lvs.report
+LAYOUT NAME:              svdb/C2S0233.sp ('C2S0233')
+SOURCE NAME:              /home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp ('mac_4x4_wrapper_chip')
+RULE FILE:                _PEX.header_
+CREATION TIME:            Tue Jun 23 18:59:07 2026
+CURRENT DIRECTORY:        /home/iep4/projects/user4/work_libs/iep4/cds
+USER NAME:                iep4
+CALIBRE VERSION:          v2022.4_37.20    Fri Dec 2 17:43:09 PST 2022
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Connectivity errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      C2S0233                       mac_4x4_wrapper_chip
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD_CORE" "VDDO_CORE"
+   LVS GROUND NAME                        "VSS_CORE" "VSSO_CORE"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       NO
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS RELAX INITIAL CPOINTS              NONE
+   LVS REVERSE WL                         NO
+   // LVS NETLIST FILTER DEVICES          NO
+   // LVS PRESERVE BOX PORTS              NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            YES
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            YES
+   SOURCE CASE                            YES
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     ALL
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   LVS FILTER UNUSED OPTION               AB RC RE RG
+   LVS REPORT OPTION                      S
+   LVS REPORT UNITS                       YES
+   LVS SWAPPABLE HCELL PINS               GENERAL
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+   LVS EXPAND AMBIGUOUSLY HIGH SHORTED HCELLS NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           NO
+   LVS REDUCE PARALLEL CAPACITORS         NO
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  Q(VD)  PARALLEL
+   LVS REDUCE  Q(VD5)  PARALLEL
+   LVS REDUCE  Q(VD10)  PARALLEL
+   LVS REDUCE  Q(VH)  PARALLEL
+   LVS REDUCE  Q(VH5)  PARALLEL
+   LVS REDUCE  Q(VH10)  PARALLEL
+   LVS REDUCE  Q(VDN5)  PARALLEL
+   LVS REDUCE  C(CL)  PARALLEL
+   LVS REDUCE  C(CH)  PARALLEL
+   LVS REDUCE  C(CH3)  PARALLEL
+   LVS REDUCE  C(ch53t)  PARALLEL
+   LVS REDUCE  C(CL3)  PARALLEL
+   LVS REDUCE  C(CB)  PARALLEL
+   LVS REDUCE  C(cmim_hc)  PARALLEL
+   LVS REDUCE  C(cmim_uhd)  PARALLEL
+   LVS REDUCE  C(cmim_stk)  PARALLEL
+   LVS REDUCE  C(cmim_uhdstk)  PARALLEL
+   LVS REDUCE  D(W3)  PARALLEL NO
+   LVS REDUCE  D(DW)  PARALLEL NO
+   LVS REDUCE  MN(NH)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(N5)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(N)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(n18hvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MN(n18lvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(P)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(p18hvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(p18lvt)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(PH)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCE  MP(P5)  PARALLEL [ TOLERANCE rf_flag 0 ]
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Filter
+
+   LVS FILTER  D(dwn2psub)  OPEN
+   LVS FILTER  R(M3OPT)  OPEN
+   LVS FILTER  R(M4OPT)  OPEN
+   LVS FILTER  MT_PROBE_POINT  OPEN
+   LVS FILTER  MF1_PROBE_POINT  OPEN
+
+   // Trace Property
+
+   TRACE PROPERTY  mp  w w 3
+   TRACE PROPERTY  mp  l l 3
+   TRACE PROPERTY  mn  w w 3
+   TRACE PROPERTY  mn  l l 3
+   TRACE PROPERTY  c(cl)  w w 3
+   TRACE PROPERTY  c(cl)  l l 3
+   TRACE PROPERTY  c(cl3)  w w 3
+   TRACE PROPERTY  c(cl3)  l l 3
+   TRACE PROPERTY  c(ch)  w w 3
+   TRACE PROPERTY  c(ch)  l l 3
+   TRACE PROPERTY  c(ch3)  w w 3
+   TRACE PROPERTY  c(ch3)  l l 3
+   TRACE PROPERTY  c(ch53t)  w w 3
+   TRACE PROPERTY  c(ch53t)  l l 3
+   TRACE PROPERTY  c(cm32t)  l l 3
+   TRACE PROPERTY  c(cm32t)  nf nf 0
+   TRACE PROPERTY  c(cm33t)  l l 3
+   TRACE PROPERTY  c(cm33t)  nf nf 0
+   TRACE PROPERTY  c(usgcm32t)  l l 3
+   TRACE PROPERTY  c(usgcm32t)  nf nf 0
+   TRACE PROPERTY  c(usgcm33t)  l l 3
+   TRACE PROPERTY  c(usgcm33t)  nf nf 0
+   TRACE PROPERTY  c(cm42t)  l l 3
+   TRACE PROPERTY  c(cm42t)  nf nf 0
+   TRACE PROPERTY  c(cm43t)  l l 3
+   TRACE PROPERTY  c(cm43t)  nf nf 0
+   TRACE PROPERTY  c(usgcm42t)  l l 3
+   TRACE PROPERTY  c(usgcm42t)  nf nf 0
+   TRACE PROPERTY  c(usgcm43t)  l l 3
+   TRACE PROPERTY  c(usgcm43t)  nf nf 0
+   TRACE PROPERTY  c(cm5)  l l 3
+   TRACE PROPERTY  c(cm5)  nf nf 0
+   TRACE PROPERTY  c(cm53)  l l 3
+   TRACE PROPERTY  c(cm53)  nf nf 0
+   TRACE PROPERTY  c(usgcm52t)  l l 3
+   TRACE PROPERTY  c(usgcm52t)  nf nf 0
+   TRACE PROPERTY  c(usgcm53t)  l l 3
+   TRACE PROPERTY  c(usgcm53t)  nf nf 0
+   TRACE PROPERTY  d(ns)  a a 10
+   TRACE PROPERTY  d(dn)  a a 10
+   TRACE PROPERTY  d(n3)  a a 10
+   TRACE PROPERTY  d(dn50)  a a 10
+   TRACE PROPERTY  d(ps)  a a 10
+   TRACE PROPERTY  d(dp)  a a 10
+   TRACE PROPERTY  d(p3)  a a 10
+   TRACE PROPERTY  d(dp50)  a a 10
+   TRACE PROPERTY  d(nwldio_nc)  a a 10
+   TRACE PROPERTY  d(ns)  p p 10
+   TRACE PROPERTY  d(dn)  p p 10
+   TRACE PROPERTY  d(n3)  p p 10
+   TRACE PROPERTY  d(dn50)  p p 10
+   TRACE PROPERTY  d(ps)  p p 10
+   TRACE PROPERTY  d(dp)  p p 10
+   TRACE PROPERTY  d(p3)  p p 10
+   TRACE PROPERTY  d(dp50)  p p 10
+   TRACE PROPERTY  d(nwldio_nc)  p p 10
+   TRACE PROPERTY  q(vd)  m m 0
+   TRACE PROPERTY  q(vd5)  m m 0
+   TRACE PROPERTY  q(vd10)  m m 0
+   TRACE PROPERTY  q(vh)  m m 0
+   TRACE PROPERTY  q(vh5)  m m 0
+   TRACE PROPERTY  q(vh10)  m m 0
+   TRACE PROPERTY  q(vdn5)  m m 0
+   TRACE PROPERTY  q(vpnp18_s)  a a 10
+   TRACE PROPERTY  q(vpnp33_s)  a a 10
+   TRACE PROPERTY  q(vnpn18_s)  a a 10
+   TRACE PROPERTY  q(vpnp18_s)  p p 10
+   TRACE PROPERTY  q(vpnp33_s)  p p 10
+   TRACE PROPERTY  q(vnpn18_s)  p p 10
+   TRACE PROPERTY  mn(nh)  w w 3
+   TRACE PROPERTY  mn(nh)  l l 3
+   TRACE PROPERTY  mn(n5)  w w 3
+   TRACE PROPERTY  mn(n5)  l l 3
+   TRACE PROPERTY  mn(n)  w w 3
+   TRACE PROPERTY  mn(n)  l l 3
+   TRACE PROPERTY  mn(n18hvt)  w w 3
+   TRACE PROPERTY  mn(n18hvt)  l l 3
+   TRACE PROPERTY  mn(n18lvt)  w w 3
+   TRACE PROPERTY  mn(n18lvt)  l l 3
+   TRACE PROPERTY  mp(p)  w w 3
+   TRACE PROPERTY  mp(p)  l l 3
+   TRACE PROPERTY  mp(p18hvt)  w w 3
+   TRACE PROPERTY  mp(p18hvt)  l l 3
+   TRACE PROPERTY  mp(p18lvt)  w w 3
+   TRACE PROPERTY  mp(p18lvt)  l l 3
+   TRACE PROPERTY  mp(ph)  w w 3
+   TRACE PROPERTY  mp(ph)  l l 3
+   TRACE PROPERTY  mp(p5)  w w 3
+   TRACE PROPERTY  mp(p5)  l l 3
+   TRACE PROPERTY  d(dnpwcpl18)  a a 10
+   TRACE PROPERTY  d(dnpwcpl18)  p p 10
+   TRACE PROPERTY  d(dnpwcpl5)  a a 10
+   TRACE PROPERTY  d(dnpwcpl5)  p p 10
+   TRACE PROPERTY  d(dpnwcpl18)  a a 10
+   TRACE PROPERTY  d(dpnwcpl18)  p p 10
+   TRACE PROPERTY  d(dpnwcpl5)  a a 10
+   TRACE PROPERTY  d(dpnwcpl5)  p p 10
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Connectivity errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+LAYOUT CELL NAME:         C2S0233
+SOURCE CELL NAME:         mac_4x4_wrapper_chip
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              4        27    *
+
+ Nets:            1870      1854    *
+
+ Instances:       2338      2203    *    MN (4 pins)
+                  2331      2194    *    MP (4 pins)
+                    16        16         C (2 pins)
+                   283       283         R (2 pins)
+                   309        53    *    D (2 pins)
+                ------    ------
+ Total Inst:      5277      4749
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              4        27    *
+
+ Nets:            1452      1452
+
+ Instances:        353       353         MN (4 pins)
+                   320       320         MP (4 pins)
+                    16        16         C (2 pins)
+                   220       220         R (2 pins)
+                    23        23         D (2 pins)
+                   900       900         INV (2 pins)
+                    29        29         NAND2 (3 pins)
+                     2         2         NAND3 (4 pins)
+                    25        25         NOR2 (3 pins)
+                     1         1         AOI_2_1_1 (5 pins)
+                    16        16         AOI_2_2 (5 pins)
+                     5         5         OAI_2_1 (4 pins)
+                     1         1         OAI_2_2 (5 pins)
+                    20        20         SDW2 (3 pins)
+                    20        20         SDW3 (4 pins)
+                    31        31         SUP2 (3 pins)
+                    20        20         SUP3 (4 pins)
+                    22        22         SPDW_2_1 (4 pins)
+                    20        20         SPDW_3_1 (5 pins)
+                    20        20         SPUP_2_1 (4 pins)
+                    20        20         SPUP_3_1 (5 pins)
+                     2         2         SPMP((2+1)*1) (6 pins)
+                ------    ------
+ Total Inst:      2086      2086
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net X8/X134/PAD                                           a[1]
+       --- 3 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       X8/X134/X2/M0(505.100,1766.580):d                         ** missing connection **
+       
+       ** missing connection **                                  Xpc3d01_a1/M20:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net X8/X136/PAD                                           a[3]
+       --- 3 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       X8/X136/X1/M0(730.845,1874.250):s                         ** missing connection **
+       
+       ** missing connection **                                  Xpc3d01_a3/M7:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net X8/X137/PAD                                           b[0]
+       --- 3 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       X8/X137/X1/M0(1309.620,1874.250):s                        ** missing connection **
+       
+       ** missing connection **                                  Xpc3d01_b0/M7:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net X12/X31/PAD                                           mac_out[4]
+       --- 5 Connections On This Net ---                         --- 6 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       X12/X31/X2/M0(1874.250,343.110):s                         ** missing connection **
+       X12/X31/X3/M0(1766.580,337.340):d                         ** missing connection **
+       
+       ** missing connection **                                  Xpc3o01_mac_out4/M5:d
+       ** missing connection **                                  Xpc3o01_mac_out4/M17:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net X12/X32/PAD                                           mac_out[5]
+       --- 5 Connections On This Net ---                         --- 6 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       X12/X32/X2/M0(1874.250,458.870):s                         ** missing connection **
+       X12/X32/X3/M0(1766.580,453.100):d                         ** missing connection **
+       
+       ** missing connection **                                  Xpc3o01_mac_out5/M5:d
+       ** missing connection **                                  Xpc3o01_mac_out5/M17:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net X12/X33/PAD                                           mac_out[6]
+       --- 5 Connections On This Net ---                         --- 6 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       X12/X33/X2/M0(1874.250,574.630):s                         ** missing connection **
+       X12/X33/X3/M0(1766.580,568.860):d                         ** missing connection **
+       
+       ** missing connection **                                  Xpc3o01_mac_out6/M5:d
+       ** missing connection **                                  Xpc3o01_mac_out6/M17:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    Net X12/X34/PAD                                           mac_out[7]
+       --- 5 Connections On This Net ---                         --- 6 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       X12/X34/X2/M0(1874.250,690.385):s                         ** missing connection **
+       X12/X34/X3/M0(1766.580,684.615):d                         ** missing connection **
+       
+       ** missing connection **                                  Xpc3o01_mac_out7/M5:d
+       ** missing connection **                                  Xpc3o01_mac_out7/M17:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    Net X13/X119/PAD                                          mac_out[14]
+       --- 5 Connections On This Net ---                         --- 6 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       X13/X119/X6/R0(585.885,165.600):neg                       ** missing connection **
+       X13/X119/X2/M0(574.630,125.750):s                         ** missing connection **
+       
+       ** missing connection **                                  Xpc3o01_mac_out14/R1:pos
+       ** missing connection **                                  Xpc3o01_mac_out14/M5:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    Net X13/X120/PAD                                          mac_out[15]
+       --- 5 Connections On This Net ---                         --- 6 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       X13/X120/X6/R0(701.640,165.600):neg                       ** missing connection **
+       X13/X120/X2/M0(690.385,125.750):s                         ** missing connection **
+       
+       ** missing connection **                                  Xpc3o01_mac_out15/R1:pos
+       ** missing connection **                                  Xpc3o01_mac_out15/M5:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    Net X8/X117/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    Net X8/X133/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 12    Net X8/X135/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 13    Net X8/X138/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 14    Net X8/X139/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 15    Net X8/X140/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    Net X9/X27/PAD                                            ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    Net X9/X28/PAD                                            ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    Net X10/X42/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    Net X13/X117/PAD                                          ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    Net X13/X118/PAD                                          ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    Net X14/X18/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 22    Net X15/X18/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 23    Net X15/X19/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 24    Net X16/X18/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 25    Net X18/X29/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 26    Net X18/X30/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 27    Net X18/X31/PAD                                           ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 28    ** no similar net **                                      clk
+
+--------------------------------------------------------------------------------------------------------------
+
+ 29    ** no similar net **                                      rst
+
+--------------------------------------------------------------------------------------------------------------
+
+ 30    ** no similar net **                                      enable
+
+--------------------------------------------------------------------------------------------------------------
+
+ 31    ** no similar net **                                      a[2]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 32    ** no similar net **                                      a[0]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 33    ** no similar net **                                      b[3]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 34    ** no similar net **                                      b[2]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 35    ** no similar net **                                      b[1]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 36    ** no similar net **                                      mac_out[13]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 37    ** no similar net **                                      mac_out[12]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 38    ** no similar net **                                      mac_out[11]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 39    ** no similar net **                                      mac_out[10]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 40    ** no similar net **                                      mac_out[9]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 41    ** no similar net **                                      mac_out[8]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 42    ** no similar net **                                      mac_out[3]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 43    ** no similar net **                                      mac_out[2]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 44    ** no similar net **                                      mac_out[1]
+
+--------------------------------------------------------------------------------------------------------------
+
+ 45    ** no similar net **                                      mac_out[0]
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 46    VDDO_CORE on net: VDDO_CORE                               ** no similar port **
+ 47    VDD_CORE on net: VDD_CORE                                 ** no similar port **
+ 48    VSSO_CORE on net: VSSO_CORE                               ** no similar port **
+ 49    VSS_CORE on net: VSS_CORE                                 ** no similar port **
+ 50    ** no similar port **                                     a[3] on net: a[3]
+ 51    ** no similar port **                                     a[1] on net: a[1]
+ 52    ** no similar port **                                     b[0] on net: b[0]
+ 53    ** no similar port **                                     mac_out[15] on net: mac_out[15]
+ 54    ** no similar port **                                     mac_out[14] on net: mac_out[14]
+ 55    ** no similar port **                                     mac_out[7] on net: mac_out[7]
+ 56    ** no similar port **                                     mac_out[6] on net: mac_out[6]
+ 57    ** no similar port **                                     mac_out[5] on net: mac_out[5]
+ 58    ** no similar port **                                     mac_out[4] on net: mac_out[4]
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               0          0            4           27
+
+   Nets:             1434       1434           18           18
+
+   Instances:         150        150            0            0    MN(N)
+                      203        203            0            0    MN(NH)
+                      148        148            0            0    MP(P)
+                      172        172            0            0    MP(PH)
+                       16         16            0            0    C(CH)
+                      106        106            0            0    R(RD)
+                       31         31            0            0    R(RE)
+                       83         83            0            0    R(RW)
+                       21         21            0            0    D(DN)
+                        2          2            0            0    D(P3)
+                      900        900            0            0    INV
+                       29         29            0            0    NAND2
+                        2          2            0            0    NAND3
+                       25         25            0            0    NOR2
+                        1          1            0            0    AOI_2_1_1
+                       16         16            0            0    AOI_2_2
+                        5          5            0            0    OAI_2_1
+                        1          1            0            0    OAI_2_2
+                       20         20            0            0    SDW2
+                       20         20            0            0    SDW3
+                       31         31            0            0    SUP2
+                       20         20            0            0    SUP3
+                       22         22            0            0    SPDW_2_1
+                       20         20            0            0    SPDW_3_1
+                       20         20            0            0    SPUP_2_1
+                       20         20            0            0    SPUP_3_1
+                        2          2            0            0    SPMP((2+1)*1)
+                  -------    -------    ---------    ---------
+   Total Inst:       2086       2086            0            0
+
+
+o Statistics:
+
+   16 isolated layout nets were deleted.
+
+   1608 layout mos transistors were reduced to 330.
+     1278 mos transistors were deleted by parallel reduction.
+   1148 source mos transistors were reduced to 142.
+     1006 mos transistors were deleted by parallel reduction.
+
+   126 series layout resistors were reduced to 63.  63 connecting nets were deleted.
+   126 series source resistors were reduced to 63.  63 connecting nets were deleted.
+
+   288 parallel layout diodes were reduced to 2.
+   32 parallel source diodes were reduced to 2.
+
+   95 nets were matched arbitrarily.
+
+
+o Layout Names That Are Missing In The Source:
+
+   Ports:        VDDO_CORE VDD_CORE VSSO_CORE VSS_CORE
+
+
+o Initial Correspondence Points:
+
+   Nets:         VDDO_CORE VDD_CORE VSSO_CORE VSS_CORE
+
+
+o Ambiguity Resolution Points:
+
+      (Each one of the following objects belongs to a group of indistinguishable objects.
+       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
+       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
+
+       Layout                                                    Source
+       ------                                                    ------
+
+                                     Nets
+                                     ----
+
+       X13/X131/6                                                Xpv0i_VSS_3/U31_U18_r1
+       X11/X169/6                                                Xpv0i_VSS_1/U31_U18_r1
+       X17/X35/6                                                 Xpv0i_VSS_2/U31_U18_r1
+       X8/X146/5                                                 Xpvdi_VDD_3/U31_U18_r1
+       X11/X170/5                                                Xpvdi_VDD_2/U31_U18_r1
+       X13/X132/5                                                Xpvdi_VDD_1/U31_U18_r1
+       X13/X124/11                                               Xpc3o01_dummy1/U29_U74$9_gate
+       X13/X122/11                                               Xpc3o01_dummy2/U29_U74$9_gate
+       X13/X121/11                                               Xpc3o01_dummy4/U29_U74$9_gate
+       X8/X143/6                                                 Xpvda_VDDO_2/U30_U29_c2
+       X8/X144/5                                                 Xpvda_VDDO_1/U30_U29_c2
+       X13/X129/6                                                Xpv0a_VSSO_1/U31_U29_c2
+       X16/X21/6                                                 Xpv0a_VSSO_2/U31_U29_c2
+       X10/X591/6                                                Xpv0a_VSSO_0/U31_U29_c2
+       X11/X168/5                                                Xpvda_VDDO_0/U30_U29_c2
+       X13/X130/5                                                Xpvda_VDDO_3/U30_U29_c2
+       X8/X143/7                                                 Xpv0a_VSSO_3/U19_U22$11_gate
+       X8/X144/6                                                 Xpvda_VDDO_3/U19_U22$11_gate
+       X10/X591/7                                                Xpv0a_VSSO_2/U19_U22$11_gate
+       X11/X168/6                                                Xpvda_VDDO_2/U19_U22$11_gate
+       X13/X129/7                                                Xpv0a_VSSO_1/U19_U22$11_gate
+       X13/X130/6                                                Xpvda_VDDO_1/U19_U22$11_gate
+       X16/X21/7                                                 Xpv0a_VSSO_0/U19_U22$11_gate
+       X8/X145/7                                                 Xpv0i_VSS_3/U33_U31_r2
+       X8/X146/6                                                 Xpvdi_VDD_3/U32_U31_r2
+       X11/X169/7                                                Xpv0i_VSS_2/U33_U31_r2
+       X11/X170/6                                                Xpvdi_VDD_2/U32_U31_r2
+       X13/X131/7                                                Xpv0i_VSS_1/U33_U31_r2
+       X13/X132/6                                                Xpvdi_VDD_1/U32_U31_r2
+       X17/X35/7                                                 Xpv0i_VSS_0/U33_U31_r2
+       X8/X133/X8/12                                             Xpc3d01_enable/net_m1_VDDO_res
+       X8/X139/X8/12                                             Xpc3d01_b1/net_m1_VDDO_res
+       X8/X134/X8/12                                             Xpc3d01_clk/net_m1_VDDO_res
+       X8/X138/X8/12                                             Xpc3d01_a2/net_m1_VDDO_res
+       X8/X137/X8/12                                             Xpc3d01_b0/net_m1_VDDO_res
+       X18/X29/X8/12                                             Xpc3d01_b2/net_m1_VDDO_res
+       X8/X135/X8/12                                             Xpc3d01_a0/net_m1_VDDO_res
+       X18/X30/X8/12                                             Xpc3d01_b3/net_m1_VDDO_res
+       X8/X140/X8/12                                             Xpc3d01_rst/net_m1_VDDO_res
+       X18/X31/X8/12                                             Xpc3d01_a1/net_m1_VDDO_res
+       X8/X137/11                                                Xpc3d01_enable/U14_MN4$11_gate
+       X8/X135/11                                                Xpc3d01_a3/U14_MN4$11_gate
+       X18/X31/11                                                Xpc3d01_b1/U14_MN4$11_gate
+       X8/X138/11                                                Xpc3d01_b3/U14_MN4$11_gate
+       X8/X139/11                                                Xpc3d01_a2/U14_MN4$11_gate
+       X18/X30/11                                                Xpc3d01_b2/U14_MN4$11_gate
+       X8/X133/11                                                Xpc3d01_b0/U14_MN4$11_gate
+       X8/X134/11                                                Xpc3d01_a1/U14_MN4$11_gate
+       X18/X29/11                                                Xpc3d01_rst/U14_MN4$11_gate
+       X8/X140/11                                                Xpc3d01_clk/U14_MN4$11_gate
+       X9/X28/8                                                  Xpc3o01_mac_out11/U29_U37_r2
+       X13/X118/8                                                Xpc3o01_mac_out0/U29_U37_r2
+       X13/X119/8                                                Xpc3o01_mac_out14/U29_U37_r2
+       X13/X117/8                                                Xpc3o01_mac_out3/U29_U37_r2
+       X14/X18/8                                                 Xpc3o01_mac_out2/U29_U37_r2
+       X15/X18/8                                                 Xpc3o01_mac_out12/U29_U37_r2
+       X15/X19/8                                                 Xpc3o01_mac_out8/U29_U37_r2
+       X16/X18/8                                                 Xpc3o01_mac_out7/U29_U37_r2
+       X13/X120/8                                                Xpc3o01_mac_out15/U29_U37_r2
+       X12/X32/8                                                 Xpc3o01_mac_out4/U29_U37_r2
+       X8/X117/8                                                 Xpc3o01_mac_out9/U29_U37_r2
+       X10/X42/8                                                 Xpc3o01_mac_out13/U29_U37_r2
+       X12/X34/8                                                 Xpc3o01_mac_out1/U29_U37_r2
+       X9/X27/8                                                  Xpc3o01_mac_out10/U29_U37_r2
+       X12/X31/8                                                 Xpc3o01_mac_out6/U29_U37_r2
+       X14/X18/7                                                 Xpc3o01_mac_out15/U29_U69_padr
+       X16/X18/7                                                 Xpc3o01_mac_out14/U29_U69_padr
+       X15/X18/7                                                 Xpc3o01_mac_out13/U29_U69_padr
+       X15/X19/7                                                 Xpc3o01_mac_out12/U29_U69_padr
+       X13/X120/7                                                Xpc3o01_mac_out11/U29_U69_padr
+       X13/X119/7                                                Xpc3o01_mac_out10/U29_U69_padr
+       X13/X118/7                                                Xpc3o01_mac_out9/U29_U69_padr
+       X13/X117/7                                                Xpc3o01_mac_out8/U29_U69_padr
+       X12/X34/7                                                 Xpc3o01_mac_out7/U29_U69_padr
+       X12/X33/7                                                 Xpc3o01_mac_out6/U29_U69_padr
+       X12/X32/7                                                 Xpc3o01_mac_out5/U29_U69_padr
+       X12/X31/7                                                 Xpc3o01_mac_out4/U29_U69_padr
+       X10/X42/7                                                 Xpc3o01_mac_out3/U29_U69_padr
+       X9/X28/7                                                  Xpc3o01_mac_out2/U29_U69_padr
+       X9/X27/7                                                  Xpc3o01_mac_out1/U29_U69_padr
+       X13/X119/11                                               Xpc3o01_mac_out0/U29_U74$9_gate
+       X13/X120/11                                               Xpc3o01_mac_out8/U29_U74$9_gate
+       X13/X118/11                                               Xpc3o01_mac_out2/U29_U74$9_gate
+       X10/X42/11                                                Xpc3o01_mac_out10/U29_U74$9_gate
+       X8/X117/11                                                Xpc3o01_mac_out15/U29_U74$9_gate
+       X12/X32/11                                                Xpc3o01_mac_out1/U29_U74$9_gate
+       X12/X33/11                                                Xpc3o01_mac_out5/U29_U74$9_gate
+       X14/X18/11                                                Xpc3o01_mac_out13/U29_U74$9_gate
+       X15/X18/11                                                Xpc3o01_mac_out3/U29_U74$9_gate
+       X15/X19/11                                                Xpc3o01_mac_out6/U29_U74$9_gate
+       X16/X18/11                                                Xpc3o01_mac_out9/U29_U74$9_gate
+       X9/X27/11                                                 Xpc3o01_mac_out11/U29_U74$9_gate
+       X13/X117/11                                               Xpc3o01_mac_out4/U29_U74$9_gate
+       X12/X31/11                                                Xpc3o01_mac_out7/U29_U74$9_gate
+       X12/X34/11                                                Xpc3o01_mac_out14/U29_U74$9_gate
+
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       X16/X18/X3/M0(233.420,1315.390)  MP(PH)                   Xpc3o01_mac_out7/M17  MP(PH)
+         g: X16/X18/8                                              g: Xpc3o01_mac_out7/U29_U37_r2
+         s: VDDO_CORE                                              d: VDDO_CORE
+         b: VDDO_CORE                                              b: VDDO_CORE
+         d: X16/X18/PAD                                            ** no similar net **
+         ** X12/X34/PAD **                                         s: mac_out[7]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X15/X19/X2/M0(125.750,1541.130)  MN(NH)                   Xpc3o01_mac_out6/M5  MN(NH)
+         g: X15/X19/11                                             g: Xpc3o01_mac_out6/U29_U74$9_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X15/X19/PAD                                            ** no similar net **
+         ** X12/X33/PAD **                                         d: mac_out[6]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X13/X120/X2/M0(690.385,125.750)  MN(NH)                   Xpc3o01_mac_out8/M5  MN(NH)
+         g: X13/X120/11                                            g: Xpc3o01_mac_out8/U29_U74$9_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X13/X120/PAD                                           ** mac_out[15] **
+         ** no similar net **                                      d: mac_out[8]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X13/X119/X2/M0(574.630,125.750)  MN(NH)                   Xpc3o01_mac_out0/M5  MN(NH)
+         g: X13/X119/11                                            g: Xpc3o01_mac_out0/U29_U74$9_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X13/X119/PAD                                           ** mac_out[14] **
+         ** no similar net **                                      d: mac_out[0]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X13/X117/X2/M0(343.110,125.750)  MN(NH)                   Xpc3o01_mac_out4/M5  MN(NH)
+         g: X13/X117/11                                            g: Xpc3o01_mac_out4/U29_U74$9_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X13/X117/PAD                                           ** no similar net **
+         ** X12/X31/PAD **                                         d: mac_out[4]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X12/X34/X3/M0(1766.580,684.615)  MP(PH)                   Xpc3o01_mac_out1/M17  MP(PH)
+         g: X12/X34/8                                              g: Xpc3o01_mac_out1/U29_U37_r2
+         s: VDDO_CORE                                              d: VDDO_CORE
+         b: VDDO_CORE                                              b: VDDO_CORE
+         d: X12/X34/PAD                                            ** mac_out[7] **
+         ** no similar net **                                      s: mac_out[1]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X12/X34/X2/M0(1874.250,690.385)  MN(NH)                   Xpc3o01_mac_out14/M5  MN(NH)
+         g: X12/X34/11                                             g: Xpc3o01_mac_out14/U29_U74$9_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X12/X34/PAD                                            ** mac_out[7] **
+         ** X13/X119/PAD **                                        d: mac_out[14]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X12/X33/X3/M0(1766.580,568.860)  MP(PH)                   Xpc3o01_mac_out5/M17  MP(PH)
+         g: X12/X33/8                                              g: Xpc3o01_mac_out5/U29_U37_r2
+         s: VDDO_CORE                                              d: VDDO_CORE
+         b: VDDO_CORE                                              b: VDDO_CORE
+         d: X12/X33/PAD                                            ** mac_out[6] **
+         ** X12/X32/PAD **                                         s: mac_out[5]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X12/X33/X2/M0(1874.250,574.630)  MN(NH)                   Xpc3o01_mac_out5/M5  MN(NH)
+         g: X12/X33/11                                             g: Xpc3o01_mac_out5/U29_U74$9_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X12/X33/PAD                                            ** mac_out[6] **
+         ** X12/X32/PAD **                                         d: mac_out[5]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X12/X32/X3/M0(1766.580,453.100)  MP(PH)                   Xpc3o01_mac_out4/M17  MP(PH)
+         g: X12/X32/8                                              g: Xpc3o01_mac_out4/U29_U37_r2
+         s: VDDO_CORE                                              d: VDDO_CORE
+         b: VDDO_CORE                                              b: VDDO_CORE
+         d: X12/X32/PAD                                            ** mac_out[5] **
+         ** X12/X31/PAD **                                         s: mac_out[4]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X12/X32/X2/M0(1874.250,458.870)  MN(NH)                   Xpc3o01_mac_out1/M5  MN(NH)
+         g: X12/X32/11                                             g: Xpc3o01_mac_out1/U29_U74$9_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X12/X32/PAD                                            ** mac_out[5] **
+         ** no similar net **                                      d: mac_out[1]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X12/X31/X3/M0(1766.580,337.340)  MP(PH)                   Xpc3o01_mac_out6/M17  MP(PH)
+         g: X12/X31/8                                              g: Xpc3o01_mac_out6/U29_U37_r2
+         s: VDDO_CORE                                              d: VDDO_CORE
+         b: VDDO_CORE                                              b: VDDO_CORE
+         d: X12/X31/PAD                                            ** mac_out[4] **
+         ** X12/X33/PAD **                                         s: mac_out[6]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X12/X31/X2/M0(1874.250,343.110)  MN(NH)                   Xpc3o01_mac_out7/M5  MN(NH)
+         g: X12/X31/11                                             g: Xpc3o01_mac_out7/U29_U74$9_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X12/X31/PAD                                            ** mac_out[4] **
+         ** X12/X34/PAD **                                         d: mac_out[7]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X8/X117/X2/M0(1874.250,1616.430)  MN(NH)                  Xpc3o01_mac_out15/M5  MN(NH)
+         g: X8/X117/11                                             g: Xpc3o01_mac_out15/U29_U74$9_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X8/X117/PAD                                            ** no similar net **
+         ** X13/X120/PAD **                                        d: mac_out[15]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X8/X133/X1/M0(383.570,1874.250)  MN(NH)                   Xpc3d01_b0/M7  MN(NH)
+         g: X8/X133/11                                             g: Xpc3d01_b0/U14_MN4$11_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X8/X133/PAD                                            ** no similar net **
+         ** X8/X137/PAD **                                         d: b[0]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X8/X134/X2/M0(505.100,1766.580)  MP(PH)                   Xpc3d01_clk/M20  MP(PH)
+         g: X8/X134/7                                              g: Xpc3d01_clk/U14_pgate_tol
+         s: VDDO_CORE                                              d: VDDO_CORE
+         b: VDDO_CORE                                              b: VDDO_CORE
+         d: X8/X134/PAD                                            ** a[1] **
+         ** no similar net **                                      s: clk
+
+--------------------------------------------------------------------------------------------------------------
+
+       X8/X135/X1/M0(615.090,1874.250)  MN(NH)                   Xpc3d01_a3/M7  MN(NH)
+         g: X8/X135/11                                             g: Xpc3d01_a3/U14_MN4$11_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X8/X135/PAD                                            ** no similar net **
+         ** X8/X136/PAD **                                         d: a[3]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X8/X136/X1/M0(730.845,1874.250)  MN(NH)                   Xpc3d01_a0/M7  MN(NH)
+         g: X8/X136/11                                             g: Xpc3d01_a0/U14_MN4$11_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X8/X136/PAD                                            ** a[3] **
+         ** no similar net **                                      d: a[0]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X8/X137/X1/M0(1309.620,1874.250)  MN(NH)                  Xpc3d01_enable/M7  MN(NH)
+         g: X8/X137/11                                             g: Xpc3d01_enable/U14_MN4$11_gate
+         d: VSSO_CORE                                              s: VSSO_CORE
+         b: VSSO_CORE                                              b: VSSO_CORE
+         s: X8/X137/PAD                                            ** b[0] **
+         ** no similar net **                                      d: enable
+
+--------------------------------------------------------------------------------------------------------------
+
+       X13/X119/X6/R0(585.885,165.600)  R(RE)                    Xpc3o01_mac_out10/R1  R(RE)
+         pos: X13/X119/7                                           neg: Xpc3o01_mac_out10/U29_U69_padr
+         neg: X13/X119/PAD                                         ** mac_out[14] **
+         ** no similar net **                                      pos: mac_out[10]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X13/X120/X6/R0(701.640,165.600)  R(RE)                    Xpc3o01_mac_out11/R1  R(RE)
+         pos: X13/X120/7                                           neg: Xpc3o01_mac_out11/U29_U69_padr
+         neg: X13/X120/PAD                                         ** mac_out[15] **
+         ** no similar net **                                      pos: mac_out[11]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X14/X18/X6/R0(165.600,1645.635)  R(RE)                    Xpc3o01_mac_out15/R1  R(RE)
+         pos: X14/X18/7                                            neg: Xpc3o01_mac_out15/U29_U69_padr
+         neg: X14/X18/PAD                                          ** no similar net **
+         ** X13/X120/PAD **                                        pos: mac_out[15]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X16/X18/X6/R0(165.600,1298.365)  R(RE)                    Xpc3o01_mac_out14/R1  R(RE)
+         pos: X16/X18/7                                            neg: Xpc3o01_mac_out14/U29_U69_padr
+         neg: X16/X18/PAD                                          ** no similar net **
+         ** X13/X119/PAD **                                        pos: mac_out[14]
+
+--------------------------------------------------------------------------------------------------------------
+
+       X18/X31/X2/M0(233.420,736.615)  MP(PH)                    Xpc3d01_a1/M20  MP(PH)
+         g: X18/X31/7                                              g: Xpc3d01_a1/U14_pgate_tol
+         s: VDDO_CORE                                              d: VDDO_CORE
+         b: VDDO_CORE                                              b: VDDO_CORE
+         d: X18/X31/PAD                                            ** no similar net **
+         ** X8/X134/PAD **                                         s: a[1]
+
+
+
+**************************************************************************************************************
+                                  UNMATCHED OBJECTS
+       LAYOUT                                                    SOURCE
+**************************************************************************************************************
+
+       ** unmatched port **                                      clk on net: clk
+       ** unmatched port **                                      rst on net: rst
+       ** unmatched port **                                      enable on net: enable
+       ** unmatched port **                                      a[2] on net: a[2]
+       ** unmatched port **                                      a[0] on net: a[0]
+       ** unmatched port **                                      b[3] on net: b[3]
+       ** unmatched port **                                      b[2] on net: b[2]
+       ** unmatched port **                                      b[1] on net: b[1]
+       ** unmatched port **                                      mac_out[13] on net: mac_out[13]
+       ** unmatched port **                                      mac_out[12] on net: mac_out[12]
+       ** unmatched port **                                      mac_out[11] on net: mac_out[11]
+       ** unmatched port **                                      mac_out[10] on net: mac_out[10]
+       ** unmatched port **                                      mac_out[9] on net: mac_out[9]
+       ** unmatched port **                                      mac_out[8] on net: mac_out[8]
+       ** unmatched port **                                      mac_out[3] on net: mac_out[3]
+       ** unmatched port **                                      mac_out[2] on net: mac_out[2]
+       ** unmatched port **                                      mac_out[1] on net: mac_out[1]
+       ** unmatched port **                                      mac_out[0] on net: mac_out[0]
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

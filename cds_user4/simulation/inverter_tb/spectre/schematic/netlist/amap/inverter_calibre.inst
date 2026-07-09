@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"MM1n" "ts018_scl_prim_nmos_18_spectre"
+"MM0n" "ts018_scl_prim_pmos_18_spectre"
+"cc_40n cc_39n cc_38n cc_37n cc_36n cc_35n cc_34n cc_33n cc_32n cc_31n cc_30n cc_29n cc_28n cc_27n cc_26n cc_25n cc_24n cc_23n cc_22n cc_21n cc_20n cc_19n cc_18n cc_17n cc_16n cc_15n cc_14n cc_13n cc_12n cc_11n cc_10n cc_9n cc_8n cc_7n cc_6n cc_5n cc_4n cc_3n cc_2n cc_1n ciVDD_17n ciVDD_16n ciGND_27n ciGND_26n ciIN_22n" "analogLib_cap_spectre"
+"rOUT_28n rOUT_27n rOUT_26n rOUT_25n rOUT_24n rOUT_23n rOUT_22n rOUT_21n rOUT_20n rOUT_19n rOUT_18n rOUT_17n rOUT_16n rVDD_28n rVDD_27n rVDD_26n rVDD_25n rVDD_24n rVDD_23n rVDD_22n rVDD_21n rVDD_20n rVDD_19n rVDD_18n rGND_35n rGND_34n rGND_33n rGND_32n rGND_31n rGND_30n rGND_29n rGND_28n rIN_32n rIN_31n rIN_30n rIN_29n rIN_28n rIN_27n rIN_26n rIN_25n rIN_24n rIN_23n" "analogLib_res_spectre"
+"GNDv" ":1v"
+"INv" ":2v"
+"OUTv" ":3v"
+"VDDv" ":4v"

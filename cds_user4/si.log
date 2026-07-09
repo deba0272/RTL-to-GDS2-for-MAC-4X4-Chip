@@ -1,0 +1,20 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.70s.
+
+MPS timeout is set to '60' seconds.
+Loading ts018_scl_prim/libInit.il ...
+	Loading ts018_scl_prim/globals.il ... done!
+	Loading ts018_scl_prim/loadCxt.ile ... done!
+	Loading context 'ts018_scl_prim' from library 'ts018_scl_prim' ... done!
+	Loading context 'pdkUtils' from library 'ts018_scl_prim' ... done!
+	Loading ts018_scl_prim/libInitCustomExit.il ... **
+	Attach user init procedure to Virtuoso CDL Out form**
+	Loading ts018_scl_prim/customFilter.il
+	Loading ts018_scl_prim/ciProspector.il
+done!
+Loaded ts018_scl_prim/libInit.il successfully!
+
+Loading hnlInit.cxt 
+Running Artist Hierarchical Netlisting ...
+
+End netlisting Jun 25 12:18:51 2026
+

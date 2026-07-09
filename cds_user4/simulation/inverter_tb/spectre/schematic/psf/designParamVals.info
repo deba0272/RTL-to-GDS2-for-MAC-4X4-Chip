@@ -1,0 +1,80 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "21.1.0.546.isr13"
+"date" "11:25:15 AM, Wed Jun 24, 2026"
+"design" "// Generated for: spectre"
+"analysis type" "info"
+"analysis name" "designParamVals"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.00100000
+TYPE
+"top-level" STRUCT(
+"temp" FLOAT DOUBLE
+"tnom" FLOAT DOUBLE
+"temper" FLOAT DOUBLE
+"time" FLOAT DOUBLE
+"delta_n_dlc" FLOAT DOUBLE
+"delta_p_dlc" FLOAT DOUBLE
+"delta_n_vth0_18" FLOAT DOUBLE
+"delta_p_vth0_18" FLOAT DOUBLE
+"delta_n_lint_18" FLOAT DOUBLE
+"delta_p_lint_18" FLOAT DOUBLE
+"delta_n_wint_18" FLOAT DOUBLE
+"delta_p_wint_18" FLOAT DOUBLE
+"delta_n_tox_18" FLOAT DOUBLE
+"delta_p_tox_18" FLOAT DOUBLE
+"delta_n_nfactor_18" FLOAT DOUBLE
+"delta_p_nfactor_18" FLOAT DOUBLE
+"delta_n_u0_18" FLOAT DOUBLE
+"delta_p_u0_18" FLOAT DOUBLE
+"delta_n_dvt0_18" FLOAT DOUBLE
+"delta_p_dvt0_18" FLOAT DOUBLE
+"delta_n_nlx_18" FLOAT DOUBLE
+"delta_p_nlx_18" FLOAT DOUBLE
+"delta_n_cgdo_18" FLOAT DOUBLE
+"delta_p_cgdo_18" FLOAT DOUBLE
+"delta_n_cgso_18" FLOAT DOUBLE
+"delta_p_cgso_18" FLOAT DOUBLE
+"delta_n_cj_18" FLOAT DOUBLE
+"delta_p_cj_18" FLOAT DOUBLE
+"delta_n_cjsw_18" FLOAT DOUBLE
+"delta_p_cjsw_18" FLOAT DOUBLE
+) PROP(
+"key" "parameters"
+)
+VALUE
+"top-level" "top-level" (
+2.700000000000000e+01
+2.700000000000000e+01
+2.700000000000000e+01
+0.000000000000000e+00
+0.000000000000000e+00
+0.000000000000000e+00
+-1.200000000000000e-02
+2.500000000000000e-02
+-1.500000000000000e-08
+1.000000000000000e-08
+0.000000000000000e+00
+-4.000000000000000e-08
+0.000000000000000e+00
+0.000000000000000e+00
+-5.000000000000000e-02
+4.000000000000000e-01
+4.000000000000000e+00
+-1.000000000000000e+01
+0.000000000000000e+00
+0.000000000000000e+00
+-1.000000000000000e-08
+6.000000000000001e-09
+0.000000000000000e+00
+0.000000000000000e+00
+0.000000000000000e+00
+0.000000000000000e+00
+0.000000000000000e+00
+0.000000000000000e+00
+0.000000000000000e+00
+0.000000000000000e+00
+)
+END

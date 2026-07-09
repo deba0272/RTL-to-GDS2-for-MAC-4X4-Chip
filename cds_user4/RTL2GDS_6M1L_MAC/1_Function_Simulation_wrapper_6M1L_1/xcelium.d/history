@@ -1,0 +1,6 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(22Jun2026:15:09:22):( xrun -f fun_simulation.f )&&(./xcelium.d/env.d/env.history.22Jun2026_15_09_22)
+s2::(22Jun2026:15:10:15):( xrun -f fun_simulation.f )&&(./xcelium.d/env.d/env.history.22Jun2026_15_10_15)

@@ -1,0 +1,44 @@
+*** Statistics for net list mac_4x4_wrapper_chip ***
+Number of cells      = 185
+Number of nets       = 199
+Number of tri-nets   = 0
+Number of degen nets = 0
+Number of pins       = 572
+Number of i/os       = 27
+
+Number of nets with    2 terms = 155 (77.9%)
+Number of nets with    3 terms = 14 (7.0%)
+Number of nets with    4 terms = 17 (8.5%)
+Number of nets with    5 terms = 6 (3.0%)
+Number of nets with    6 terms = 1 (0.5%)
+Number of nets with >=10 terms = 6 (3.0%)
+
+*** 27 Primitives used:
+Primitive pfrelr (4 insts)
+Primitive pc3c01 (1 insts)
+Primitive pc3d01 (11 insts)
+Primitive pc3o01 (20 insts)
+Primitive pv0a (4 insts)
+Primitive pv0i (4 insts)
+Primitive pvda (4 insts)
+Primitive pvdi (4 insts)
+Primitive ad01d1 (20 insts)
+Primitive ah01d1 (4 insts)
+Primitive an02d1 (12 insts)
+Primitive an03d1 (2 insts)
+Primitive an12d1 (1 insts)
+Primitive aoi211d1 (1 insts)
+Primitive aoi22d1 (16 insts)
+Primitive dfnrb1 (3 insts)
+Primitive dfnrn1 (5 insts)
+Primitive dfnrq1 (26 insts)
+Primitive inv0d1 (1 insts)
+Primitive nd02d1 (6 insts)
+Primitive nd12d1 (6 insts)
+Primitive nr02d1 (23 insts)
+Primitive oai21d1 (1 insts)
+Primitive oai22d1 (1 insts)
+Primitive oan211d1 (2 insts)
+Primitive or02d1 (2 insts)
+Primitive xr03d1 (1 insts)
+************

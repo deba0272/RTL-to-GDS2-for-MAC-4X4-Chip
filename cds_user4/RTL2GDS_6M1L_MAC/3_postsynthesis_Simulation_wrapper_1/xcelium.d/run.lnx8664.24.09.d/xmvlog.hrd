@@ -1,0 +1,18 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-VFILE
+../2_Synthesis_wrapper_7_wrapper_6M1L_2/top_streamed_wrapper_chip_netlist.v
+-VFILE
+../testbench/ss_verilog.v
+-VFILE
+../testbench/ss_verilog_udp.v
+-VFILE
+/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1IL/verilog/vcs_sim_model/tsl18fs120_scl.v
+-VFILE
+/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3c01.v
+-VFILE
+/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3d01.v
+-VFILE
+/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3o01.v

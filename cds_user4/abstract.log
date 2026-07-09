@@ -1,0 +1,136 @@
+INFO (ABS-19020): Starting @(#)$CDS: Abstract version 6.1.8-64b 11/15/2022 19:16 (cpgbld01) $, sub-version  IC6.1.8-64b.500.29 , on  2.6.32-431.11.2.el6.x86_64
+INFO (ABS-10500): Library LogicCells Opening /home/iep4/projects/user4/work_libs/iep4/cds/LogicCells_characterization/LogicCells
+Loading ts018_scl_prim/libInit.il ...
+	Loading ts018_scl_prim/globals.il ... done!
+	Loading ts018_scl_prim/loadCxt.ile ... done!
+	Loading context 'ts018_scl_prim' from library 'ts018_scl_prim' ... done!
+	Loading context 'pdkUtils' from library 'ts018_scl_prim' ... done!
+	Loading ts018_scl_prim/libInitCustomExit.il ... **
+	Attach user init procedure to Virtuoso CDL Out form**
+	Loading ts018_scl_prim/customFilter.il
+	Loading ts018_scl_prim/ciProspector.il
+done!
+Loaded ts018_scl_prim/libInit.il successfully!
+INFO (ABS-10011): Verifying Technology Data ...
+INFO (ABS-10012): Layer summary: 6 metal layer(s), 5 via layer(s), 2 poly layer(s), and 1 diff layer(s) found
+INFO (ABS-20023): Via summary: 5 valid via(s) found
+INFO (ABS-10501): Library LogicCells Loading 4 cells
+INFO (ABS-10502): Library LogicCells Loaded 4 cells
+INFO (ABS-10507): Library LogicCells opened
+INFO (ABS-19046): Abstract Generator no longer uses the '.abstract.options' file in the selected design library as the default options file. The new default file location is <current working directory>/.abstract/<library name>/.abstract.options. 
+INFO (ABS-19047): Abstract Generator no longer uses the '.abstract.status' file present in the selected lib/cell directory . The new default file location for each cell is <current working directory>/.abstract/<library name>/cellStatus/.abstract.status.<cellName>. 
+*WARNING* (ABS-20061): Abstract Generator will ignore the value of the 'ReadOnlyTechnology' option and will not save the layer-purpose pairs in the technology file. Support for the 'ReadOnlyTechnology' option will be removed in a future release.
+INFO (ABS-10525): Attaching the myscl180 technology library to the LogicCells library.
+INFO (ABS-10011): Verifying Technology Data ...
+INFO (ABS-10012): Layer summary: 6 metal layer(s), 5 via layer(s), 2 poly layer(s), and 1 diff layer(s) found
+INFO (ABS-20023): Via summary: 5 valid via(s) found
+INFO (ABS-10511): Saving current option settings for library LogicCells to the file /home/iep4/projects/user4/work_libs/iep4/cds/.abstract/LogicCells/.abstract.options.
+INFO (ABS-11900): Cell dff: Step Pins started
+Loading techComp.cxt 
+INFO (ABS-12014): Cell dff: The PR boundary has been created successfully.
+INFO (ABS-12015): Cell dff: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12042): Cell dff: Deleting nets and terminals with no pins because these are not relevant for layout tools.
+INFO (ABS-12001): Cell dff: There are 6 existing terminals. No pins will be added for them.
+INFO (ABS-11901): Cell dff: Step Pins finished
+INFO (ABS-11900): Cell inverter: Step Pins started
+INFO (ABS-12014): Cell inverter: The PR boundary has been created successfully.
+INFO (ABS-12015): Cell inverter: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12001): Cell inverter: There are 4 existing terminals. No pins will be added for them.
+INFO (ABS-11901): Cell inverter: Step Pins finished
+INFO (ABS-11900): Cell nand2x1: Step Pins started
+INFO (ABS-12014): Cell nand2x1: The PR boundary has been created successfully.
+INFO (ABS-12015): Cell nand2x1: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12042): Cell nand2x1: Deleting nets and terminals with no pins because these are not relevant for layout tools.
+INFO (ABS-12001): Cell nand2x1: There are 5 existing terminals. No pins will be added for them.
+INFO (ABS-11901): Cell nand2x1: Step Pins finished
+INFO (ABS-11900): Cell nor2: Step Pins started
+INFO (ABS-12014): Cell nor2: The PR boundary has been created successfully.
+INFO (ABS-12015): Cell nor2: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12042): Cell nor2: Deleting nets and terminals with no pins because these are not relevant for layout tools.
+INFO (ABS-12001): Cell nor2: There are 5 existing terminals. No pins will be added for them.
+INFO (ABS-11901): Cell nor2: Step Pins finished
+INFO (ABS-10509): Saving existing options file for library LogicCells to /home/iep4/projects/user4/work_libs/iep4/cds/.abstract/LogicCells/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library LogicCells to the file /home/iep4/projects/user4/work_libs/iep4/cds/.abstract/LogicCells/.abstract.options.
+INFO (ABS-11900): Cell dff: Step Extract started
+INFO (ABS-13002): Cell dff: extracting 6 nets
+INFO (ABS-13004): Cell dff: extracting the net D, 1 of 6.
+INFO (ABS-13004): Cell dff: extracting the net clk, 2 of 6.
+INFO (ABS-13004): Cell dff: extracting the net out, 3 of 6.
+INFO (ABS-13004): Cell dff: extracting the net RST_N, 4 of 6.
+INFO (ABS-13004): Cell dff: extracting the net VDD, 5 of 6.
+INFO (ABS-13004): Cell dff: extracting the net GND, 6 of 6.
+INFO (ABS-11901): Cell dff: Step Extract finished
+INFO (ABS-11900): Cell inverter: Step Extract started
+INFO (ABS-13002): Cell inverter: extracting 4 nets
+INFO (ABS-13004): Cell inverter: extracting the net OUT, 1 of 4.
+INFO (ABS-13004): Cell inverter: extracting the net IN, 2 of 4.
+INFO (ABS-13004): Cell inverter: extracting the net GND, 3 of 4.
+INFO (ABS-13004): Cell inverter: extracting the net VDD, 4 of 4.
+INFO (ABS-11901): Cell inverter: Step Extract finished
+INFO (ABS-11900): Cell nand2x1: Step Extract started
+INFO (ABS-13002): Cell nand2x1: extracting 5 nets
+INFO (ABS-13004): Cell nand2x1: extracting the net A, 1 of 5.
+INFO (ABS-13004): Cell nand2x1: extracting the net Y, 2 of 5.
+INFO (ABS-13004): Cell nand2x1: extracting the net B, 3 of 5.
+INFO (ABS-13004): Cell nand2x1: extracting the net VDD, 4 of 5.
+INFO (ABS-13004): Cell nand2x1: extracting the net GND, 5 of 5.
+INFO (ABS-11901): Cell nand2x1: Step Extract finished
+INFO (ABS-11900): Cell nor2: Step Extract started
+INFO (ABS-13002): Cell nor2: extracting 5 nets
+INFO (ABS-13004): Cell nor2: extracting the net Y, 1 of 5.
+INFO (ABS-13004): Cell nor2: extracting the net A, 2 of 5.
+INFO (ABS-13004): Cell nor2: extracting the net B, 3 of 5.
+INFO (ABS-13004): Cell nor2: extracting the net GND, 4 of 5.
+INFO (ABS-13004): Cell nor2: extracting the net VDD, 5 of 5.
+INFO (ABS-11901): Cell nor2: Step Extract finished
+INFO (ABS-10509): Saving existing options file for library LogicCells to /home/iep4/projects/user4/work_libs/iep4/cds/.abstract/LogicCells/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library LogicCells to the file /home/iep4/projects/user4/work_libs/iep4/cds/.abstract/LogicCells/.abstract.options.
+INFO (ABS-11900): Cell dff: Step Abstract started
+INFO (ABS-19026): Cell dff: Generating detailed blockages for layer M1
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell dff is invalid.
+INFO (ABS-11901): Cell dff: Step Abstract finished
+INFO (ABS-11900): Cell inverter: Step Abstract started
+INFO (ABS-19026): Cell inverter: Generating detailed blockages for layer M1
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell inverter is invalid.
+INFO (ABS-11901): Cell inverter: Step Abstract finished
+INFO (ABS-11900): Cell nand2x1: Step Abstract started
+INFO (ABS-19026): Cell nand2x1: Generating detailed blockages for layer M1
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell nand2x1 is invalid.
+INFO (ABS-11901): Cell nand2x1: Step Abstract finished
+INFO (ABS-11900): Cell nor2: Step Abstract started
+INFO (ABS-19026): Cell nor2: Generating detailed blockages for layer M1
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell nor2 is invalid.
+INFO (ABS-11901): Cell nor2: Step Abstract finished
+*WARNING* (ABS-20045): Failed to create the 'core' site on disk. Unable to lock tech database for library myscl180.
+INFO (ABS-10014): Created the core site in VM
+*WARNING* (ABS-20045): Failed to create the 'core' site on disk. Unable to lock tech database for library myscl180.
+INFO (ABS-10014): Created the core site in VM
+*WARNING* (ABS-20045): Failed to create the 'core' site on disk. Unable to lock tech database for library myscl180.
+INFO (ABS-10014): Created the core site in VM
+*WARNING* (ABS-20045): Failed to create the 'core' site on disk. Unable to lock tech database for library myscl180.
+INFO (ABS-10014): Created the core site in VM
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.78s.
+INFO (DB-120008): oaSocket connection timeout value was set to 2 seconds.
+
+********************************************************************************
+Product   : Virtuoso(R) LEF Out 
+Program   : @(#)$CDS: lefout version 6.1.8-64b 11/15/2022 19:27 (cpgbld01) $
+SubVersion: sub-version  IC6.1.8-64b.500.29 
+Started at: 24-Jun-2026  15:16:38
+User Name : iep4
+Host Name : server3.eced.svnit.ac.in
+Directory : /home/iep4/projects/user4/work_libs/iep4/cds
+DB Version: 	20221115 (SJ)
+CADENCE Design Systems, Inc.
+********************************************************************************
+Running: lefout -lib LogicCells -views "abstract" -log lefout.log -lef abstract.lef -cellList lefout.list -ver 5.7 -noTech
+
+Elapsed Time: 1.0s
+
+lefout translation completed (errors: 0, warnings: 0).
+INFO (ABS-10508): Library LogicCells closing /home/iep4/projects/user4/work_libs/iep4/cds/LogicCells_characterization/LogicCells
+INFO (ABS-10509): Saving existing options file for library LogicCells to /home/iep4/projects/user4/work_libs/iep4/cds/.abstract/LogicCells/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library LogicCells to the file /home/iep4/projects/user4/work_libs/iep4/cds/.abstract/LogicCells/.abstract.options.
+INFO (ABS-10515): Library LogicCells closed
+INFO (ABS-10529): Abstract Generation finished for Library LogicCells 
+INFO (ABS-19021): Finished sub-version  IC6.1.8-64b.500.29 

@@ -1,0 +1,1042 @@
+* Calibre pushdown separate-properties (back-annotation) data
+***************************************
+*
+* These lvs-actionable properties, indexed by DEVICE element(model) will be kept in the netlist:
+*
+* KEEP_PROP_BEGIN
+* KEEP_PROP C(CH) w l
+* KEEP_PROP C(CH3) w l
+* KEEP_PROP C(ch53t) w l
+* KEEP_PROP C(CL) w l
+* KEEP_PROP C(CL3) w l
+* KEEP_PROP C(CM32T) l nf
+* KEEP_PROP C(CM33T) l nf
+* KEEP_PROP C(CM42T) l nf
+* KEEP_PROP C(CM43T) l nf
+* KEEP_PROP C(CM5) l nf
+* KEEP_PROP C(CM53) l nf
+* KEEP_PROP C(usgcm32t) l nf
+* KEEP_PROP C(usgcm33t) l nf
+* KEEP_PROP C(usgcm42t) l nf
+* KEEP_PROP C(usgcm43t) l nf
+* KEEP_PROP C(usgcm52t) l nf
+* KEEP_PROP C(usgcm53t) l nf
+* KEEP_PROP D(DN) a p
+* KEEP_PROP D(dn50) a p
+* KEEP_PROP D(dnpwcpl18) a p
+* KEEP_PROP D(dnpwcpl5) a p
+* KEEP_PROP D(DP) a p
+* KEEP_PROP D(dp50) a p
+* KEEP_PROP D(dpnwcpl18) a p
+* KEEP_PROP D(dpnwcpl5) a p
+* KEEP_PROP D(N3) a p
+* KEEP_PROP D(NS) a p
+* KEEP_PROP D(nwldio_nc) a p
+* KEEP_PROP D(P3) a p
+* KEEP_PROP D(PS) a p
+* KEEP_PROP MN(N) w l rf_flag
+* KEEP_PROP MN(n18hvt) w l rf_flag
+* KEEP_PROP MN(n18hvt_iso) w l
+* KEEP_PROP MN(n18lvt) w l rf_flag
+* KEEP_PROP MN(n18lvt_iso) w l
+* KEEP_PROP MN(n18pcesd) w l
+* KEEP_PROP MN(N5) w l rf_flag
+* KEEP_PROP MN(n59pcesd) w l
+* KEEP_PROP MN(N5_ISO) w l
+* KEEP_PROP MN(n5pcesd) w l
+* KEEP_PROP MN(N_ISO) w l
+* KEEP_PROP MN(NA) w l
+* KEEP_PROP MN(NB) w l
+* KEEP_PROP MN(NB5) w l
+* KEEP_PROP MN(NH) w l rf_flag
+* KEEP_PROP MN(NH_ISO) w l
+* KEEP_PROP MP(P) w l rf_flag
+* KEEP_PROP MP(p18hvt) w l rf_flag
+* KEEP_PROP MP(p18lvt) w l rf_flag
+* KEEP_PROP MP(P33MVT) w l
+* KEEP_PROP MP(P5) w l rf_flag
+* KEEP_PROP MP(PH) w l rf_flag
+* KEEP_PROP Q(VD) M
+* KEEP_PROP Q(VD10) M
+* KEEP_PROP Q(VD5) M
+* KEEP_PROP Q(VDN5) M
+* KEEP_PROP Q(VH) M
+* KEEP_PROP Q(VH10) M
+* KEEP_PROP Q(VH5) M
+* KEEP_PROP Q(VNPN18_S) a p
+* KEEP_PROP Q(VPNP18_S) a p
+* KEEP_PROP Q(VPNP33_S) a p
+* KEEP_PROP_END
+*
+.SUBCKT M5_M4_LD_CDNS_7822213287420
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_6
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pfeed00010
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pfeed00040
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pfeed00540
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pfeed00120
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pfeed10000
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pfeed30000
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_preside
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M2_M1_CDNS_7822213287451
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M3_M2_CDNS_7822213287449
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M3_M2_CDNS_7822213287450
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT rpmpoly2t$$44660780
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_vddring
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_podrive01
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngatering
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngatebuff
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngate2buff
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M3_M2_CDNS_7822213287444
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pnbuff
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_ppgatebuff
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_ppgate2buff
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_ppbuff
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_psegment
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_via1array
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_via2array
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_cornerarray
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pad
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_iorule
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_ppolyres
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_nwellres
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pc3o01
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_midconer2
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pfrelr
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M2_M1_S_CDNS_782221328742
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pddrive01
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pc3d01
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M3_M2_S_CDNS_782221328741
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_presistorpower
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngatebuff_ESD
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngate2buff_ESD
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_7
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_iorulepower
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_4via_ESD
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pv0acon_ESD
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pdiodepower
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_powerbase_1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_ppgatebuffpower
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_ppgate2buffpower
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_ppbuffpower
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pv0a
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngatebuff_ESD1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngate2buff_ESD1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pvdacon_ESD
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_powerbasecon_ESD
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pvda
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngatering_ESD22
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngatebuff_ESD22
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngate2buff_ESD22
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_8
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pv0icon_ESD
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_ppgatebuffpower_0di_ESD22
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_ppgate2buffpower_0di_ESD22
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_ppbuffpower_0di_ESD22
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pv0i
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngatering22
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pvdicon_ESD
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngatebuff_ESD122
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pngate2buff_ESD122
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pvdi
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_9
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ML_M5_LD_CDNS_782221328747
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M5_M4_LD_CDNS_7822213287422
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M4_M3_LD_CDNS_7822213287423
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M3_M2_LD_CDNS_7822213287424
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M2_M1_LD_CDNS_7822213287425
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ML_M5_LD_CDNS_782221328749
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M5_M4_LD_CDNS_7822213287427
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ML_M5_LD_CDNS_7822213287426
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M3_M2_LD_CDNS_7822213287429
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M4_M3_LD_CDNS_7822213287428
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_10
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M2_M1_LD_CDNS_7822213287430
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_11
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT feedth
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT feedth3
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_12
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_13
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M4_M3_S_CDNS_782221328744
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_14
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT dl04d1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT feedth9
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_15
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_16
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_17
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_18
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_19
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_20
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_21
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_22
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_23
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ML_M5_LD_CDNS_782221328748
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M4_M3_LD_CDNS_7822213287412
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M5_M4_LD_CDNS_7822213287411
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_24
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M2_M1_LD_CDNS_7822213287414
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M3_M2_LD_CDNS_7822213287413
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_25
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ML_M5_LD_CDNS_7822213287410
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_26
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ML_M5_LD_CDNS_7822213287415
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M2_M1_LD_CDNS_7822213287419
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M3_M2_LD_CDNS_7822213287418
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M4_M3_LD_CDNS_7822213287417
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M5_M4_LD_CDNS_7822213287416
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_27
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_28
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_29
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_30
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_31
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_32
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_33
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_34
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_35
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_36
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_37
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_38
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_39
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_40
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_41
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_42
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_43
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_44
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_45
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_46
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_47
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_48
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_49
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_50
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_51
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_52
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_53
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_54
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_55
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_56
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT an02d1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT dfnrn1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT dfnrq1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT nd02d1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT nd12d1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT dfnrb1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT nr02d1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_57
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_58
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_59
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_60
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_61
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_62
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_63
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_64
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_65
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_66
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_67
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_68
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_69
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_70
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_71
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_72
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_73
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_74
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_75
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_76
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_77
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_78
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_79
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT buffd1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_80
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_81
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT buffd3
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_82
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT aoi22d1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ad01d1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M5_M4_S_CDNS_782221328746
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_83
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT dl04d2
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT or02d1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT an03d1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT oan211d1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_84
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ah01d1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_85
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_86
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_87
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_88
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_89
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M3_M2_LD_CDNS_7822213287443
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ML_M5_LD_CDNS_7822213287421
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT M2_M1_LD_CDNS_7822213287436
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_90
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_91
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_92
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_93
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_94
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_95
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_96
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_97
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_98
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_99
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_100
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_101
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_102
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_103
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_104
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_105
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ML_M5_LD_CDNS_7822213287438
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ML_M5_LD_CDNS_7822213287437
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_106
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_107
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_108
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_109
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_110
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_111
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_112
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_113
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_114
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT char_l2
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT char_l3
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT C2S0233_S
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_115
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_116
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_117
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_118
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_clkpngatering
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_pnclkbasebuff
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_119
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_120
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_2
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT subil_clkppbasebuff
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_3
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_4
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT ICV_5
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT C2S0233
+* nothing transcripted
+.ENDS
+***************************************

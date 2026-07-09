@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1782295839 1782295840
+lvs_ExtOutFile RUNDIR /home/iep4/projects/user4/work_libs/iep4/cds
+lvs_ExtOutFile RULES_FILE _PEX.header_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/nand2x1.sp
+lvs_ExtOutFile EXTRACTION_REPORT nand2x1.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/nand2x1.pdsp }

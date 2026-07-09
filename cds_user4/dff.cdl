@@ -1,0 +1,39 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  LogicCells
+* Top Cell Name: dff
+* View Name:     schematic
+* Netlisted on:  Jun 24 15:43:42 2026
+************************************************************************
+
+.INCLUDE  /home/iep4/projects/user4/cds_master/SCLSL18_6M1L/ts018_scl_prim/cdlNetlist.header
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: LogicCells
+* Cell Name:    dff
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT dff D GND RST_N VDD clk out
+*.PININFO RST_N:I clk:I D:B GND:B VDD:B out:B
+MM7 net5 clk net4 GND N W=420e-3 L=0.18 m=1.0
+MM5 net1 net2 net3 GND N W=420e-3 L=0.18 m=1.0
+MM10 out net5 GND GND N W=0.6 L=0.18 m=1.0
+MM8 net4 net1 GND GND N W=420e-3 L=0.18 m=1.0
+MM6 net3 clk GND GND N W=420e-3 L=0.18 m=1.0
+MM4 net2 D GND GND N W=420e-3 L=0.18 m=1.0
+MM25 net1 RST_N GND GND N W=420e-3 L=0.18 m=1.0
+MM3 net5 net1 VDD VDD P W=420e-3 L=0.18 m=1.0
+MM2 net1 clk VDD VDD P W=420e-3 L=0.18 m=1.0
+MM0 net6 D VDD VDD P W=420e-3 L=0.18 m=1.0
+MM9 out net5 VDD VDD P W=0.6 L=0.18 m=1.0
+MM1 net2 clk net6 VDD P W=420e-3 L=0.18 m=1.0
+.ENDS
+

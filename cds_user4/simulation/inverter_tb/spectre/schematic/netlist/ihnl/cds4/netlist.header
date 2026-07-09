@@ -1,0 +1,5 @@
+
+// Library name: basicgate1
+// Cell name: inverter
+// View name: schematic
+subckt inverter in out vdd vss

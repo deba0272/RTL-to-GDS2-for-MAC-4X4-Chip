@@ -1,0 +1,4 @@
+#e1(22Jun2026:15:09:22): source ./xcelium.d/env.d/env.history.22Jun2026_15_09_22
+s1(22Jun2026:15:09:22):  xrun -f fun_simulation.f 
+#e2(22Jun2026:15:10:15): source ./xcelium.d/env.d/env.history.22Jun2026_15_10_15
+s2(22Jun2026:15:10:15):  xrun -f fun_simulation.f 

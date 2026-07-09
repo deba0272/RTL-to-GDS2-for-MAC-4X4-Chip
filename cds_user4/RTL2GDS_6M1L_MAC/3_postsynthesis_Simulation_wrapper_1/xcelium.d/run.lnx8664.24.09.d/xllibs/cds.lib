@@ -1,0 +1,6 @@
+define pc3o01 ./pc3o01
+define pc3d01 ./pc3d01
+define pc3c01 ./pc3c01
+define ss_verilog_udp ./ss_verilog_udp
+define ss_verilog ./ss_verilog
+define top_streamed_wrapper_chip_netlist ./top_streamed_wrapper_chip_netlist

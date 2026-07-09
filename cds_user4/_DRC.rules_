@@ -1,0 +1,40 @@
+//
+//  Rule file generated on Thu Jun 25 11:18:53 2026
+//  by Calibre Interactive v2022.4_37.20    Fri Dec 2 17:43:16 PST 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+
+// +++ CUSTOMIZATION SETTINGS START +++
+
+#define "DRC_OPT" DRC
+#define "DRC_TECH" ts18scl
+#define "6M1L" 
+#define "USG" 
+#define "DRC_TYPE" BLOCK
+#undefine "DFM_CHECK"
+#define "DRC_VOLTAGE" 1.8V/3V
+#undefine "MORE_SWITCHES"
+#undefine "BIT_CELL_RUNSETS"
+
+// +++ CUSTOMIZATION SETTINGS END +++
+
+
+LAYOUT PATH "invpad1.gds"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "invpad1"
+
+DRC RESULTS DATABASE "invpad1.drc.results" ASCII
+DRC CELL NAME YES CELL SPACE XFORM
+
+DRC SUMMARY REPORT "invpad1.drc.summary" REPLACE HIER
+
+DRC MAXIMUM RESULTS 1000
+
+DRC MAXIMUM VERTEX 4096
+
+DRC ICSTATION YES
+
+INCLUDE "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/pdk/cdns/sclpdk_v3/HOTCODE/techs/ts18scl/calibre/default_scr/headers/DRC.rules"

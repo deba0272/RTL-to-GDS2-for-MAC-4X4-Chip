@@ -1,0 +1,49 @@
+//  Runset file generated on Tue Jun 23 18:58:38 2026
+//  by Calibre Interactive v2022.4_37.20    Fri Dec 2 17:43:16 PST 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+cmn.showOptionPages.value = [ "Database", "Options" ]
+xrc.rulesFile.value = "$RDS_TECH/$RDS_CDS_VERIFY_TECH/calibre/default_scr/PEX.header"
+xrc.layout.layoutFile.value = "C2S0233.gds"
+cmn.layout.defFiles.value = [ "C2S0233.def" ]
+xrc.layout.topCellLibrary.value = "C2S0233"
+cmn.layout.topCellLibraryFDI.value = "C2S0233"
+xrc.layout.topCell.value = "C2S0233"
+xrc.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+xrc.source.format.value = "VERILOG"
+xrc.source.exportFromSourceViewer.value = false
+xrc.source.sourceFile.value = "/home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v"
+xrc.source.topCellLibrary.value = "C2S0233"
+xrc.source.topCellLibraryFDI.value = "C2S0233"
+xrc.source.topCell.value = "mac_4x4_wrapper_chip"
+xrc.source.topCellFDI.value = "C2S0233"
+xrc.xCells.xCellsFile.value = "hcells"
+xrc.pexCornerCommand.corners.specified = true
+xrc.pexNetlist.netlistFile.value = "C2S0233.pex.netlist"
+xrc.pexNetlist.netlistFormat.value = "SPECTRE"
+xrc.pexNetlist.scale.value = 1e-06
+xrc.pexNetlist.scale.specified = true
+xrc.pexNetlist.location.value = true
+xrc.reports.lvsReport.value = "C2S0233.lvs.report"
+xrc.reports.pexReport.value = "C2S0233.pex.report"
+xrc.reports.pexReport.specified = true
+xrc.pexExcludeNets.layoutToplevelNets.value = [ "VSS", "VDD" ]
+xrc.supply.powerNames.value = [ "VDD_CORE", "VDDO_CORE" ]
+xrc.supply.powerNames.specified = true
+xrc.supply.groundNames.value = [ "VSS_CORE", "VSSO_CORE" ]
+xrc.supply.groundNames.specified = true
+
+xrc.v2LVSLibraries.vLOGLibFiles.value = [ "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3d01.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3o01.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pc3c01.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pvdi.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pv0a.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pvda.v", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/verilog/tsl18cio150/zero/pv0i.v" ]
+xrc.v2LVSLibraries.vLOGLibFiles.specified = true
+xrc.v2LVSLibraries.sPICELibFiles.value = [ "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl" ]
+xrc.v2LVSLibraries.sPICELibFiles.specified = true
+xrc.v2LVSLibraries.sPICEIncFiles.value = [ "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/cdl/scl18fs120_supply_pins.cdl", "/tools/sclpdk_new/SCLPDK_V3.0_KIT/scl180/iopad/cio150/6M1L/cdl/tsl18cio150.cdl" ]
+xrc.v2LVSLibraries.sPICEIncFiles.specified = true
+cmn.runsetPrefs.saveOnClose.value = "NOSAVE"
+xrc.setNameTemplate("nt_layFile", "%l.gds")
+xrc.setNameTemplate("nt_srcFile", "%s.cdl")
+xrc.setNameTemplate("nt_efSrcVwr", "1")

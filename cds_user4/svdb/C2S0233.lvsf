@@ -1,0 +1,15 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/iep4/projects/user4/work_libs/iep4/cds
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 30 0}
+lvs_LvsComparisonSummary {5 1 2 0}
+lvs_SourceCase YES
+lvs_LayoutCase YES
+lvs_PowerName VDD_CORE
+lvs_PowerName VDDO_CORE
+lvs_GroundName VSS_CORE
+lvs_GroundName VSSO_CORE
+lvs_LvsOutFile LVS_REPORT C2S0233.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/iep4/projects/user4/work_libs/iep4/cds/mac_4x4_wrapper_chip_postRoute_withPG.v.v2lvs.sp
+lvs_LvsOutFile RULES_FILE _PEX.header_
+lvs_LvsRunTimes 1782221347 1782221347

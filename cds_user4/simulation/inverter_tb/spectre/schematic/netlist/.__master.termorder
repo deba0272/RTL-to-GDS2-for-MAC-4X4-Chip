@@ -1,0 +1,3 @@
+"basicgate1.inverter.schematic.termorder" (("in" "out" "vdd" "vss") ("in" "out" "vdd" "vss"))
+"basic_gates.inverter.schematic.termorder" (("GND" "IN" "OUT" "VDD") ("GND" "IN" "OUT" "VDD"))
+"basic_gates.inverter.calibre.termorder" (("GND" "IN" "OUT" "VDD") ("GND" "IN" "OUT" "VDD"))

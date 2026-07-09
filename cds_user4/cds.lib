@@ -1,0 +1,30 @@
+# File Created by  at Wed Jun 24 14:50:16 2026
+# assisted by CdsLibEditor
+# User cds.lib for User iep4 and Project user4 
+
+DEFINE user4_iep4 /home/iep4/projects/user4/work_libs/iep4/cds/design
+
+INCLUDE /home/iep4/projects/user4/cds_master/project.lib
+
+DEFINE iep_mac_1 /home/iep4/projects/user4/work_libs/iep4/cds/iep_mac_1
+DEFINE avTech /tools/cadence/ASSURA41/tools.lnx86/assura/etc/avtech/avTech
+DEFINE mac_library_custom /home/iep4/projects/user4/work_libs/iep4/cds/mac_library_custom
+DEFINE new_mac_jay /home/iep4/projects/user4/work_libs/iep4/cds/new_mac_jay
+DEFINE seal /home/iep4/projects/user4/work_libs/iep4/cds/seal
+DEFINE silicon_number /home/iep4/projects/user4/work_libs/iep4/cds/silicon_number
+DEFINE seal_ring /home/iep4/projects/user4/work_libs/iep4/cds/seal_ring
+DEFINE mac_top /home/iep4/projects/user4/work_libs/iep4/cds/mac_top
+DEFINE mac_dummy_fill /home/iep4/projects/user4/work_libs/iep4/cds/mac_dummy_fill
+DEFINE C2S0233 /home/iep4/projects/user4/work_libs/iep4/cds/C2S0233
+DEFINE sample /tools/cadence/IC618/tools/dfII/samples/cdslib/sample
+#DEFINE connect_lib /tools/cadence/XCELIUM2409/tools/affirma_ams/etc/connect_lib
+DEFINE connectLib $AMSHOME/tools/affirma_ams/etc/connect_lib/connectLib
+DEFINE basic_gates /home/iep4/projects/user4/work_libs/iep4/cds/basic_gates
+DEFINE basicgate1 /home/iep4/projects/user4/work_libs/iep4/cds/basicgate1
+DEFINE myscl180 /home/iep4/projects/user4/work_libs/iep4/cds/myscl180
+DEFINE LogicCells LogicCells_characterization/LogicCells
+DEFINE TestLogicCells /home/iep4/projects/user4/work_libs/iep4/cds/TestLogicCells
+DEFINE cio150pads /home/iep4/projects/user4/work_libs/iep4/cds/cio150pads
+DEFINE symbolforPAD /home/iep4/projects/user4/work_libs/iep4/cds/symbolforPAD
+DEFINE inv /home/iep4/projects/user4/work_libs/iep4/cds/inv
+DEFINE invpad /home/iep4/projects/user4/work_libs/iep4/cds/invpad

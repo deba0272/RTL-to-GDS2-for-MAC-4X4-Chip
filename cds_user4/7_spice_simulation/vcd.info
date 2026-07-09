@@ -1,0 +1,10 @@
+
+.scope mac_4x4_wrapper_chip
+.in  clk enable rst a0 a1 a2 a3 b0 b1 b2 b3
+.out mac_out[0] mac_out[1] mac_out[2] mac_out[3] mac_out[4] mac_out[5] mac_out[6] mac_out[7] mac_out[8] mac_out[9] mac_out[10] mac_out[11]  mac_out[12] mac_out[13] mac_out[14] mac_out[15]
+.vih 1.8
+.vil 0.0
+.vol 0
+.voh 1.8
+.tfall 0.1 clk enable rst a0 a1 a2 a3 b0 b1 b2 b3
+.trise 0.1 clk enable rst a0 a1 a2 a3 b0 b1 b2 b3

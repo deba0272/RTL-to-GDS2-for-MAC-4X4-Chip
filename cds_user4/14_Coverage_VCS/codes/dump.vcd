@@ -1,0 +1,59 @@
+$date
+	Thu Jun 25 16:29:13 2026
+$end
+
+$version
+	Synopsys VCS version U-2023.03_Full64
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 f6ee9e69acd558bd $end
+
+
+$scope module tb $end
+$var reg 2 ! a [1:0] $end
+$var wire 2 " b [1:0] $end
+$var integer 32 # i $end
+
+$scope begin unnamed$$_vcs_2 $end
+$upscope $end
+
+
+$scope begin unnamed$$_vcs_0 $end
+$upscope $end
+
+
+$scope begin unnamed$$_vcs_1 $end
+$upscope $end
+
+
+$scope module dut $end
+$var wire 2 ! a [1:0] $end
+$var wire 2 " b [1:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+b10 !
+b10 "
+b00000000000000000000000000000000 #
+$end
+#10
+b00000000000000000000000000000001 #
+b00 !
+b00 "
+#20
+b00000000000000000000000000000010 #
+b01 !
+b01 "
+#30
+b00000000000000000000000000000011 #
+b10 !
+b10 "
